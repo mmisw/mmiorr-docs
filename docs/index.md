@@ -1,6 +1,6 @@
-## Welcome to MMI ORR
+## Welcome to MMI ORR User Manual
 
-#### Note: contents being migrated from https://marinemetadata.org/mmiorrusrman
+#### NOTE: contents being migrated from [the original site](https://marinemetadata.org/mmiorrusrman).
 
 Welcome and thanks for using the MMI Ontology Registry and Repository (MMI ORR) system.
 

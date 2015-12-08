@@ -1,5 +1,3 @@
-# About
-
 The MMI Ontology Registry and Repository (ORR) is a web application through which you can create, update, 
 access, and map ontologies and their terms. 
 
