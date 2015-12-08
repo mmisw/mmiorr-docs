@@ -1,45 +1,9 @@
-# Lymphae diu adacto quoque Elymumque
+# About
 
-## Inspiratque et iussis
+The MMI Ontology Registry and Repository (ORR) is a web application through which you can create, update, 
+access, and map ontologies and their terms. 
 
-Lorem markdownum maritum videre arduus huic: illa cum tophis, per sublime.
-Manere tigride postera sine, fias capillos non fore summum. Meque certe, e
-violenta toros ministeriis fuit putares petitos; velut rogum figere ulla!
-
-## Est poscat aut scelerataque pectus preces
-
-Area sustinui emicat; o, toro arae Polyphemon ut inquit; posset absens, tenuere
-cetera et. Nox Pulydamanta coniuge populi respiciens silvis rogat! Capillis
-angues adverso ferrumque adversos incursu, sed dolore inventa **moenia**?
-
-- Et et per altam nec cursu
-- Fera adieci consiliis languere Iove exposcere
-- Hennaeis ab aegro Combe inbelle hac totidem
-- Aquis recepit per
-
-## Mihi sim eque illi de post saevaque
-
-Magno ferre abesto laesasque socii. Dum sic odium: igitur adspicis. Utiliter
-quaecumque, pacem. Ferro quod tumidum, qui subitis [vos dum
-et](http://kimjongunlookingatthings.tumblr.com/) terra spectabat **eque
-abscidit** et patrias meliore. Hausimus muta!
-
-## In veloci superbus nullosque
-
-Helicon has nate Thracis nubes; est *vomunt*, modo illi vincula iusto error
-pontifici veniente peraravit per. Est caede meliora; aera modo corpus *feruntur*
-imagine nihil praebet patior, ad hostes agmina, et. Palmis finita illi vocis,
-vivit rigebant draconem saepe. Mare illius coniuge tremula; quo ex quod iaces
-longi artus lintea centauri.
-
-Putant nocet iussit socer non eripui, stipite dedere. Sed artes, victricemque,
-addit forte videri; res. Quod albet illum. Altorum mare notum inclusit **quae
-dum** foedere quo. **Quos Vesta** orbem ne veri Palilibus calathosque tuos
-peritura quoque.
-
-Hoc amore pruinosas, qui inpubibus, bitumineae quam: propulsa utrumque aether
-una. Spatium illa penates [invideatis cuncta diu](http://imgur.com/) solamen
-dicta, dies **pietas**, illa. Corda *per*, nec sibi cum una cui, cutem virtus,
-dura rapit inferior. Auctor ululasse ad Sunt adnuerant memorem paret parari
-qualem nihil, nec specus turritaque inpositum. Certe Argolicosque letum
-dulcedine gemmae retinebat potiturque hanc aut corpora mens, manusque.
+Background information about the ORR, including links to related information, is provided at the 
+[MMI Semantic Web Services and Tools page](http://marinemetadata.org/mmiswinfo/). 
+More information about the semantic framework, of which ORR forms a part, can be found at the 
+[MMI Semantic Framework page](http://marinemetadata.org/semanticframework).
