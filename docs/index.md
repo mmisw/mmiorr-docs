@@ -1,4 +1,6 @@
-## Welcome to MMI ORR
+## Welcome to MMI ORR User Manual
+
+#### NOTE: contents being migrated from [the original site](https://marinemetadata.org/mmiorrusrman).
 
 Welcome and thanks for using the MMI Ontology Registry and Repository (MMI ORR) system.
 
@@ -14,6 +16,7 @@ to do with the ORR (e.g., working with vocabularies, working with mappings, regi
 While this manual is largely complete and accurate, there will occasionally be pages that are out of
 data or need improving. When we know a page has an issue, we note that within the page.
 
-If you see a page that needs improving, please either contact us, or open a new issue in the MMI ORR issues repository.
+If you see a page that needs improving, please either 
+[contact us](mailto:techlead@marinemetadata.org), 
+or open an issue in the [tracker](https://github.com/mmisw/mmiorr-docs/issues).
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
