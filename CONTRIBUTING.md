@@ -9,6 +9,9 @@ These are just guidelines, not rules, use your best judgment and feel free to pr
 
 We follow a [Fork](https://help.github.com/articles/fork-a-repo/) and [Pull Request](https://help.github.com/articles/using-pull-requests/) workflow.
 
-TO BE CONTINUED
+Feel free to fork the repository, add your changes and give back by issuing a pull request. You can even edit the docs directly on GitHub, without having to ever download the files. 
 
-\[want to contribute a better CONTRIBUTING document? `;)`\]
+You are also very welcome to make any suggestions or report any kind of problem with the documentation by using the [tracker](https://github.com/mmisw/mmiorr-docs/issues).
+
+
+> \[want to contribute a better CONTRIBUTING document? `;)`\]
