@@ -14,9 +14,7 @@ to do with the ORR (e.g., working with vocabularies, working with mappings, regi
 ### Document Status
 
 While this manual is largely complete and accurate, there will occasionally be pages that are out of
-data or need improving. When we know a page has an issue, we note that within the page.
+date or need improving. When we know a page has an issue, we note that within the page.
 
-If you see a page that needs improving, please either 
-[contact us](mailto:techlead@marinemetadata.org), 
-or open an issue in the [tracker](https://github.com/mmisw/mmiorr-docs/issues).
+If you see a page that needs improving, please open an issue in the [tracker](https://github.com/mmisw/mmiorr-docs/issues).
 
