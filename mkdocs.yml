@@ -3,7 +3,17 @@ repo_url: https://github.com/mmisw/mmiorr-docs
 theme: readthedocs
 pages:
 - Home: index.md
+- About: about.md
 - Introduction: introduction.md
 - Getting Started: gettingstarted.md
+- Working with Vocabularies:
+  - Creating a Vocabulary: vocab/new.md
+  - Viewing a Vocabulary: vocab/view.md
+  - Creating a New Version of a Vocabulary: vocab/newversion.md
+- Working with Mappings:
+  - Creating a Mapping Ontology: mapping/new.md
+  - Creating a New Version of a Mapping Ontology: mapping/newversion.md
+- Registering Your Existing Ontology: upload.md
+- Querying the repository: query.md
 - FAQ: faq.md
-- About: about.md
+- Known issues: knownissues.md

@@ -1,6 +1,6 @@
-## Welcome to MMI ORR User Manual
+Welcome to MMI ORR User Manual
 
-#### NOTE: contents being migrated from [the original site](https://marinemetadata.org/mmiorrusrman).
+**NOTE**: contents being migrated from [the original site](https://marinemetadata.org/mmiorrusrman).
 
 Welcome and thanks for using the MMI Ontology Registry and Repository (MMI ORR) system.
 
@@ -11,7 +11,7 @@ The first part includes introductory materials, suggestions on getting started, 
 and a list of known issues with the ORR.  The second part describes specific actions that a user might want
 to do with the ORR (e.g., working with vocabularies, working with mappings, registering an existing ontology).
 
-### Document Status
+Document Status
 
 While this manual is largely complete and accurate, there will occasionally be pages that are out of
 date or need improving. When we know a page has an issue, we note that within the page.
