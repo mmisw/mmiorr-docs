@@ -8,5 +8,8 @@ The documentation source is written in plain text files using
 We use [MkDocs tool](http://www.mkdocs.org/) for the site generation,
 currently deployed at http://mmisw.github.io/mmiorr-docs/
 
+**NOTE**: We are still migrating the contents from the 
+[original site](https://marinemetadata.org/mmiorrusrman).
+
 Your help improving this documentation is 
 [welcome!](https://github.com/mmisw/mmiorr-docs/blob/master/CONTRIBUTING.md)

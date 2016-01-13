@@ -13,7 +13,7 @@ We follow a [Fork](https://help.github.com/articles/fork-a-repo/) and
 [Pull Request](https://help.github.com/articles/using-pull-requests/) workflow.
 
 Feel free to fork the repository, add your changes and give back by issuing a pull request. 
-You can edit the docs directly on your fork and GitHub 
+You can edit the docs directly on your fork at GitHub 
 (not having to ever download the files if you prefer). 
 
 You are also very welcome to make any suggestions or report any kind of problem with the documentation 
