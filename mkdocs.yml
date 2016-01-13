@@ -1,8 +1,9 @@
 site_name: MMI ORR
+repo_url: https://github.com/mmisw/mmiorr-docs
+theme: readthedocs
 pages:
 - Home: index.md
 - Introduction: introduction.md
 - Getting Started: gettingstarted.md
 - FAQ: faq.md
 - About: about.md
-theme: readthedocs
