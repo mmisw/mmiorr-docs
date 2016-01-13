@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Creating a Mapping Ontology - MMI ORR</title>
+  
+
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+  <link href="../../mmiorr-docs.css" rel="stylesheet">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Creating a Mapping Ontology";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> MMI ORR</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../about/">About</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../introduction/">Introduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../gettingstarted/">Getting Started</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Working with Vocabularies</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../vocab/new/">Creating a Vocabulary</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../vocab/view/">Viewing a Vocabulary</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../vocab/newversion/">Creating a New Version of a Vocabulary</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Working with Mappings</span></li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Creating a Mapping Ontology</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#why-map-between-controlled-vocabularies">Why map between controlled vocabularies?</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#steps-for-creating-a-mapping-ontology-file">Steps for Creating a Mapping Ontology File</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#additional-references">Additional References</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../newversion/">Creating a New Version of a Mapping Ontology</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../upload/">Registering Your Existing Ontology</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../query/">Querying the repository</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../faq/">FAQ</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../knownissues/">Known issues</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">MMI ORR</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Working with Mappings &raquo;</li>
+        
+      
+    
+    <li>Creating a Mapping Ontology</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/mmisw/mmiorr-docs" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="why-map-between-controlled-vocabularies">Why map between controlled vocabularies?</h2>
+<p>You might need to use the “create mapping” capabilities if, for example, you need a simple 
+term translator, you need to translate between metadata records, or you want to document 
+relationships between multiple vocabularies that you are using.
+You can find a more thorough guide on the reasons for mapping between 
+controlled vocabularies <a href="https://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap">here</a>.</p>
+<h2 id="steps-for-creating-a-mapping-ontology-file">Steps for Creating a Mapping Ontology File</h2>
+<p>(Demo screencast included below.)</p>
+<p>1. Sign in to ORR</p>
+<p>2. Click the “Create mapping” button.</p>
+<p>3. Complete the metadata details for your new mapping file.</p>
+<p>4. Click on “Add” working ontologies to include the ontologies between which you would like to map. 
+One at a time, type in the abbreviation each ontology you would like to use in the mapping 
+(e.g., “CF” or “IOOS”). The abbreviation is a search parameter that will return the URIs of 
+any relevant ontologies.<span> </span> You then select the URI for each ontology you want to 
+add to your mapping file. If you want to map against an external ontology, simply enter its 
+full URL in the field. Each working ontology will be assigned a letter (e.g., "A", "B").</p>
+<p>5. Select which ontology you want represented in each mapping window, by highlighting it ("A" or "B", etc.).</p>
+<p>6. If you want to search for certain terms within that ontology, type the term in the search window 
+(e.g., "salinity"). If you want to see all the terms within a given ontology, 
+simply select the search button (flashlight icon).</p>
+<p>7. To map between individual terms, select the term in each ontology (check the box next to the term) 
+and choose the appropriate button representing the type of relationship between the terms (e.g, 
+exact match, approximate match, broader than, narrower than, or related match). 
+You will see the relationships you have mapped below the lists of terms.</p>
+<p>8. Once you have completed your mappings, click the “review and register” button at the top of the page.
+This will create an ontology (.owl) file of your mapped terms and request your review.
+You can then close the dialog box and return to editing the ontology or you can select “register” to 
+add the ontology file to the ORR. If you register the ontology at this point and want to edit it 
+again later, you may do so by choosing “edit new version” when you select the ontology in the ORR.</p>
+<p>The following <a href="http://www.screencast.com/t/ODk0Nzg4">screencast</a> 
+demonstrates the main functionality for creating and registering a mapping ontology.</p>
+<p><object id="scPlayer" width="932" height="626"><param name="movie" value="http://content.screencast.com/users/carueda/folders/Camtasia/media/0b8c3891-534c-47f8-9d9a-8fd703e2d153/mp4h264player.swf"> <param name="quality" value="high"> <param name="bgcolor" value="#FFFFFF"> <param name="flashVars" value="thumb=http://content.screencast.com/users/carueda/folders/Camtasia/media/0b8c3891-534c-47f8-9d9a-8fd703e2d153/FirstFrame.jpg&amp;containerwidth=932&amp;containerheight=626&amp;content=http://content.screencast.com/users/carueda/folders/Camtasia/media/0b8c3891-534c-47f8-9d9a-8fd703e2d153/newmapping.mp4"> <param name="allowFullScreen" value="true"> <param name="scale" value="showall"> <param name="allowScriptAccess" value="always"> <param name="base" value="http://content.screencast.com/users/carueda/folders/Camtasia/media/0b8c3891-534c-47f8-9d9a-8fd703e2d153/"> <embed type="application/x-shockwave-flash" width="932" height="626" src="http://content.screencast.com/users/carueda/folders/Camtasia/media/0b8c3891-534c-47f8-9d9a-8fd703e2d153/mp4h264player.swf" scale="showall" base="http://content.screencast.com/users/carueda/folders/Camtasia/media/0b8c3891-534c-47f8-9d9a-8fd703e2d153/" allowfullscreen="true" flashvars="thumb=http://content.screencast.com/users/carueda/folders/Camtasia/media/0b8c3891-534c-47f8-9d9a-8fd703e2d153/FirstFrame.jpg&amp;containerwidth=932&amp;containerheight=626&amp;content=http://content.screencast.com/users/carueda/folders/Camtasia/media/0b8c3891-534c-47f8-9d9a-8fd703e2d153/newmapping.mp4" allowscriptaccess="always" bgcolor="#FFFFFF" quality="high"></object> </p>
+<h2 id="additional-references">Additional References</h2>
+<p><a href="https://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap/cvmapvine">VINE Guide</a></p>
+<p><a href="https://marinemetadata.org/node/4944">Guide to the Mapping Process</a></p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../newversion/" class="btn btn-neutral float-right" title="Creating a New Version of a Mapping Ontology"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../../vocab/newversion/" class="btn btn-neutral" title="Creating a New Version of a Vocabulary"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../../vocab/newversion/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../newversion/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

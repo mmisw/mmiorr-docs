@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Getting Started - MMI ORR</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  <link href="../mmiorr-docs.css" rel="stylesheet">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Getting Started";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> MMI ORR</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../about/">About</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../introduction/">Introduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">Getting Started</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#as-a-semantic-data-provider">As a semantic data provider</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#as-a-semantic-data-user">As a semantic data user</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Working with Vocabularies</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../vocab/new/">Creating a Vocabulary</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../vocab/view/">Viewing a Vocabulary</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../vocab/newversion/">Creating a New Version of a Vocabulary</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Working with Mappings</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../mapping/new/">Creating a Mapping Ontology</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../mapping/newversion/">Creating a New Version of a Mapping Ontology</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../upload/">Registering Your Existing Ontology</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../query/">Querying the repository</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../faq/">FAQ</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../knownissues/">Known issues</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">MMI ORR</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>Getting Started</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/mmisw/mmiorr-docs" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>Contents being migrated from 
+<a href="https://marinemetadata.org/mmiorrusrman/mmiorrgetstarted">https://marinemetadata.org/mmiorrusrman/mmiorrgetstarted</a></p>
+<h2 id="as-a-semantic-data-provider">As a semantic data provider</h2>
+<p>To create or upload and register an ontology:</p>
+<p>1. Open the MMI ORR site in your browser: <a href="http://mmisw.org/orr/">http://mmisw.org/orr/</a></p>
+<p>2. Create an account</p>
+<p>Click the "Create account" link</p>
+<p><img alt="" src="../img/mmiorrnewaccount.png" /></p>
+<p>3. Sign in</p>
+<p>If you are not yet signed in, click the "Sign in" link in the main MMI ORR page:</p>
+<p><img alt="" src="../img/mmiorrsignin.png" /></p>
+<p>4. Upload ontology file, upload vocabulary file, or create vocabulary contents and associated metadata</p>
+<p>4.1 Upload existing ontology file and associated metadata</p>
+<p>If you already have an ontology file, you may sign in, and click the "Upload ontology" button on the main 
+MMI ORR page to upload a local ontology file to the ORR. 
+(Please see<a href="../mmiorrusrman/mmiorrref/mmiorruploadexisting">the "Registering your ontology" section</a> 
+more details.) [Add screenshots]</p>
+<p>A wizard dialog will appear.  In the wizard, select the local file and load it to the workspace. 
+Choose the type of registration (fully-hosted, re-hosted, or indexed-only).  
+Specify an authority abbreviation and a short name for the final URI for the ontology.  
+You may choose "check" to check for the availability of the URI.</p>
+<p>Complete the metadata details necessary for registering your ontology:</p>
+<p><img alt="" src="../img/create_vocab_metadata_section_1.png" /></p>
+<p>Note: If you are testing the process or your ontology, please choose either "testing" or "mmitest" 
+for the "Authority abbreviation".</p>
+<p>Choose "Finish".</p>
+<p>4.2 Upload vocabulary file and associated metadata</p>
+<p>If you have your vocabulary in a text file, for example, then you may follow these steps.</p>
+<p>Once signed in, click "Create vocabulary" button in the main MMI ORR page. [Add screenshots.]</p>
+<p>Complete the metadata in the "Metadata details" section. 
+(Note: If you are testing the process or your ontology, please choose either "testing" or 
+"mmitest" for the "Authority abbreviation".)</p>
+<p>In the "Contents" section, select the down arrow in the first cell of the table choose "Import".  
+Choose comma, semi-colon, tab, or vertical bar delimited file. Paste contents of vocabulary file.  
+Choose "import". </p>
+<p>You can then review and register the ontology. Please see the 
+<a href="../mmiorrusrman/mmiorrnewusracct/mmiorrsignin/mmiorrnewvocab">"Creating a Vocabulary"</a> 
+section for more details.</p>
+<p>4.3 Create vocabulary contents and associated metadata</p>
+<p>Once signed in, click the "Create vocabulary" button in the main MMI ORR page.</p>
+<p>You can start by selecting a class name (required field) and filling in the vocabulary contents, that is, 
+the list of terms and associated information (e.g., description):</p>
+<p><img alt="" src="../img/create_vocab_data_section.png" /></p>
+<p>Type ENTER in a cell to edit the contents of the cell. Type ENTER again to complete the editing of the cell.  
+Click the little triangle icons to open a pop-up menu with options corresponding to the associated section.</p>
+<p>To register your vocabulary, you need to provide metadata information.</p>
+<p>Expand the "metadata details" section by clicking the header:</p>
+<p><img alt="" src="../img/create_vocab_metadata_section_1.png" /></p>
+<p>Note: If you are testing the process or your ontology, please choose either "testing" or "mmitest" 
+for the "Authority abbreviation".</p>
+<p>Please see the <a href="../mmiorrusrman/mmiorrnewusracct/mmiorrsignin/mmiorrnewvocab">"Creating a Vocabulary"</a> 
+section for more details.</p>
+<p>5. Register resulting vocabulary</p>
+<p>Once you are done with the contents and metadata for your vocabulary, click the "Review and Register" button</p>
+<p>You should get a message indicating that the ontology is ready to be registered, so you can click the 
+"Register" button to complete the registration.</p>
+<p>Alternatively, you may get an error message indicating that the ontology cannot be registered according 
+to the provided information. A common error is related with a namespace conflict with an already 
+existing ontology. If that is the case, adjust the resource type and/or the authority abbreviation 
+fields in the metadata section to avoid the conflict. (These two fields are used to compose the final 
+ontology URI; see <a href="http://marinemetadata.org/apguides/ontprovidersguide/ontguideconstructinguris">here</a>.)</p>
+<h2 id="as-a-semantic-data-user">As a semantic data user</h2>
+<p>1. Open the MMI ORR site in your browser</p>
+<p>MMI ORR site: http://mmisw.org/orr/</p>
+<p>2. Browse list of registered ontologies</p>
+<p>Even if not signed in, you will see all registered ontologies in the main MMI ORR browse page (*).</p>
+<p>The left-hand side tree widget allows you to select the entries in the ontology table according 
+to submitter (if signed in), authority abbreviation, and type of ontology. 
+You can also click a column header in the table to have the list sorted by that column. 
+Click the header again to reverse the order.</p>
+<p>(*) Except the ones marked as "for testing purposes" that you have not submitted yourself. 
+Any ontology whose authority is either "testing" or "mmitest" is considered "for testing purposes" 
+and is only visible to the submitter.</p>
+<p>3. Explore contents of an ontology</p>
+<p>Click an entry in the browse table to explore a particular ontology.</p>
+<p>The main operations available when viewing an ontology are:</p>
+<ul>
+<li>
+<p>View the ontology in a particular format. Currently, the options are: "RDF/XML" and "N3". 
+Just click the link of the desired format.</p>
+</li>
+<li>
+<p>You can also explore the ontology by using the external "Ontology Browser" tool.</p>
+</li>
+<li>
+<p>Create a new version (if you are the submitter of the original ontology): Click the 
+"Edit new version" button to start editing the ontology.</p>
+</li>
+<li>
+<p>View list of versions of the ontology: click the "Versions" button.</p>
+</li>
+</ul>
+<p>4. Search for term</p>
+<p>In the main MMI ORR page, click the "Search" button. You will see a page that looks like the following example:</p>
+<p><img alt="" src="../img/search_simple.png" /></p>
+<p>The given string will be searched as given (ignoring case) in all property values in all the latest 
+version of the registered ontologies. You can use "OR" to separate alternative string for the search.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../vocab/new/" class="btn btn-neutral float-right" title="Creating a Vocabulary"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../introduction/" class="btn btn-neutral" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../introduction/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../vocab/new/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>

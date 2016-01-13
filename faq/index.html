@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>FAQ - MMI ORR</title>
+  
+
+  <link rel="shortcut icon" href="../img/favicon.ico">
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../css/highlight.css">
+  <link href="../mmiorr-docs.css" rel="stylesheet">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "FAQ";
+  </script>
+  
+  <script src="../js/jquery-2.1.1.min.js"></script>
+  <script src="../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../js/highlight.pack.js"></script>
+  <script src="../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href=".." class="icon icon-home"> MMI ORR</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="..">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../about/">About</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../introduction/">Introduction</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../gettingstarted/">Getting Started</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Working with Vocabularies</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../vocab/new/">Creating a Vocabulary</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../vocab/view/">Viewing a Vocabulary</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../vocab/newversion/">Creating a New Version of a Vocabulary</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Working with Mappings</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../mapping/new/">Creating a Mapping Ontology</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../mapping/newversion/">Creating a New Version of a Mapping Ontology</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../upload/">Registering Your Existing Ontology</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../query/">Querying the repository</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 current">
+        <a class="current" href="./">FAQ</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#searching-and-viewing-ontologies">Searching and Viewing Ontologies</a></li>
+                
+                    <li><a class="toctree-l4" href="#how-do-i-find-ontologies-in-the-repository-that-are-most-relevant-to-my-work">How do I find ontologies in the repository that are most relevant to my work?</a></li>
+                
+                    <li><a class="toctree-l4" href="#how-do-i-do-an-advanced-search-using-sparql">How do I do an Advanced Search using SPARQL?</a></li>
+                
+                    <li><a class="toctree-l4" href="#how-can-i-view-ontologies-in-the-repository">How can I view ontologies in the repository?</a></li>
+                
+                    <li><a class="toctree-l4" href="#tabular-view-why-are-the-columns-not-displayed-in-the-same-order-i-used-to-create-my-vocabulary">Tabular view: Why are the columns not displayed in the same order I used to create my vocabulary?</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#using-ontologies">Using Ontologies</a></li>
+                
+                    <li><a class="toctree-l4" href="#should-i-use-an-existing-ontology-from-the-repository-or-develop-one-of-my-own">Should I use an existing ontology from the repository or develop one of my own?</a></li>
+                
+                    <li><a class="toctree-l4" href="#i-found-an-existing-ontology-that-seems-good-but-it-doesnt-include-all-the-terms-that-i-need-how-do-i-build-upon-an-existing-ontology">I found an existing ontology that seems good, but it doesn't include all the terms that I need.  How do I build upon an existing ontology?</a></li>
+                
+                    <li><a class="toctree-l4" href="#how-do-i-use-ontologies-in-the-orr-what-is-the-format-of-the-link">How do I use ontologies in the ORR? What is the format of the link?</a></li>
+                
+                    <li><a class="toctree-l4" href="#how-do-i-query-the-registered-ontologies-programatically-what-services-do-i-have">How do I query the registered ontologies programatically? What services do I have?</a></li>
+                
+                    <li><a class="toctree-l4" href="#can-you-give-examples-of-how-to-open-them-in-protege-and-topbraid-composer">Can you give examples of how to open them in Protégé and TopBraid Composer?</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#submitting-and-updating-ontologies">Submitting and Updating Ontologies</a></li>
+                
+                    <li><a class="toctree-l4" href="#what-are-the-benefits-of-submitting-my-vocabulary-to-the-orr">What are the benefits of submitting my vocabulary to the ORR?</a></li>
+                
+                    <li><a class="toctree-l4" href="#i-have-a-vocabulary-in-owltextexcel-format-how-do-i-submit-it-to-the-orr">I have a vocabulary in OWL/text/Excel… format, how do I submit it to the ORR?</a></li>
+                
+                    <li><a class="toctree-l4" href="#i-have-a-vocabulary-in-non-rdf-xml-format-how-do-i-submit-it-to-the-orr">I have a vocabulary in non-RDF XML format, how do I submit it to the ORR?</a></li>
+                
+                    <li><a class="toctree-l4" href="#is-it-better-to-upload-a-vocabulary-file-or-create-a-new-file-using-the-orrs-create-vocabulary-tools">Is it better to upload a vocabulary file or create a new file using the ORR's "create vocabulary" tools?</a></li>
+                
+                    <li><a class="toctree-l4" href="#can-i-upload-a-complex-ontology-and-still-get-the-simple-view-or-vice-versa">Can I upload a complex ontology and still get the simple view, or vice-versa?</a></li>
+                
+                    <li><a class="toctree-l4" href="#how-much-metadata-should-i-provide-with-my-vocabulary">How much metadata should I provide with my vocabulary?</a></li>
+                
+                    <li><a class="toctree-l4" href="#i-want-to-submit-my-vocabulary-as-a-test-how-do-i-do-that">I want to submit my vocabulary as a "test". How do I do that?</a></li>
+                
+                    <li><a class="toctree-l4" href="#when-creating-a-vocabulary-are-there-any-best-practices-for-creating-term-fields">When creating a vocabulary, are there any best practices for creating term fields?</a></li>
+                
+                    <li><a class="toctree-l4" href="#i-have-a-vocabulary-in-which-some-of-the-terms-are-composites-of-other-terms-in-the-vocabulary-how-do-i-develop-an-ontology-that-accommodates-this">I have a vocabulary in which some of the terms are composites of other terms in the vocabulary. How do I develop an ontology that accommodates this?</a></li>
+                
+                    <li><a class="toctree-l4" href="#how-do-i-update-my-ontology-file-once-it-has-been-submitted-to-the-orr">How do I update my ontology file once it has been submitted to the ORR?</a></li>
+                
+                    <li><a class="toctree-l4" href="#can-i-use-my-ontology-editor-xxx-xxx-protege-neon-etc">Can I use my ontology editor XXX? (XXX = Protégé, NeOn, etc.)</a></li>
+                
+                    <li><a class="toctree-l4" href="#what-options-are-available-for-registering-my-existing-ontology">What options are available for registering my existing ontology?</a></li>
+                
+                    <li><a class="toctree-l4" href="#what-is-the-difference-between-having-my-existing-ontology-re-hosted-or-re-indexed-in-the-orr">What is the difference between having my existing ontology re-hosted or re-indexed in the ORR?</a></li>
+                
+                    <li><a class="toctree-l4" href="#orr-says-that-my-file-may-not-be-in-utf-8-encoding-what-does-it-mean-and-what-can-i-do">ORR says that my file may not be in UTF-8 encoding. What does it mean and what can I do?</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#mapping-ontologies">Mapping Ontologies</a></li>
+                
+                    <li><a class="toctree-l4" href="#what-are-the-benefits-of-mapping-my-vocabulary-to-others-in-the-orr">What are the benefits of mapping my vocabulary to others in the ORR?</a></li>
+                
+                    <li><a class="toctree-l4" href="#how-do-i-map-my-vocabulary-to-others-in-the-orr-are-there-any-recommended-best-practices">How do I map my vocabulary to others in the ORR? Are there any recommended best practices?</a></li>
+                
+            
+            </ul>
+        
+    </li>
+<li>
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../knownissues/">Known issues</a>
+        
+    </li>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="..">MMI ORR</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="..">Docs</a> &raquo;</li>
+    
+      
+    
+    <li>FAQ</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/mmisw/mmiorr-docs" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <p>Contents being migrated from 
+<a href="https://marinemetadata.org/mmiorrusrman/mmiorrfaq">https://marinemetadata.org/mmiorrusrman/mmiorrfaq</a></p>
+<h2 id="searching-and-viewing-ontologies">Searching and Viewing Ontologies</h2>
+<h4 id="how-do-i-find-ontologies-in-the-repository-that-are-most-relevant-to-my-work">How do I find ontologies in the repository that are most relevant to my work?</h4>
+<p>To search the repository by term, such as "salinity", click on the "Search terms" link near the top center of the 
+Browse page.  To search the repository by a given string, such as "bodc", use the "Search ontologies" box near 
+the top of the Browse page.</p>
+<h4 id="how-do-i-do-an-advanced-search-using-sparql">How do I do an Advanced Search using SPARQL?</h4>
+<p>Please see <a href="http://marinemetadata.org/mmiorrusrman/mmiorrquery">Querying the Repository()FIX!</a>.</p>
+<h4 id="how-can-i-view-ontologies-in-the-repository">How can I view ontologies in the repository?</h4>
+<p>You can view the list of all the ORR ontologies by using the "Browse" button (scroll down in the inside window to 
+see more entries). You can view a particular ontology by clicking on its URL entry in the browse list, or by 
+entering its unique identifier (URL) in your browser.</p>
+<p>Once you have selected an ontology, there are also three different formats for viewing it: default view, 
+RDF/XML, and N3. For more details, see the section of the ORR manual on 
+<a href="../mmiorrusrman/viewvocab">viewing ontologies (FIX)</a>.</p>
+<p>Test ontologies (those that have 'test' or some variant in the name) are visible in the browser only to you 
+and the ORR administrators. However, those with a URL for a test ontology, or any of its terms, will be able 
+to see the corresponding page. In other words, test ontologies should not be considered private.</p>
+<h4 id="tabular-view-why-are-the-columns-not-displayed-in-the-same-order-i-used-to-create-my-vocabulary">Tabular view: Why are the columns not displayed in the same order I used to create my vocabulary?</h4>
+<p>In general, order is not important for the contents of the knowledge captured in the vocabulary or ontology 
+(unless it's explicitly captured as part of the information). Although we agree keeping the order is convenient 
+for the user interface, typical libraries do not specify any order in which the ontology elements will be retrieved; 
+in particular, it is not guaranteed that the elements will be reported in the same order as they were inserted at 
+creation time. Therefore, we do not try to maintain order through special techniques.</p>
+<h2 id="using-ontologies">Using Ontologies</h2>
+<p>This section has questions about using ontologies in the MMI Ontology Registry and Repository (<a href="http://mmisw.org/orr">ORR</a>).</p>
+<h4 id="should-i-use-an-existing-ontology-from-the-repository-or-develop-one-of-my-own">Should I use an existing ontology from the repository or develop one of my own?</h4>
+<p>This is a complex question.  Generally, you should use an existing ontology if it will meet most of your needs.  
+However, there are several considerations for choosing an existing ontology. Please see the Guide on 
+<a href="http://marinemetadata.org/guides/vocabs/cvchooseimplement/cvchoosing">choosing a vocabulary</a>.  
+If no existing ontology meets 
+your needs, you may wish to develop your own. Please see the Guide on 
+<a href="http://marinemetadata.org/guides/vocabs/cvdev">developing your own vocabulary.</a></p>
+<h4 id="i-found-an-existing-ontology-that-seems-good-but-it-doesnt-include-all-the-terms-that-i-need-how-do-i-build-upon-an-existing-ontology">I found an existing ontology that seems good, but it doesn't include all the terms that I need.  How do I build upon an existing ontology?</h4>
+<p>There are three 'formal' techniques to build upon an existing ontology, and an informal technique that is more optimal 
+than any of those three. The three techniques below correspond to the three suggestions in the first answer
+<a href="http://answers.semanticweb.com/questions/18505/ontology-import-vs-owlsameas-in-ontology-design" title="Good reference on the options">here</a>:</p>
+<ol>
+<li>Import their ontology into an ontology of your own making. (Note: This is potentially non-trivial; see for example <a href="http://protegewiki.stanford.edu/wiki/How_Owl_Imports_Work">this slightly dated analysis</a>.)</li>
+<li>Reuse their terms in your ontology, but without importing them.</li>
+<li>Create your own copy of the other ontology's terms, either linking to the original terms using sameAs or other relations, or just quietly copying the content and making it your own. </li>
+</ol>
+<p>Each of these has strengths and weaknesses, you are encouraged to read the linked answer. Another solution, 
+often overlooked but very powerful, is to work with the ontology owner to add your terms directly into their ontology. 
+(They may want to enhance their ontology with your terms!) We encourage this approach as a way to maximize synergy 
+among semantic artifacts on the web.</p>
+<h4 id="how-do-i-use-ontologies-in-the-orr-what-is-the-format-of-the-link">How do I use ontologies in the ORR? What is the format of the link?</h4>
+<p>The simplest way to use an ontology is to enter its unique identifier (a URL) into your browser. 
+The MMI ORR will serve a page that describes the ontology's metadata, and then the content of the ontology. 
+You may have to click on the section headers to show the content below the header. MMI provides complete 
+information about the ontology it is showing.</p>
+<p>You can access any of the terms in the ontology by appending a <code>/</code> and the term identifier (a name or code) 
+to the ontology URL. This URL represents the corresponding term, and ORR will present information relevant 
+to the specific term.</p>
+<p>If you want to look at the ontology in a structured format (e.g., RDF/XML, or N3), you can construct a 
+URL which requests this format, for example <code>http://mmisw.org/ont?form=n3&amp;uri=</code>, 
+followed by your ontology's URL, will present the ontology in the n3 format.</p>
+<p>The page <a href="../mmiorrusrman/viewvocab">Viewing a Vocabulary (FIX)</a> 
+describes these formats and viewing options in more detail.</p>
+<h4 id="how-do-i-query-the-registered-ontologies-programatically-what-services-do-i-have">How do I query the registered ontologies programatically? What services do I have?</h4>
+<p>Please see the section <a href="http://marinemetadata.org/mmiorrusrman/mmiorrprg">Programmatic Access (FIX)</a>.</p>
+<h4 id="can-you-give-examples-of-how-to-open-them-in-protege-and-topbraid-composer">Can you give examples of how to open them in Protégé and TopBraid Composer?</h4>
+<p>Briefly, you can either specify the ontology URL directly to one of those applications, 
+or download the ontology as an RDF/XML format (use a URL like <code>http://mmisw.org/ont?form=rdf&amp;uri=</code>, 
+followed by your ontology name) and then open it locally.</p>
+<h2 id="submitting-and-updating-ontologies">Submitting and Updating Ontologies</h2>
+<p>This section includes FAQs related to submitting ontologies to the MMI Ontology Registry and Repository (<a href="http://mmisw.org/orr">ORR</a>) and updating them.</p>
+<h4 id="what-are-the-benefits-of-submitting-my-vocabulary-to-the-orr">What are the benefits of submitting my vocabulary to the ORR?</h4>
+<p>The ORR provides easy access to, and management of, your vocabulary. It also stores your ontology in a knowledge base, which can be searched or used for mapping between your vocabulary and others.</p>
+<h4 id="i-have-a-vocabulary-in-owltextexcel-format-how-do-i-submit-it-to-the-orr">I have a vocabulary in OWL/text/Excel… format, how do I submit it to the ORR?</h4>
+<p>If it is an OWL-formatted ontology file, select the "Upload ontology" button, browse to your local file, upload the ontology to the workspace, choose the hosting option, and complete the metadata details. Then, click on "Review and Register" and submit. If the vocabulary is in an spreadsheet-like format, you should choose "Create vocabulary" and import the file (once you have it in CSV format), to convert it into an ontology. For more information, see the sections of the ORR manual on <a href="../mmiorrusrman/mmiorrref/mmiorruploadexisting">hosting options</a> and <a href="../mmiorrusrman/mmiorrgetstarted">getting started</a>.</p>
+<h4 id="i-have-a-vocabulary-in-non-rdf-xml-format-how-do-i-submit-it-to-the-orr">I have a vocabulary in non-RDF XML format, how do I submit it to the ORR?</h4>
+<p>At this point, this capability is beyond the scope of the ORR portal. The primary reason is that it would be very complex to provide the user interface and underlying capabilities to extract information from any kind of XML file in a generic way. Specific conversion tools would be necessary in these cases, such that the output from those tools can either be in a format that the ORR can read (eg., the CSV with the associated structure or an ontology format), or be submitted by the tool itself for registration using the programmatic mechanisms provided by ORR.  </p>
+<p>Consider using XSLT conversion tools to create a CSV output that can then be submitted to ORR using "Create Ontology" and then "Import". The page http://www.w3schools.com/xsl/ includes a handy online conversion tool for learning XSLT.</p>
+<h4 id="is-it-better-to-upload-a-vocabulary-file-or-create-a-new-file-using-the-orrs-create-vocabulary-tools">Is it better to upload a vocabulary file or create a new file using the ORR's "create vocabulary" tools?</h4>
+<p>This entirely depends on your situation and preferences. Once you are logged in, you can upload information as an ontology file, as a simple vocabulary text file, or by entering information about individual terms in a table. For any of these options, start at the ontology overview page at <a href="http://mmisw.org/or" title="http://mmisw.org/or">http://mmisw.org/or</a>.</p>
+<p>If you are just starting to describe your vocabulary or want to evaluate the system, it may be be easiest to create the vocabulary using our system for table-based entry. Start by clicking on the "Create Vocabulary" tab on the ontology overview page. You will see a table in which you can type your terms, definitions, and other information. (Note that you must enter 'return' <em>before</em> entering or editing a cell value.) When you want to put your information into the system, enter its description using the drop-down "Metadata details" arrow at the top of the page, then click on "Review and Register".</p>
+<p>If you have a vocabulary in a text file already, separated by a typical delimiter like a comma or tab, then you can upload your vocabulary directly. Again, start by using the "Create Vocabulary" tab on the ontology overview page. In the upper left cell of the table that results, you can click on the small drop-down arrow, and obtain the menu item "Import…". Click on this menu item and you will be prompted for your file. (You can edit the resulting vocabulary in the provided table.)</p>
+<p>If you have your vocabulary formatted as an OWL-formatted ontology file, you can upload it using the Upload button on the ontology overview page. This is the best option if you are already working with your terms as an ontology. If your ontology is complex, you may want to discuss the capabilities provided by the Repository with the developers, to confirm all your goals will be met.</p>
+<p>Note that these options are also available to update a vocabulary that is already in the system as an ontology. However, we do not recommend editing a complex ontology in the vocabulary editor, because information is likely to be lost; in this case the ontology should be edited in an ontology editor, then uploaded in place of the original.</p>
+<p>The ORR treats ontologies entered with an ORR tool slightly differently than uploaded ontologies. For ontologies created with an ORR "ontology engineering tool" (voc2rdf for vocabularies, vine for mappings), the ontology is internally marked with a property to indicate which tool created the ontology. When the ontology is presented, a corresponding set of features is enabled; specifically a content table is presented that allows manual editing or import of a new version via a simple csv table, and a simplified view of the ontology is presented.</p>
+<p>The "upload" mechanism, on the other hand, allows the registration of any RDF ontology of arbitrary complexity. Because these may be too complex for the simplified view and editing described above, a more complex view ("Synopsis of ontology contents") is offered, with 3 content groups (Classes, Properties, Individuals), and columns in each table for class "Name" and "type".</p>
+<h4 id="can-i-upload-a-complex-ontology-and-still-get-the-simple-view-or-vice-versa">Can I upload a complex ontology and still get the simple view, or vice-versa?</h4>
+<p>No, at this time the interface is constrained according to the original upload process.</p>
+<h4 id="how-much-metadata-should-i-provide-with-my-vocabulary">How much metadata should I provide with my vocabulary?</h4>
+<p>You should try to complete all the metadata fields requested under "Metadata details" for your vocabulary. The more metadata provided, the greater functionality the ORR will be able to provide using your vocabulary. The required fields (necessary for storing your ontology in the knowledge base correctly) are marked with a red asterisk.</p>
+<h4 id="i-want-to-submit-my-vocabulary-as-a-test-how-do-i-do-that">I want to submit my vocabulary as a "test". How do I do that?</h4>
+<p>Submit your vocabulary per the usual instructions. However, in the metadata section, for "authority abbreviation", please use "testing", "mmitest", or a string with prefix "test_" (or "testing_") or suffix "_test" (or "_testing"). Case is ignored.</p>
+<h4 id="when-creating-a-vocabulary-are-there-any-best-practices-for-creating-term-fields">When creating a vocabulary, are there any best practices for creating term fields?</h4>
+<p>Yes, there are a few basic practices that are required or recommended. First of all, the top row (in the table or file) has to be used as a header row, so that the rest of the content can be described. We suggest that you complete all header names and term names as a single word, without spaces, and that you use the singular form unless you have a very specific reason to use plural. (Not sure how to capitalize words within the terms? For the header row, capitalize each word in a joined phrase, including the first; for term names, leave the first letter lower case.)  </p>
+<p>Use one row for each term. Not every column has to be filled out for every term, but delimiters must be present to indicate missing cells.  </p>
+<p>We strongly encourage you to put definitions for every concept, even if they are fairly simple placeholders. They can always be improved later, but only if people know what you meant in the first place!  </p>
+<p>A complete list of recommendations is provided in our <a href="../guides/vocabs/cvdev/cvdevnew/cvdevtips">Guide on building vocabularies</a></p>
+<h4 id="i-have-a-vocabulary-in-which-some-of-the-terms-are-composites-of-other-terms-in-the-vocabulary-how-do-i-develop-an-ontology-that-accommodates-this">I have a vocabulary in which some of the terms are composites of other terms in the vocabulary. How do I develop an ontology that accommodates this?</h4>
+<p>Please see the current discussion of <a href="../community/teams/ont/compterm">an approach</a> to this issue.</p>
+<h4 id="how-do-i-update-my-ontology-file-once-it-has-been-submitted-to-the-orr">How do I update my ontology file once it has been submitted to the ORR?</h4>
+<p>Log in, click on the link for the ontology you would like to edit, and click on "New Version". See also the section of the ORR manual on <a href="../../../mmiorrusrman/mmiorrnewvocabversion">updating</a> an ontology. </p>
+<h4 id="can-i-use-my-ontology-editor-xxx-xxx-protege-neon-etc">Can I use my ontology editor XXX? (XXX = Protégé, NeOn, etc.)</h4>
+<p>Yes. You can use any tool to create your ontology. Then, you can can register the ontology in the MMI ORR. Note that some tools are provided to create vocabularies and mappings within the portal itself, but you are free to use any other appropriate mechanisms.</p>
+<h4 id="what-options-are-available-for-registering-my-existing-ontology">What options are available for registering my existing ontology?</h4>
+<p>Please see the manual section on <a href="../mmiorrusrman/mmiorrref/mmiorruploadexisting">hosting options</a>.</p>
+<h4 id="what-is-the-difference-between-having-my-existing-ontology-re-hosted-or-re-indexed-in-the-orr">What is the difference between having my existing ontology re-hosted or re-indexed in the ORR?</h4>
+<p>Please see the manual section on <a href="../mmiorrusrman/mmiorrref/mmiorruploadexisting">hosting options.</a></p>
+<h4 id="orr-says-that-my-file-may-not-be-in-utf-8-encoding-what-does-it-mean-and-what-can-i-do">ORR says that my file may not be in UTF-8 encoding. What does it mean and what can I do?</h4>
+<p>Any ontology contents submitted to the ORR must be encoded in UTF-8 is such a way that the underlying ontology manipulation library can read the given contents without error. In case of encoding error, ORR does a best effort to detect the probable encoding (aka, <em>charset</em>) or encodings in order to provide a diagnostics message to the user. No attempt is done to automatically convert the contents to UTF-8 as the original information may be altered. You should make sure your submitted file or contents are in UTF-8.</p>
+<p>Some useful links are <a href="http://www.w3schools.com/XML/xml_encoding.asp">w3shools</a> and <a href="http://blogs.msdn.com/b/oldnewthing/archive/2007/04/17/2158334.aspx">notepad</a>.</p>
+<h2 id="mapping-ontologies">Mapping Ontologies</h2>
+<p>This section includes FAQs related to mapping between ontologies in the MMI Ontology Registry and Repository (<a href="http://mmisw.org/orr">ORR).</a></p>
+<p><em>--Under construction</em></p>
+<h4 id="what-are-the-benefits-of-mapping-my-vocabulary-to-others-in-the-orr">What are the benefits of mapping my vocabulary to others in the ORR?</h4>
+<p>There are many reasons for mapping between vocabularies.  Please see <a href="../../../mmiorrusrman/mmiorrref/mmiorrnewmapping">Creating a Mapping Ontology</a> and the Guide on <a href="../../../guides/vocabs/cvchooseimplement/cvmap">mapping vocabularies</a>.</p>
+<h4 id="how-do-i-map-my-vocabulary-to-others-in-the-orr-are-there-any-recommended-best-practices">How do I map my vocabulary to others in the ORR? Are there any recommended best practices?</h4>
+<p>Please see http://marinemetadata.org/mmiorrusrman/mmiorrmapps. Also, this <a href="../../../guides/vocabs/cvchooseimplement/cvmap/cvmapvine">Guide</a> describes the standalone application.</p>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../knownissues/" class="btn btn-neutral float-right" title="Known issues"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../query/" class="btn btn-neutral" title="Querying the repository"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../query/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../knownissues/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
