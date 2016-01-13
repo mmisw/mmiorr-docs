@@ -1,10 +1,12 @@
 ## MMI ORR Documentation source
 
-This repository contains the source of the MMI ORR documentation, currently accessible at http://mmisw.org/orrdoc/
+The master branch of this repository contains the source of the MMI ORR documentation. 
 
-The documentation source is written in plain text files using [Markdown](http://daringfireball.net/projects/markdown/) syntax.
+The documentation source is written in plain text files using 
+[Markdown](http://daringfireball.net/projects/markdown/) syntax.
 
-Your help improving this documentation is [welcome!](https://github.com/mmisw/mmiorr-docs/blob/master/CONTRIBUTING.md)
+We use [MkDocs tool](http://www.mkdocs.org/) for the site generation,
+currently deployed at http://mmisw.github.io/mmiorr-docs/
 
-The [mkdocs tool](http://www.mkdocs.org/) is used for the HTML generation.
-
+Your help improving this documentation is 
+[welcome!](https://github.com/mmisw/mmiorr-docs/blob/master/CONTRIBUTING.md)
