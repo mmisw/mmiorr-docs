@@ -9,7 +9,7 @@ propose changes to this document in a pull request.
 
 #### How to contribute?
 
-We follow a [Fork](https://help.github.com/articles/fork-a-repo/) and 
+In general, we intend to follow a [Fork](https://help.github.com/articles/fork-a-repo/) and 
 [Pull Request](https://help.github.com/articles/using-pull-requests/) workflow.
 
 Feel free to fork the repository, add your changes and give back by issuing a pull request. 
@@ -19,14 +19,16 @@ You can edit the docs directly on your fork at GitHub
 You are also very welcome to make any suggestions or report any kind of problem with the documentation 
 by using the [tracker](https://github.com/mmisw/mmiorr-docs/issues).
 
-Be aware you may be working on an instance of the ORR derived from a fork of the original ORR code. 
+Be aware you may be working on and/or referring to an instance of the ORR derived from a fork of the original ORR code. 
 If your documentation change is only relevant to that particular instance, 
-you may want to leave the documentation changes in your `mmiorr-docs` fork. 
+you may want to leave the documentation changes in your mmiorr-docs fork. 
 But if your changes are general to the ORR system, 
 please do submit a pull request so that the documentation for everyone can be updated.
 
 #### Who uses these documents? Referencing the ORR
 
-Keep in mind that these documents are referenced by all the ORR distributions, not just the main one at http://mmisw.org. While the examples may need to use the original path, try to refer to the software in a location- and source-independent way (e.g., not "the mmisw.org application" or "MMI's ORR application", but "this ORR application". 
+While the examples in the documentation may need to use the original path in the main ORR instance at http://mmisw.org, 
+try to refer to the software in a location- and source-independent way 
+(e.g., not "the mmisw.org application" or "MMI's ORR application", but "this ORR application". 
 
 > \[want to contribute a better CONTRIBUTING document? `;)`\]
