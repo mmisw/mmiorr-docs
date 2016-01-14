@@ -19,7 +19,11 @@ You can edit the docs directly on your fork at GitHub
 You are also very welcome to make any suggestions or report any kind of problem with the documentation 
 by using the [tracker](https://github.com/mmisw/mmiorr-docs/issues).
 
-Be aware you may be working on a repository that has already been forked from the original (mmisw) repository. If your change is explicit to that local repository, you may want to leave the changes in the fork -- ideally located in a document unique to your repository. But if your changes are general to all the repositories, please generate a pull request so that the documentation for everyone can be updated.
+Be aware you may be working on an instance of the ORR derived from a fork of the original ORR code. 
+If your documentation change is only relevant to that particular instance, 
+you may want to leave the documentation changes in your `mmiorr-docs` fork. 
+But if your changes are general to the ORR system, 
+please do submit a pull request so that the documentation for everyone can be updated.
 
 #### Who uses these documents? Referencing the ORR
 
