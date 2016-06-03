@@ -1,6 +1,12 @@
 site_name: MMI ORR
 repo_url: https://github.com/mmisw/mmiorr-docs
 theme: readthedocs
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: True
+
 pages:
 - Home: index.md
 - About: about.md

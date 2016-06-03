@@ -1,3 +1,6 @@
+!!! warning
+    Under construction 
+
 ## What formats are supported for registering ontology files?
 
 The following standard formats are supported:
@@ -7,11 +10,6 @@ The following standard formats are supported:
 *   [N-TRIPLE](http://en.wikipedia.org/wiki/N-Triples)
 *   [TURTLE](http://en.wikipedia.org/wiki/Turtle_%28syntax%29)
 
-Aditionally, the following format is supported :
-
-*   [Voc2Skos](http://marinemetadata.org/mmiorrusrman/voc2skos): This option will dispatch the loading of 
-the file through a special converter module to create the ontology model for the subsequent manipulation 
-and eventual registration. For more details, see the [Voc2Skos](http://marinemetadata.org/mmiorrusrman/voc2skos) page.
 
 ## What options are available for hosting ontologies?
 

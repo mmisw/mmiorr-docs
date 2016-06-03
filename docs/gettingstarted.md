@@ -1,5 +1,6 @@
-Contents being migrated from 
-[https://marinemetadata.org/mmiorrusrman/mmiorrgetstarted](https://marinemetadata.org/mmiorrusrman/mmiorrgetstarted)
+!!! warning
+    Contents being migrated/updated from 
+    [mmiorrusrman/mmiorrgetstarted](https://marinemetadata.org/mmiorrusrman/mmiorrgetstarted)
 
 ## As a semantic data provider 
 

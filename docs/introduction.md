@@ -12,14 +12,14 @@ either for reuse or extension to suit the particular application. As another exa
 datasets involving a particular term (e.g., sea temperature), a data discovery tool can use the MMI ORR search 
 service to enhance the result set by also requesting related terms (e.g., terms that may be broader than or 
 narrower than the specific term).  These related terms are automatically obtained using mapping ontologies
-And semantic inference mechanisms through the MMI ORR.
+and semantic inference mechanisms through the MMI ORR.
 
 This set of services is a key component of the [Semantic Framework](http://marinemetadata.org/semanticframework) 
 developed by the [Marine Metadata Interoperability Project](http://marinemetadata.org) (MMI).
 
 **Main MMI ORR Capabilities**
 
-*   Create and publish vocabularies in standards-based format (RDF)
+*   Create and publish vocabularies in standards-based model (RDF)
 *   Search for terms using free text or a sophisticated, standard query language (SPARQL)
 *   Provide web resolvable identifiers for vocabularies and terms
 *   Establish relations between terms to interlink your vocabulary with others in the community
