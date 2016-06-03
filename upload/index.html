@@ -3,7 +3,10 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
   
   <title>Registering Your Existing Ontology - MMI ORR</title>
   
@@ -22,6 +25,8 @@
   <script>
     // Current page data
     var mkdocs_page_name = "Registering Your Existing Ontology";
+    var mkdocs_page_input_path = "upload.md";
+    var mkdocs_page_url = "/upload/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -207,7 +212,11 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="what-formats-are-supported-for-registering-ontology-files">What formats are supported for registering ontology files?</h2>
+                <div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Under construction </p>
+</div>
+<h2 id="what-formats-are-supported-for-registering-ontology-files">What formats are supported for registering ontology files?<a class="headerlink" href="#what-formats-are-supported-for-registering-ontology-files" title="Permanent link">&para;</a></h2>
 <p>The following standard formats are supported:</p>
 <ul>
 <li><a href="http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/">RDF/XML</a></li>
@@ -215,15 +224,9 @@
 <li><a href="http://en.wikipedia.org/wiki/N-Triples">N-TRIPLE</a></li>
 <li><a href="http://en.wikipedia.org/wiki/Turtle_%28syntax%29">TURTLE</a></li>
 </ul>
-<p>Aditionally, the following format is supported :</p>
-<ul>
-<li><a href="http://marinemetadata.org/mmiorrusrman/voc2skos">Voc2Skos</a>: This option will dispatch the loading of 
-the file through a special converter module to create the ontology model for the subsequent manipulation 
-and eventual registration. For more details, see the <a href="http://marinemetadata.org/mmiorrusrman/voc2skos">Voc2Skos</a> page.</li>
-</ul>
-<h2 id="what-options-are-available-for-hosting-ontologies">What options are available for hosting ontologies?</h2>
+<h2 id="what-options-are-available-for-hosting-ontologies">What options are available for hosting ontologies?<a class="headerlink" href="#what-options-are-available-for-hosting-ontologies" title="Permanent link">&para;</a></h2>
 <p>MMI ORR offers two options to register an existing ontology: <em>fully-hosted</em> mode and <em>re-hosted</em> mode.</p>
-<h3 id="fully-hosted-ontology">Fully-hosted ontology</h3>
+<h3 id="fully-hosted-ontology">Fully-hosted ontology<a class="headerlink" href="#fully-hosted-ontology" title="Permanent link">&para;</a></h3>
 <p>In this case, MMI ORR will assign an <code>http://mmisw.org/ont</code>-based base URI to your ontology and associated 
 terms sharing the same base namespace. More specifically, the original base URI of the ontology will be 
 overwritten with one assigned by MMI ORR during the registration process.</p>
@@ -244,7 +247,7 @@ The indirect mechanisms described below are also provided in this case.</p>
 <p><strong>MMI responsibilities.</strong> If the owner requests it, MMI will submit the ontology to the ORR on the owner's behalf.  MMI will contact the owner for the ontology's metadata and to review the ontology once it has been submitted to the ORR.  At the owner's request, MMI may update the ontology.</p>
 </li>
 </ul>
-<h3 id="re-hosted-ontology">Re-hosted ontology</h3>
+<h3 id="re-hosted-ontology">Re-hosted ontology<a class="headerlink" href="#re-hosted-ontology" title="Permanent link">&para;</a></h3>
 <p>The general registration process (including metadata editing) is similar to the fully hosted option, but 
 the original xml:base namespace associated with your ontology will not be changed at all.  </p>
 <ul>
@@ -289,7 +292,7 @@ been submitted to the ORR.  At the owner's request, MMI may update the ontology
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../query/" class="btn btn-neutral float-right" title="Querying the repository"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../query/" class="btn btn-neutral float-right" title="Querying the repository">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../mapping/newversion/" class="btn btn-neutral" title="Creating a New Version of a Mapping Ontology"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -317,7 +320,7 @@ been submitted to the ORR.  At the owner's request, MMI may update the ontology
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
-          <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+          <a href="https://github.com/mmisw/mmiorr-docs" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
         <span><a href="../mapping/newversion/" style="color: #fcfcfc;">&laquo; Previous</a></span>

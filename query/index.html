@@ -3,7 +3,10 @@
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
 <head>
   <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
   
   <title>Querying the repository - MMI ORR</title>
   
@@ -22,6 +25,8 @@
   <script>
     // Current page data
     var mkdocs_page_name = "Querying the repository";
+    var mkdocs_page_input_path = "query.md";
+    var mkdocs_page_url = "/query/";
   </script>
   
   <script src="../js/jquery-2.1.1.min.js"></script>
@@ -197,19 +202,21 @@
           <div role="main">
             <div class="section">
               
-                <p><em>(under construction)</em></p>
+                <div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Under construction </p>
+</div>
 <p>SPARQL is the query language for the Resource Description Framework (recursively, SPARQL Protocol and RDF Query Language). 
 It is analogous to SQL for relational databases, allowing queries to be placed for semantic resources. 
 The <a href="http://en.wikipedia.org/wiki/SPARQL">Wikipedia entry for SPARQL</a> contains good background information, 
 and the <a href="http://www.w3.org/TR/sparql11-overview/">W3C documentation</a> is a good technical read.</p>
-<p>Many semantic database resources (endpoints) support SPARQL, including the ORR. </p>
-<p>SPARQL queries can be done programatically, with a RESTful interface, against the ORR SPARQL endpoint at 
+<p>SPARQL queries can be done programmatically, with a RESTful interface, against the ORR SPARQL endpoint at 
 <code>http://mmisw.org/sparql</code> using HTTP GET requests.
 A user interface is available at <a href="http://mmisw.org/orr/sparql/">http://mmisw.org/orr/sparql/</a>.</p>
 <p>A number of interesting domain-specific examples can be found at 
 <a href="http://marinemetadata.org/community/teams/vocdev/orrioos">http://marinemetadata.org/community/teams/vocdev/orrioos</a>.</p>
-<p>The video below provides some interesting information about querying with SPARQL.</p>
-<p><a href="http://www.slideshare.net/olafhartig/querying-linked-data-with-sparql" title="Querying Linked Data with SPARQL">Querying Linked Data with SPARQL</a> <object style="margin: 0px;" width="425" height="355"><param name="movie" value="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=consumingld-consumingsection-091025103403-phpapp02&amp;stripped_title=querying-linked-data-with-sparql"> <param name="allowFullScreen" value="true"> <param name="allowScriptAccess" value="always"><embed type="application/x-shockwave-flash" width="425" height="355" src="http://static.slidesharecdn.com/swf/ssplayer2.swf?doc=consumingld-consumingsection-091025103403-phpapp02&amp;stripped_title=querying-linked-data-with-sparql" allowscriptaccess="always" allowfullscreen="true"></object> </p>
+<p>The <a href="http://www.slideshare.net/olafhartig/querying-linked-data-with-sparql">Querying Linked Data with SPARQL</a> 
+video provides some interesting information about querying with SPARQL.</p>
               
             </div>
           </div>
@@ -217,7 +224,7 @@ A user interface is available at <a href="http://mmisw.org/orr/sparql/">http://m
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../faq/" class="btn btn-neutral float-right" title="FAQ"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+        <a href="../faq/" class="btn btn-neutral float-right" title="FAQ">Next <span class="icon icon-circle-arrow-right"></span></a>
       
       
         <a href="../upload/" class="btn btn-neutral" title="Registering Your Existing Ontology"><span class="icon icon-circle-arrow-left"></span> Previous</a>
@@ -245,7 +252,7 @@ A user interface is available at <a href="http://mmisw.org/orr/sparql/">http://m
 <div class="rst-versions" role="note" style="cursor: pointer">
     <span class="rst-current-version" data-toggle="rst-current-version">
       
-          <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+          <a href="https://github.com/mmisw/mmiorr-docs" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
       
       
         <span><a href="../upload/" style="color: #fcfcfc;">&laquo; Previous</a></span>
