@@ -5,6 +5,8 @@ The [MMI Ontology Registry and Repository](http://mmisw.org/orr) (ORR) is a Web-
 single point of entry, where ontology providers and users can collaborate to create, host, annotate, share, and use 
 ontologies of relevance to the marine science community.
 
+![](img/orr3/mainpage-regular-user.png)
+
 In the ORR, at the most basic level, a term is given a URL, and the ORR will return a set of basic information when 
 someone enters that URL into their browser. For a more advanced example, a data provider or system developer wanting
 to annotate data sets can use this service as a first step to determine if any appropriate vocabularies already exist,

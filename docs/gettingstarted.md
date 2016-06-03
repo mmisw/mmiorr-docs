@@ -12,20 +12,20 @@ To create or upload and register an ontology:
 
 Click the "Create account" link
 
-![](img/mmiorrnewaccount.png)
+![](img/orr3/create-account.png)
 
 3\. Sign in
 
 If you are not yet signed in, click the "Sign in" link in the main MMI ORR page:
 
-![](img/mmiorrsignin.png)
+![](img/orr3/sign-in.png)
 
-4\. Upload ontology file, upload vocabulary file, or create vocabulary contents and associated metadata
+4\. Upload ontology file or create vocabulary
 
 4.1 Upload existing ontology file and associated metadata
 
-If you already have an ontology file, you may sign in, and click the "Upload ontology" button on the main 
-MMI ORR page to upload a local ontology file to the ORR. 
+If you already have an ontology file, click the "Upload ontology" button on the main 
+page to submit it the ORR. 
 (Please see[the "Registering your ontology" section](/mmiorrusrman/mmiorrref/mmiorruploadexisting) 
 more details.) [Add screenshots]
 
