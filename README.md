@@ -13,3 +13,16 @@ currently deployed at http://mmisw.github.io/mmiorr-docs/
 
 Your help improving this documentation is 
 [welcome!](https://github.com/mmisw/mmiorr-docs/blob/master/CONTRIBUTING.md)
+
+
+### Build and deploy 
+
+```shell
+$ unset PYTHONPATH    # if defined (with . in particular) it might cause mkdocs to fail
+
+$ mkdocs gh-deploy --clean
+  INFO    -  Building documentation to directory: .../mmiorr-docs/site
+  INFO    -  Copying '/.../mmiorr-docs/site' to 'gh-pages' branch and pushing to GitHub.
+  Password for 'https://...@github.com':
+  INFO    -  Your documentation should shortly be available at: http://mmisw.github.io/mmiorr-docs
+```
