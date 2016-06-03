@@ -16,7 +16,10 @@ to do with the ORR (e.g., working with vocabularies, working with mappings, regi
 
 **Document Status**
 
-_Under construction_
+_Under construction_ ... 
 
-If you see a page that needs improving, please open an issue in the [tracker](https://github.com/mmisw/mmiorr-docs/issues).
+Please, feel free to use the [tracker](https://github.com/mmisw/mmiorr-docs/issues)
+for any topics or sections that should be prioritized or for any other suggestions. 
+Also, [your own help to improve this documentation is welcome](
+https://github.com/mmisw/mmiorr-docs/blob/master/CONTRIBUTING.md)!
 
