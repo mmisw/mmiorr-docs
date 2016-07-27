@@ -1,6 +1,6 @@
-## MMI ORR Documentation source
+## ORR Documentation source
 
-The master branch of this repository contains the source of the MMI ORR documentation. 
+The master branch of this repository contains the source of the ORR documentation. 
 
 The documentation source is written in plain text files using 
 [Markdown](http://daringfireball.net/projects/markdown/) syntax.
