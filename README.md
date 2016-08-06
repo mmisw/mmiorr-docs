@@ -7,8 +7,10 @@ The documentation source is written in plain text files using
 
 We use [MkDocs tool](http://www.mkdocs.org/) for the site generation.
 
-**NOTE**: We are still migrating the contents from the 
-[original site](https://marinemetadata.org/mmiorrusrman).
+**NOTE**: We are migrating contents from the 
+[original site](https://marinemetadata.org/mmiorrusrman)
+as well as doing reviewing and updates per recent developments in 
+new version ORR v3.
 
 Your help improving this documentation is 
 [welcome!](https://github.com/mmisw/mmiorr-docs/blob/master/CONTRIBUTING.md)
