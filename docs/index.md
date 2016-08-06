@@ -3,7 +3,8 @@ Welcome to MMI ORR User Manual
 !!! warning
     Under construction
     
-    Contents being migrated/updated from [the original site](https://marinemetadata.org/mmiorrusrman).
+    Contents being migrated from [the original site](https://marinemetadata.org/mmiorrusrman)
+    as well as reviewing and doing updtes per recent developments in new version ORR v3.
 
 Welcome and thanks for using the MMI Ontology Registry and Repository (MMI ORR) system.
 
