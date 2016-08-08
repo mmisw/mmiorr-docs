@@ -8,7 +8,7 @@ Welcome to MMI ORR User Manual
 
 Welcome and thanks for using the MMI Ontology Registry and Repository (MMI ORR) system.
 
-This is the User's Manual for the MMI ORR and associated MMI tools and services.
+This is the User's Manual for the MMI ORR and associated MMI tools and services. It applies to all version 3 deployments of the MMI ORR, in particular the ESIP Community Ontology Repository (COR). However, until the warnings on this page are removed, some content may be out of date.
 
 This manual is comprised of two main parts:
 The first part includes introductory materials, suggestions on getting started, frequently asked questions,
