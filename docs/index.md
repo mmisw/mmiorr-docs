@@ -16,7 +16,7 @@ The first part includes introductory materials, suggestions on getting started, 
 and a list of known issues with the ORR.  The second part describes specific actions that a user might want
 to do with the ORR (e.g., working with vocabularies, working with mappings, registering an existing ontology).
 
-!!! info status
+!!! warning
     Under construction ... 
 
 Please, feel free to use the [tracker](https://github.com/mmisw/mmiorr-docs/issues)
