@@ -17,7 +17,7 @@ and a list of known issues with the ORR.  The second part describes specific act
 to do with the ORR (e.g., working with vocabularies, working with mappings, registering an existing ontology).
 
 !!! warning
-    Page Status: *Current*
+    _Page Status_: **Current**
 
 Please, feel free to use the [tracker](https://github.com/mmisw/mmiorr-docs/issues)
 for any topics or sections that should be prioritized or for any other suggestions. 
