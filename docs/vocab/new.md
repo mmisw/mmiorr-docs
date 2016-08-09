@@ -1,4 +1,4 @@
-MMI ORR allows to create an ontology from a table of definitions, for example:
+ORR allows to create an ontology from a table of definitions, for example:
 
 <table border="1">
 

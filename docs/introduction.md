@@ -11,15 +11,15 @@ In the ORR, at the most basic level, a term is given a URL, and the ORR will ret
 someone enters that URL into their browser. For a more advanced example, a data provider or system developer wanting
 to annotate data sets can use this service as a first step to determine if any appropriate vocabularies already exist,
 either for reuse or extension to suit the particular application. As another example, upon receiving a request for 
-datasets involving a particular term (e.g., sea temperature), a data discovery tool can use the MMI ORR search 
+datasets involving a particular term (e.g., sea temperature), a data discovery tool can use the ORR search 
 service to enhance the result set by also requesting related terms (e.g., terms that may be broader than or 
 narrower than the specific term).  These related terms are automatically obtained using mapping ontologies
-and semantic inference mechanisms through the MMI ORR.
+and semantic inference mechanisms through the ORR.
 
 This set of services is a key component of the [Semantic Framework](http://marinemetadata.org/semanticframework) 
 developed by the [Marine Metadata Interoperability Project](http://marinemetadata.org) (MMI).
 
-**Main MMI ORR Capabilities**
+**Main ORR Capabilities**
 
 *   Create and publish vocabularies in standards-based model (RDF)
 *   Search for terms using free text or a sophisticated, standard query language (SPARQL)

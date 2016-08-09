@@ -62,7 +62,7 @@ among semantic artifacts on the web.
 #### How do I use ontologies in the ORR? What is the format of the link?
 
 The simplest way to use an ontology is to enter its unique identifier (a URI) into your browser. 
-The MMI ORR will serve a page that describes the ontology's metadata, and then the content of the ontology. 
+The ORR will serve a page that describes the ontology's metadata, and then the content of the ontology. 
 You may have to click on the section headers to show the content below the header. The software provides complete 
 information about the ontology it is showing.
 
@@ -92,7 +92,7 @@ Once you have downloaded the ontology, you can open it locally in any ontology o
 
 ## Submitting and Updating Ontologies
 
-This section includes FAQs related to submitting ontologies to the MMI Ontology Registry and Repository ([ORR](http://mmisw.org/orr)) and updating them.
+This section includes FAQs related to submitting ontologies to the Ontology Registry and Repository ([ORR](http://mmisw.org/orr)) and updating them.
 
 #### What are the benefits of submitting my vocabulary to the ORR?
 
@@ -152,7 +152,7 @@ Log in, click on the link for the ontology you would like to edit, and click on 
 
 #### Can I use my ontology editor XXX? (XXX = Protégé, NeOn, etc.)
 
-Yes. You can use any tool to create your ontology. Then, you can can register the ontology in the MMI ORR. Note that some tools are provided to create vocabularies and mappings within the portal itself, but you are free to use any other appropriate mechanisms.
+Yes. You can use any tool to create your ontology. Then, you can can register the ontology in the ORR. Note that some tools are provided to create vocabularies and mappings within the portal itself, but you are free to use any other appropriate mechanisms.
 
 #### What options are available for registering my existing ontology?
 

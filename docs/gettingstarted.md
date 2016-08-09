@@ -6,7 +6,7 @@
 
 To create or upload and register an ontology:
 
-1\. Open the MMI ORR site in your browser: [http://mmisw.org/orr/](http://mmisw.org/orr/)
+1\. Open the ORR site in your browser: [http://mmisw.org/orr/](http://mmisw.org/orr/)
 
 2\. Create an account
 
@@ -16,7 +16,7 @@ Click the "Create account" link
 
 3\. Sign in
 
-If you are not yet signed in, click the "Sign in" link in the main MMI ORR page:
+If you are not yet signed in, click the "Sign in" link in the main ORR page:
 
 ![](img/orr3/sign-in.png)
 
@@ -47,7 +47,7 @@ Choose "Finish".
 
 If you have your vocabulary in a text file, for example, then you may follow these steps.
 
-Once signed in, click "Create vocabulary" button in the main MMI ORR page. [Add screenshots.]
+Once signed in, click "Create vocabulary" button in the main ORR page. [Add screenshots.]
 
 Complete the metadata in the "Metadata details" section. 
 (Note: If you are testing the process or your ontology, please choose either "testing" or 
@@ -63,7 +63,7 @@ section for more details.
 
 4.3 Create vocabulary contents and associated metadata
 
-Once signed in, click the "Create vocabulary" button in the main MMI ORR page.
+Once signed in, click the "Create vocabulary" button in the main ORR page.
 
 You can start by selecting a class name (required field) and filling in the vocabulary contents, that is, 
 the list of terms and associated information (e.g., description):
@@ -100,13 +100,13 @@ ontology URI; see [here](http://marinemetadata.org/apguides/ontprovidersguide/on
 
 ## As a semantic data user
 
-1\. Open the MMI ORR site in your browser
+1\. Open the ORR site in your browser
 
-MMI ORR site: http://mmisw.org/orr/
+ORR site: http://mmisw.org/orr/
 
 2\. Browse list of registered ontologies
 
-Even if not signed in, you will see all registered ontologies in the main MMI ORR browse page (*).
+Even if not signed in, you will see all registered ontologies in the main ORR browse page (*).
 
 The left-hand side tree widget allows you to select the entries in the ontology table according 
 to submitter (if signed in), authority abbreviation, and type of ontology. 
@@ -135,7 +135,7 @@ Just click the link of the desired format.
 
 4\. Search for term
 
-In the main MMI ORR page, click the "Search" button. You will see a page that looks like the following example:
+In the main ORR page, click the "Search" button. You will see a page that looks like the following example:
 
 ![](img/search_simple.png)
 

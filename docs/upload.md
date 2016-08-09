@@ -13,13 +13,13 @@ The following standard formats are supported:
 
 ## What options are available for hosting ontologies?
 
-MMI ORR offers two options to register an existing ontology: _fully-hosted_ mode and _re-hosted_ mode.
+ORR offers two options to register an existing ontology: _fully-hosted_ mode and _re-hosted_ mode.
 
 ### Fully-hosted ontology
 
-In this case, MMI ORR will assign an `http://mmisw.org/ont`-based base URI to your ontology and associated 
+In this case, ORR will assign an `http://mmisw.org/ont`-based base URI to your ontology and associated 
 terms sharing the same base namespace. More specifically, the original base URI of the ontology will be 
-overwritten with one assigned by MMI ORR during the registration process.
+overwritten with one assigned by ORR during the registration process.
   
 *   **URI Resolvability.** The given ORR based URIs given to your ontology (and to all the terms in the 
 associated namespace) will be self-resolvable, i.e., you will be able to directly enter them into your 
@@ -41,7 +41,7 @@ the original xml:base namespace associated with your ontology will not be change
 The URIs of your ontology and associated terms can be resolved indirectly by 
 the MMI Ontology and Term URI Resolver via the "uri" parameter, eg., 
 `http://mmisw.org/ont?uri=http://example.com/my/ontologyuri`. 
-You can also indirectly access the ontology and terms via searches against MMI ORR. 
+You can also indirectly access the ontology and terms via searches against ORR. 
 NOTE: Your ontology could also be resolved by its own URI if that is supported by the 
 original web server, but that's beyond ORR's scope.  
 
