@@ -1,2 +1,3 @@
 site/
 *.war
+.DS_Store
