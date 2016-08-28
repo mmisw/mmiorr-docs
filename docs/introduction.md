@@ -60,7 +60,7 @@ ORR search services to request related terms (e.g., terms that may be broader th
 narrower than the specific term). These related terms are automatically derived using 
 the mapping ontologies and semantic inference mechanisms built into the ORR.
 
-====
+----
 
 [1] MMI: [Marine Metadata Interoperability project](http://marinemetadata.org)   
 [2] URI: Uniform Resource Identifier
