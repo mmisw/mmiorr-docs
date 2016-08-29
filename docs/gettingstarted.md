@@ -4,9 +4,6 @@
 !!! tip
     The screen shots in this presentation are made using the ESIP COR service.   
     Most features are also available in a similar form in the MMI ORR site; see the [MMI ORR help pages](https://marinemetadata.org/mmiorrusrman/mmiorrgetstarted) for details.
-
-!!! warning
-    Contents being migrated/updated from 
     
 
 ## Using existing semantic data
@@ -32,16 +29,22 @@ Click the header again to reverse the order, or hold down the mouse button to se
 Click an entry in the browse table to explore a particular ontology.
 
 The main operations available when viewing an ontology are:
+
 *	Copy the ontologies URI to the clipboard, using the button with the clipboard icon.
+
 *   View or download the ontology in a particular format. The viewing options are "RDF/XML" "N3", "Turtle", and "N Triples". Ontologies can also be downloaded in JSON-LD or RDF/JSON formats. Just choose the desired format in the list.
+
 *   View list of versions of the ontology: click the "Versions" button.
+
 *	Viewing the metadata details in the various categories shown in the tabs.
 
 If you are an owner of the original ontology, you have additional options:
+
 *	Change the Status of the ontology.
+
 *	Change the Visibility of the ontology in the main browse page (either owner-only, or publicly visible). Note all ontologies, even owner-only, can still be viewed by anyone having the URI. 
-*   Create a new version (if you are the submitter of the original ontology): Click the 
-"Edit new version" button at the far left to start creating a new version of the ontology. This also allows editing the ontology's metadata.
+
+*   Create a new version (if you are the submitter of the original ontology): Click the "Edit new version" button at the far left to start creating a new version of the ontology. This also allows editing the ontology's metadata.
 
 4\. Search for term
 
@@ -92,11 +95,7 @@ If you already have an ontology file, click the "Upload ontology" button on the 
 page to submit it the ORR. 
 (Please see the ["Registering your existing ontology"](http://mmisw.org/orrdoc/upload/) section] for more details about ontology upload features.)
 
-A wizard dialog will appear.  
-
-![](img/cor/cor-create-account-window-20160828.png)
-
-In the wizard, select the local file and load it to the workspace. 
+A wizard dialog will appear. In the wizard, select the local file and load it to the workspace. 
 
 ![](img/cor/cor-ontology-upload-dialog-20160828.png)
 
@@ -114,7 +113,9 @@ Next you will be asked to choose the type of registration (fully-hosted or re-ho
 
 Finally, you will complete the metadata details necessary for registering your ontology. These include the individual or organizational owner (shown below), a short name for the final URI for the ontology, the visibility of the ontology in the browse page, and the status of the ontology.  
 
-![](img/cor/cor-ontology-owner-selection-20160828.png)
+![](img/cor/cor-ontology-registration-completion-20160828.png "Completion of registration details")
+
+![](img/cor/cor-ontology-owner-selection-20160828.png "Owner selection dialog")
 
 !!! tip If you are testing the process or your ontology, please choose "testing" as the status, so that your ontology is not visible to all the other users.
 
@@ -150,11 +151,11 @@ Once signed in, click the "Create vocabulary" button in the main ORR page.
 
 To register your vocabulary, you need to create metadata to describe the ontology. Required metadata is shown with a red asterisk.
 
-![](img/cor/cor-vocabulary-create-initial-20160828.png)
+![](img/cor/cor-vocabulary-create-metadata-20160828.png)
 
 If you aren't sure what a particular metadata field means, hover over the field to get help.
 
-![](img/cor/cor-vocabulary-create-initial-20160828.png)
+![](img/cor/cor-vocabulary-create-metadata-help-20160828.png)
 
 You can start by selecting a local class name -- this is a required field
 
