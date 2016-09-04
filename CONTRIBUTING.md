@@ -3,7 +3,7 @@
 :+1::tada: First off, thanks for taking the time to contribute! :tada::+1:
 
 The following is a set of guidelines for contributing to the documentation of the 
-[ORR software](https://github.com/mmisw/mmiorr).
+ORR software ([orr-portal], [orr-ont]).
 These are just guidelines, not rules, use your best judgment and feel free to 
 propose changes to this document in a pull request.
 
@@ -32,3 +32,7 @@ try to refer to the software in a location- and source-independent way
 (e.g., not "the mmisw.org application" or "MMI's ORR application", but "this ORR application". 
 
 > \[want to contribute a better CONTRIBUTING document? `;)`\]
+
+-----------
+[orr-portal]: https://github.com/mmisw/orr-portal
+[orr-ont]: https://github.com/mmisw/orr-ont
