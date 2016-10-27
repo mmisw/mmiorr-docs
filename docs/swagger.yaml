@@ -15,7 +15,7 @@ info:
     - Besides the documentation itself, this page also allows to directly exercise the API.
 
     - Actual requests from this page are against the endpoint at
-      `http://cor.esipfed.org/sparql`. This may change in a future version
+      `http://cor.esipfed.org/ont`. This may change in a future version
       regarding a more general way of exercising the API (regardless
       of concrete endpoint), or by allowing the selection of the particular endpoint.
 
@@ -24,6 +24,14 @@ info:
       to perform not only the basic `GET` operations, but see expanded responses according to
       your access priviliges and ontology visibility settings, as well as perform other
       operations as listed below.
+
+    - This API includes administrative operations related with the triple store.
+      The SPARQL endpoint itself
+      (located at `http://cor.esipfed.org/sparql` for the ESIP COR instance)
+      is not described here.
+      (General SPARQL information can be found [here](https://en.wikipedia.org/wiki/SPARQL),
+      and regarding the current service used by the ORR to support the SPARQL interface
+      [here](http://franz.com/agraph/support/documentation/current/http-protocol.html).)
 
   termsOfService: 'https://marinemetadata.org/orr/tou'
   license:
@@ -495,6 +503,106 @@ paths:
           description: No such user
       security:
        - basicAuth: []
+
+
+  ######################################################################
+  # Triplestore
+  ######################################################################
+  /ts:
+    get:
+      tags: [triplestore]
+      summary: Gets the size of the store or the size of a particular named graph
+      description: |
+        Provide one of the `uri` or `context` parameters to get the size of a particular graph.
+        If none of these parameters is provided, the size of the whole triplestore will be responded.
+        Only admins can perform this operation.
+      operationId: getTriplestoreSize
+      parameters:
+        - name: uri
+          in: query
+          type: string
+          required: false
+          description: |
+            URI of particular context
+
+        - name: context
+          in: query
+          type: string
+          required: false
+          description: |
+            URI of particular context
+
+      responses:
+        '200':
+          description: Successful response
+
+    post:
+      tags: [triplestore]
+      summary: Loads an ontology in the triplestore
+      description: |
+        Only admins can perform this operation.
+      operationId: loadOntInTriplestore
+      parameters:
+        - name: uri
+          in: query
+          type: string
+          required: true
+          description: |
+            URI of the ontology to be loaded
+      responses:
+        "200":
+          description: Successful operation
+        "405":
+          description: Invalid input
+      security:
+       - basicAuth: []
+
+    put:
+      tags: [triplestore]
+      summary: Reloads an ontology or all ontologies in the triplestore
+      description: |
+        Provide the `uri` parameter to reload a particular ontology.
+        Otherwise all registered ontologies will be reloaded in the triplestore.
+        Only admins can perform this operation.
+      operationId: reloadOntsInTriplestore
+      parameters:
+        - name: uri
+          in: query
+          type: string
+          required: false
+          description: |
+            URI of the ontology to be reloaded
+      responses:
+        "200":
+          description: Successful operation
+        "405":
+          description: Invalid input
+      security:
+       - basicAuth: []
+
+    delete:
+      tags: [triplestore]
+      summary: Unloads an ontology or all ontologies from the triplestore
+      description: |
+        Provide the `uri` parameter to unload a particular ontology.
+        Otherwise all registered ontologies will be unloaded from the triplestore.
+        Only admins can perform this operation.
+      operationId: unloadOntsInTriplestore
+      parameters:
+        - name: uri
+          in: query
+          type: string
+          required: false
+          description: |
+            URI of the ontology to be unloaded
+      responses:
+        "200":
+          description: Successful operation
+        "405":
+          description: Invalid input
+      security:
+       - basicAuth: []
+
 
 #####################################################################################
 definitions:
