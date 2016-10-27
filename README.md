@@ -21,6 +21,10 @@ Your help improving this documentation is
 The documentation, which is reflected at http://mmisw.org/orrdoc/, 
 is automatically generated upon changes pushed to this repo.
 
+In particular, the API documentation at http://mmisw.org/orrdoc/api/ is currently 
+generated as explained 
+[here](https://github.com/mmisw/mmiorr-docs/blob/master/docs/swagger-readme.md).
+
 
 ### Local testing
 
