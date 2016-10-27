@@ -74,7 +74,7 @@ paths:
         - in: formData
           name: format
           description: |
-            Format of the file. The special value `"guess"` can be given to let the ORR
+            Format of the file. The special value `"_guess"` can be given to let the ORR
             automatically determine the format.
             (A future version of this API may allow this parameter to be skipped, in such
             case with the "guess format" behavior implied.)
