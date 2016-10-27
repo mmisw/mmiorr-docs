@@ -121,7 +121,6 @@ paths:
               }
             }
             ```
-
           schema:
             $ref: '#/definitions/UploadedFileInfo'
       security:
