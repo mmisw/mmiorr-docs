@@ -8,7 +8,7 @@ ORR Ont endpoint.
 
 The following ORR Ont instances provide or will be providing such documentation:
 
-|ORR Instance| API documentation | Project page |
+|ORR Instance| API documentation | Main page |
 |-|-|-|
 | ESIP COR      | [http://cor.esipfed.org/ontapi/](http://cor.esipfed.org/ontapi/) | [http://cor.esipfed.org](http://cor.esipfed.org) | 
 | X-DOMES ORR   | [https://xdomes.org/ontapi/](https://xdomes.org/ontapi/) | [https://xdomes.org](https://xdomes.org) | 
