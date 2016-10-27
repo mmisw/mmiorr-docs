@@ -47,9 +47,10 @@ securityDefinitions:
     description: HTTP Basic Authentication.
 
 paths:
-  #
+
+  ######################################################################
   # Ontology
-  #
+  ######################################################################
   /ont/upload:
     post:
       tags: [ontology]
@@ -289,9 +290,9 @@ paths:
       security:
        - basicAuth: []
 
-  #
+  ######################################################################
   # Organization
-  #
+  ######################################################################
   /org:
     get:
       tags: [organization]
@@ -382,9 +383,9 @@ paths:
       security:
        - basicAuth: []
 
-  #
+  ######################################################################
   # User
-  #
+  ######################################################################
   /user:
     get:
       tags: [user]
@@ -403,7 +404,14 @@ paths:
     post:
       tags: [user]
       summary: Registers a user
-      description: ""
+      description: |
+        This operation allows to register a new user in the system.
+
+        **NOTE**: This operation cannot be completed here if the endpoint is configured to
+        required a ReCAPTCHA code, which is currently not captured in this interface.
+        Please use the ORR Portal interface associated with the endpoint to register
+        the new user.
+
       operationId: addUser
       parameters:
         - in: body
@@ -412,10 +420,12 @@ paths:
           schema:
             $ref: "#/definitions/PostUser"
       responses:
+        "400":
+          description: |
+            If the endpoint is configured to require a ReCAPTCHA code,
+            which is not captured in this API interface.
         "405":
           description: Invalid input
-      security:
-       - basicAuth: []
 
   '/user/{userName}':
     get:
@@ -479,9 +489,10 @@ paths:
 
 #####################################################################################
 definitions:
-  #
+
+  ######################################################################
   # Ontology
-  #
+  ######################################################################
   UploadedFileInfo:
     type: object
     properties:
@@ -661,9 +672,9 @@ definitions:
       visibility:
         type: string
 
-  #
+  ######################################################################
   # Organization
-  #
+  ######################################################################
   PostOrg:
     type: object
     properties:
@@ -708,9 +719,9 @@ definitions:
         items:
           type: string
 
-  #
+  ######################################################################
   # User
-  #
+  ######################################################################
   PostUser:
     type: object
     properties:
@@ -727,6 +738,12 @@ definitions:
         format: password
       phone:
         type: string
+      recaptchaResponse:
+        type: string
+        description: |
+          Response provided by a [ReCAPCTHA](https://www.google.com/recaptcha)
+          client library. Only required if the ORR Ont endpoint has been configured
+          to validate the registration of users in this manner.
 
   PutUser:
     type: object
