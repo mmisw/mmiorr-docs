@@ -311,7 +311,8 @@ paths:
     post:
       tags: [organization]
       summary: Registers an organization
-      description: ""
+      description: |
+        Only admins can perform this operation.
       operationId: addOrg
       parameters:
         - in: body
@@ -320,6 +321,10 @@ paths:
           schema:
             $ref: "#/definitions/PostOrg"
       responses:
+        "201":
+          description: Successful registration
+          schema:
+            $ref: '#/definitions/OrgNew'
         "405":
           description: Invalid input
       security:
@@ -357,6 +362,10 @@ paths:
           schema:
             $ref: "#/definitions/PutOrg"
       responses:
+        "200":
+          description: Successful update
+          schema:
+            $ref: '#/definitions/OrgUpdated'
         "405":
           description: Invalid input
       security:
@@ -710,14 +719,48 @@ definitions:
   Org:
     type: object
     properties:
-      name:
-        type: string
       orgName:
+        type: string
+      name:
         type: string
       members:
         type: array
         items:
           type: string
+
+  OrgNew:
+    type: object
+    properties:
+      orgName:
+        type: string
+      name:
+        type: string
+      url:
+        type: string
+      members:
+        type: array
+        items:
+          type: string
+      registeredBy:
+        type: string
+
+  OrgUpdated:
+    type: object
+    properties:
+      orgName:
+        type: string
+      name:
+        type: string
+      url:
+        type: string
+      members:
+        type: array
+        items:
+          type: string
+      updated:
+        type: string  # why dateTime fails?
+      updatedBy:
+        type: string
 
   ######################################################################
   # User
