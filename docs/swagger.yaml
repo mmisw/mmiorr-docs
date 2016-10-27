@@ -36,6 +36,7 @@ schemes:
 
 consumes:
   - application/json
+  - multipart/form-data
 produces:
   - application/json
 
