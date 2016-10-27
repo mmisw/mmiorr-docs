@@ -6,13 +6,14 @@ Note that, besides containing the documentation itself, the "ontapi" pages
 below also allow to directly exercise the API against the corresponding 
 ORR Ont endpoint.
 
-The following ORR Ont instances are known to provide such documentation:
+The following ORR Ont instances provide or will be providing such documentation:
 
 |ORR Instance| API documentation | Project page |
 |-|-|-|
-| ESIP COR    | [http://cor.esipfed.org/ontapi/](http://cor.esipfed.org/ontapi/) | [http://cor.esipfed.org](http://cor.esipfed.org) | 
-| X-DOMES ORR | [https://xdomes.org/ontapi/](https://xdomes.org/ontapi/) | [https://xdomes.org](https://xdomes.org) | 
-| MMI ORR     | https://mmisw.org/ontapi/ | [https://mmisw.org](https://mmisw.org) | 
+| ESIP COR      | [http://cor.esipfed.org/ontapi/](http://cor.esipfed.org/ontapi/) | [http://cor.esipfed.org](http://cor.esipfed.org) | 
+| X-DOMES ORR   | [https://xdomes.org/ontapi/](https://xdomes.org/ontapi/) | [https://xdomes.org](https://xdomes.org) | 
+| MMI ORR       | https://mmisw.org/ontapi/ | [https://mmisw.org](https://mmisw.org) | 
+| SensorML ORR  | http://sensorml.com/ontapi/ | [http://sensorml.com](http://sensorml.com) | 
 
 In each case you can use the "Authorize" button at the top of the "ontapi" page to login with your 
 corresponding credentials and in this way be able to perform not only basic `GET` operations, 
