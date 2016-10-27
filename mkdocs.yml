@@ -21,6 +21,6 @@ pages:
   - Creating a New Version of a Mapping Ontology: mapping/newversion.md
 - Registering Your Existing Ontology: upload.md
 - Querying the repository: query.md
-- REST API: rest.md
+- REST API: api/index.md
 - FAQ: faq.md
 - Known issues: knownissues.md
