@@ -241,7 +241,13 @@ paths:
       parameters:
         - in: body
           name: body
-          description: Ontology object that needs to be registered
+          description: |
+            Ontology object that needs to be registered.
+            Provide the `metadata` attribute to create a new version of
+            an existing ontology solely based on changes on the metadata.
+            For full contents, use `contents`/`format`, or
+            `uploadedFilename`/`uploadedFormat` as described in the `POST /ont`
+            operation.
           schema:
             $ref: "#/definitions/PutOnt"
       responses:
@@ -253,6 +259,11 @@ paths:
     delete:
       tags: [ontology]
       summary: Deletes a particular version or a whole ontology entry
+      description: |
+        This operation allows to unregister a particular version (if the
+        `version` object attribute is given) or a whole ontoloy entry.
+        Besides admins, only an owner of the ontology can perform this
+        operation.
       operationId: deleteOnt
       parameters:
         - in: query
