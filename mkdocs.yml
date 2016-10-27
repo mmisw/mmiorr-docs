@@ -11,6 +11,7 @@ pages:
 - Home: index.md
 - About: about.md
 - Introduction: introduction.md
+- Installation: install/index.md
 - Getting Started: gettingstarted.md
 - Working with Vocabularies:
   - Creating a Vocabulary: vocab/new.md
