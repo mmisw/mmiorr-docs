@@ -74,18 +74,53 @@ paths:
         - in: formData
           name: format
           description: |
-            Format of the file. The special value `"_guess"` can be given to let the ORR
-            automatically determine the format.
-            (A future version of this API may allow this parameter to be skipped, in such
-            case with the "guess format" behavior implied.)
+            Format of the file. The special value `"_guess"` (without quotes)
+            can be given to let the ORR automatically determine the format.
+            (A future version of this API may allow this parameter to be omitted, in such
+            case implying the guess-format behavior.)
           required: true
           type: string
       responses:
         '200':
           description: |
-            Information about the uploaded file. The `userName` and `filename` attributes of
+            Information about the uploaded file.
+            The `possibleOntologyUris` object will indicate the possible ontology URI (or URIs)
+            of the uploaded file. For each URI, it will indicate some explanation for the
+            extraction of such URI, and the associated metadata, if any.
+            On the other hand, the `userName` and `filename` attributes of
             this object are to be used in the subsequent registration to properly refer to
             the uploaded file.
+
+            An example of an actual response:
+
+            ```
+            {
+              "userName": "carueda",
+              "filename": "1477537138555._guess",
+              "format": "rdf",
+              "possibleOntologyUris": {
+                "https://www.w3.org/ns/ssn": {
+                  "explanations": [
+                    "Resource of type http://www.w3.org/2002/07/owl#Ontology"
+                  ],
+                  "metadata": {
+                    "http://purl.org/dc/elements/1.1/title": [
+                      "Semantic Sensor Network Ontology"
+                    ],
+                    "http://www.w3.org/2000/01/rdf-schema#comment": [
+                      "This ontology describes sensors and observations, and related concepts. It does not describe domain concepts, time, locations, etc. as these are intended to be included from other ontologies via OWL imports.",
+                      "This ontology is based on the SSN Ontology by the W3C Semantic Sensor Networks Incubator Group (SSN-XG).",
+                      "New modular version of the SSN ontology independent of DUL."
+                    ],
+                    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+                      "http://www.w3.org/2002/07/owl#Ontology"
+                    ]
+                  }
+                }
+              }
+            }
+            ```
+
           schema:
             $ref: '#/definitions/UploadedFileInfo'
       security:
