@@ -11,7 +11,7 @@ The following ORR Ont instances provide or will be providing such documentation:
 |ORR Instance| API documentation | Main page |
 |-|-|-|
 | ESIP COR      | [http://cor.esipfed.org/ontapi/](http://cor.esipfed.org/ontapi/) | [http://cor.esipfed.org](http://cor.esipfed.org) | 
-| X-DOMES ORR   | [https://xdomes.org/ontapi/](https://xdomes.org/ontapi/) | [https://xdomes.org](https://xdomes.org) | 
+| XDOMES ORR    | [https://xdomes.org/ontapi/](https://xdomes.org/ontapi/) | [https://xdomes.org](https://xdomes.org) | 
 | MMI ORR       | https://mmisw.org/ontapi/ | [https://mmisw.org](https://mmisw.org) | 
 | SensorML ORR  | http://sensorml.com/ontapi/ | [http://sensorml.com](http://sensorml.com) | 
 
