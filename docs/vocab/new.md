@@ -1,36 +1,10 @@
 ORR allows to create an ontology from a table of definitions, for example:
 
-<table border="1">
+|name|description|
+|-|-|
+| foo |description of foo ... |
+| baz |description of baz ... |
 
-<tbody>
-
-<tr>
-
-<td>name</td>
-
-<td>description</td>
-
-</tr>
-
-<tr>
-
-<td>foo</td>
-
-<td>foo description ...</td>
-
-</tr>
-
-<tr>
-
-<td>baz</td>
-
-<td>baz description ...</td>
-
-</tr>
-
-</tbody>
-
-</table>
 
 The table can be populated by importing text in CSV format. The first row specifies properties for the terms in the subsequent rows. First column is special in that it is used to create the URI for the term in each row. Once the vocabulary is registered, all these URIs will resolvable on the web.
 
