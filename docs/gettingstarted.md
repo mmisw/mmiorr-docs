@@ -9,8 +9,8 @@
 
 **A. Open the desired ORR site in your browser**
 
-MMI ORR site: http://mmisw.org/orr/   
-ESIP COR site: http://cor.esipfed.org
+* MMI ORR site: http://mmisw.org/orr/   
+* ESIP COR site: http://cor.esipfed.org
 
 **B. Log in**
 
@@ -27,7 +27,6 @@ If you do not have an account and want to log in, click the "Create account" lin
 ![](img/cor/cor-create-account-window-20160828.png)
 
 The telephone number is required, but is only used to assist in the operation of the repository.
-
 
 ## Using existing semantic data
 
@@ -98,7 +97,7 @@ A wizard dialog will appear. In the wizard, select the local file and load it t
 
 ![](img/cor/cor-ontology-upload-dialog-20160828.png)
 
-In the following dialog, you will either select or enter the IRI used as the ontology IRI. If the system detects an ontology IRI candidate within the ontology, the IRI will be shown as a selection item, as shown in this dialog. Click on the select button to choose any IRI that you want to use as the ontology IRI.
+In the following dialog, you will either select or enter the URI used as the ontology URI. If the system detects an ontology IRI candidate within the ontology, the URI will be shown as a selection item, as shown in this dialog. Click on the select button to choose any IRI that you want to use as the ontology URI.
 
 ![](img/cor/cor-ontology-uri-select-20160828.png)
 
@@ -126,24 +125,41 @@ When you complete this step, ORR should tell you the ontology is successfully re
 
 **A.2. Upload vocabulary file and associated metadata**
 
-If you have your vocabulary in a delimited text file, then you may follow these steps.
+If you have your vocabulary in a delimited text file, then you may follow these steps. You will not be able to directly upload your vocabulary, but may paste in the text from your vocabulary file into a dialog box.
 
-Once signed in, click "Upload vocabulary" button in the main ORR page. [Add screenshots.]
+Once signed in, click "Upload vocabulary" button in the main ORR page. Enter the owner of the vocabulary (yourself, or a group that you are a member of), and the short name of the vocabulary that will appear in the URL for the vocabulary. You can enter your own URI for the vocabulary if you are an advanced user and want the URI to be in your own domain, but this is an unusual use case.
 
-Complete the metadata in the "Metadata details" section. 
+![](cor-vocabulary-owner-uri-20170108.png)
 
-``` 
-Needs Updating   
-In the "Contents" section, select the down arrow in the first cell of the table choose "Import".  
-Choose comma, semi-colon, tab, or vertical bar delimited file. Paste contents of vocabulary file.  
-Choose "import". 
-```
+Complete the metadata in the "Metadata details" section. Starred items are required, and pop-up help describes all the metadata items when you mouse over the item's name. Note there are several tabs in this section, though only a few fields on the first tab must be completed.
 
-You can then review and register the ontology. Please see the 
-["Creating a Vocabulary"](http://mmisw.org/orrdoc/vocab/new/) 
-page for more details.
+![](cor-vocabulary-metadata-entry-20170108.png)
+
+In the "Data" section, click on the *+Term set* button. You will be prompted for the name of your first set of terms in this vocabulary. Usually this will be the same as the local name of the ontology -- vocabtypes in the example -- but in camel case (vocabTypes). 
+
+![](cor-vocabulary-term-set-class-20170108.png)
+
+When you click OK, a tab will be created for this vocabulary. 
+
+![](cor-vocabulary-term-set-class-tab-20170108.png)
+
+To import your vocabulary, click on the drop-down arrow and choose the option "Import CSV contents". 
+
+![](cor-vocabulary-import-contents-menu-20170108.png)
+
+This will produce the following dialog box.
+
+![](cor-vocabulary-csv-content-dialog-20170108.png) 
+
+Follow the instructions in the dialog box, and click on Import when you are ready to import your text. You will be prompted for a Confirmation, as you will be entirely replacing the existing set of terms. If you are following these instructions, there are no existing terms to replace at this point. Click on OK to create the vocabulary data in preliminary form.
+
+![](cor-vocabulary-preliminary-vocabulary-before-upload-20170108.png)
+
+You can then review and register the ontology (step A.4 below). Please see the ["Creating a Vocabulary"](http://mmisw.org/orrdoc/vocab/new/) page for more details on this process.
 
 **A.3. Create vocabulary contents and associated metadata**
+
+The software also lets you create the vocabulary contents manually, via the user interface.
 
 Once signed in, click the "Create vocabulary" button in the main ORR page.
 
