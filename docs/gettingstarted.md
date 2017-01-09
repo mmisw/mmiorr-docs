@@ -116,7 +116,7 @@ Finally, you will complete the metadata details necessary for registering your o
 
 When you complete this step, ORR should tell you the ontology is successfully registered.
 
-![Ontology registration successful](img/cor/img/cor/cor-ontology-registration-successful-20160828.png)
+![Ontology registration successful](img/cor/cor-ontology-registration-successful-20160828.png)
 
 
 ### 3.2. Upload vocabulary file and associated metadata
