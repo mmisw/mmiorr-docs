@@ -18,13 +18,13 @@ You can access all publicly visible ontologies (see next section) without loggin
 
 If you are not yet signed in, click the "Sign in" link in the main ORR page, and enter your account information:
 
-![](img/cor/cor-sign-in-window-20160828.png | width=100)
+<img src="img/cor/cor-sign-in-window-20160828.png" width="300" />
 
 **C. Create an account**
 
 If you do not have an account and want to log in, click the "Create account" link in the main ORR page, and fill out the resulting form: 
 
-![](img/cor/cor-create-account-window-20160828.png)
+<img src="img/cor/cor-create-account-window-20160828.png" width="50%" />
 
 The telephone number is required, but is only used to assist in the operation of the repository.
 
