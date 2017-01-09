@@ -5,56 +5,73 @@
     The screen shots in this presentation are made using the ESIP COR service.   
     Most features are also available in a similar form in the MMI ORR site; see the [MMI ORR help pages](https://marinemetadata.org/mmiorrusrman/mmiorrgetstarted) for details.
     
+## Initial Access
 
-## Using existing semantic data
-
-1\. Open the desired ORR site in your browser
+**A. Open the desired ORR site in your browser**
 
 MMI ORR site: http://mmisw.org/orr/   
 ESIP COR site: http://cor.esipfed.org
 
-2\. Browse list of registered ontologies
+**B. Log in**
 
-Even if not signed in, you will see all registered ontologies in the main ORR browse page (*).
+You can access all publicly visible ontologies (see next section) without logging in. To change content, or see ontologies private to you or your group listed in the browse page, you must log in. (If you do not have an account, see *C. Create an account* below.)
+
+If you are not yet signed in, click the "Sign in" link in the main ORR page, and enter your account information:
+
+![](img/cor/cor-sign-in-window-20160828.png)
+
+**C. Create an account**
+
+If you do not have an account and want to log in, click the "Create account" link in the main ORR page, and fill out the resulting form: 
+
+![](img/cor/cor-create-account-window-20160828.png)
+
+The telephone number is required, but is only used to assist in the operation of the repository.
+
+
+## Using existing semantic data
+
+**A. Browse list of registered ontologies**
+
+Even if not signed in, you will see all public registered ontologies in the main ORR browse page. You will not see those ontologies that  are marked as Status="testing" or Visibility="owner". In the browse page, such ontologies are only visible to the submitter. (If you are the submitter, log in to see the non-public ontologies you submitted.)
 
 The left-hand side tree widget allows you to select the entries in the ontology table according to the owner (the authority owning the ontology), submitter (if you are signed in),  status (testing, unstable, draft, stable, deprecated, or archaic), resource type (selected by the ontology submitter), and type of hosting (fully-hosted, or re-hosted). 
 
 You can control which columns are visible using the 'hamburger' selector on the right. You can also click any column header in the table to have the list sorted by that column. 
+
 Click the header again to reverse the order, or hold down the mouse button to see a delete option if available. (The URI column can not be submitted.)
 
-(*) Except those marked as Status="testing" or Visibility="owner" that you have not submitted yourself.  These ontologies are only visible to the submitter.
-
-3\. Explore contents of an ontology
+**B. Explore contents of an ontology**
 
 Click an entry in the browse table to explore a particular ontology.
 
 The main operations available when viewing an ontology are:
 
-*	Copy the ontologies URI to the clipboard, using the button with the clipboard icon.
+* Copy the ontologies URI to the clipboard, using the button with the clipboard icon.
 
-*   View or download the ontology in a particular format. The viewing options are "RDF/XML" "N3", "Turtle", and "N Triples". Ontologies can also be downloaded in JSON-LD or RDF/JSON formats. Just choose the desired format in the list.
+* View or download the ontology in a particular format. The viewing options are "RDF/XML" "N3", "Turtle", and "N Triples". Ontologies can also be downloaded in JSON-LD or RDF/JSON formats. Just choose the desired format in the list.
 
-*   View list of versions of the ontology: click the "Versions" button.
+* View list of versions of the ontology: click the "Versions" button.
 
-*	Viewing the metadata details in the various categories shown in the tabs.
+* Viewing the metadata details in the various categories shown in the tabs.
 
 If you are an owner of the original ontology, you have additional options:
 
-*	Change the Status of the ontology.
+* Change the Status of the ontology.
 
-*	Change the Visibility of the ontology in the main browse page (either owner-only, or publicly visible). Note all ontologies, even owner-only, can still be viewed by anyone having the URI. 
+* Change the Visibility of the ontology in the main browse page (either owner-only, or publicly visible). Note all ontologies, even owner-only, can still be viewed by anyone having the URI. 
 
-*   Create a new version (if you are the submitter of the original ontology): Click the "Edit new version" button at the far left to start creating a new version of the ontology. This also allows editing the ontology's metadata.
+* Create a new version (if you or your group submitted the original ontology): Click the "Edit new version" button at the far left to start creating a new version of the ontology. This also allows editing the ontology's metadata.
 
-4\. Search for term
+**D. Search for term**
 
 In the main ORR page or any ontology page, click the "Term Search" link. You will see a page that looks like the following:
 
 ![](img/cor/cor-term-search-page-20160828.png)
 
-The given string will be searched exactly as typed, ignoring case, across all property values in  the latest version of each registered ontology. You can use "OR" to separate alternate strings for the search.
+The given string will be searched exactly as typed, ignoring case, across all property values in the latest version of each registered ontology. You can use "OR" to separate alternate strings for the search.
 
-5\. Perform a SPARQL query
+**E. Perform a SPARQL query**
 
 Also in the main ORR page or any ontology page, click the "SPARQL query" link. You will see a page that looks like the following:
 
@@ -66,40 +83,22 @@ This page provides an interface that let you enter example or customized SPARQL 
 
 ### Adding an ontology
 
-To create or upload and register an ontology:
+To create or upload and register an ontology, you must be logged in as described above.
 
-1\. Open the desired ORR site in your browser
+**A. Upload ontology file or create vocabulary**
 
-MMI ORR site: http://mmisw.org/orr/   
-ESIP COR site: http://cor.esipfed.org
+You may be adding an ontology -- that is, a file in RDF, OWL, or similar form -- or a vocabulary, for example in a text file. Choose the appropriate section before for your situation.
 
-2\. Create an account
+***A.1. Upload existing ontology file and associated metadata***
 
-If you do not have an account, click the "Create account" link in the main ORR page, and fill out the resulting form: 
-
-![](img/cor/cor-create-account-window-20160828.png)
-
-The telephone number is only used to assist in the operation of the repository.
-
-3\. Sign in
-
-If you are not yet signed in, click the "Sign in" link in the main ORR page, and enter your account information:
-
-![](img/cor/cor-sign-in-window-20160828.png)
-
-4\. Upload ontology file or create vocabulary
-
-4\.1 Upload existing ontology file and associated metadata
-
-If you already have an ontology file, click the "Upload ontology" button on the main 
-page to submit it the ORR. 
-(Please see the ["Registering your existing ontology"](http://mmisw.org/orrdoc/upload/) section] for more details about ontology upload features.)
+If you already have an ontology file, click the "Upload ontology" button on the main page to submit it the ORR.
+(Please see the ["Registering your existing ontology"](http://mmisw.org/orrdoc/upload/) page] for more details about ontology upload features.)
 
 A wizard dialog will appear. In the wizard, select the local file and load it to the workspace. 
 
 ![](img/cor/cor-ontology-upload-dialog-20160828.png)
 
-In the following dialog, you will either select or enter the URI used as the ontology URI. If the system can detect an ontology URI candidate within the ontology, it will provide it as a selection item, as shown in this dialog. Click on the select button to choose any URI that you want to use as the ontology URI.
+In the following dialog, you will either select or enter the IRI used as the ontology IRI. If the system detects an ontology IRI candidate within the ontology, the IRI will be shown as a selection item, as shown in this dialog. Click on the select button to choose any IRI that you want to use as the ontology IRI.
 
 ![](img/cor/cor-ontology-uri-select-20160828.png)
 
@@ -125,9 +124,9 @@ When you complete this step, ORR should tell you the ontology is successfully re
 ![](img/cor/cor-ontology-registration-successful-20160828.png)
 
 
-4\.2 Upload vocabulary file and associated metadata
+**A.2. Upload vocabulary file and associated metadata**
 
-If you have your vocabulary in a text file, for example, then you may follow these steps.
+If you have your vocabulary in a delimited text file, then you may follow these steps.
 
 Once signed in, click "Upload vocabulary" button in the main ORR page. [Add screenshots.]
 
@@ -142,9 +141,9 @@ Choose "import". 
 
 You can then review and register the ontology. Please see the 
 ["Creating a Vocabulary"](http://mmisw.org/orrdoc/vocab/new/) 
-section for more details.
+page for more details.
 
-4\.3 Create vocabulary contents and associated metadata
+**A.3. Create vocabulary contents and associated metadata**
 
 Once signed in, click the "Create vocabulary" button in the main ORR page.
 
@@ -166,7 +165,7 @@ Then you can fill in the vocabulary contents, that is, the list of terms and ass
 
 ![](img/cor/cor-vocabulary-create-term-property-20160828.png)
 
-5\. Register resulting vocabulary
+**A.4. Register the resulting vocabulary**
 
 When you have filled out the ontology with at least one term and one property, it is ready to be registered. When you are done with the contents and metadata for your vocabulary, click on the Register button to create the ontology. 
 
