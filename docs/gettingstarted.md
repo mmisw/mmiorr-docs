@@ -119,7 +119,7 @@ When you complete this step, ORR should tell you the ontology is successfully re
 ![Ontology registration successful](img/cor/img/cor/cor-ontology-registration-successful-20160828.png)
 
 
-**3.2. Upload vocabulary file and associated metadata**
+### 3.2. Upload vocabulary file and associated metadata
 
 If you have your vocabulary in a delimited text file, then you may follow these steps. You will not be able to directly upload your vocabulary, but may paste in the text from your vocabulary file into a dialog box.
 
@@ -153,7 +153,7 @@ Follow the instructions in the dialog box, and click on Import when you are read
 
 You can now review and register the ontology (step A.4 below). Please see the ["Creating a Vocabulary"](http://mmisw.org/orrdoc/vocab/new/) page for more details on this process.
 
-**3.3. Create vocabulary contents and associated metadata**
+### 3.3. Create vocabulary contents and associated metadata
 
 The software also lets you create the vocabulary contents manually, via the user interface.
 
@@ -179,7 +179,7 @@ Then you can fill in the vocabulary contents, that is, the list of terms and ass
 
 Once you finish entering properties, terms, and content to your satisfaction, you can review and register the ontology (step A.4 below). 
 
-**A.4. Register the resulting vocabulary**
+### 3.4. Register the resulting vocabulary
 
 When you have filled out the vocabulary with at least one term and one property, it is ready to be registered, which will convert it into ontology form. When you are done with the contents and metadata for your vocabulary, click on the Register button to create the ontology. 
 
@@ -187,7 +187,7 @@ You may get an error message indicating that the ontology cannot be registered a
 
 When you complete this step, ORR should tell you the ontology of your vocabulary is successfully registered.
 
-![Ontology registration successful](img/cor/img/cor/cor-ontology-registration-successful-20160828.png)
+![Ontology registration successful](img/cor/cor-ontology-registration-successful-20160828.png)
 
 Please see the ["Creating a Vocabulary"](http://mmisw.org/orrdoc/vocab/new/) page for more details on the vocabulary creation and registration process.
  
