@@ -18,7 +18,7 @@ You can access all publicly visible ontologies (see next section) without loggin
 
 If you are not yet signed in, click the "Sign in" link in the main ORR page, and enter your account information:
 
-![](img/cor/cor-sign-in-window-20160828.png)
+![](img/cor/cor-sign-in-window-20160828.png | width=100)
 
 **C. Create an account**
 
