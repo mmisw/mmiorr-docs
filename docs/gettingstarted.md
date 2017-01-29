@@ -18,7 +18,7 @@ and use `ont` for ORR version 3, and `orr` as the location for version 2 deploym
 <img class="smallfloatright" alt="Sign-in window" src="../img/cor/cor-sign-in-window-20160828.png">
 **1-B. Log in**
 
-You can access all publicly visible ontologies (see next section) without logging in. To change content, or see ontologies private to you or your group listed in the browse page, you must log in. (If you do not have an account, see *C. Create an account* below.)
+You can access all publicly visible ontologies (see next section) without logging in. To change content, or see ontologies private to you or your group listed in the browse page, you must log in. (If you do not have an account, see *1-C. Create an account* below.)
 
 If you are not yet signed in, click the "Sign in" link in the main ORR page, and enter your account information.
 
@@ -62,7 +62,7 @@ The main operations available when viewing an ontology are:
 
 * Search for any combination of subject, predicate, and object using the Data search fields.
 
-* Copy the ontologies URI to the clipboard, using the button with the clipboard icon.
+* Copy the ontology's IRI to the clipboard, using the button with the clipboard icon.
 
 * View or download the ontology in chosen formats; just choose from the list.
 
@@ -104,8 +104,11 @@ A REST API interface is also available for discovering ontology content. See [Qu
 ## 3. Providing semantic content 
 
 You may be adding an ontology -- that is, a file in RDF, OWL, or similar form -- or a vocabulary, for example in a text file, or that you want to create manually. Choose the appropriate link below for your situation.
+
 * [Adding an ontology](http://mmisw.org/orrdoc/upload.md)
+
 * [Adding an existing vocabulary](http://mmisw.org/orrdoc/vocab/import.md)
+
 * [Creating a new vocabulary manually](http://mmisw.org/orrdoc/vocab/new.md)
 
 
