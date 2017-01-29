@@ -16,6 +16,7 @@ pages:
 - FAQ: faq.md
 - Working with Vocabularies:
   - Creating a Vocabulary: vocab/new.md
+  - Importing a Vocabulary: vocab/import.md
   - Viewing a Vocabulary: vocab/view.md
   - Creating a New Version of a Vocabulary: vocab/newversion.md
 - Working with Mappings:
