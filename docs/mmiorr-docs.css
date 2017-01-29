@@ -48,3 +48,9 @@ img.smallfloatleft {
     margin-top: 10px;
     margin-bottom: 10px;
 }
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
