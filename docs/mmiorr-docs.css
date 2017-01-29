@@ -18,6 +18,7 @@ img {
     float: none;
     border-style: solid;
     border-width: 1px;
+    border-color: #eef5fb;
 }
 
 img.full {
@@ -29,6 +30,7 @@ img.smallfloatright {
     float: right;
     border-style: solid;
     border-width: 1px;
+    border-color: #eef5fb;
 }
 
 img.smallfloatleft {
@@ -36,4 +38,5 @@ img.smallfloatleft {
     float: left;
     border-style: solid;
     border-width: 1px;
+    border-color: #eef5fb;
 }
