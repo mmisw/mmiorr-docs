@@ -16,7 +16,7 @@ img {
     display: block;
     margin: auto;
     float: none;
-    border: 1;
+    border-style: solid;
 }
 
 img.full {
@@ -26,11 +26,11 @@ img.full {
 img.smallfloatright {
     width:40%;
     float: right;
-    border: 1;
+    border-style: solid;
 }
 
 img.smallfloatleft {
     width:40%;
     float: left;
-    border: 1;
+    border-style: solid;
 }
