@@ -7,33 +7,44 @@
 
 #### How do I find ontologies in the repository that are most relevant to my work?
 
-To search the repository for a given string, click on the "Term Search" link near the top center of the 
-Browse page. 
+![Term Search Link](img/cor/cor-term-search-link-20170128.png)
+To search the repository attributes for a given string, click on the "Term Search" link near the top center of the 
+Browse page.
+
+In the resulting search page, you can mouse over the search field for additional tips.
+
+To find an ontology based on its name, simply enter a name fragment in the search box on the front (Browse ontologies) page. 
+Enter multiple fragments (separated by spaces) to find an ontology containing all the fragments.
+![Ontology Search Example](img/cor/cor-ontology-search-example-20170128.png)
 
 #### How do I do an Advanced Search using SPARQL?
 
-Please see [Querying the Repository](https://mmisw.org/orrdoc/query/).
+Please see [Content Query via API](https://mmisw.org/orrdoc/query/).
 
 #### How can I view ontologies in the repository?
 
-You can view the list of all the ORR ontologies by using the "Browse" button (scroll down in the table of ontologies to 
-see more entries). Hover over the ontology URI to see the full URI. To view a particular ontology, click on its URI entry in the browse list, or enter its unique identifier (URI) in your browser. 
+You can view the list of all the ORR ontologies by visiting the "Browse ontologies" page. 
+(Scroll down in the table of ontologies to see more entries.) 
+Hover over the ontology IRI to see the full IRI (this assumes your ontology preferences are set to show mouseover links). 
+To view a particular ontology, click on its IRI entry in the ontology list. 
+If the ontology is natively hosted in the ORR, you can enter its unique identifier (an http IRI) in your browser, and
+ORR will resolve the IRI to the page for the ontology. 
 
 Once you have selected an ontology, there are multiple formats for viewing or downloading it, available under the "View/download as" drop down menu. For more details, see the section of the ORR manual on [viewing ontologies](/https://mmisw.org/orrdoc/vocab/view/).
 
 Test ontologies (those that have a status of "testing") are visible in the browser only to their author
-and the ORR administrators. However, those with a URI for a test ontology, or any of its terms, will be able 
+and the ORR administrators. However, anyone with an IRI for a test ontology, or any of its terms, will be able 
 to see the corresponding page. In other words, test ontologies should not be considered private.
 
-#### Tabular view: Why are the columns not displayed in the same order I used to create my vocabulary?
+#### Tabular view: Why are the rows (or columns) not displayed in the same order I used to create my vocabulary?
 
-In general, order is not maintained in semantic artifacts (vocabularies or ontologies) when they are processed — 
-typical libraries can not specify the order in which the ontology elements were input or should be retrieved. 
+In general, order is not maintained in semantic artifacts (vocabularies or ontologies) when they are processed, and  
+most semantic libraries do not specify the order in which the ontology elements were input or should be retrieved. 
 Although we recognize order is helpful to maintain for usability, we have not applied special techniques to manage it.
 
 ## Using Ontologies
 
-This section has questions about using ontologies in a repository based on MMI's ORR software.
+This section has questions about using ontologies in a repository based on the ORR software.
 
 #### Should I use an existing ontology from the repository or develop one of my own?
 
@@ -54,14 +65,15 @@ than any of those three. The three techniques below correspond to the three sugg
 2.  Reuse their terms in your ontology, but without importing them.
 3.  Create your own copy of the other ontology's terms, either linking to the original terms using sameAs or other relations, or just quietly copying the content and making it your own.
 
-Each of these has strengths and weaknesses, you are encouraged to read the linked answer. Another solution, 
+Each of these has strengths and weaknesses, so we suggest you read the linked answer. Another solution, 
 often overlooked but very powerful, is to work with the ontology owner to add your terms directly into their ontology. 
-(They may want to enhance their ontology with your terms!) We encourage this approach as a way to maximize synergy 
+(They may want to enhance their ontology with your terms!) We encourage this approach as a way to maximize reuse 
 among semantic artifacts on the web.
 
-#### How do I use ontologies in the ORR? What is the format of the link?
+#### How do I access ontologies in the ORR? What is the format of the link?
 
-The simplest way to use an ontology is to enter its unique identifier (a URI) into your browser. 
+For ontologies hosted natively in the ORR repository, 
+the simplest way to access an ontology is to enter its unique identifier (an IRI) into your browser. 
 The ORR will serve a page that describes the ontology's metadata, and then the content of the ontology. 
 You may have to click on the section headers to show the content below the header. The software provides complete 
 information about the ontology it is showing.
@@ -70,59 +82,100 @@ You can access any of the terms in the ontology by appending a `/` and the term 
 to the ontology URI. This new URI represents the corresponding term, and the service will present information relevant 
 to the specific term.
 
-If you want to look at the ontology in a structured format (e.g., RDF/XML, or N3), you can construct a 
-URI which requests this format, for example `http://mmisw.org/ont?form=n3&uri=`, 
-followed by your ontology's URI, will present the ontology in the n3 format.
+For ontologies (and terms in them) that have been re-hosted by the ORR, 
+you can append the ontology IRI to the following string: 
+`http://[domain]/ont/?uri=`. 
+This will provide the same information as the natively hosted ontologies IRIs, as described above.
+
+For any ontology in the ORR, if you want to look at the ontology in a structured format (e.g., RDF/XML, or N3), 
+you can construct an IRI which requests this format.
+For example `http://[domain]/ont?form=n3&uri=`, 
+followed by your ontology's IRI, will present the ontology in the n3 format.
+
+You can also use the API, in particular the [ont API service](http://cor.esipfed.org/ontapi/#!/ontology/get_ont)
+(example is for the ESIP COR),
+to ask for an entire ontology, or information about a particular term.
 
 The page [Viewing a Vocabulary](https://mmisw.org/orrdoc/vocab/view/) 
-describes these formats and viewing options in more detail.
+describes the formats and viewing options in more detail.
 
 #### How do I query the registered ontologies programatically? What services do I have?
 
-Please see the section [REST API](https://mmisw.org/orrdoc/rest/), which points to the REST API documentation.
+Please see the sections for the [SPARQL query API](https://mmisw.org/orrdoc/query/) and the [REST API](https://mmisw.org/orrdoc/rest/), which points to the appropriate API documentation.
 
 #### Can you give examples of how to open the registered ontologies in Protégé and TopBraid Composer?
 
 Briefly, you can either specify the ontology URI directly to one of those applications, 
 or download the ontology as an RDF/XML format. To download the ontology from its front page, 
 you can use the `View/download as` dropdown menu, selecting RDF/XML as the format. 
-Another option is to directly specify the download URI in your browser, constructed as `http://mmisw.org/ont?form=rdf&uri=`, 
-followed by your ontology name.  
+Another option is to directly specify the download IRI in your browser, constructed as `http://[domain]/ont?form=rdf&uri=`, 
+followed by your ontology name. (See above for further information.)
 Once you have downloaded the ontology, you can open it locally in any ontology or text management application.
 
 ## Submitting and Updating Ontologies
 
-This section includes FAQs related to submitting ontologies to the Ontology Registry and Repository ([ORR](http://mmisw.org/orr)) and updating them.
+This section includes FAQs related to submitting ontologies to the Ontology Registry and Repository ([ORR](http://[domain]/orr)) and updating them.
 
 #### What are the benefits of submitting my vocabulary to the ORR?
 
 The ORR provides easy access to, and management of, your vocabulary. It also stores your ontology in a knowledge base, which can be searched or used for mapping between your vocabulary and others.
 
-#### I have a vocabulary in OWL/text/Excel… format, how do I submit it to the ORR?
+#### I have a vocabulary in OWL format, how do I submit it to the ORR?
 
-If it is an OWL-formatted ontology file, select the "Upload ontology" button, browse to your local file, upload the ontology to the workspace, choose the hosting option, and complete the metadata details. Then, click on "Review and Register" and submit. If the vocabulary is in an spreadsheet-like format, you should choose "Create vocabulary" and import the file (once you have it in CSV format), to convert it into an ontology. For more information, see the sections of the ORR manual on [hosting options](https://mmisw.org/orrdoc/upload/#what-options-are-available-for-hosting-ontologies) and [getting started](https://mmisw.org/orrdoc/gettingstarted/).
+If it is an OWL-formatted ontology file, select the "Upload ontology" button, browse to your local file, upload the ontology to the workspace, choose the hosting option, and complete the metadata details. Then, click on "Review and Register" and submit. For more information, see the sections of the ORR manual on [getting started](https://mmisw.org/orrdoc/gettingstarted/) and [hosting options](https://mmisw.org/orrdoc/upload/#what-options-are-available-for-hosting-ontologies).
+
+#### I have a vocabulary in a column-separated text format, how do I submit it to the ORR?
+
+If the vocabulary is in an spreadsheet-like format, you should choose "Create vocabulary" and import the file (once you have it in a separated values like comma-separated or tab-separated), to convert it into an ontology. For more information, see the sections of the ORR manual on  [getting started](https://mmisw.org/orrdoc/gettingstarted/) and [hosting options](https://mmisw.org/orrdoc/upload/#what-options-are-available-for-hosting-ontologies).
 
 #### I have a vocabulary in non-RDF XML format, how do I submit it to the ORR?
 
-At this point, this capability is beyond the scope of the ORR portal. The primary reason is that it would be very complex to provide the user interface and underlying capabilities to extract information from any kind of XML file in a generic way. Specific conversion tools would be necessary in these cases, such that the output from those tools can either be in a format that the ORR can read (eg., the CSV with the associated structure or an ontology format), or be submitted by the tool itself for registration using the programmatic mechanisms provided by ORR.  
+At this point, this capability is beyond the scope of the ORR portal, as it would be very complex to provide the user interface and underlying capabilities to extract information from any kind of XML file in a generic way. 
 
-Consider using XSLT conversion tools to create a CSV output that can then be submitted to ORR using "Create Ontology" and then "Import". The page http://www.w3schools.com/xsl/ includes a handy online conversion tool for learning XSLT.
+Specific conversion tools are necessary in these cases. 
+The output from those tools must either be in a format that the ORR can read 
+(e.g., the CSV with the associated structure or an ontology format), 
+or be submitted by the tool itself for registration using the programmatic mechanisms provided by ORR.  
+
+You might consider using XSLT conversion tools to create a CSV output that can then be submitted to ORR. 
+The page http://www.w3schools.com/xsl/ includes a handy online conversion tool for learning XSLT.
 
 #### Is it better to upload a vocabulary file or create a new file using the ORR's "create vocabulary" tools?
 
-This entirely depends on your situation and preferences. Once you are logged in, you can upload information as an ontology file, as a simple vocabulary text file, or by entering information about individual terms in a table. For any of these options, start at the ontology overview page for your deployment ([ORR](http://mmisw.org/orr) or [COR](http://cor.esipfed.org/orr)).
+This entirely depends on your situation and preferences. 
+Once you are logged in, you can upload information as an ontology file, as a simple vocabulary text file, 
+or by entering information about individual terms in a table. 
+For any of these options, start at the ontology overview page for your deployment 
+([ORR](http://mmisw.org/orr) or [COR](http://cor.esipfed.org/orr)).
 
-If you are just starting to describe your vocabulary or want to evaluate the system, it may be be easiest to create the vocabulary using our system for table-based entry. Start by clicking on the "Create Vocabulary" tab on the ontology overview page. You will see a table in which you can type your terms, definitions, and other information. (Note that you must enter 'return' _before_ entering or editing a cell value.) When you want to put your information into the system, enter its description using the drop-down "Metadata details" arrow at the top of the page, then click on "Review and Register".
+If you are just starting to describe your vocabulary or want to evaluate the system, 
+it may be be easiest to create the vocabulary using our system for table-based entry. 
+If you have a vocabulary in a text file already, separated by a typical delimiter like a comma or tab, 
+then you can upload your vocabulary directly.
+Please see the section [Creating a vocabulary](http://mmisw.org/orrdoc/vocab/new) or 
+[Importing a vocabulary](http://mmisw.org/orrdoc/vocab/import), as appropriate. 
 
-If you have a vocabulary in a text file already, separated by a typical delimiter like a comma or tab, then you can upload your vocabulary directly. Again, start by using the "Create Vocabulary" tab on the ontology overview page. In the upper left cell of the table that results, you can click on the small drop-down arrow, and obtain the menu item "Import…". Click on this menu item and you will be prompted for your file. (You can edit the resulting vocabulary in the provided table.)
+If you have your vocabulary formatted as an OWL-formatted ontology file, 
+you can upload it using the Upload button on the ontology overview page. 
+This is the best option if you are already working with your terms as an ontology. 
+If your ontology is complex, you may want to discuss the capabilities provided by the Repository with the developers, 
+to confirm all your goals will be met.
 
-If you have your vocabulary formatted as an OWL-formatted ontology file, you can upload it using the Upload button on the ontology overview page. This is the best option if you are already working with your terms as an ontology. If your ontology is complex, you may want to discuss the capabilities provided by the Repository with the developers, to confirm all your goals will be met.
+Note that options are available to update a vocabulary that is already in the system. 
+However, we do not recommend editing a more complex ontology in the vocabulary editor, because information is likely to be lost; 
+in this case the ontology should be edited in an ontology editor, then uploaded in place of the original.
 
-Note that these options are also available to update a vocabulary that is already in the system as an ontology. However, we do not recommend editing a complex ontology in the vocabulary editor, because information is likely to be lost; in this case the ontology should be edited in an ontology editor, then uploaded in place of the original.
+The ORR treats ontologies entered with an ORR tool slightly differently than uploaded ontologies. 
+For ontologies created with an ORR "ontology engineering tool" (voc2rdf for vocabularies, vine for mappings), 
+the ontology is internally marked with a property to indicate which tool created the ontology. 
+When the ontology is presented, a corresponding set of features is enabled; 
+specifically a content table is presented that allows manual editing or import of a new version via a simple csv table, 
+and a simplified view of the ontology is presented.
 
-The ORR treats ontologies entered with an ORR tool slightly differently than uploaded ontologies. For ontologies created with an ORR "ontology engineering tool" (voc2rdf for vocabularies, vine for mappings), the ontology is internally marked with a property to indicate which tool created the ontology. When the ontology is presented, a corresponding set of features is enabled; specifically a content table is presented that allows manual editing or import of a new version via a simple csv table, and a simplified view of the ontology is presented.
-
-The "upload" mechanism, on the other hand, allows the registration of any RDF ontology of arbitrary complexity. Because these may be too complex for the simplified view and editing described above, a more complex view ("Synopsis of ontology contents") is offered, with 3 content groups (Classes, Properties, Individuals), and columns in each table for class "Name" and "type".
+The "upload" mechanism, on the other hand, allows the registration of any RDF ontology of arbitrary complexity. 
+Because these may be too complex for the simplified view and editing described above, 
+a more complex view ("Synopsis of ontology contents") is offered, 
+with 3 content groups (Classes, Properties, Individuals), and columns in each table for class "Name" and "type".
 
 #### Can I upload a complex ontology and still get the simple view, or vice-versa?
 
