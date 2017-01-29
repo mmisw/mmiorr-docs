@@ -12,19 +12,20 @@
 * MMI ORR browse page: [http://mmisw.org/orr/](http://mmisw.org/orr/)
 * ESIP COR browse page: [http://cor.esipfed.org/ont/](http://cor.esipfed.org/ont/)
 
+To open other ORR sites, replace the domain name (mmisw.org or cor.esipfed.org above) with your domain name, 
+and use `ont` for ORR version 3, and `orr` as the location for version 2 deployments.
+
 **1-B. Log in**
 
 You can access all publicly visible ontologies (see next section) without logging in. To change content, or see ontologies private to you or your group listed in the browse page, you must log in. (If you do not have an account, see *C. Create an account* below.)
 
 If you are not yet signed in, click the "Sign in" link in the main ORR page, and enter your account information:
-
-![Sign-in window](img/cor/cor-sign-in-window-20160828.png)
+<img class="smallfloatright" alt="Sign-in window" src="../img/cor/cor-sign-in-window-20160828.png">
 
 **1-C. Create an account**
 
 If you do not have an account and want to log in, click the "Create account" link in the main ORR page, and fill out the resulting form: 
-
-![Account creation window](img/cor/cor-create-account-window-20160828.png)
+<img class="smallfloatright" alt="Sign-in window" src="../img/cor/cor-create-account-window-20160828.png">
 
 The telephone number is required, but is only used to assist in the operation of the repository.
 
@@ -76,119 +77,15 @@ Also in the main ORR page or any ontology page, click the "SPARQL query" link. Y
 
 ![SPARQL search page](img/cor/cor-sparql-search-page-20160828.png)
 
-This page provides an interface that let you enter example or customized SPARQL queries to run against the latest version of all the registered ontologies in the repository. It also provides the location of the SPARQL interface, allowing it to be accessed programmatically.
+This page provides an interface that lets you enter sample SPARQL queries, or your own customized queries. 
+For more information, see [Querying via SPARQL API](http://mmisw.org/orrdoc/query.md).
 
 ## 3. Providing semantic content 
 
-You may be adding an ontology -- that is, a file in RDF, OWL, or similar form -- or a vocabulary, for example in a text file, or that you want to create manually. Choose the appropriate section before for your situation.
-
-### 3.1 Adding an ontology
-
-To create or upload and register an ontology, you must be logged in as described above and have an ontology file you have created.
-
-Click the "Upload ontology" button on the main page to begin the submission process.
-(Please see the ["Registering your existing ontology"](http://mmisw.org/orrdoc/upload/) page] for more details about ontology upload features.)
-
-A wizard dialog will appear. In the wizard, select the local file and load it to the workspace. 
-
-![Ontology upload dialog](img/cor/cor-ontology-upload-dialog-20160828.png)
-
-In the following dialog, you will either select or enter the URI used as the ontology URI. If the system detects an ontology IRI candidate within the ontology, the URI will be shown as a selection item, as shown in this dialog. Click on the select button to choose any IRI that you want to use as the ontology URI.
-
-![Ontology URI selection](img/cor/cor-ontology-uri-select-20160828.png)
-
-Once the Next button is selected, any metadata detected in the imported ontology is shown in the next dialog.
-
-![Ontology registration metadata](img/cor/cor-ontology-registration-metadata-20160828.png)
-
-Next you will be asked to choose the type of registration (fully-hosted or re-hosted).  Details about these options are provided in the ["Registering your existing ontology"](http://mmisw.org/orrdoc/upload/) section]. 
-
-![Ontology registration hosting](img/cor/cor-ontology-registration-hosting-20160828.png)
-
-Finally, you will complete the metadata details necessary for registering your ontology. These include the individual or organizational owner (shown below), a short name for the final URI for the ontology, the visibility of the ontology in the browse page, and the status of the ontology.  
-
-![Ontology registration completion](img/cor/cor-ontology-registration-completion-20160828.png "Completion of registration details")
-
-![Ontology owner selection](img/cor/cor-ontology-owner-selection-20160828.png "Selection of owner (individual or organization)")
-
-!!! tip 
-	If you are testing the process or your ontology, please choose "testing" as the status, so that your ontology is not visible to all the other users.
-
-When you complete this step, ORR should tell you the ontology is successfully registered.
-
-![Ontology registration successful](img/cor/cor-ontology-registration-successful-20160828.png)
+You may be adding an ontology -- that is, a file in RDF, OWL, or similar form -- or a vocabulary, for example in a text file, or that you want to create manually. Choose the appropriate link below for your situation.
+* [Adding an ontology](http://mmisw.org/orrdoc/upload.md)
+* [Adding an existing vocabulary](http://mmisw.org/orrdoc/vocab/import.md)
+* [Creating a new vocabulary manually](http://mmisw.org/orrdoc/vocab/new.md)
 
 
-### 3.2. Upload vocabulary file and associated metadata
-
-If you have your vocabulary in a delimited text file, then you may follow these steps. You will not be able to directly upload your vocabulary, but may paste in the text from your vocabulary file into a dialog box.
-
-Once signed in, click "Upload vocabulary" button in the main ORR page. Enter the owner of the vocabulary (yourself, or a group that you are a member of), and the short name of the vocabulary that will appear in the URL for the vocabulary. You can enter your own URI for the vocabulary if you are an advanced user and want the URI to be in your own domain, but this is an unusual use case.
-
-![Vocabulary import owner URI](img/cor/cor-vocabulary-import-owner-uri-20170108.png)
-
-Complete the metadata in the "Metadata details" section. Starred items are required, and pop-up help describes all the metadata items when you mouse over the item's name. Note there are several tabs in this section, though only a few fields on the first tab must be completed.
-
-![Vocabulary import metadata entry](img/cor/cor-vocabulary-import-metadata-entry-20170108.png)
-
-In the "Data" section, click on the *+Term set* button. You will be prompted for the name of your first set of terms in this vocabulary. Usually this will be the same as the local name of the ontology -- vocabtypes in the example -- but in camel case (vocabTypes). 
-
-![Vocabulary iomport term set class](img/cor/cor-vocabulary-import-term-set-class-20170108.png)
-
-When you click OK, a tab will be created for this vocabulary. 
-
-![VOcabulary import term set class tab](img/cor/cor-vocabulary-import-term-set-class-tab-20170108.png)
-
-To import your vocabulary, click on the drop-down arrow and choose the option "Import CSV contents". 
-
-![Vocabulary import import contents menu](img/cor/cor-vocabulary-import-import-contents-menu-20170108.png)
-
-This will produce the following dialog box.
-
-![Vocabulary import CSV content dialog](img/cor/cor-vocabulary-import-csv-content-dialog-20170108.png) 
-
-Follow the instructions in the dialog box, and click on Import when you are ready to import your text. You will be prompted for a Confirmation, as you will be entirely replacing the existing set of terms. If you are following these instructions, there are no existing terms to replace at this point. Click on OK to create the vocabulary data in preliminary form.
-
-![Vocabulary import preliminary vocabulary before upload](img/cor/cor-vocabulary-import-preliminary-vocabulary-before-upload-20170108.png)
-
-You can now review and register the ontology (step A.4 below). Please see the ["Creating a Vocabulary"](http://mmisw.org/orrdoc/vocab/new/) page for more details on this process.
-
-### 3.3. Create vocabulary contents and associated metadata
-
-The software also lets you create the vocabulary contents manually, via the user interface.
-
-Once signed in, click the "Create vocabulary" button in the main ORR page.
-
-![Vocabulary create initia](img/cor/cor-vocabulary-create-initial-20160828.png)
-
-To register your vocabulary, you need to create metadata to describe the ontology. Required metadata is shown with a red asterisk.
-
-![Vocabulary create metadata](img/cor/cor-vocabulary-create-metadata-20160828.png)
-
-If you aren't sure what a particular metadata field means, hover over the field to get help.
-
-![Vocabulary create metadata help](img/cor/cor-vocabulary-create-metadata-help-20160828.png)
-
-You can start by selecting a local class name -- this is a required field
-
-![Vocabulary create local name](img/cor/cor-vocabulary-create-local-name-20160828.png)
-
-Then you can fill in the vocabulary contents, that is, the list of terms and associated properties, or information, for each term. Click on +Term to add a new term, and +Property to add a new piece of information that needs to be filled in for each term.
-
-![Vocabulary create term property](img/cor/cor-vocabulary-create-term-property-20160828.png)
-
-Once you finish entering properties, terms, and content to your satisfaction, you can review and register the ontology (step A.4 below). 
-
-### 3.4. Register the resulting vocabulary
-
-When you have filled out the vocabulary with at least one term and one property, it is ready to be registered, which will convert it into ontology form. When you are done with the contents and metadata for your vocabulary, click on the Register button to create the ontology. 
-
-You may get an error message indicating that the ontology cannot be registered according to the provided information, or without providing some key information. Resolve the issue in order to complete the registration.
-
-When you complete this step, ORR should tell you the ontology of your vocabulary is successfully registered.
-
-![Ontology registration successful](img/cor/cor-ontology-registration-successful-20160828.png)
-
-Please see the ["Creating a Vocabulary"](http://mmisw.org/orrdoc/vocab/new/) page for more details on the vocabulary creation and registration process.
- 
 
