@@ -22,7 +22,7 @@ This is second, with sizing embedded
 <img src="img/cor/cor-term-search-link-20170128.png" width="48">
 
 Third, with different tag
-<img2 src="img/cor/cor-term-search-link-20170128.png">
+<img2 src="img/cor/cor-term-search-link-20170128.png" />
 
 Fourth, with different class name
 <img class="c3" src="img/cor/cor-term-search-link-20170128.png">
