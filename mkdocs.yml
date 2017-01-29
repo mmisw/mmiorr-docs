@@ -14,7 +14,7 @@ pages:
 - Installation: install/index.md
 - Getting Started: gettingstarted.md
 - FAQ: faq.md
-- Searching and Querying
+- Searching and Querying:
   - Searching via the UI: search.md
   - Querying via REST API: api/index.md
   - Querying via SPARQL API: query.md
