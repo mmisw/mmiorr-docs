@@ -38,13 +38,21 @@ The telephone number is required, but is only used to assist in the operation of
 
 **2-A. Browse list of registered ontologies**
 
-Even if not signed in, you will see all public registered ontologies in the main ORR browse page. You will not see those ontologies that  are marked as Status="testing" or Visibility="owner". In the browse page, such ontologies are only visible to the submitter. (If you are the submitter, log in to see the non-public ontologies you submitted.)
+Even if not signed in, you will see all public registered ontologies in the main ORR browse page. 
+You will not see those ontologies that  are marked as Status="testing" or Visibility="owner". 
+In the browse page, such ontologies are only visible to the submitter. 
+(If you are the submitter, log in to see the non-public ontologies you submitted.)
 
-The left-hand side tree widget allows you to select the entries in the ontology table according to the owner (the authority owning the ontology), submitter (if you are signed in),  status (testing, unstable, draft, stable, deprecated, or archaic), resource type (selected by the ontology submitter), and type of hosting (fully-hosted, or re-hosted). 
+The left-hand side tree widget allows you to select the entries in the ontology table according to these criteria:
+* owner (the authority owning the ontology), 
+* submitter (if you are signed in), 
+* status (testing, unstable, draft, stable, deprecated, or archaic), 
+* resource type (selected by the ontology submitter), and 
+* type of hosting (fully-hosted, or re-hosted). 
 
-You can control which columns are visible using the 'hamburger' selector on the right. You can also click any column header in the table to have the list sorted by that column. 
-
-Click the header again to reverse the order, or hold down the mouse button to see a delete option if available. (The URI column can not be submitted.)
+You can control which columns are visible using the 'hamburger' selector on the right. 
+You can also click any column header in the table to sort the list by that column, or invert that column's sort order. 
+Hold down the mouse button to see a delete option if available.
 
 **2-B. Explore contents of an ontology**
 
@@ -52,10 +60,16 @@ Click an entry in the browse table to explore a particular ontology.
 
 The main operations available when viewing an ontology are:
 
+* Search for any combination of subject, predicate, and object using the Data search fields.
+
 * Copy the ontologies URI to the clipboard, using the button with the clipboard icon.
 
-* View or download the ontology in a particular format. The viewing options are "RDF/XML" "N3", "Turtle", and "N Triples". Ontologies can also be downloaded in JSON-LD or RDF/JSON formats. Just choose the desired format in the list.
+* View or download the ontology in chosen formats; just choose from the list.
 
+ * Ontology viewing formats are RDF/XML, N3, Turtle, and N Triples.
+  
+ * Ontology download formats are JSON-LD or RDF/JSON formats. 
+  
 * View list of versions of the ontology: click the "Versions" button.
 
 * Viewing the metadata details in the various categories shown in the tabs.
@@ -64,17 +78,17 @@ If you are an owner of the original ontology, you have additional options:
 
 * Change the Status of the ontology.
 
-* Change the Visibility of the ontology in the main browse page (either owner-only, or publicly visible). Note all ontologies, even owner-only, can still be viewed by anyone having the URI. 
+* Change the Visibility of the ontology in the main browse page (either owner-only, or publicly visible). Note all ontologies, even owner-only, can still be viewed by anyone having the IRI. 
 
 * Create a new version (if you or your group submitted the original ontology): Click the "Edit new version" button at the far left to start creating a new version of the ontology. This also allows editing the ontology's metadata.
 
 **2-C. Search for term**
 
-In the main ORR page or any ontology page, click the "Term Search" link. You will see a page that looks like the following:
+To search for a term across all ontologies, from the main ORR page or any ontology page, click the "Term Search" link. You will see a page that looks like the following:
 
 ![Term search page](img/cor/cor-term-search-page-20160828.png)
 
-The given string will be searched exactly as typed, ignoring case, across all property values in the latest version of each registered ontology. You can use "OR" to separate alternate strings for the search.
+The given string will be searched exactly as typed, ignoring case, across all property values in the latest version of each registered ontology. Multiple terms separated by spaces must all be matched. You can use "OR" or "|" to indicate alternate search strings.
 
 **2-D. Perform a SPARQL query**
 
@@ -84,6 +98,8 @@ Also in the main ORR page or any ontology page, click the "SPARQL query" link. Y
 
 This page provides an interface that lets you enter sample SPARQL queries, or your own customized queries. 
 For more information, see [Querying via SPARQL API](http://mmisw.org/orrdoc/query.md).
+
+A REST API interface is also available for discovering ontology content. See [Querying via REST API](api/index.md) for details.
 
 ## 3. Providing semantic content 
 
