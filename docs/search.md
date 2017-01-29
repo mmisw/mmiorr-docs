@@ -25,3 +25,4 @@ This is second, with sizing embedded
 
 Third, with different class name
 <img class="smallfloatright" src="../img/cor/cor-term-search-link-20170128.png">
+<p class="clear"> </p>
