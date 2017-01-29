@@ -33,8 +33,9 @@ When you click OK, a tab will be created for this vocabulary.
 
 <img class="smallfloatright" alt="Vocabulary import import contents menu" src="../../img/cor/cor-vocabulary-import-contents-menu-20170108.png">
 To import your vocabulary, click on the drop-down arrow and choose the option "Import CSV contents". 
+<p>&nbsp;</p>
 
-This produces the following dialog box.
+This produces the dialog box below.
 <p class="clearfix">&nbsp;</p>
 
 ![Vocabulary import CSV content dialog](../img/cor/cor-vocabulary-import-csv-content-dialog-20170108.png) 
