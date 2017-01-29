@@ -17,3 +17,15 @@ img {
     margin: auto;
     float: none;
 }
+
+img2 {
+    width: 25%;
+    float: right;
+    border: 1;
+}
+
+img.c3 {
+    width:50%;
+    float: left;
+    border: 2;
+}
