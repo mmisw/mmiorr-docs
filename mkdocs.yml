@@ -19,10 +19,11 @@ pages:
   - Importing a Vocabulary: vocab/import.md
   - Viewing a Vocabulary: vocab/view.md
   - Creating a New Version of a Vocabulary: vocab/newversion.md
+- Working with Ontologies:
+  -  Registering Your Existing Ontology: upload.md
 - Working with Mappings:
   - Creating a Mapping Ontology: mapping/new.md
   - Creating a New Version of a Mapping Ontology: mapping/newversion.md
-- Registering Your Existing Ontology: upload.md
 - Querying the Repository:
   - Querying via REST API: api/index.md
   - Querying via SPARQL API: query.md
