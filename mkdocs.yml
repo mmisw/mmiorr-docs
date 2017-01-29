@@ -23,7 +23,7 @@ pages:
   - Viewing a Vocabulary: vocab/view.md
   - Updating a Vocabulary: vocab/newversion.md
 - Working with Ontologies:
-  - Registering Your Existing Ontology: upload.md
+  - Registering Your Existing Ontology: ontology/new.md
 - Working with Mappings:
   - Creating a Mapping Ontology: mapping/new.md
   - Updating a Mapping Ontology: mapping/newversion.md
