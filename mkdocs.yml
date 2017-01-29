@@ -22,6 +22,7 @@ pages:
   - Creating a Mapping Ontology: mapping/new.md
   - Creating a New Version of a Mapping Ontology: mapping/newversion.md
 - Registering Your Existing Ontology: upload.md
-- Querying Content via API: query.md
-- REST API: api/index.md
+- Querying the Repository:
+  - Querying via REST API: api/index.md
+  - Querying via SPARQL API: query.md
 - Known issues: knownissues.md
