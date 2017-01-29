@@ -21,5 +21,7 @@ This is first test image
 This is second, with sizing embedded
 <img class="smallfloatleft" src="../img/cor/cor-term-search-link-20170128.png">
 
+&nbsp;
+
 Third, with different class name
 <img class="smallfloatright" src="../img/cor/cor-term-search-link-20170128.png">
