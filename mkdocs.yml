@@ -27,6 +27,6 @@ pages:
 - Working with Mappings:
   - Creating a Mapping Ontology: mapping/new.md
   - Creating a New Version of a Mapping Ontology: mapping/newversion.md
-- Advanced Topics
+- Advanced Topics:
   - Known issues: knownissues.md
   - Installation: install/index.md
