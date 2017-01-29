@@ -16,13 +16,10 @@ Enter multiple fragments (separated by spaces) to find an ontology containing al
 ![Ontology Search Example](img/cor/cor-ontology-search-example-20170128.png)
 
 This is first test image
-<img src="../img/cor/cor-term-search-link-20170128.png">
+<img class="full" src="../img/cor/cor-term-search-link-20170128.png">
 
 This is second, with sizing embedded
-<img src="../img/cor/cor-term-search-link-20170128.png" width="48">
+<img class="smallfloatleft" src="../img/cor/cor-term-search-link-20170128.png">
 
-Third, with different tag
-<img2 src="../img/cor/cor-term-search-link-20170128.png" />
-
-Fourth, with different class name
-<img class="c3" src="../img/cor/cor-term-search-link-20170128.png">
+Third, with different class name
+<img class="smallfloatright" src="../img/cor/cor-term-search-link-20170128.png">
