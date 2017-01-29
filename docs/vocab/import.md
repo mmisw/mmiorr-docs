@@ -12,13 +12,13 @@ and the short name of the vocabulary that will appear in the identifier for the 
 You can enter your own IRI for the vocabulary if you are an advanced user and want the IRI to be in your own domain, 
 but this is an unusual use case.
 
-![Vocabulary import owner URI](img/cor/cor-vocabulary-import-owner-uri-20170108.png)
+<img class="smallfloatright" alt="Vocabulary import owner IRI" src="../img/cor/cor-vocabulary-import-owner-uri-20170108.png">
 
 Complete the metadata in the "Metadata details" section. 
 Starred items are required, and pop-up help describes all the metadata items when you mouse over the item's name. 
 Note there are several tabs in this section, though only a few fields on the first tab must be completed.
 
-![Vocabulary import metadata entry](img/cor/cor-vocabulary-import-metadata-entry-20170108.png)
+![Vocabulary import metadata entry](../img/cor/cor-vocabulary-import-metadata-entry-20170108.png)
 
 In the "Data" section, click on the *+Term set* button. 
 You will be prompted for the name of your first set of terms in this vocabulary. 
