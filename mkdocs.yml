@@ -13,6 +13,7 @@ pages:
 - Introduction: introduction.md
 - Installation: install/index.md
 - Getting Started: gettingstarted.md
+- FAQ: faq.md
 - Working with Vocabularies:
   - Creating a Vocabulary: vocab/new.md
   - Viewing a Vocabulary: vocab/view.md
@@ -21,7 +22,6 @@ pages:
   - Creating a Mapping Ontology: mapping/new.md
   - Creating a New Version of a Mapping Ontology: mapping/newversion.md
 - Registering Your Existing Ontology: upload.md
-- Querying the repository: query.md
+- Querying Content via API: query.md
 - REST API: api/index.md
-- FAQ: faq.md
 - Known issues: knownissues.md
