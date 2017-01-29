@@ -12,7 +12,7 @@ and the short name of the vocabulary that will appear in the identifier for the 
 You can enter your own IRI for the vocabulary if you are an advanced user and want the IRI to be in your own domain, 
 but this is an unusual use case.
 
-<img class="smallfloatright" alt="Vocabulary import owner IRI" src="../img/cor/cor-vocabulary-import-owner-uri-20170108.png">
+<img class="smallfloatright" alt="Vocabulary import owner IRI" src="../../img/cor/cor-vocabulary-import-owner-uri-20170108.png">
 
 Complete the metadata in the "Metadata details" section. 
 Starred items are required, and pop-up help describes all the metadata items when you mouse over the item's name. 
