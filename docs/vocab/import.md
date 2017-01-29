@@ -8,7 +8,7 @@ If you have your vocabulary in a delimited text file, then you may follow these 
 
 Once signed in, click "Upload vocabulary" button in the main ORR page. 
 
-<img alt="Vocabulary import owner IRI" src="../../img/cor/cor-vocabulary-import-owner-uri-20170108.png">
+<img class="smallfloatright" alt="Vocabulary import owner IRI" src="../../img/cor/cor-vocabulary-import-owner-uri-20170108.png">
 Enter the owner of the vocabulary (yourself, or a group that you are a member of), 
 and the short name of the vocabulary that will appear in the identifier for the vocabulary. 
 You can enter your own IRI for the vocabulary if you are an advanced user and want the IRI to be in your own domain, 
@@ -25,7 +25,7 @@ In the "Data" section, click on the *+Term set* button.
 You will be prompted for the name of your first set of terms in this vocabulary. 
 Usually this will be the same as the local name of the ontology -- vocabtypes in the example -- but in camel case (vocabTypes). 
 
-![Vocabulary iomport term set class](../img/cor/cor-vocabulary-import-term-set-class-20170108.png)
+![Vocabulary import term set class](../img/cor/cor-vocabulary-import-term-set-class-20170108.png)
 
 When you click OK, a tab will be created for this vocabulary. 
 
@@ -33,7 +33,7 @@ When you click OK, a tab will be created for this vocabulary.
 
 To import your vocabulary, click on the drop-down arrow and choose the option "Import CSV contents". 
 
-![Vocabulary import import contents menu](../img/cor/cor-vocabulary-import-import-contents-menu-20170108.png)
+![Vocabulary import import contents menu](../img/cor/cor-vocabulary-import-contents-menu-20170108.png)
 
 This produces the following dialog box.
 
