@@ -31,6 +31,7 @@ img.smallfloatright {
     border-style: solid;
     border-width: 1px;
     border-color: #93bfe6;
+    padding-left: 10px;
 }
 
 img.smallfloatleft {
@@ -39,4 +40,5 @@ img.smallfloatleft {
     border-style: solid;
     border-width: 1px;
     border-color: #93bfe6;
+    padding-right: 10px;
 }
