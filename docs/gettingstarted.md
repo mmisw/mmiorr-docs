@@ -15,19 +15,23 @@
 To open other ORR sites, replace the domain name (mmisw.org or cor.esipfed.org above) with your domain name, 
 and use `ont` for ORR version 3, and `orr` as the location for version 2 deployments.
 
+<img class="smallfloatright" alt="Sign-in window" src="../img/cor/cor-sign-in-window-20160828.png">
 **1-B. Log in**
 
 You can access all publicly visible ontologies (see next section) without logging in. To change content, or see ontologies private to you or your group listed in the browse page, you must log in. (If you do not have an account, see *C. Create an account* below.)
 
-If you are not yet signed in, click the "Sign in" link in the main ORR page, and enter your account information:
-<img class="smallfloatright" alt="Sign-in window" src="../img/cor/cor-sign-in-window-20160828.png">
+If you are not yet signed in, click the "Sign in" link in the main ORR page, and enter your account information.
+
+<p class="clearfix" />
 
 **1-C. Create an account**
 
-If you do not have an account and want to log in, click the "Create account" link in the main ORR page, and fill out the resulting form: 
-<img class="smallfloatright" alt="Sign-in window" src="../img/cor/cor-create-account-window-20160828.png">
+<img class="smallfloatleft" alt="Sign-in window" src="../img/cor/cor-create-account-window-20160828.png">
+If you do not have an account and want to log in, click the "Create account" link in the main ORR page, and fill out the form.
 
 The telephone number is required, but is only used to assist in the operation of the repository.
+
+<p class="clearfix" />
 
 ## 2. Using existing semantic data
 
