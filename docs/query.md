@@ -10,8 +10,8 @@ The [Wikipedia entry for SPARQL](http://en.wikipedia.org/wiki/SPARQL) contains g
 and the [W3C documentation](http://www.w3.org/TR/sparql11-overview/) provides a good technical read.
 
 SPARQL queries can be done programmatically, with a RESTful interface, against the ORR SPARQL endpoint at 
-http://[domain]/sparql (example for COR: `http://cor.esipfed.org/sparql`) using HTTP GET requests.
-Alternatively, a windowed user interface is available at http://[domain]/ont/sparql (example for COR: [http://cor.esipfed.org/ont/sparql/](http://cor.esipfed.org/ont/sparql/).
+`http://[domain]/sparql` (example for COR: `http://cor.esipfed.org/sparql`) using HTTP GET requests.
+Alternatively, a windowed user interface is available at `http://[domain]/ont/sparql` (example for COR: [http://cor.esipfed.org/ont/sparql/](http://cor.esipfed.org/ont/sparql/).
 
 ![SPARQL search page](img/cor/cor-sparql-search-page-20160828.png)
 
