@@ -1,6 +1,6 @@
 The dropdowns on the right side of this screenshot show the various options for downloading and viewing the ontology.
 
-![Options to view/download the ontology](img/cor/cor-view-ontology-dropdown-20170128.png)
+![Options to view/download the ontology](/img/cor/cor-view-ontology-dropdown-20170128.png)
 
 The following [screencast](http://www.screencast.com/t/MWY5NmJm) illustrates the various ORR version 2 mechanisms to browse the list 
 of registered ontologies, examine the contents of a particular ontology and its available versions, and the options 
