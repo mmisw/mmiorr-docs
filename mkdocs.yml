@@ -21,12 +21,12 @@ pages:
   - Creating a Vocabulary: vocab/new.md
   - Importing a Vocabulary: vocab/import.md
   - Viewing a Vocabulary: vocab/view.md
-  - Creating a New Version of a Vocabulary: vocab/newversion.md
+  - Updating a Vocabulary: vocab/newversion.md
 - Working with Ontologies:
-  -  Registering Your Existing Ontology: upload.md
+  - Registering Your Existing Ontology: upload.md
 - Working with Mappings:
   - Creating a Mapping Ontology: mapping/new.md
-  - Creating a New Version of a Mapping Ontology: mapping/newversion.md
+  - Updating a Mapping Ontology: mapping/newversion.md
 - Advanced Topics:
   - Known issues: knownissues.md
   - Installation: install/index.md
