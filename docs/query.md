@@ -1,8 +1,8 @@
 !!! tip
     _Page Status_: **Current**
 
-The ORR has separate SPARQL and REST APIs, but only the SPARQL API provides a way to search ORR's semantic content. 
-This section describes how to perform such queries.
+The ORR has separate SPARQL and REST APIs, but only the SPARQL API provides more powerful ways to search ORR's semantic content. 
+This section describes SPARQL and how to use it to perform such queries.
 
 SPARQL is the query language for the Resource Description Framework. (The acroynym is recursive: SPARQL Protocol And RDF Query Language). 
 It is analogous to SQL for relational databases, allowing queries to be placed for semantic resources. 
