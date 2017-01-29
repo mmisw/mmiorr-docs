@@ -13,6 +13,7 @@ body {
 
 img {
     width: 75%;
+    display: block;
     margin: auto;
     float: none;
 }
