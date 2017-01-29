@@ -16,16 +16,21 @@ img {
     display: block;
     margin: auto;
     float: none;
+    border: 1;
 }
 
-img2 {
-    width: 25%;
+img.full {
+    width: 100%;
+}
+
+img.smallfloatright {
+    width:40%;
     float: right;
     border: 1;
 }
 
-img.c3 {
-    width:50%;
+img.smallfloatleft {
+    width:40%;
     float: left;
-    border: 2;
+    border: 1;
 }
