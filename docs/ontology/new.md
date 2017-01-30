@@ -1,5 +1,5 @@
-!!! warning
-    Under construction 
+!!! tip
+    Page status: **Current** 
 
 ## Before you start: Things to know
 
