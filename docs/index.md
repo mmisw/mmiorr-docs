@@ -1,27 +1,30 @@
 Welcome to ORR User Manual
 
 !!! warning
-    Under construction.
+    Site under construction.
     
     Contents are being migrated from [the original site](https://marinemetadata.org/mmiorrusrman)
     and updated to reflect major developments in the new version (ORR v3). Until this warning is removed,
     individual pages should be considered outdated unless a status message indicates otherwise.
+    
+!!! tip
+    _Page Status_: **Current**  
+    
+    This page, on the other hand, is up to date.
 
 Welcome, and thanks for using the Ontology Registry and Repository (ORR) services.
 
 This is the User's Manual for the ORR and associated MMI tools and services. 
 It applies to all version 3 deployments of the ORR, in particular the ESIP Community Ontology Repository (COR).
 
-This manual is comprised of two main parts.
-The first part includes introductory materials, suggestions on getting started, frequently asked questions,
-and a list of known issues with the ORR.  The second part describes specific actions that a user might want
-to do with the ORR (e.g., working with vocabularies, working with mappings, registering an existing ontology).
+This manual is organized as follows.
+The first part includes introductory materials, suggestions on getting started, and frequently asked questions,
+The second part describes specific actions that a user might want to do with the ORR.
+These actions include working with vocabularies, working with ontologies, and working with mappings.
+The third part includes more advanced and technical materials: 
 
-!!! tip
-    _Page Status_: **Current**
-
-Please, feel free to use the [tracker](https://github.com/mmisw/mmiorr-docs/issues)
-for any topics or sections that should be prioritized or for any other suggestions. 
+Please, feel free to use the [ORR documentation issue tracker](https://github.com/mmisw/mmiorr-docs/issues)
+for any topics or sections that should be prioritized, or for any other suggestions. 
 Also, [your own help to improve this documentation is welcome](
 https://github.com/mmisw/mmiorr-docs/blob/master/CONTRIBUTING.md)!
 
