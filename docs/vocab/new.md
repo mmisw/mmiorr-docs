@@ -39,13 +39,14 @@ You can start by selecting a local class name -- this is a required field.
 
 ![Vocabulary create local name](../img/cor/cor-vocabulary-create-local-name-20160828.png)
 
-Then you can fill in the vocabulary contents, that is, the list of terms and associated properties, or information, for each term. Click on `+Term` to add a new term, and `+Property` to add a new piece of information that needs to be filled in for each term.
+<img class="smallfloatright" alt="Create initial vocabulary" src="../../img/cor/cor-vocabulary-create-term-property-20160828">
+Then you can fill in the vocabulary contents. 
+That includes the list of terms; and the associated properties, or information, for each term. 
+Click on `+Term` to add a new term, and `+Property` to add a new piece of information that needs to be filled in for each term.
 
-![Vocabulary create term property](../img/cor/cor-vocabulary-create-term-property-20160828.png)
+<p class="clearfix">&nbsp;</p>
 
-Once you finish entering properties, terms, and content to your satisfaction, you can review and register the ontology (step A.4 below). 
-
-You can now review and register your vocabulary. 
+Once you finish entering properties, terms, and content to your satisfaction, you can review and register your vocabulary. 
 Please see the [“Completing Vocabulary Registration"](http://mmisw.org/orrdoc/vocab/register.md) page for more details.
 
 ## Version 2 Documentation
