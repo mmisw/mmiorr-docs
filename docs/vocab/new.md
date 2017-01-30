@@ -39,7 +39,7 @@ You can start by selecting a local class name -- this is a required field.
 
 ![Vocabulary create local name](../img/cor/cor-vocabulary-create-local-name-20160828.png)
 
-<img class="smallfloatright" alt="Create initial vocabulary" src="../../img/cor/cor-vocabulary-create-term-property-20160828">
+<img class="smallfloatright" alt="Create initial vocabulary" src="../../img/cor/cor-vocabulary-create-term-property-20160828.png">
 Then you can fill in the vocabulary contents. 
 That includes the list of terms; and the associated properties, or information, for each term. 
 Click on `+Term` to add a new term, and `+Property` to add a new piece of information that needs to be filled in for each term.
