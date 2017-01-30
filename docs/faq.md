@@ -1,13 +1,6 @@
 !!! tip
-    _Page Status_: **Under construction**
+    _Page Status_: **Current**
     
-!!! warning
-    Contents being migrated/updated from 
-    [https://marinemetadata.org/mmiorrusrman/mmiorrfaq](https://marinemetadata.org/mmiorrusrman/mmiorrfaq)
-    
-
-
-
 ## Searching and Viewing Ontologies
 
 #### How do I find ontologies in the repository that are most relevant to my work?
@@ -24,10 +17,12 @@ You can view the list of all the ORR ontologies by visiting the "Browse ontologi
 (Scroll down in the table of ontologies to see more entries.) 
 Hover over the ontology IRI to see the full IRI (this assumes your ontology preferences are set to show mouseover links). 
 To view a particular ontology, click on its IRI entry in the ontology list. 
-If the ontology is natively hosted in the ORR, you can enter its unique identifier (an http IRI) in your browser, and
-ORR will resolve the IRI to the page for the ontology. 
+If the ontology is natively hosted in the ORR, you can enter its unique identifier (an http IRI) in your browser, 
+and ORR will resolve the IRI to the page for the ontology. 
 
-Once you have selected an ontology, there are multiple formats for viewing or downloading it, available under the "View/download as" drop down menu. For more details, see the section of the ORR manual on [viewing ontologies](/https://mmisw.org/orrdoc/vocab/view/).
+Once you have selected an ontology, there are multiple formats for viewing or downloading it, 
+vailable under the "View/download as" drop down menu. 
+For more details, see the section of the ORR manual on [viewing ontologies](/https://mmisw.org/orrdoc/vocab/view/).
 
 Test ontologies (those that have a status of "testing") are visible in the browser only to their author
 and the ORR administrators. However, anyone with an IRI for a test ontology, or any of its terms, will be able 
@@ -82,7 +77,7 @@ to the specific term.
 For ontologies (and terms in them) that have been re-hosted by the ORR, 
 you can append the ontology IRI to the following string: 
 `http://[domain]/ont/?uri=`. 
-This will provide the same information as the natively hosted ontologies IRIs, as described above.
+This will provide the same information as when you use the natively hosted ontology IRI, as described above.
 
 For any ontology in the ORR, if you want to look at the ontology in a structured format (e.g., RDF/XML, or N3), 
 you can construct an IRI which requests this format.
@@ -102,8 +97,10 @@ Please see the sections for the [SPARQL query API](https://mmisw.org/orrdoc/quer
 
 #### Can you give examples of how to open the registered ontologies in Protégé and TopBraid Composer?
 
-Briefly, you can either specify the ontology URI directly to one of those applications, 
-or download the ontology as an RDF/XML format. To download the ontology from its front page, 
+Briefly, you can either specify the ontology IRI directly to one of those applications, 
+or download the ontology as an RDF/XML format. 
+Specifiying the IRI is only guaranteed to work if the ontology is hosted at the ORR.
+Ontologies that are re-hosted, or remotely hosted, by ORR may not be discoverable at their To download the ontology from its front page, 
 you can use the `View/download as` dropdown menu, selecting RDF/XML as the format. 
 Another option is to directly specify the download IRI in your browser, constructed as `http://[domain]/ont?form=rdf&uri=`, 
 followed by your ontology name. (See above for further information.)
@@ -115,19 +112,23 @@ This section includes FAQs related to submitting ontologies to the Ontology Regi
 
 #### What are the benefits of submitting my vocabulary to the ORR?
 
-The ORR provides easy access to, and management of, your vocabulary. It also stores your ontology in a knowledge base, which can be searched or used for mapping between your vocabulary and others.
+The ORR provides easy access to, and management of, your vocabulary. 
+It also stores your ontology in a knowledge base, which can be searched or used for mapping between your vocabulary and others. 
+The ontology can be accessed and downloaded in a variety of formats.
+Finally, and importantly, both the ontology and its terms are served as first-class entities when their IRIs are entered into a browser.
 
 #### I have a vocabulary in OWL format, how do I submit it to the ORR?
 
-If it is an OWL-formatted ontology file, select the "Upload ontology" button, browse to your local file, upload the ontology to the workspace, choose the hosting option, and complete the metadata details. Then, click on "Review and Register" and submit. For more information, see the sections of the ORR manual on [getting started](https://mmisw.org/orrdoc/gettingstarted/) and [hosting options](https://mmisw.org/orrdoc/upload/#what-options-are-available-for-hosting-ontologies).
+If it is an OWL-formatted ontology file, select the "Upload ontology" button, browse to your local file, upload the ontology to the workspace, choose the hosting option, and complete the metadata details. Then, click on "Review and Register" and submit. For more information, see the sections of the ORR manual on [Registering an Ontology](https://mmisw.org/orrdoc/ontology/upload).
 
 #### I have a vocabulary in a column-separated text format, how do I submit it to the ORR?
 
-If the vocabulary is in an spreadsheet-like format, you should choose "Create vocabulary" and import the file (once you have it in a separated values like comma-separated or tab-separated), to convert it into an ontology. For more information, see the sections of the ORR manual on  [getting started](https://mmisw.org/orrdoc/gettingstarted/) and [hosting options](https://mmisw.org/orrdoc/upload/#what-options-are-available-for-hosting-ontologies).
+If the vocabulary is in an spreadsheet-like format, you should choose "Create vocabulary" and import the file (once you have it in a separated values like comma-separated or tab-separated), to convert it into an ontology. For more information, see the sections of the ORR manual on [Creating a Vocabulary](https://mmisw.org/orrdoc/vocab/new).
 
 #### I have a vocabulary in non-RDF XML format, how do I submit it to the ORR?
 
-At this point, this capability is beyond the scope of the ORR portal, as it would be very complex to provide the user interface and underlying capabilities to extract information from any kind of XML file in a generic way. 
+At this point, this capability is beyond the scope of the ORR portal, 
+as it would be very complex to provide the capabilities to extract information from any kind of XML file in a generic way. 
 
 Specific conversion tools are necessary in these cases. 
 The output from those tools must either be in a format that the ORR can read 
@@ -159,8 +160,10 @@ If your ontology is complex, you may want to discuss the capabilities provided b
 to confirm all your goals will be met.
 
 Note that options are available to update a vocabulary that is already in the system. 
-However, we do not recommend editing a more complex ontology in the vocabulary editor, because information is likely to be lost; 
+However, we do not recommend editing a more complex ontology in the vocabulary editor, because information is likely to be lost. 
 in this case the ontology should be edited in an ontology editor, then uploaded in place of the original.
+
+#### Why do some ontologies in ORR get presented in simple tables, and others get presented as searchable triples?
 
 The ORR treats ontologies entered with an ORR tool slightly differently than uploaded ontologies. 
 For ontologies created with an ORR "ontology engineering tool" (voc2rdf for vocabularies, vine for mappings), 
@@ -180,7 +183,11 @@ No, at this time the interface is constrained according to the original upload p
 
 #### How much metadata should I provide with my vocabulary?
 
-You should try to complete all the metadata fields requested under "Metadata details" for your vocabulary. The more metadata provided, the greater functionality the ORR will be able to provide using your vocabulary. The required fields (necessary for storing your ontology in the knowledge base correctly) are marked with a red asterisk.
+You should try to complete all the metadata fields requested under "Metadata details" for your vocabulary. 
+The more metadata provided, the greater functionality the ORR will be able to provide using your vocabulary. 
+
+The required fields (necessary for storing your ontology in the knowledge base correctly) are marked with a red asterisk.
+We have made this list as minimal as possible, but hope you will add more attributes to help everyone understand your content.
 
 #### I want to submit my vocabulary as a "test". How do I do that?
 
@@ -188,48 +195,61 @@ Submit your vocabulary per the usual instructions. You will have the option to d
 
 #### When creating a vocabulary, are there any best practices for creating term fields?
 
-Yes, there are a few basic practices that are required or recommended. First of all, the top row (in the table or file) has to be used as a header row, so that the rest of the content can be described. We suggest that you complete all header names and term names as a single word, without spaces, and that you use the singular form unless you have a very specific reason to use plural. (Not sure how to capitalize words within the terms? For the header row, capitalize each word in a joined phrase, including the first; for term names, leave the first letter lower case.)  
+Yes, there are a few basic practices that are required or recommended. 
+First of all, the top row (in the table or file) has to be used as a header row, 
+so that the rest of the content can be described. 
+We suggest that you complete all header names and term names as a single word, without spaces, 
+and that you use the singular form unless you have a very specific reason to use plural. 
 
-Use one row for each term. Not every column has to be filled out for every term, but delimiters must be present to indicate missing cells.  
+If you're not sure how to capitalize words within the terms: 
+* For the header row, capitalize each word in a joined phrase, including the first; 
+* for term names, leave the first letter lower case.)  
 
-We strongly encourage you to put definitions for every concept, even if they are fairly simple placeholders. They can always be improved later, but only if people know what you meant in the first place!  
+Use one row for each term. Not every column has to be filled out for every term, but delimiters must be present to indicate missing cells. 
+
+We strongly encourage you to put definitions for every concept, even if they are fairly simple placeholders. 
+They can always be improved later, but only if people know what you meant in the first place!  
 
 A complete list of recommendations is provided in our [Guide on building vocabularies](http://marinemetadata.org/guides/vocabs/cvdev/cvdevnew/cvdevtips)
 
 #### How do I update my ontology file once it has been submitted to the ORR?
 
-Log in, click on the link for the ontology you would like to edit, and click on "New Version". See also the section of the ORR manual on [updating](https://mmisw.org/orrdoc/vocab/newversion/) an ontology. 
+Log in, click on the link for the ontology you would like to edit, and click on "New Version". See also the section of the ORR manual on [Updating an Ontology](https://mmisw.org/orrdoc/ontology/newversion/). 
 
 #### Can I use my ontology editor XXX? (XXX = Protégé, NeOn, etc.)
 
-Yes. You can use any tool to create your ontology. Then, you can can register the ontology in the ORR. Note that some tools are provided to create vocabularies and mappings within the portal itself, but you are free to use any other appropriate mechanisms.
+Yes. You can use any tool to create your ontology. Then, you can can register the ontology in the ORR. 
+Note that some tools are provided to create vocabularies and mappings within the portal itself, 
+but you are free to use any other appropriate mechanisms.
 
-#### What options are available for registering my existing ontology?
+#### What do the "locally hosted" and "re-hosted" options for registering my existing ontology mean? 
 
-Please see the manual section on [hosting options](https://mmisw.org/orrdoc/upload/#what-options-are-available-for-hosting-ontologies).
-
-#### What is the difference between having my existing ontology re-hosted or re-indexed in the ORR?
-
-Please see the manual section on [hosting options.](https://mmisw.org/orrdoc/upload/#what-options-are-available-for-hosting-ontologies)
+Please see the manual section on 
+[hosting options](https://mmisw.org/orrdoc/ontology/upload#what-options-are-available-for-hosting-ontologies).
 
 #### ORR says that my file may not be in UTF-8 encoding. What does it mean and what can I do?
 
-Any ontology contents submitted to the ORR must be encoded in UTF-8 is such a way that the underlying ontology manipulation library can read the given contents without error. In case of encoding error, ORR does a best effort to detect the probable encoding (aka, _charset_) or encodings in order to provide a diagnostics message to the user. No attempt is done to automatically convert the contents to UTF-8 as the original information may be altered. You should make sure your submitted file or contents are in UTF-8.
+Any ontology contents submitted to the ORR must be encoded in UTF-8 
+in such a way that the underlying ontology manipulation library can read the given contents without error. 
+In case of encoding error, ORR does a best effort to detect the probable encoding (aka, _charset_) or encodings
+in order to provide a diagnostics message to the user. 
+No attempt is done to automatically convert the contents to UTF-8 as the original information may be altered. 
+You should make sure your submitted file or contents are in UTF-8.
 
-Some useful links are [w3schools](http://www.w3schools.com/XML/xml_encoding.asp) and [notepad](http://blogs.msdn.com/b/oldnewthing/archive/2007/04/17/2158334.aspx).
-
+Some useful links are [w3schools](http://www.w3schools.com/XML/xml_encoding.asp) and 
+[notepad](http://blogs.msdn.com/b/oldnewthing/archive/2007/04/17/2158334.aspx).
 
 ## Mapping Ontologies 
 
-This section includes FAQs related to mapping between ontologies in the MMI Ontology Registry and Repository ([ORR).](http://mmisw.org/orr)
-
-_--Under construction_
+This section includes FAQs related to mapping between ontologies in the Ontology Registry and Repository.
 
 #### What are the benefits of mapping my vocabulary to others in the ORR?
 
-There are many reasons for mapping between vocabularies.  Please see [Creating a Mapping Ontology](https://mmisw.org/orrdoc/mapping/new/) and the Guide on [mapping vocabularies](http://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap).
+There are many reasons for mapping between vocabularies.  
+Please see [Creating a Mapping Ontology](https://mmisw.org/orrdoc/mapping/new/) 
+and the Guide on [mapping vocabularies](http://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap).
 
 #### How do I map my vocabulary to others in the ORR? Are there any recommended best practices?
 
-Please see http://marinemetadata.org/mmiorrusrman/mmiorrmapps.
+Please see http://marinemetadata.org/mmiorrusrman/mmiorrmapps for best practice information.
 
