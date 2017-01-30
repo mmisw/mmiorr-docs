@@ -97,8 +97,10 @@ Next you will be asked to choose the type of registration (fully-hosted or re-ho
 
 <img class="smallfloatright" alt="Ontology owner selection" src="../../img/cor/cor-ontology-owner-selection-20160828.png">
 Finally, you will complete the metadata details necessary for registering your ontology. 
-These include the individual or organizational owner (shown below), a short name used as part of the final IRI for the ontology, 
-the visibility of the ontology in the browse page, and the status of the ontology.  
+These include the individual or organizational owner (shown at right), 
+a short name used as part of the final IRI for the ontology, 
+the visibility of the ontology in the browse page, 
+and the status of the ontology.  
 
 !!! tip 
     If you are testing the process or your ontology, please choose "testing" as the status, 
