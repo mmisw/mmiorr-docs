@@ -29,19 +29,19 @@ Once signed in, click the "Create vocabulary" button in the main ORR page.
 
 To register your vocabulary, you need to create metadata to describe the ontology. Required metadata is shown with a red asterisk.
 
-![Vocabulary create metadata](img/cor/cor-vocabulary-create-metadata-20160828.png)
+![Vocabulary create metadata](../img/cor/cor-vocabulary-create-metadata-20160828.png)
 
 If you aren't sure what a particular metadata field means, hover over the field to get help.
 
-![Vocabulary create metadata help](img/cor/cor-vocabulary-create-metadata-help-20160828.png)
+![Vocabulary create metadata help](../img/cor/cor-vocabulary-create-metadata-help-20160828.png)
 
 You can start by selecting a local class name -- this is a required field.
 
-![Vocabulary create local name](img/cor/cor-vocabulary-create-local-name-20160828.png)
+![Vocabulary create local name](../img/cor/cor-vocabulary-create-local-name-20160828.png)
 
 Then you can fill in the vocabulary contents, that is, the list of terms and associated properties, or information, for each term. Click on `+Term` to add a new term, and `+Property` to add a new piece of information that needs to be filled in for each term.
 
-![Vocabulary create term property](img/cor/cor-vocabulary-create-term-property-20160828.png)
+![Vocabulary create term property](../img/cor/cor-vocabulary-create-term-property-20160828.png)
 
 Once you finish entering properties, terms, and content to your satisfaction, you can review and register the ontology (step A.4 below). 
 
