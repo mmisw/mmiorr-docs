@@ -1,3 +1,6 @@
+!!! warning
+    _Page Status_: **Under construction**
+
 Once you are viewing an ontology that is displayed as a table of terms, click "Create new version" to 
 proceed with editing a new version.
 
