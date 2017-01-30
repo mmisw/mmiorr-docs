@@ -1,5 +1,5 @@
-!!! warning
-    _Page Status_: **Under construction**
+!!! tip
+    _Page Status_: **Current**
 
 ORR allows users to create an ontology manually by creating a table of definitions, for example:
 
@@ -13,7 +13,7 @@ The first column is special in that each cell's content is used to create the IR
 Once the vocabulary is registered, all these IRIs will resolvable on the web.
 
 The table can be populated by importing text in CSV format, 
-as described in the [Vocabulary Import](http://mmisw.org/orrdoc/vocab/import.md) page. 
+as described in the [Vocabulary Import](http://mmisw.org/orrdoc/vocab/import) page. 
 However, this document describes the operation of populating this table manually. 
 
 ## Version 3 Documentation
