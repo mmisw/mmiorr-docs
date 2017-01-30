@@ -1,10 +1,13 @@
+!!! warning
+    _Page Status_: **Under construction**
+
 ## Why map between controlled vocabularies?
 
 You might need to use the “create mapping” capabilities if, for example, you need a simple 
 term translator, you need to translate between metadata records, or you want to document 
 relationships between multiple vocabularies that you are using.
 You can find a more thorough guide on the reasons for mapping between 
-controlled vocabularies [here](https://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap).
+controlled vocabularies [in the MMI guide on mapping](https://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap).
 
 ## Steps for Creating a Mapping Ontology File
 
