@@ -1,5 +1,5 @@
 !!! tip
-    Content status: **Testing**
+    _Page Status_: **Current**
 
 ## Finding ontologies
 
