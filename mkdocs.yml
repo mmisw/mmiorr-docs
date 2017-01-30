@@ -24,6 +24,7 @@ pages:
   - Updating a Vocabulary: vocab/newversion.md
 - Working with Ontologies:
   - Registering Your Existing Ontology: ontology/new.md
+  - Updating an Ontology: ontology/newversion.md
 - Working with Mappings:
   - Creating a Mapping Ontology: mapping/new.md
   - Updating a Mapping Ontology: mapping/newversion.md
