@@ -47,6 +47,14 @@ Please see the [“Completing Vocabulary Registration"](http://mmisw.org/orrdoc/
 
 ## Version 2 Documentation
 
+The Version 2 editing functionality has some limitations. 
+In particular, do the following to edit individual cells of the vocabulary table:
+
+*   Go to the cell whose contents you want to edit
+*   Press Enter to start editing the particular cell
+*   Do the necessary changes
+*   Press Enter again to complete the change
+
 [This screencast](http://www.screencast.com/t/ZTBkMjMz) demonstrates for the ORR Version 2 software the creation of a vocabulary (with both in-place editing of the table cell, and  import of text contents in CSV format) and its registration in ontology format.  
 
 <object width="1068" height="565"><param name="movie" value="http://content.screencast.com/users/carueda/folders/Camtasia/media/4b0e5a9e-fb31-47b4-a8d8-b82d102743ad/mp4h264player.swf"> <param name="quality" value="high"> <param name="bgcolor" value="#FFFFFF"> <param name="flashVars" value="thumb=http://content.screencast.com/users/carueda/folders/Camtasia/media/4b0e5a9e-fb31-47b4-a8d8-b82d102743ad/FirstFrame.jpg&amp;containerwidth=1068&amp;containerheight=565&amp;content=http://content.screencast.com/users/carueda/folders/Camtasia/media/4b0e5a9e-fb31-47b4-a8d8-b82d102743ad/mmiorr_create_vocab_import.mp4"> <param name="allowFullScreen" value="true"> <param name="scale" value="showall"> <param name="allowScriptAccess" value="always"> <param name="base" value="http://content.screencast.com/users/carueda/folders/Camtasia/media/4b0e5a9e-fb31-47b4-a8d8-b82d102743ad/"> <embed type="application/x-shockwave-flash" width="1068" height="565" src="http://content.screencast.com/users/carueda/folders/Camtasia/media/4b0e5a9e-fb31-47b4-a8d8-b82d102743ad/mp4h264player.swf" scale="showall" base="http://content.screencast.com/users/carueda/folders/Camtasia/media/4b0e5a9e-fb31-47b4-a8d8-b82d102743ad/" allowfullscreen="true" flashvars="thumb=http://content.screencast.com/users/carueda/folders/Camtasia/media/4b0e5a9e-fb31-47b4-a8d8-b82d102743ad/FirstFrame.jpg&amp;containerwidth=1068&amp;containerheight=565&amp;content=http://content.screencast.com/users/carueda/folders/Camtasia/media/4b0e5a9e-fb31-47b4-a8d8-b82d102743ad/mmiorr_create_vocab_import.mp4" allowscriptaccess="always" bgcolor="#FFFFFF" quality="high"></object> 
