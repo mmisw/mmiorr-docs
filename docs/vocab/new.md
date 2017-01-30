@@ -43,7 +43,7 @@ Click on `+Term` to add a new term, and `+Property` to add a new piece of inform
 <p class="clearfix">&nbsp;</p>
 
 Once you finish entering properties, terms, and content to your satisfaction, you can review and register your vocabulary. 
-Please see the [“Completing Vocabulary Registration"](http://mmisw.org/orrdoc/vocab/register.md) page for more details.
+Please see the [“Completing Vocabulary Registration"](http://mmisw.org/orrdoc/vocab/register) page for more details.
 
 ## Version 2 Documentation
 
