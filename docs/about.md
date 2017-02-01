@@ -16,9 +16,9 @@ Those pages link to additional documentation available for each system.
 ## People
 
 John Graybeal (now at Stanford University) provides program management for the ORR software, and 
-Dr. Carlos Rueda (Monterey Bay Aquarium Research Institute) provides technical leadership and development. 
-Dr. Felimon Gayanilo (Texas A&M Corpus Christi) leads the operational support team providing system support.
-Janet Lundgren (Woods Hole Oceanographic Institution) provides current support for ORR development 
+Carlos Rueda (Monterey Bay Aquarium Research Institute) provides technical leadership and development. 
+Felimon Gayanilo (Texas A&M Corpus Christi) leads the operational support team for the system.
+Janet Fredericks (Woods Hole Oceanographic Institution) provides current support for ORR development 
 through her management of the X-DOMES program, funded by NSF's EarthCube project. 
 
 Together, these four individuals provide strategic oversight for ORR activities and directions, 
