@@ -15,7 +15,7 @@ pages:
 - FAQ: faq.md
 - Searching and Querying:
   - Searching via the UI: search.md
-  - Querying via REST API: api/index.md
+  - Querying via REST API: api/query.md
   - Querying via SPARQL API: query.md
 - Working with Vocabularies:
   - Creating a Vocabulary: vocab/new.md
@@ -29,6 +29,7 @@ pages:
 - Working with Mappings:
   - Creating a Mapping Ontology: mapping/new.md
   - Updating a Mapping Ontology: mapping/newversion.md
+- REST API: api/index.md
 - Advanced Topics:
   - Known issues: knownissues.md
   - Installation: install/index.md

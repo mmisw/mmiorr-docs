@@ -22,6 +22,6 @@ corresponding credentials. In this way you will be able to perform not only basi
 but also see expanded responses according to your access privileges and ontology 
 visibility settings, as well as perform other operations with the system.
 
-Also, in each API description, you are also able to set the variables in the descriptions of the API interface, 
+In each API description, you are also able to set the variables in the descriptions of the API interface, 
 so that you can execute the API call, as well as see it appropriately formatted for an invocation with `curl`, 
 or using the `http` URL. 
