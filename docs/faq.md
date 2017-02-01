@@ -30,9 +30,11 @@ to see the corresponding page. In other words, test ontologies should not be con
 
 #### Tabular view: Why are the rows (or columns) not displayed in the same order I used to create my vocabulary?
 
-In general, order is not maintained in semantic artifacts (vocabularies or ontologies) when they are processed, and  
-most semantic libraries do not specify the order in which the ontology elements were input or should be retrieved. 
-Although we recognize order is helpful to maintain for usability, we have not applied special techniques to manage it.
+Order is typically not captured in semantic artifacts (vocabularies or ontologies), with most commonly used semantic 
+libraries not guaranteeing any specify order when retrieving elements of lists or aggregations. 
+
+However, recognizing that order is helpful to maintain for usability purposes, since version 3, the ORR now preserves 
+column order in the created vocabularies using such version.
 
 ## Using Ontologies
 
