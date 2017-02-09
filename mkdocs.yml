@@ -29,7 +29,7 @@ pages:
 - Working with Mappings:
   - Creating a Mapping Ontology: mapping/new.md
   - Updating a Mapping Ontology: mapping/newversion.md
-- REST API: api/index.md
 - Advanced Topics:
+  - REST API: api/index.md
   - Known issues: issues.md
   - Installation: install/index.md
