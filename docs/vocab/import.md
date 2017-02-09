@@ -1,12 +1,14 @@
-!!! tip
-    _Page Status_: **Current**
+If you have your vocabulary in a delimited text file 
+(typically called comma-separated- or tab-separated-values file, and commonly generated
+from spreadsheet applications), 
+then you may follow these steps to put it into the ORR. 
 
-If you have your vocabulary in a delimited text file, then you may follow these steps to put it into the ORR. 
+!!! note
+    Direct upload of a delimited text file is not supported.
+    The steps below basically consist in using the "Create Vocabulary" option
+    and pasting the delimited text into a dialog box.
 
-!!! tip
-    While direct upload of a vocabulary file is not yet supported, you may paste its text into a dialog box.
-
-Once signed in, click "Upload vocabulary" button in the main ORR page. 
+Once signed in, click the "Create Vocabulary" button in the main ORR page. 
 
 <img class="smallfloatright" alt="Vocabulary import owner IRI" src="../../img/cor/cor-vocabulary-import-owner-uri-20170108.png">
 Enter the owner of the vocabulary (yourself, or a group that you are a member of), 

@@ -1,5 +1,5 @@
 !!! tip
-    _Page Status_: **Current**
+    _Page Status_: **In Progress**
 
 ORR allows users to create an ontology manually by creating a table of definitions, for example:
 

@@ -1,6 +1,3 @@
-!!! tip
-    _Page Status_: **Complete**
-    
 When you have filled out the vocabulary with at least one term and one property, 
 it is ready to be registered, which will convert it into ontology form. 
 When you are done with the contents and metadata for your vocabulary, 

@@ -1,17 +1,12 @@
-Welcome to ORR User Manual
+**Welcome to ORR User Manual**
 
-!!! warning
-    Site under construction.
+!!! danger "Please note: Site under construction"
     
     Contents are being migrated from [the original site](https://marinemetadata.org/mmiorrusrman)
-    and updated to reflect major developments in the new version (ORR v3). Until this warning is removed,
-    individual pages should be considered outdated unless a status message indicates otherwise.
+    and updated to reflect major developments in the new version (ORR v3).
+    As of February 2017 a good part of the content has already being updated.
+    Individual pages still under construction are marked as so. 
     
-!!! tip
-    _Page Status_: **Current**  
-    
-    This page, on the other hand, is up to date.
-
 Welcome, and thanks for using the Ontology Registry and Repository (ORR) services.
 
 This is the User's Manual for the ORR and associated MMI tools and services. 

@@ -1,7 +1,4 @@
 !!! tip
-    _Page Status_: **Current**
-    
-!!! tip
     The screen shots in this presentation are made using the ESIP COR service.   
     Most features are also available in a similar form in the MMI ORR site; see the [MMI ORR help pages](https://marinemetadata.org/mmiorrusrman/mmiorrgetstarted) for details.
     

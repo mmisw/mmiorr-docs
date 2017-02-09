@@ -31,5 +31,5 @@ pages:
   - Updating a Mapping Ontology: mapping/newversion.md
 - REST API: api/index.md
 - Advanced Topics:
-  - Known issues: knownissues.md
+  - Known issues: issues.md
   - Installation: install/index.md

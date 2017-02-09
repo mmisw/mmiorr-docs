@@ -1,5 +1,5 @@
-!!! tip
-    Page status: **Current**
+!!! warning
+    Page status: **In Progress**
     
 To register a new version of an ontology, you follow a process very similar to uploading a new ontology. 
 The easiest scenario, and the one documented here, is to upload an ontology that started as an ORR ontology, 

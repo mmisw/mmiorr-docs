@@ -1,4 +1,4 @@
-!!! tip
+!!! warning
     _Page Status_: **In Progress** 
 
 ## Before you start: Things to know
@@ -109,8 +109,8 @@ the visibility of the ontology in the browse page,
 and the status of the ontology.  
 
 !!! tip 
-    If you are testing the process or your ontology, please choose "testing" as the status, 
-    so that your ontology is not visible to all the other users.
+    If you are testing the process or your ontology, please choose "owner" as the value 
+    for the visibility attribute so that your ontology is not visible to all the other users.
     
 ![Ontology registration completion](../img/cor/cor-ontology-registration-completion-20160828.png "Completion of registration details")
 

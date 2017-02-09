@@ -1,6 +1,6 @@
-!!! tip
-    _Page Status_: **Current**
-    
+!!! warning
+    _Page Status_: **Under revision**
+
 ## Searching and Viewing Ontologies
 
 #### How do I find ontologies in the repository that are most relevant to my work?
@@ -21,7 +21,7 @@ If the ontology is natively hosted in the ORR, you can enter its unique identifi
 and ORR will resolve the IRI to the page for the ontology. 
 
 Once you have selected an ontology, there are multiple formats for viewing or downloading it, 
-vailable under the "View/download as" drop down menu. 
+available under the "View/download as" drop down menu. 
 For more details, see the section of the ORR manual on [viewing ontologies](/https://mmisw.org/orrdoc/vocab/view/).
 
 Test ontologies (those that have a status of "testing") are visible in the browser only to their author
