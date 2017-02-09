@@ -1,5 +1,5 @@
 !!! tip
-    Page status: **Current** 
+    _Page Status_: **In Progress** 
 
 ## Before you start: Things to know
 
@@ -9,10 +9,13 @@ You will need some basic knowledge before you try to upload your ontology. This 
 
 The following standard formats are supported:
 
-*   [RDF/XML](http://www.w3.org/TR/2004/REC-rdf-syntax-grammar-20040210/)
-*   [N3](http://en.wikipedia.org/wiki/Notation_3)
-*   [N-TRIPLE](http://en.wikipedia.org/wiki/N-Triples)
-*   [TURTLE](http://en.wikipedia.org/wiki/Turtle_%28syntax%29)
+*   [RDF/XML](https://www.w3.org/TR/REC-rdf-syntax/)
+*   [RDF/JSON](https://www.w3.org/TR/rdf-json/)
+*   [JSON-LD](https://www.w3.org/TR/json-ld/)
+*   [Notation3](https://www.w3.org/TeamSubmission/n3/)
+*   [N-TRIPLE](https://www.w3.org/TR/n-triples/)
+*   [TURTLE](https://www.w3.org/TeamSubmission/turtle/)
+*   [OWL/XML](https://www.w3.org/TR/owl-xml-serialization/)
 
 ### What options are available for hosting ontologies?
 
@@ -21,8 +24,11 @@ These strongly affect the way your ontology and its terms are treated by the ORR
 
 #### Fully-hosted ontology
 
-In this case, ORR will assign an `http://mmisw.org/ont`-based IRI base to your ontology and its associated 
-terms sharing the same namespace. More specifically, the original base IRI of the ontology will be 
+In this case, ORR will assign an IRI base, corresponding to the URL where the particular ORR
+instance is installed, to your ontology and its associated 
+terms sharing the same namespace. 
+For example, this base URL is `http://cor.esipfed.org/ont` in the case of the COR instance.
+More specifically, the original base IRI of the ontology will be 
 overwritten with one assigned by ORR during the registration process.
   
 *   **URI Resolvability.** The given ORR based IRIs given to your ontology (and to all the terms in the 
