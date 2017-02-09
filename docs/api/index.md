@@ -1,14 +1,11 @@
-!!! tip
-    _Page Status_: **Current**  (Some API descriptions may not be complete.)
-
-# ORR Ont API Documentation
+# ORR API Documentation
   
 The API documentation is described in detail for each ORR instance according to 
-the current version of the ORR Ont software being used.
-Note that, besides containing the documentation itself, the API Documentation pages below 
-also allow users to directly exercise the API against the corresponding ORR Ont REST endpoint.
+the version of the ORR Ont software being used.
+Besides containing the documentation itself, the API Documentation pages referenced below 
+also allow users to directly exercise the API against the corresponding ORR REST endpoint.
 
-The following ORR Ont instances provide or will be providing such documentation:
+The following ORR instances provide or will be providing such documentation:
 
 |ORR Instance| API Documentation | Main Page |
 |-|-|-|
@@ -22,6 +19,6 @@ corresponding credentials. In this way you will be able to perform not only basi
 but also see expanded responses according to your access privileges and ontology 
 visibility settings, as well as perform other operations with the system.
 
-In each API description, you are also able to set the variables in the descriptions of the API interface, 
-so that you can execute the API call, as well as see it appropriately formatted for an invocation with `curl`, 
-or using the `http` URL. 
+In each API operation description, you are able to set the variables in the descriptions of the API interface, 
+so that you can execute the API call, as well as see it appropriately formatted for an invocation with 
+the [`curl`](https://curl.haxx.se/) command line tool.
