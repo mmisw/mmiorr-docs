@@ -1,6 +1,3 @@
-!!! tip
-    _Page Status_: **Current**
-
 **Introduction to the ORR**
 
 Developed by MMI[1], the [Ontology Registry and Repository](http://github.com/mmisw), or ORR, is a Web-based application 
@@ -39,15 +36,13 @@ This manual describes the Ontology Registry and Repository and associated semant
 The provided suite of key functions allows data providers and users to include, use, and exploit
 semantic information in real world scenarios.
 
-***ORR built around URIs*** 
+***ORR built around URIs / IRIs *** 
 
-In the ORR, at the most basic level, every term has a URI[2], and the ORR returns a page of basic information about 
-the term when someone enters that URI into their browser. When the ORR creates an ontology,
-it automatically creates the term URIs for that ontology, and enables resolution of those terms. 
+In the ORR, at the most basic level, every term has an IRI[2], and the ORR returns a page of basic information about 
+the term when someone enters that IRI into their browser. When the ORR creates an ontology,
+it automatically creates the term IRIs for that ontology, and enables resolution of those terms. 
 Thus ORR users can begin using the terms immediately, confident that anyone looking for more 
-information on the term can resolve it. (When a user submits an ontology which already has
-defined non-resolvable URIs, the ORR will create an additional, resolvable URI that embeds
-the original unique identifier.)
+information on the term can resolve it.
 
 ***Application scenarios***
 
@@ -66,4 +61,4 @@ the mapping ontologies and semantic inference mechanisms built into the ORR.
 ----
 
 [1] MMI: [Marine Metadata Interoperability project](http://marinemetadata.org)   
-[2] URI: Uniform Resource Identifier
+[2] IRI: Internationalized Resource Identifier
