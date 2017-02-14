@@ -31,49 +31,40 @@ For example, this base URL is `http://cor.esipfed.org/ont` in the case of the CO
 More specifically, the original base IRI of the ontology will be 
 overwritten with one assigned by ORR during the registration process.
   
-*   **URI Resolvability.** The given ORR based IRIs given to your ontology (and to all the terms in the 
+*   **IRI Resolvability.** The ORR based IRIs given to your ontology (and to all the terms in the 
 associated namespace) will be self-resolvable, i.e., you will be able to directly enter them into your 
 browser or semantic web tool to get it resolved to the contents of your ontology or term. 
 The indirect mechanisms described below are also provided in this case.
   
-*   **Versioning**. Full support for versioning including scheme for "versioned" URIs for the ontology and its terms, for example, http://mmisw.org/ont/mmi/20090818T043834/device. Also, support for the "unversioned" request to get the latest version of your ontology, eg., http://mmisw.org/ont/mmi/device  
 
-*   **Ontology owner responsibilities.** The owner will submit the ontology (or have MMI submit it on the owner's behalf), provide the requested metadata, and review the ontology once it has been submitted to the ORR. The owner will also provide updates directly to the repository (or ask MMI to do it for you).  
-
-*   **MMI responsibilities.** If the owner requests it, MMI will submit the ontology to the ORR on the owner's behalf.  MMI will contact the owner for the ontology's metadata and to review the ontology once it has been submitted to the ORR.  At the owner's request, MMI may update the ontology.
 
 #### Re-hosted ontology
 
-The general registration process (including metadata editing) is similar to the fully hosted option, but 
-the original xml:base namespace associated with your ontology will not be changed at all.  
+The general registration process is similar to the fully hosted option, but 
+no changes at all will be performed in the contents 
+(that is, in terms of modifying any defined IRIs/URIs in the ontology).
 
 *   **IRI Resolvability.** 
 The IRIs of your ontology and associated terms can be resolved indirectly by 
 the MMI Ontology and Term URI Resolver via the "uri" parameter, eg., 
 `http://mmisw.org/ont?uri=http://example.com/my/ontologyuri`. 
 You can also indirectly access the ontology and terms via searches against ORR. 
-NOTE: Your ontology could also be resolved by its own IRI if that is supported by its 
-original web server, but that's beyond ORR's scope.  
+(NOTE: Your ontology could also be resolved by its own IRI if that is supported by its 
+original web server.)  
 
-*   **Versioning.** 
-Support for basic versioning as in the full hosted option but with the 
-following limitations: 
-The IRI of your ontology is, in general, completely opaque and, in particular, for purposes of versioning. 
-This means that (continuing with the example above) `http://example.com/my/ontologyuri` will be the only 
-IRI associated with your ontology (`http://mmisw.org/ont?uri=http://example.com/my/ontologyuri` will always 
-respond with the latest registered version of your ontology). 
-To get a particular version, the "version" parameter should be used, e,g., 
-`http://mmisw.org/ont?uri=http://example.com/my/ontologyuri&version=20090922`  
 
-*   **Ontology owner responsibilities.** 
-The owner will submit the ontology (or have MMI submit it on the owner's behalf), provide the requested 
-metadata, and review the ontology once it has been submitted to the ORR. The owner will also provide 
-updates directly to the repository (or ask MMI to do it for you).  
+Regardless of the hosting mode, the following applies:
 
-*   **MMI responsibilities.**  
-If the owner requests it, MMI will submit the ontology to the ORR on the owner's behalf.  
-MMI will contact the owner for the ontology's metadata and to review the ontology once it has 
-been submitted to the ORR.  At the owner's request, MMI may update the ontology.
+*   **Versioning**. Full support for versioning.
+    Unless indicated otherwise, always the latest version will be dispatched in the ORR Portal
+    and responded for a programmatic ontology request.
+    A particular version can be selected in the ORR Portal page for the ontology,
+    and a `version` parameter can be included in a request to retrieve a specific version.
+    
+
+*   **Ontology owner responsibilities.** The owner will submit the ontology, 
+    provide the requested metadata, and review the ontology once it has been submitted to the ORR. 
+    The owner will also provide updates directly to the repository.  
 
 The following section provides instructions on how to submit your existing ontology to the ORR.
 
