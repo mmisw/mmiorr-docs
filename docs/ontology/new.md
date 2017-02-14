@@ -45,8 +45,8 @@ no changes at all will be performed in the contents
 (that is, in terms of modifying any defined IRIs/URIs in the ontology).
 
 *   **IRI Resolvability.** 
-The IRIs of your ontology and associated terms can be resolved indirectly by 
-the MMI Ontology and Term URI Resolver via the "uri" parameter, eg., 
+The IRIs of your ontology and associated terms can be resolved indirectly 
+via the "uri" parameter, eg., 
 `http://mmisw.org/ont?uri=http://example.com/my/ontologyuri`. 
 You can also indirectly access the ontology and terms via searches against ORR. 
 (NOTE: Your ontology could also be resolved by its own IRI if that is supported by its 
