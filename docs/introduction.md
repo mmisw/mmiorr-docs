@@ -24,10 +24,11 @@ These pages document the most recent ORR software, which is deployed at the ESIP
 
 **Main ORR Capabilities**
 
-The ORR was created to provide the following capabilities to users without previous semantic experience:
+The ORR was created to provide the following capabilities 
+specially to users without previous semantic experience:
 
 *   Create and publish vocabularies in a standards-based model (RDF)
-*   Search for terms using free text or a sophisticated, standard query language (SPARQL)
+*   Search for ontologies and terms using free text and facets
 *   Instantly provide web resolvable identifiers for all vocabularies and terms
 *   Enable user-specified relations between terms to interlink your vocabulary with others in the community
 *   Enable added-value applications via programmatic access to semantic and inference capabilities 

@@ -13,12 +13,21 @@ Please see [Content Query via API](https://mmisw.org/orrdoc/query/).
 
 #### How can I view ontologies in the repository?
 
-<!-- what "browse ontologies" page?  Mention the "Home" link -->
- 
-You can view the list of all the ORR ontologies by visiting the "Browse ontologies" page. 
-(Scroll down in the table of ontologies to see more entries.) 
-Hover over the ontology IRI to see the full IRI (this assumes your ontology preferences are set to show mouseover links).
- <!-- what "ontology preferences"? -->
+The list of all the ORR ontologies are displayed in the main ORR page.
+More specifically, this list will contain all the registered ontologies
+according to the associated visibility attribute:
+all marked "public" and those marked "owner" that you (or any of
+the organizations you are member of) own at the ORR.
+
+!!! note ""
+    Note: the visibility attribute only has effect on this main list.
+    Anyone with the IRI for an ontology will be able to see the corresponding page. 
+    In other words, ontologies marked with "owner" visibility should not be considered private.
+
+Filters on the left of the page allow to select ontologies according 
+to various facets (by owner, by status, and others), or to show only 
+the most recent submission by owner.
+
 To view a particular ontology, click on its IRI entry in the ontology list. 
 If the ontology is natively hosted in the ORR, you can enter its unique identifier (an http IRI) in your browser, 
 and ORR will resolve the IRI to the page for the ontology. 
@@ -27,10 +36,6 @@ Once you have selected an ontology, there are multiple formats for viewing or do
 available under the "View/download as" drop down menu. 
 For more details, see the section of the ORR manual on [viewing ontologies](/https://mmisw.org/orrdoc/vocab/view/).
 
-<!-- visibility is now based on an explicit 'visibility' flag; not anymore on the status -->
-Test ontologies (those that have a status of "testing") are visible in the browser only to their author
-and the ORR administrators. However, anyone with an IRI for a test ontology, or any of its terms, will be able 
-to see the corresponding page. In other words, test ontologies should not be considered private.
 
 #### Tabular view: Why are the rows (or columns) not displayed in the same order I used to create my vocabulary?
 
@@ -109,7 +114,7 @@ Please see the sections for the [SPARQL query API](https://mmisw.org/orrdoc/quer
 
 Briefly, you can either specify the ontology IRI directly to one of those applications, 
 or download the ontology as an RDF/XML format. 
-Specifiying the IRI is only guaranteed to work if the ontology is hosted at the ORR.
+Specifying the IRI is only guaranteed to work if the ontology is hosted at the ORR.
 Ontologies that are re-hosted, or remotely hosted, by ORR may not be discoverable at their To download the ontology from its front page, 
 you can use the `View/download as` dropdown menu, selecting RDF/XML as the format. 
 Another option is to directly specify the download IRI in your browser, constructed as `http://[domain]/ont?form=rdf&uri=`, 
@@ -188,13 +193,6 @@ allows manual editing or import of a new version via a simple csv table.
 
 The "upload" mechanism, on the other hand, allows the registration of any RDF ontology of arbitrary complexity. 
 In this case, the ontology display consists of searchable table with all the triples in the ontology. 
-<!-- John: as you may have seen, there's some experimentation to incorporate external ontology viewers -->
-
-
-#### Can I upload a complex ontology and still get the simple view, or vice-versa?
-
-<!-- REMOVE this (confusing) entry?? -->
-No, at this time the interface is constrained according to the original upload process.
 
 
 #### How much metadata should I provide with my vocabulary?
@@ -251,8 +249,7 @@ but you are free to use any other appropriate mechanisms.
 #### What do the "fully hosted" and "re-hosted" options for registering my existing ontology mean? 
 
 Please see the manual section on 
-[hosting options](https://mmisw.org/orrdoc/ontology/upload#what-options-are-available-for-hosting-ontologies).
-<!-- brokwn link -->
+[hosting options](https://mmisw.org/orrdoc/ontology/new/#what-options-are-available-for-hosting-ontologies).
 
 #### ORR says that my file may not be in UTF-8 encoding. What does it mean and what can I do?
 
@@ -278,6 +275,7 @@ and the Guide on [mapping vocabularies](http://marinemetadata.org/guides/vocabs/
 
 #### How do I map my vocabulary to others in the ORR? Are there any recommended best practices?
 
-<!-- want to make the following URL clickable? -->
-Please see http://marinemetadata.org/mmiorrusrman/mmiorrmapps for best practice information.
+Please see 
+[http://marinemetadata.org/mmiorrusrman/mmiorrmapps](http://marinemetadata.org/mmiorrusrman/mmiorrmapps) 
+for best practice information.
 

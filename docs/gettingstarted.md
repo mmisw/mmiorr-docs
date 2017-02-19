@@ -36,16 +36,20 @@ The telephone number is required, but is only used to assist in the operation of
 **2-A. Browse list of registered ontologies**
 
 Even if not signed in, you will see all public registered ontologies in the main ORR browse page. 
-You will not see those ontologies that  are marked as Status="testing" or Visibility="owner". 
-In the browse page, such ontologies are only visible to the submitter. 
-(If you are the submitter, log in to see the non-public ontologies you submitted.)
+You will not see those ontologies that are marked as Visibility="owner" 
+(which are only visible to the submitter in the browse page. 
+If you are the submitter, log in to see the non-public ontologies you submitted.)
 
 The left-hand side tree widget allows you to select the entries in the ontology table according to these criteria:
-* owner (the authority owning the ontology), 
-* submitter (if you are signed in), 
+
+* owner (the organization or user owning the ontology), 
 * status (testing, unstable, draft, stable, deprecated, or archaic), 
-* resource type (selected by the ontology submitter), and 
-* type of hosting (fully-hosted, or re-hosted). 
+* resource type (selected by the ontology submitter), 
+* type of hosting (fully-hosted, or re-hosted), and 
+* submitter (if you are signed in as an admin).
+
+In the owner section you can select the "Most recent ontology" checkbox to only include 
+the most recent submission by owner.
 
 You can control which columns are visible using the 'hamburger' selector on the right. 
 You can also click any column header in the table to sort the list by that column, or invert that column's sort order. 
@@ -61,11 +65,9 @@ The main operations available when viewing an ontology are:
 
 * Copy the ontology's IRI to the clipboard, using the button with the clipboard icon.
 
-* View or download the ontology in chosen formats; just choose from the list.
-
- * Ontology viewing formats are RDF/XML, N3, Turtle, and N Triples.
-  
- * Ontology download formats are JSON-LD or RDF/JSON formats. 
+* View or download the ontology in chosen formats.
+  The formats are RDF/XML, JSON-LD, N3, Turtle, N-Triples, and RDF/JSON.
+  (The selection effect of either view or download varies across browsers.) 
   
 * View list of versions of the ontology: click the "Versions" button.
 
@@ -75,9 +77,14 @@ If you are an owner of the original ontology, you have additional options:
 
 * Change the Status of the ontology.
 
-* Change the Visibility of the ontology in the main browse page (either owner-only, or publicly visible). Note all ontologies, even owner-only, can still be viewed by anyone having the IRI. 
+* Change the Visibility of the ontology in the main browse page (either owner-only, or publicly visible). 
+  Note that all ontologies, even owner-only, can still be viewed by anyone having the IRI. 
 
-* Create a new version (if you or your group submitted the original ontology): Click the "Edit new version" button at the far left to start creating a new version of the ontology. This also allows editing the ontology's metadata.
+* Create a new version (if you or your group submitted the original ontology): 
+  Click the "Edit new version" button to start creating a new version of the ontology. 
+  For ontologies created with any of the integrated ORR tools (vocabulary editor or mapping editor),
+  the corresponding interface will be displayed to create the new version.
+  For all others, you will have the option to either edit the metadata or upload a new file.
 
 **2-C. Search for term**
 
