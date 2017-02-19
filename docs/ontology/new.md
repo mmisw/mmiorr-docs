@@ -3,19 +3,17 @@
 
 ## Before you start: Things to know
 
-You will need some basic knowledge before you try to upload your ontology. This section outlines that knowledge.
-
 ### What formats are supported for registering ontology files?
 
-The following standard formats are supported:
+The following formats are supported:
 
 *   [RDF/XML](https://www.w3.org/TR/REC-rdf-syntax/)
-*   [RDF/JSON](https://www.w3.org/TR/rdf-json/)
 *   [JSON-LD](https://www.w3.org/TR/json-ld/)
 *   [Notation3](https://www.w3.org/TeamSubmission/n3/)
 *   [N-TRIPLE](https://www.w3.org/TR/n-triples/)
 *   [TURTLE](https://www.w3.org/TeamSubmission/turtle/)
 *   [OWL/XML](https://www.w3.org/TR/owl-xml-serialization/)
+*   [RDF/JSON](https://www.w3.org/TR/rdf-json/)
 
 ### What options are available for hosting ontologies?
 
@@ -66,23 +64,48 @@ Regardless of the hosting mode, the following applies:
     provide the requested metadata, and review the ontology once it has been submitted to the ORR. 
     The owner will also provide updates directly to the repository.  
 
-The following section provides instructions on how to submit your existing ontology to the ORR.
+The following section provides instructions on how to submit an existing ontology to the ORR.
 
-## Uploading your ontology
+## Uploading an ontology
 
 To upload and register an ontology, you must be logged in as described above,
-and have an ontology file you have created in one of the above formats.
+and have available an ontology file in one of the above formats.
 
 Click the "Upload ontology" button on the main page to begin the submission process.
 
-A wizard dialog appears. In the wizard, select the local file and load it to the workspace. 
+A wizard dialog appears. 
+The first step is to load the intended contents in the workspace.
+For this you can either upload a local file:
 
-![Ontology upload dialog](../img/cor/cor-ontology-upload-dialog-20160828.png)
+![Ontology upload file dialog](../img/cor/cor-ontology-upload-dialog-file-20170218.png)
 
-In the following dialog, you will either select or enter the URI used as the ontology identifier (the IRI). 
+or a remote URL:
+
+![Ontology upload url dialog](../img/cor/cor-ontology-upload-dialog-url-20170218.png)
+
+ 
+### Uploading a local file
+
+Upon selecting and uploading your local file,
+you will then either select or enter the URI used as the ontology identifier. 
+The field for this purpose is labeled "Original ontology URI."
 If the system detects an ontology IRI candidate within the ontology, the IRI will be shown as a selection item, as shown in this dialog. Click on the select button to choose any IRI that you want to use as the ontology URI.
 
-![Ontology IRI selection](../img/cor/cor-ontology-uri-select-20160828.png)
+![Ontology IRI selection for local file](../img/cor/cor-ontology-uri-select-20160828b.png)
+
+### Uploading an ontology from a remote URL
+
+Upon entering the remote URL and clicking the 'Upload URL' button,
+and similarly as with the local file case above,
+you will then determine the URI to be used as the ontology identifier
+as indicated in the "Original ontology URI" field. 
+This field is initialized with the given remote URL, 
+but you can adjust this as appropriate.
+
+![Ontology IRI selection for remote URL](../img/cor/cor-ontology-uri-select-for-url-20170218.png)
+
+
+### Remaining upload sequence
 
 Once the `Next` button is selected, any metadata detected in the imported ontology is shown in the next dialog.
 
