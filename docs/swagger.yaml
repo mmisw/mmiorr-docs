@@ -298,6 +298,29 @@ paths:
       security:
        - basicAuth: []
 
+  /ont/term:
+    post:
+      tags: [ontology, term]
+      summary: Adds a term to an existing ORR vocabulary
+      description: |
+        This operation allows to add a new term to an ORR vocabulary.
+        This addition does not generate a new version of the vocabulary.
+      operationId: addTerm
+      parameters:
+        - in: body
+          name: body
+          description: |
+            Object with information for the term to be added.
+            See the `PostOnt` object description for more details.
+          schema:
+            $ref: "#/definitions/PostTerm"
+          required: true
+      responses:
+        "405":
+          description: Invalid input
+      security:
+       - basicAuth: []
+
   ######################################################################
   # Organization
   ######################################################################
@@ -770,6 +793,45 @@ definitions:
         type: string
         description: |
           Registered user making the request.
+
+  PostTerm:
+    type: object
+    properties:
+      vocUri:
+        type: string
+        description: |
+          The URI of the affected ORR vocabulary.
+
+      version:
+        type: string
+        description: |
+          The version to be affected. By default, latest version.
+
+      classUri:
+        type: string
+        description: |
+          URI of the specific class to be affected within the vocabulary.
+          Can be ommitted if the vocabulary only contains one class (which
+          will be the one affected).
+
+      termName:
+        type: string
+        description: |
+          Simple name of the new term.
+
+      termUri:
+        type: string
+        description: |
+          Full URI of the new term.
+
+      attributes:
+        type: array
+        items:
+          type: array
+          items:
+            type: string
+        description: |
+          Values for the properties defined for the vocabulary class.
 
   Ont:
     type: object
