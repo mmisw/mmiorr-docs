@@ -34,7 +34,7 @@ and ORR will resolve the IRI to the page for the ontology.
 
 Once you have selected an ontology, there are multiple formats for viewing or downloading it, 
 available under the "View/download as" drop down menu. 
-For more details, see the section of the ORR manual on [viewing ontologies](/orrdoc/vocab/view/).
+For more details, see the section of the ORR manual on [viewing ontologies](/vocab/view/).
 
 
 #### Tabular view: Why are the rows (or columns) not displayed in the same order I used to create my vocabulary?
