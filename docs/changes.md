@@ -1,6 +1,7 @@
 **Noteworthy recent changes**
 
-2017-02-18 (3.2.2)
+### 3.2.2 
+2017-02-18
 
 - option to upload file from remote URL ([#79](https://github.com/mmisw/orr-portal/issues/79))
 - capture status and visibility when creating new vocab or new mapping ([#60](https://github.com/mmisw/orr-portal/issues/60))
