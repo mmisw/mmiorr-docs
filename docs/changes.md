@@ -1,5 +1,16 @@
 **Noteworthy recent changes**
 
+### 3.2.4 
+2017-02-25
+
+- include external ontology viewers (LODE and VOWL at this time) as additional options in view/download dropdown menu
+- include LODE in list of external ontology viewers
+- include list of ontologies in organization page
+- organization's name was not editable; fixed.
+- resolve "too much unused real estate"
+- duplicate metadata removed
+- re-enable ontologyType facet 
+
 ### 3.2.2 
 2017-02-18
 
