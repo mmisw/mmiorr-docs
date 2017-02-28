@@ -1,8 +1,11 @@
 **Noteworthy recent changes**
 
-### 3.2.4 
-2017-02-25
+### 3.2.5
+2017-02-28
 
+- improve search options
+    - show SPARQL query for term-search and keyword-search
+    - term-search now also applied on the simple name of the subjects
 - include external ontology viewers (LODE and VOWL at this time) as additional options in view/download dropdown menu
 - include LODE in list of external ontology viewers
 - include list of ontologies in organization page
