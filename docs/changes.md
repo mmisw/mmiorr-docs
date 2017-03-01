@@ -1,11 +1,18 @@
 **Noteworthy recent changes**
 
-### 3.2.5
+### 3.3.0
 2017-02-28
 
 - improve search options
     - show SPARQL query for term-search and keyword-search
     - term-search now also applied on the simple name of the subjects
+- a log message can now be entered before proceeding with registration of 
+  a new ontology version. This log message is optional.  
+  Such log messages (if any) are displayed as tooltips in the "versions" dropdown menu.
+
+### 3.2.4 
+2017-02-25
+
 - include external ontology viewers (LODE and VOWL at this time) as additional options in view/download dropdown menu
 - include LODE in list of external ontology viewers
 - include list of ontologies in organization page
