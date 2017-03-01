@@ -1,4 +1,4 @@
-**Noteworthy recent changes**
+**Noteworthy**
 
 ### 3.3.0
 2017-02-28
@@ -36,3 +36,20 @@
   [#62](https://github.com/mmisw/orr-portal/issues/62), 
   [#76](https://github.com/mmisw/orr-portal/issues/76), 
   [#77](https://github.com/mmisw/orr-portal/issues/77))
+
+
+### 3.1.x
+
+- API documentation
+- \#31 "https == http for purposes of IRI identification"
+- improve reset-password and password-reset html pages
+- many improvements and fixes (email notifications, triple-store update, regular ontology display, recaptcha, ...)
+- improved docker image build and simplified configuration
+- 2016-07-12: 3.0.0-beta
+
+
+### older
+
+- late 2015: resume work with X-DOMES support
+- early 2015: first orr-portal (UI) version
+- 2014: first backend prototype
