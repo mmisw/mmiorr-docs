@@ -1,5 +1,10 @@
 **Noteworthy**
 
+### 3.3.1
+2017-03-02
+
+- user page was wrongly showing info about logged in user (#85) 
+
 ### 3.3.0
 2017-02-28
 
