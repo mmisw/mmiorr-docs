@@ -1,5 +1,12 @@
 **Noteworthy**
 
+### 3.4.0
+2017-03-04
+
+- visibility/status were not required in create vocab/mapping dialog; fixed.
+- failing to load external ontology for mapping; fixed (#44)
+- internal (adjustments related with docker based installation)
+
 ### 3.3.1
 2017-03-02
 
