@@ -2,7 +2,7 @@
 
 The Ontology Registry and Repository (ORR) is a web application through which you can create, update, 
 access, and map ontologies and their terms. 
-The latest version of the software is Version 3.1, 
+The latest version of the software is Version 3, 
 which continues to operate under test as ESIP Federation's Community Ontology Repository.
 
 The ORR software has been deployed to multiple sites, including
