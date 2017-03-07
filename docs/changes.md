@@ -2,6 +2,7 @@
 
 **3.4.1** 2017-03-07
 
+- various LOD adjustments/fixes (term page, keyword-search, term-search, regular ontology view)
 - create vocab/mapping dialog stays open when user navigates back in browser; fixed (#97)
 - include list of ontologies in user page (those owned by ~username -- not as submitter)
 
