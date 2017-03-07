@@ -1,15 +1,21 @@
-!!! tip
-    _Page Status_: **In Progress**
-    
 # Installing the ORR System
 
 ## ORR Deployment via Docker
+
+The installation of the ORR is greatly facilitated with the use of
+[Docker container technology](https://www.docker.com/what-docker).
+
+Please install on your target machine:
+
+- [Docker Engine](https://docs.docker.com/engine/installation/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+
 
 The Docker images required to run the ORR system are:
 
 | Image |  Name |  Purpose |
 |-|-|-|
-| [mmisw/orr-ont]   | ORR          | The ORR system itself |
+| [mmisw/orr]       | ORR          | The ORR system itself |
 | [mongo]           | MongoDB      | Persist all data |
 | [franzinc/agraph] | AllegroGraph | Triple store and SPARQL endpoint |
 
@@ -29,11 +35,11 @@ consists of the following steps.
     
 - Get these files:
 
-        $ curl -o docker-compose.yml https://raw.githubusercontent.com/mmisw/orr-ont/master/docker/deploy/docker-compose.yml
-        $ curl -o orront.conf        https://raw.githubusercontent.com/mmisw/orr-ont/master/docker/deploy/orront.conf
-        $ curl -o local.config.js    https://raw.githubusercontent.com/mmisw/orr-ont/master/docker/deploy/local.config.js
+        $ curl -o docker-compose.yml http://mmisw.org/orrdoc/install/docker-compose.yml
+        $ curl -o orront.conf        http://mmisw.org/orrdoc/install/orront.conf
+        $ curl -o local.config.js    http://mmisw.org/orrdoc/install/local.config.js
 
-- To specify a list of email addresses that should be notified whenever there's a
+- Optionally, to specify a list of email addresses that should be notified whenever there's a
 user, organization, or ontology registration, create a `notifyemails` text file and put each
 email address on a line by itself, e.g.,:
 
@@ -42,19 +48,23 @@ email address on a line by itself, e.g.,:
         other@example.net
         ^D
 
-- Edit the downloaded files as indicated.
+- Edit the downloaded files as indicated in their contents.
 
 - Launch the ORR:
 
         $ docker-compose up -d
         Starting agraph
         Starting mongo
-        Starting orr-ont
+        Starting orr
     
-- Copy `local.config.js` to the `orr-ont` container:
+- Copy `local.config.js` to the `orr` container:
 
-        $ docker cp local.config.js  orr-ont:/usr/local/tomcat/webapps/ont/js/
+        $ docker cp local.config.js  orr:/usr/local/tomcat/webapps/ont/js/
     
+- Inspect the log:
+
+        $ docker logs -f --tail=100 orr
+        
 - Open the ORR in your browser. For example, assuming 9090 is the associated host port,
   you can now open [http://localhost:9090/ont/](http://localhost:9090/ont/).
   You can login with the username "admin" and the password indicated in `orront.conf`.
@@ -63,23 +73,23 @@ email address on a line by itself, e.g.,:
 - To shutdown the whole ORR:
 
         $ docker-compose down
-        Stopping orr-ont ... done
+        Stopping orr ... done
         Stopping mongo ... done
         Stopping agraph ... done
-        Removing orr-ont ... done
+        Removing orr ... done
         Removing mongo ... done
         Removing agraph ... done
 
 
 - To stop and restart individual containers:
 
-        $ docker stop orr-ont
-        $ docker start orr-ont
-        $ docker restart orr-ont
+        $ docker stop orr
+        $ docker start orr
+        $ docker restart orr
 
     A crontab like the following could be defined for a complete ORR start at reboot time:
      
-        @reboot docker start mongo agraph orr-ont
+        @reboot docker start mongo agraph orr
 
 
 
@@ -107,6 +117,6 @@ and `/sparql` context paths under your main HTTP server:
 
 
 -------------
-[mmisw/orr-ont]: https://hub.docker.com/r/mmisw/orr-ont/
+[mmisw/orr]: https://hub.docker.com/r/mmisw/orr/
 [mongo]: https://hub.docker.com/_/mongo/
 [franzinc/agraph]: https://hub.docker.com/r/franzinc/agraph/
