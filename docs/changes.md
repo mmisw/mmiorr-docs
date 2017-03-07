@@ -1,24 +1,21 @@
 **Noteworthy**
 
-### 3.4.1
-2017-03-06
+**3.4.1** 2017-03-07
 
+- create vocab/mapping dialog stays open when user navigates back in browser; fixed (#97)
 - include list of ontologies in user page (those owned by ~username -- not as submitter)
 
-### 3.4.0
-2017-03-04
+**3.4.0** 2017-03-04
 
 - visibility/status were not required in create vocab/mapping dialog; fixed.
 - failing to load external ontology for mapping; fixed (#44)
 - internal (adjustments related with docker based installation)
 
-### 3.3.1
-2017-03-02
+**3.3.1** 2017-03-02
 
 - user page was wrongly showing info about logged in user (#85) 
 
-### 3.3.0
-2017-02-28
+**3.3.0** 2017-02-28
 
 - improve search options
     - show SPARQL query for term-search and keyword-search
@@ -27,8 +24,7 @@
   a new ontology version. This log message is optional.  
   Such log messages (if any) are displayed as tooltips in the "versions" dropdown menu.
 
-### 3.2.4 
-2017-02-25
+**3.2.4** 2017-02-25
 
 - include external ontology viewers (LODE and VOWL at this time) as additional options in view/download dropdown menu
 - include LODE in list of external ontology viewers
@@ -38,8 +34,7 @@
 - duplicate metadata removed
 - re-enable ontologyType facet 
 
-### 3.2.2 
-2017-02-18
+**3.2.2** 2017-02-18
 
 - option to upload file from remote URL ([#79](https://github.com/mmisw/orr-portal/issues/79))
 - capture status and visibility when creating new vocab or new mapping ([#60](https://github.com/mmisw/orr-portal/issues/60))
@@ -55,7 +50,7 @@
   [#77](https://github.com/mmisw/orr-portal/issues/77))
 
 
-### 3.1.x
+**3.1.x**
 
 - API documentation
 - \#31 "https == http for purposes of IRI identification"
@@ -65,7 +60,7 @@
 - 2016-07-12: 3.0.0-beta
 
 
-### older
+**older**
 
 - late 2015: resume work with X-DOMES support
 - early 2015: first orr-portal (UI) version
