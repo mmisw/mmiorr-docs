@@ -1,5 +1,10 @@
 **Noteworthy**
 
+### 3.4.1
+2017-03-06
+
+- include list of ontologies in user page (those owned by ~username -- not as submitter)
+
 ### 3.4.0
 2017-03-04
 
