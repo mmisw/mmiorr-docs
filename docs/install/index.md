@@ -29,6 +29,8 @@ The Docker images required to run the ORR system are:
 | [mongo]           | MongoDB      | Persist all data |
 | [franzinc/agraph] | AllegroGraph | Triple store and SPARQL endpoint |
 
+The `docker-compose.yml` file indicated below takes care of pulling and running
+these images.
 
 A complete deployment of the ORR, including the required supporting services,
 consists of the following steps.
