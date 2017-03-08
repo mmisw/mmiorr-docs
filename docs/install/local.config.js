@@ -11,8 +11,12 @@ appConfig.orront.rest  = "/ont";
 
 // (required) SPARQL endpoint URL.  (No trailing slash.)
 // This could be a full URL ("http://localhost:9090/sparql")
-// or a path relative to the orr-portal host
+// or a path relative to the orr-portal host.
 appConfig.orront.sparqlEndpoint = "http://localhost:9090/sparql";
+// NOTE: with the default configuration provided for agraph (AllegroGraph) in orront.conf,
+// the value here could be "http://localhost:10035/repositories/mmiorr" for initial testing.
+// But this value should be the exposed URL of such endpoint, for example, as suggested
+// in the Apache HTTPD proxy configuration section.
 
 // (optional) URL of image to show in the page header.
 // By default, this will be MMI ORR's logo.

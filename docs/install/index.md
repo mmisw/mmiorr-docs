@@ -1,3 +1,8 @@
+!!! tip
+    _Page Status_: **In Progress**. 
+    
+    Please let us know if you encounter any issues or have suggestions.
+
 # Installing the ORR System
 
 ## ORR Deployment via Docker
@@ -49,6 +54,11 @@ email address on a line by itself, e.g.,:
         ^D
 
 - Edit the downloaded files as indicated in their contents.
+
+    !!! note
+        There's some redundancy between `orront.conf` and `local.config.js`.
+        This will be fixed/simplified in a future version of the system.
+
 
 - Launch the ORR:
 
