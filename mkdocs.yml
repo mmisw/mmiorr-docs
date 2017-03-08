@@ -1,6 +1,7 @@
 site_name: MMI ORR
 repo_url: https://github.com/mmisw/mmiorr-docs
 theme: readthedocs
+google_analytics: ['UA-16970585-1', 'mmisw.org']
 
 markdown_extensions:
   - admonition
