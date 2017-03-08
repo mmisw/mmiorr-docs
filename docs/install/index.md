@@ -16,6 +16,11 @@ Please install on your target machine:
 - [Docker Compose](https://docs.docker.com/compose/install/)
 
 
+!!! note 
+    The user performing the deployment should have the relevant Docker privileges.
+    For example, via a command like: `sudo usermod -a -G docker username`
+
+    
 The Docker images required to run the ORR system are:
 
 | Image |  Name |  Purpose |
@@ -23,8 +28,6 @@ The Docker images required to run the ORR system are:
 | [mmisw/orr]       | ORR          | The ORR system itself |
 | [mongo]           | MongoDB      | Persist all data |
 | [franzinc/agraph] | AllegroGraph | Triple store and SPARQL endpoint |
-
-The user performing the deployment should have the relevant Docker privileges.
 
 
 A complete deployment of the ORR, including the required supporting services,
