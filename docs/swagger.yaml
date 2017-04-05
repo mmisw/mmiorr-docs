@@ -18,7 +18,7 @@ info:
     - You can click on the "Authorize" button at the top right of this page
       (or the `!` icon under the particular operation)
       to retrieve an authentication token corresponding to your COR credentials (username and password).
-      Once authorized, the authentication token will be included in the corresponding request.
+      Once authorized, the authentication token will be automatically included in the corresponding request.
       You will be able to not only perform the basic `GET` operations,
       but also see expanded responses according to your access privileges
       as well as perform other operations.
