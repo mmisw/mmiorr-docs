@@ -15,9 +15,10 @@ The following ORR instances provide or will be providing such documentation:
 | SensorML ORR  | http://sensorml.com/ontapi/ | [http://sensorml.com](http://sensorml.com) | 
 
 In each case you can use the "Authorize" button at the top of the API Documentation page to login with your 
-corresponding credentials. In this way you will be able to perform not only basic `GET` operations, 
-but also see expanded responses according to your access privileges and ontology 
-visibility settings, as well as perform other operations with the system.
+corresponding credentials. 
+Once authorized, you will be able to not only perform the basic `GET` operations,
+but also see expanded responses according to your access privileges
+as well as perform other operations.
 
 In each API operation description, you are able to set the variables in the descriptions of the API interface, 
 so that you can execute the API call, as well as see it appropriately formatted for an invocation with 

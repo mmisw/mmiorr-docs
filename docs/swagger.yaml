@@ -8,22 +8,23 @@ info:
 
     __Note__:
 
-    - We are in the process of writing this API documentation.
+    - We are in continuing to improve this API documentation.
       Please [let us know](https://github.com/mmisw/mmiorr-docs/issues) if you have any
       questions or suggestions.
 
-    - Besides the documentation itself, this page also allows to directly exercise the API.
+    - Besides the documentation itself, this page lets you directly exercise and test the API.
+      Click on any operation header below to learn more details about it, and see a "Try it out" button.
 
-    - Actual requests from this page are against the endpoint at
-      `http://cor.esipfed.org/ont`. This may change in a future version
-      regarding a more general way of exercising the API (regardless
-      of concrete endpoint), or by allowing the selection of the particular endpoint.
+    - You can click on the "Authorize" button at the top right of this page
+      (or the `!` icon under the particular operation)
+      to retrieve an authentication token corresponding to your COR credentials (username and password).
+      Once authorized, the authentication token will be included in the corresponding request.
+      You will be able to not only perform the basic `GET` operations,
+      but also see expanded responses according to your access privileges
+      as well as perform other operations.
 
-    - You can use the "Authorize" button above (or the `!` icon under the particular operation),
-      to login with your COR credentials in this API interface. In this way you will be able
-      to perform not only the basic `GET` operations, but see expanded responses according to
-      your access priviliges and ontology visibility settings, as well as perform other
-      operations as listed below.
+    - The "Try it out" button will also show the corresponding API call that you can submit
+      from the command line using [`curl`](https://curl.haxx.se/).
 
     - This API includes administrative operations related with the triple store.
       The SPARQL endpoint itself
@@ -32,6 +33,11 @@ info:
       (General SPARQL information can be found [here](https://en.wikipedia.org/wiki/SPARQL),
       and regarding the current service used by the ORR to support the SPARQL interface
       [here](http://franz.com/agraph/support/documentation/current/http-protocol.html).)
+
+    - Actual requests from this page are against the specific endpoint at
+      `http://cor.esipfed.org/ont`. This may change in a future version
+      (to provide a more general way of exercising the API, regardless
+      of concrete endpoint, or to allow the selection of the particular endpoint).
 
   termsOfService: 'https://marinemetadata.org/orr/tou'
   license:
