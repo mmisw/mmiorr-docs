@@ -1,5 +1,11 @@
 **Noteworthy**
 
+**3.4.3** 2017-04-13
+
+- New option in CSV import to indicate that all columns are properties (and values) along
+  with mechanism to determine the unique identifiers for the terms
+  ([#101](https://github.com/mmisw/orr-portal/issues/101)).
+
 **3.4.1** 2017-03-07
 
 - various LOD adjustments/fixes (term page, keyword-search, term-search, regular ontology view)
