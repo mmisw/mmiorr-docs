@@ -4,7 +4,7 @@
     
     Contents are being migrated from [the original site](https://marinemetadata.org/mmiorrusrman)
     and updated to reflect major developments in the new version (ORR v3).
-    As of February 2017 most of the content has already being updated.
+    As of May 2017 most of the content has already being updated.
     Individual pages still under construction have a warning at the top. 
     
 Welcome, and thanks for using the Ontology Registry and Repository (ORR) services.
