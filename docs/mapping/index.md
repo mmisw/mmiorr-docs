@@ -8,7 +8,7 @@ Doing accurate mapping requires an in-depth knowledge of the meaning of the term
 It is usually most efficient to gather a small group of domain experts, who are familiar with the 
 controlled vocabularies, together for an in-person mapping session. In addition to the domain experts, 
 the mapping team may also include a facilitator, recorder, tools specialist, ontology specialist, 
-domain lead, and communication liaison. (See the [https://marinemetadata.org/workshoptemp)).
+domain lead, and communication liaison. (See the [http://marinemetadata.org/workshoptemp)).
 
 - [Creating a Mapping Ontology](mapping/new.md)
 - [Viewing a Vocabulary](mapping/view.md)

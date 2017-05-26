@@ -18,7 +18,7 @@ These pages document the most recent ORR software, which is deployed at the ESIP
 
 !!! note
     The MMI ORR deployment is still using the previous software release
-    (documented in the [MMI web site's ORR documentation](https://marinemetadata.org/mmiorrusrman)).
+    (documented in the [MMI web site's ORR documentation](http://marinemetadata.org/mmiorrusrman)).
     Plans are underway to update this instance also to the latest ORR version 3.
 
 
