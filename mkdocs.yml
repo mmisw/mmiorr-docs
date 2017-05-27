@@ -4,6 +4,7 @@ theme: readthedocs
 google_analytics: ['UA-16970585-1', 'mmisw.org']
 
 markdown_extensions:
+  - footnotes
   - admonition
   - toc:
       permalink: True
@@ -31,6 +32,7 @@ pages:
   - Creating a Mapping Ontology: mapping/new.md
   - Updating a Mapping Ontology: mapping/newversion.md
 - Changes: changes.md
+- From v2 to v3: from2to3.md
 - Advanced Topics:
   - REST API: api/index.md
   - Known issues: issues.md

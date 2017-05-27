@@ -9,10 +9,10 @@ The following ORR instances provide or will be providing such documentation:
 
 |ORR Instance| API Documentation | Main Page |
 |-|-|-|
+| MMI ORR       | [https://mmisw.org/ontapi/](https://mmisw.org/ontapi/)           | [https://mmisw.org](https://mmisw.org) | 
+| XDOMES ORR    | [https://xdomes.org/ontapi/](https://xdomes.org/ontapi/)         | [https://xdomes.org](https://xdomes.org) | 
 | ESIP COR      | [http://cor.esipfed.org/ontapi/](http://cor.esipfed.org/ontapi/) | [http://cor.esipfed.org](http://cor.esipfed.org) | 
-| XDOMES ORR    | [https://xdomes.org/ontapi/](https://xdomes.org/ontapi/) | [https://xdomes.org](https://xdomes.org) | 
-| MMI ORR       | https://mmisw.org/ontapi/ | [https://mmisw.org](https://mmisw.org) | 
-| SensorML ORR  | http://sensorml.com/ontapi/ | [http://sensorml.com](http://sensorml.com) | 
+| SensorML ORR  | http://sensorml.com/ontapi/                                      | [http://sensorml.com](http://sensorml.com) | 
 
 In each case you can use the "Authorize" button at the top of the API Documentation page to login with your 
 corresponding credentials. 
