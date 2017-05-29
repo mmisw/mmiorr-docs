@@ -1,5 +1,9 @@
 **Noteworthy**
 
+**3.4.4** 2017-05-29
+
+- adjustments in user account creation
+
 **3.4.3** 2017-04-13
 
 - New option in CSV import to indicate that all columns are properties (and values) along
