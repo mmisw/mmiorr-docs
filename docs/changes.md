@@ -1,5 +1,6 @@
-!!! tip "Are you a user of the MMI ORR instance at mmisw.org/?" 
-    [Here's a summary of the major changes in v3](/from2to3).
+!!! tip "Are you a user of the MMI ORR instance at mmisw.org?" 
+    This instance was recently migrated from the previous version 2. 
+    A summary of the major changes in v3 is available [here](/from2to3).
 
 **Noteworthy**
 
