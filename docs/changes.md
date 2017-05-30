@@ -80,4 +80,4 @@
 
 - late 2015: resume work with X-DOMES support
 - early 2015: first orr-portal (UI) version
-- 2014: first backend prototype
+- 2014: first backend prototype (aka "version 2")
