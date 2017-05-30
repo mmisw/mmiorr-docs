@@ -1,8 +1,10 @@
 **Noteworthy**
 
-**3.4.4** 2017-05-29
+**3.5.0** 2017-05-29
 
+- upgrade of underlying Jena library to 3.3.0
 - adjustments in user account creation
+- include additional details in email notifications regarding ontology registration
 
 **3.4.3** 2017-04-13
 
