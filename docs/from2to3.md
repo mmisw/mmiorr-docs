@@ -42,7 +42,7 @@ please keep in mind the following:
 | "self-resolvable" URI HTML resolution       | Direct dispatch[4]                                                            
 
 
-At a more technically level, the major changes include:
+At a more technical level, the major changes include:
 
 | Aspect                              | v3                                                              
 | ---------------------------         |-------------------- 
