@@ -1,3 +1,6 @@
+!!! danger "Are you a user of the MMI ORR instance at mmisw.org/?" 
+    [Here's a summary of the major changes in v3](/from2to3)
+
 **Noteworthy**
 
 **3.5.0** 2017-05-29
