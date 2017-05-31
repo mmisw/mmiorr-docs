@@ -4,6 +4,10 @@
 
 **Noteworthy**
 
+**3.5.1** 2017-05-29
+
+- "fully-hosted filter should consider https and http" - fixed ([#109](https://github.com/mmisw/orr-portal/issues/109))
+
 **3.5.0** 2017-05-29
 
 - upgrade of underlying Jena library to 3.3.0
