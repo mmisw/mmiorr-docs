@@ -18,7 +18,7 @@ please keep in mind the following:
 - Your username and password should continue to work but you will 
   need to login in the new version.
     - **Forgot your username?** Click the 'Get username' button in the 'Sign in' dialog; 
-      enter your email and your username will be sent to you. 
+      enter your email address and your username will be sent to you. 
     - **Forgot your password?** Click the 'Reset password' button in the 'Sign in' dialog; 
       enter your username and an email with further instructions will be sent to you. 
 - If you used the preliminary HTTP interface for programmatic registration of ontologies,

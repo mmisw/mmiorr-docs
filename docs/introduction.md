@@ -14,14 +14,6 @@ Repository](http://cor.esipfed.org), shown below; this is known as the ESIP COR,
 
 ![](img/cor/cor-browse-page-20160828.png Browse page of the ESIP COR)
 
-These pages document the most recent ORR software, which is deployed at the ESIP COR. 
-
-!!! note
-    The MMI ORR deployment is still using the previous software release
-    (documented in the [MMI web site's ORR documentation](http://marinemetadata.org/mmiorrusrman)).
-    Plans are underway to update this instance also to the latest ORR version 3.
-
-
 **Main ORR Capabilities**
 
 The ORR was created to provide the following capabilities 

@@ -1,17 +1,14 @@
 !!! tip
-    The screen shots in this presentation are made using the ESIP COR service.   
-    Most features are also available in a similar form in the MMI ORR site; see the 
-    [MMI ORR help pages](http://marinemetadata.org/mmiorrusrman/mmiorrgetstarted) for details.
-    
+    The screen shots in this presentation are made using the ESIP COR instance.   
+
+
 ## 1. Initial Access
 
 **1-A. Open the desired ORR site in your browser**
 
-* MMI ORR browse page: [http://mmisw.org/orr/](http://mmisw.org/orr/)
+* MMI ORR browse page: [https://mmisw.org/orr/](https://mmisw.org/orr/)
 * ESIP COR browse page: [http://cor.esipfed.org/ont/](http://cor.esipfed.org/ont/)
-
-To open other ORR sites, replace the domain name (mmisw.org or cor.esipfed.org above) with your domain name, 
-and use `ont` for ORR version 3, and `orr` as the location for version 2 deployments.
+* X-DOMES ORR browse page: [https://xdomes.org/ont/](https://xdomes.org/ont/)
 
 <img class="smallfloatright" alt="Sign-in window" src="../img/cor/cor-sign-in-window-20160828.png">
 **1-B. Log in**

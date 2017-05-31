@@ -8,8 +8,9 @@ and the [W3C documentation](http://www.w3.org/TR/sparql11-overview/) provides a 
 
 SPARQL queries can be done programmatically, with a RESTful interface using HTTP GET requests, 
 against the ORR SPARQL endpoint at `http://[domain]/sparql` 
-(COR example: [http://cor.esipfed.org/sparql](http://cor.esipfed.org/sparql) ).
-Alternatively, a web page with a user interface is available at `http://[domain]/ont/sparql` 
+(COR example: `http://cor.esipfed.org/sparql`). 
+Note that this endpoint is intended for programmatic access; not a user interface.
+A web page with a user interface is available at `http://[domain]/ont/sparql` 
 (COR example: [http://cor.esipfed.org/ont/sparql/](http://cor.esipfed.org/ont/sparql/), as shown below).
 
 ![SPARQL search page](img/cor/cor-sparql-search-page-20160828.png)
