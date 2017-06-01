@@ -82,21 +82,21 @@ You may have to click on the section headers to show the content below the heade
 information about the ontology it is showing.
 
 <!-- need to add something like: "for vocabularies created using the ORR vocabulary editor ..." 
-(but even so, there are ways in such editor to enter the term URI in whatever was the user desires, even a URN,
+(but even so, there are ways in such editor to enter the term IRI in whatever way the user desires, even a URN,
 so this paragraph has significant assumtions in general) -->
 You can access any of the terms in the ontology by appending a `/` and the term identifier (a name or code) 
-to the ontology URI. This new URI represents the corresponding term, and the service will present information relevant 
+to the ontology IRI. This new IRI represents the corresponding term, and the service will present information relevant 
 to the specific term.
 
 For ontologies (and terms in them) that have been re-hosted by the ORR, 
 you can append the ontology IRI to the following string: 
-`http://[domain]/ont/?uri=`. 
+`http://[domain]/ont/?iri=`. 
 This will provide the same information as when you use the natively hosted ontology IRI, as described above.
-(Note: any `#` characters in the IRI should be encoded as `%23`.)
+(Note: with the `iri` parameter mechanism, any `#` characters in the IRI should be encoded as `%23`)
 
 For any ontology in the ORR, if you want to look at the ontology in a structured format (e.g., RDF/XML, or N3), 
-you can construct an IRI which requests this format.
-For example `http://[domain]/ont?format=n3&uri=`, 
+you can construct an IRI that requests this format.
+For example `http://[domain]/ont?format=n3&iri=`, 
 followed by your ontology's IRI, will present the ontology in the n3 format.
 
 You can also use the API, in particular the [`GET /ont` operation](http://cor.esipfed.org/ontapi/#!/ontology/get_ont)
@@ -113,12 +113,12 @@ Please see the sections for the [SPARQL query API](https://mmisw.org/orrdoc/quer
 #### Can you give examples of how to open the registered ontologies in Protégé and TopBraid Composer?
 
 Briefly, you can either specify the ontology IRI directly to one of those applications, 
-or download the ontology as an RDF/XML format. 
+or download the ontology as an RDformat. 
 Specifying the IRI is only guaranteed to work if the ontology is hosted at the ORR.
 Ontologies that are re-hosted, or remotely hosted, by ORR may not be discoverable at their To download the ontology from its front page, 
 you can use the `View/download as` dropdown menu, selecting RDF/XML as the format. 
-Another option is to directly specify the download IRI in your browser, constructed as `http://[domain]/ont?form=rdf&uri=`, 
-followed by your ontology name. (See above for further information.)
+Another option is to directly specify the download IRI in your browser, constructed as `http://[domain]/ont?form=rdf&iri=`, 
+followed by your ontology IRI. (See above for further information.)
 Once you have downloaded the ontology, you can open it locally in any ontology or text management application.
 
 ## Submitting and Updating Ontologies

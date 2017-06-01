@@ -75,10 +75,11 @@ paths:
 
 
         Before having to provide other required information for registration,
-        this separated step helps not only in determining that the file is a valid ontology,
+        this separated step helps not only in determining that the file corresponds to an
+        ontology in a recognized format,
         but also in terms of the returned associated information that the user or
         client application can use for actual registration, for example, regarding possible
-        ontology URIs found in the file.
+        ontology IRIs found in the file.
 
       operationId: uploadOnt
       parameters:
@@ -100,9 +101,9 @@ paths:
         '200':
           description: |
             Information about the uploaded file.
-            The `possibleOntologyUris` object will indicate the possible ontology URI (or URIs)
-            of the uploaded file. For each URI, it will indicate some explanation for the
-            extraction of such URI, and the associated metadata, if any.
+            The `possibleOntologyIris` object will indicate the possible ontology IRI (or IRIs)
+            of the uploaded file. For each IRI, it will indicate some explanation for the
+            extraction of such IRI, and the associated metadata, if any.
             On the other hand, the `userName` and `filename` attributes of
             this object are to be used in the subsequent registration to properly refer to
             the uploaded file.
@@ -114,7 +115,7 @@ paths:
               "userName": "carueda",
               "filename": "1477537138555._guess",
               "format": "rdf",
-              "possibleOntologyUris": {
+              "possibleOntologyIris": {
                 "https://www.w3.org/ns/ssn": {
                   "explanations": [
                     "Resource of type http://www.w3.org/2002/07/owl#Ontology"
@@ -152,10 +153,10 @@ paths:
         All parameters are optional.
 
 
-        Any given `uri`, `ouri`, or `turi` parameter indicates a request for a
+        Any given `iri`, `oiri`, or `tiri` parameter indicates a request for a
         particular ontology or term.
 
-        If none of the `uri`, `ouri`, and `turi` parameters is given,
+        If none of the `iri`, `oiri`, and `tiri` parameters is given,
         this will indicate a query for a list of ontologies. In this case, only
         a metadata summary is provided for each reported ontology (in particular,
         no ontology contents per se is reported). Also, other supplied
@@ -165,16 +166,16 @@ paths:
 
 
       parameters:
-        - name: uri
+        - name: iri
           in: query
           type: string
           required: false
           description: |
             With this parameter the backend will first try an "ontology
-            request." If no ontlogy is registered by the given URI, then it
+            request." If no ontlogy is registered by the given IRI, then it
             will try a "term request."
 
-        - name: ouri
+        - name: oiri
           in: query
           type: string
           required: false
@@ -188,7 +189,7 @@ paths:
           description: |
             Desired version in the case of an "ontology request."
 
-        - name: turi
+        - name: tiri
           in: query
           type: string
           required: false
@@ -216,7 +217,7 @@ paths:
       summary: Registers a brand new ontology
       description: |
         Performs the registration of a brand new ontology in the registry by
-        the URI given in the `uri` attribute of the object in the body.
+        the IRI given in the `iri` attribute of the object in the body.
       operationId: addOnt
       parameters:
         - in: body
@@ -281,15 +282,15 @@ paths:
       operationId: deleteOnt
       parameters:
         - in: query
-          name: uri
-          description: Ontology URI
+          name: iri
+          description: Ontology IRI
           type: string
           required: true
         - in: query
           name: version
           description: |
             Particular version to be deleted.
-            If omitted, the whole entry by the given URI will be unregistered.
+            If omitted, the whole entry by the given IRI will be unregistered.
           type: string
         - in: query
           name: userName
@@ -542,24 +543,24 @@ paths:
       tags: [triplestore]
       summary: Gets the size of the store or the size of a particular named graph
       description: |
-        Provide one of the `uri` or `context` parameters to get the size of a particular graph.
+        Provide one of the `iri` or `context` parameters to get the size of a particular graph.
         If none of these parameters is provided, the size of the whole triplestore will be responded.
         Only admins can perform this operation.
       operationId: getTriplestoreSize
       parameters:
-        - name: uri
+        - name: iri
           in: query
           type: string
           required: false
           description: |
-            URI of particular context
+            IRI of particular context
 
         - name: context
           in: query
           type: string
           required: false
           description: |
-            URI of particular context
+            IRI of particular context
 
       responses:
         '200':
@@ -572,12 +573,12 @@ paths:
         Only admins can perform this operation.
       operationId: loadOntInTriplestore
       parameters:
-        - name: uri
+        - name: iri
           in: query
           type: string
           required: true
           description: |
-            URI of the ontology to be loaded
+            IRI of the ontology to be loaded
       responses:
         "200":
           description: Successful operation
@@ -590,17 +591,17 @@ paths:
       tags: [triplestore]
       summary: Reloads an ontology or all ontologies in the triplestore
       description: |
-        Provide the `uri` parameter to reload a particular ontology.
+        Provide the `iri` parameter to reload a particular ontology.
         Otherwise all registered ontologies will be reloaded in the triplestore.
         Only admins can perform this operation.
       operationId: reloadOntsInTriplestore
       parameters:
-        - name: uri
+        - name: iri
           in: query
           type: string
           required: false
           description: |
-            URI of the ontology to be reloaded
+            IRI of the ontology to be reloaded
       responses:
         "200":
           description: Successful operation
@@ -613,17 +614,17 @@ paths:
       tags: [triplestore]
       summary: Unloads an ontology or all ontologies from the triplestore
       description: |
-        Provide the `uri` parameter to unload a particular ontology.
+        Provide the `iri` parameter to unload a particular ontology.
         Otherwise all registered ontologies will be unloaded from the triplestore.
         Only admins can perform this operation.
       operationId: unloadOntsInTriplestore
       parameters:
-        - name: uri
+        - name: iri
           in: query
           type: string
           required: false
           description: |
-            URI of the ontology to be unloaded
+            IRI of the ontology to be unloaded
       responses:
         "200":
           description: Successful operation
@@ -651,7 +652,7 @@ definitions:
       format:
         type: string
         description: The format of the file.
-      possibleOntologyUris:
+      possibleOntologyIris:
         type: object
         description: The format of the file.
         additionalProperties:
@@ -665,10 +666,10 @@ definitions:
         items:
           type: string
         description: |
-          Explanations for the extraction of the given possible ontology URI.
+          Explanations for the extraction of the given possible ontology IRI.
       metadata:
         type: object
-        description: Metadata associated to the ontology URI.
+        description: Metadata associated to the ontology IRI.
         additionalProperties:
           type: array
           items:
@@ -678,17 +679,17 @@ definitions:
   PostOnt:
     type: object
     properties:
-      uri:
+      iri:
         type: string
         description: |
-          The URI of the ontology.
+          The IRI of the ontology.
 
-      originalUri:
+      originalIri:
         type: string
         description: |
           In case of a fully-hosted registration, enter this field to indicate
-          the original URI in the provided contents to be used for the "migration"
-          of corresponding entities to the new URI.
+          the original IRI in the provided contents to be used for the "migration"
+          of corresponding entities to the new IRI.
 
       name:
         type: string
@@ -739,9 +740,9 @@ definitions:
   PutOnt:
     type: object
     properties:
-      uri:
+      iri:
         type: string
-        description: The URI of the ontology to be updated.
+        description: The IRI of the ontology to be updated.
 
       version:
         type: string
@@ -749,11 +750,11 @@ definitions:
           If given, this particular version will be updated.
           Otherwise, a new version (which is generated by the ORR) is created.
 
-      originalUri:
+      originalIri:
         type: string
         description: |
           In case a fully-hosted registration and ontology contents are provided for this update, enter this field to indicate
-          the original URI to be used for the "migration" of corresponding entities to the URI used for registration.
+          the original IRI to be used for the "migration" of corresponding entities to the IRI used for registration.
 
       name:
         type: string
@@ -803,20 +804,20 @@ definitions:
   PostTerm:
     type: object
     properties:
-      vocUri:
+      vocIri:
         type: string
         description: |
-          The URI of the affected ORR vocabulary.
+          The IRI of the affected ORR vocabulary.
 
       version:
         type: string
         description: |
           The version to be affected. By default, latest version.
 
-      classUri:
+      classIri:
         type: string
         description: |
-          URI of the specific class to be affected within the vocabulary.
+          IRI of the specific class to be affected within the vocabulary.
           Can be ommitted if the vocabulary only contains one class (which
           will be the one affected).
 
@@ -825,10 +826,10 @@ definitions:
         description: |
           Simple name of the new term.
 
-      termUri:
+      termIri:
         type: string
         description: |
-          Full URI of the new term.
+          Full IRI of the new term.
 
       attributes:
         type: array
@@ -842,7 +843,7 @@ definitions:
   Ont:
     type: object
     properties:
-      uri:
+      iri:
         type: string
       name:
         type: string

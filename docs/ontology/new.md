@@ -39,13 +39,13 @@ The indirect mechanisms described below are also provided in this case.
 #### Re-hosted ontology
 
 The general registration process is similar to the fully hosted option, but 
-no changes at all will be performed in the contents 
-(that is, in terms of modifying any defined IRIs/URIs in the ontology).
+no changes at all will be performed to the contents 
+(that is, in terms of modifying any defined IRIs in the ontology).
 
 *   **IRI Resolvability.** 
 The IRIs of your ontology and associated terms can be resolved indirectly 
-via the "uri" parameter, eg., 
-`http://mmisw.org/ont?uri=http://example.com/my/ontologyuri`. 
+via the "iri" parameter, eg., 
+`https://mmisw.org/ont?iri=http://example.com/my/ontology`. 
 You can also indirectly access the ontology and terms via searches against ORR. 
 (NOTE: Your ontology could also be resolved by its own IRI if that is supported by its 
 original web server.)  
@@ -87,9 +87,10 @@ or a remote URL:
 ### Uploading a local file
 
 Upon selecting and uploading your local file,
-you will then either select or enter the URI used as the ontology identifier. 
-The field for this purpose is labeled "Original ontology URI."
-If the system detects an ontology IRI candidate within the ontology, the IRI will be shown as a selection item, as shown in this dialog. Click on the select button to choose any IRI that you want to use as the ontology URI.
+you will then either select or enter the IRI used as the ontology identifier. 
+The field for this purpose is labeled "Original ontology IRI."
+If the system detects an ontology IRI candidate within the ontology, the IRI will be shown as a selection item, 
+as shown in this dialog. Click on the select button to choose any IRI that you want to use as the ontology IRI.
 
 ![Ontology IRI selection for local file](../img/cor/cor-ontology-uri-select-20160828b.png)
 
@@ -97,8 +98,8 @@ If the system detects an ontology IRI candidate within the ontology, the IRI wil
 
 Upon entering the remote URL and clicking the 'Upload URL' button,
 and similarly as with the local file case above,
-you will then determine the URI to be used as the ontology identifier
-as indicated in the "Original ontology URI" field. 
+you will then determine the IRI to be used as the ontology identifier
+as indicated in the "Original ontology IRI" field. 
 This field is initialized with the given remote URL, 
 but you can adjust this as appropriate.
 

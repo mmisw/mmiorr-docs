@@ -4,6 +4,11 @@
 
 **Noteworthy**
 
+**3.6.0** 2017-05-31
+
+- General support for IRIs (both backend and frontend), with many adjustments in relevant 
+  parameters, UI widgets and messages, and documentation.
+
 **3.5.1** 2017-05-29
 
 - "fully-hosted filter should consider https and http" - fixed ([#109](https://github.com/mmisw/orr-portal/issues/109))

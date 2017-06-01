@@ -39,7 +39,7 @@ please keep in mind the following:
 | Support for multiple classes in ORR vocabularies | Yes                                                                                                                                 
 | Ontology input formats                      | RDF/XML, N3, OWL/XML, JSON-LD, Turtle, N-Triples, RDF/JSON                                              
 | Ontology output formats                     | RDF/XML, N3, JSON-LD, Turtle, N-Triples, N-Quads, RDF/JSON                                              
-| "self-resolvable" URI HTML resolution       | Direct dispatch[4]                                                            
+| Self-resolvable HTML resolution of IRI/URI  | Direct dispatch[4]                                                            
 
 
 At a more technical level, the major changes include:
@@ -64,8 +64,9 @@ At a more technical level, the major changes include:
   (A user can also register his/her own ontologies.)
 - [3] Authentication is based on [JSON Web Tokens](http://jwt.io/) and 
   [Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication).
-- [4] Direct dispatch means that the original ontology URI (in the case of URL) is retained in the browser URL field. 
-  Redirection in previous v2 very often caused user confusion regarding the proper URI for ontology identification.
+- [4] Direct dispatch means that the original ontology IRI (in the case of URL) is retained in the browser URL field. 
+  Redirection to the different base location (`/orr`) in the previous v2 very often caused confusion to users 
+  regarding the proper IRI for ontology identification.
 - [5] However, other HTTP frameworks, apparently much more actively maintained, 
   may be considered in a future version including 
   [Akka HTTP](https://github.com/akka/akka-http) 

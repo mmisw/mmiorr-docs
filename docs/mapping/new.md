@@ -21,8 +21,8 @@ controlled vocabularies [in the MMI guide on mapping](http://marinemetadata.org/
 
 4\. Click on “Add” working ontologies to include the ontologies between which you would like to map. 
 One at a time, type in the abbreviation each ontology you would like to use in the mapping 
-(e.g., “CF” or “IOOS”). The abbreviation is a search parameter that will return the URIs of 
-any relevant ontologies.<span> </span> You then select the URI for each ontology you want to 
+(e.g., “CF” or “IOOS”). The abbreviation is a search parameter that will return the IRIs of 
+any relevant ontologies.<span> </span> You then select the IRI for each ontology you want to 
 add to your mapping file. If you want to map against an external ontology, simply enter its 
 full URL in the field. Each working ontology will be assigned a letter (e.g., "A", "B").
 

@@ -29,7 +29,7 @@ This manual describes the Ontology Registry and Repository and associated semant
 The provided suite of key functions allows data providers and users to include, use, and exploit
 semantic information in real world scenarios.
 
-***ORR built around URIs / IRIs *** 
+***ORR built around IRIs *** 
 
 In the ORR, at the most basic level, every term has an IRI[2], and the ORR returns a page of basic information about 
 the term when someone enters that IRI into their browser. When the ORR creates an ontology,

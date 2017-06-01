@@ -11,9 +11,9 @@ The original steps are outlined here (you may wish to refer to the
 
 * Click the "Upload ontology" button on the main page to begin the submission process.
 * A wizard dialog appears. In the wizard, select the local file and load it to the workspace. 
-* Either select or enter the URI used as the ontology identifier (the IRI). 
+* Either select or enter the IRI used as the ontology identifier. 
  * If the system detects an ontology IRI candidate within the ontology, the IRI will be shown as a selection item. 
- * Click on the select button to choose any IRI that you want to use as the ontology URI.
+ * Click on the select button to choose any IRI that you want to use as the ontology IRI.
 * Once the `Next` button is selected, any metadata detected in the imported ontology is shown in the next dialog.
 * Next you will be asked to choose the type of registration (fully-hosted or re-hosted).  
 * Finally, you may review and complete the metadata details necessary for registering your ontology. 
