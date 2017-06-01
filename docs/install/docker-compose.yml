@@ -2,7 +2,7 @@ version: '2'
 
 services:
   orr:
-    image: mmisw/orr:3.4.1
+    image: mmisw/orr:3.6.0
     container_name: orr
     depends_on:
       - agraph
