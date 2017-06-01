@@ -18,7 +18,7 @@ ORR offers two options to register an existing ontology: _fully-hosted_ mode and
 ### Fully-hosted ontology
 
 In this case, ORR will assign an IRI having the URL of the corresponding ORR service
-(e.g., `http://mmisw.org/ont/`) as a prefix to your ontology IRI, as well as to all the IRIs of associated 
+(e.g., `https://mmisw.org/ont/`) as a prefix to your ontology IRI, as well as to all the IRIs of associated 
 terms sharing the same base namespace. More specifically, the original base IRI of the ontology will be 
 overwritten with one assigned by ORR during the registration process.
   
@@ -35,7 +35,7 @@ are applied to submitted ontology.
 
 *   **IRI Resolvability.** 
 The IRIs of your ontology and associated terms can be resolved indirectly by 
-the ORR via the `iri` parameter, e.g., http://mmisw.org/ont/?iri=http://www.w3.org/ns/ssn/. 
+the ORR via the `iri` parameter, e.g., https://mmisw.org/ont/?iri=http://www.w3.org/ns/ssn/. 
 You can also indirectly access the ontology and terms via searches against ORR. 
 NOTE: Your ontology could also be resolved by its own IRI if that is supported by the 
 original web server.  

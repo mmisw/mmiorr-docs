@@ -45,9 +45,9 @@ consists of the following steps.
     
 - Get these files:
 
-        $ curl -o docker-compose.yml http://mmisw.org/orrdoc/install/docker-compose.yml
-        $ curl -o orront.conf        http://mmisw.org/orrdoc/install/orront.conf
-        $ curl -o local.config.js    http://mmisw.org/orrdoc/install/local.config.js
+        $ curl -o docker-compose.yml https://mmisw.org/orrdoc/install/docker-compose.yml
+        $ curl -o orront.conf        https://mmisw.org/orrdoc/install/orront.conf
+        $ curl -o local.config.js    https://mmisw.org/orrdoc/install/local.config.js
 
 - Optionally, to specify a list of email addresses that should be notified whenever there's a
 user, organization, or ontology registration, create a `notifyemails` text file and put each

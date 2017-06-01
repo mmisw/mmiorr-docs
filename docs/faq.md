@@ -5,11 +5,11 @@
 
 #### How do I find ontologies in the repository that are most relevant to my work?
 
-Please see [Searching via the UI](https://mmisw.org/orrdoc/search/).
+Please see [Searching via the UI](/search/).
 
 #### How do I do an Advanced Search using SPARQL?
 
-Please see [Content Query via API](https://mmisw.org/orrdoc/query/).
+Please see [Content Query via API](/query/).
 
 #### How can I view ontologies in the repository?
 
@@ -53,10 +53,10 @@ This section has questions about using ontologies in a repository based on the O
 
 This is a complex question.  Generally, you should use an existing ontology if it will meet most of your needs.  
 However, there are several considerations for choosing an existing ontology. Please see the Guide on 
-[choosing a vocabulary](http://marinemetadata.org/guides/vocabs/cvchooseimplement/cvchoosing).  
+[choosing a vocabulary](https://marinemetadata.org/guides/vocabs/cvchooseimplement/cvchoosing).  
 If no existing ontology meets 
 your needs, you may wish to develop your own. Please see the Guide on 
-[developing your own vocabulary](http://marinemetadata.org/guides/vocabs/cvdev).
+[developing your own vocabulary](https://marinemetadata.org/guides/vocabs/cvdev).
 
 #### I found an existing ontology that seems good, but it doesn't include all the terms that I need.  How do I build upon an existing ontology?
 
@@ -103,12 +103,13 @@ You can also use the API, in particular the [`GET /ont` operation](http://cor.es
 (example is for the ESIP COR),
 to ask for an entire ontology, or information about a particular term.
 
-The page [Viewing a Vocabulary](https://mmisw.org/orrdoc/vocab/view/) 
+The page [Viewing a Vocabulary](/vocab/view/) 
 describes the formats and viewing options in more detail.
 
 #### How do I query the registered ontologies programatically? What services do I have?
 
-Please see the sections for the [SPARQL query API](https://mmisw.org/orrdoc/query/) and the [REST API](https://mmisw.org/orrdoc/rest/), which points to the appropriate API documentation.
+Please see the sections for the [SPARQL query API](/query/) and the [REST API](/rest/), 
+which point to the appropriate API documentation.
 
 #### Can you give examples of how to open the registered ontologies in Protégé and TopBraid Composer?
 
@@ -138,11 +139,14 @@ Several ontology formats are accepted by the ORR, including XML serialization fo
 Select the "Upload ontology" button, browse to your local file, upload the ontology to the workspace, 
 choose the hosting option, review the metadata details, 
 and complete the registration. 
-For more information, see the sections of the ORR manual on [Registering an Ontology](https://mmisw.org/orrdoc/ontology/upload).
+For more information, see the sections of the ORR manual on [Registering an Ontology](/ontology/upload).
 
 #### I have a vocabulary in a column-separated text format, how do I submit it to the ORR?
 
-If the vocabulary is in an spreadsheet-like format, you should choose "Create vocabulary" and import the file (once you have it in a separated values like comma-separated or tab-separated), to convert it into an ontology. For more information, see the sections of the ORR manual on [Creating a Vocabulary](https://mmisw.org/orrdoc/vocab/new).
+If the vocabulary is in an spreadsheet-like format, you should choose "Create vocabulary" and import 
+the file (once you have it in a separated values like comma-separated or tab-separated), 
+to convert it into an ontology. For more information, see the sections of the ORR manual 
+on [Creating a Vocabulary](/vocab/new).
 
 #### I have a vocabulary in non-RDF XML format, how do I submit it to the ORR?
 
@@ -163,14 +167,14 @@ This entirely depends on your situation and preferences.
 Once you are logged in, you can upload information as an ontology file, as a simple vocabulary text file, 
 or by entering information about individual terms in a table. 
 For any of these options, start at the ontology overview page for your deployment 
-([ORR](http://mmisw.org/orr) or [COR](http://cor.esipfed.org/orr)).
+([ORR](https://mmisw.org/orr) or [COR](http://cor.esipfed.org/orr)).
 
 If you are just starting to describe your vocabulary or want to evaluate the system, 
 it may be be easiest to create the vocabulary using our system for table-based entry. 
 If you have a vocabulary in a text file already, separated by a typical delimiter like a comma or tab, 
 then you can upload your vocabulary directly.
-Please see the section [Creating a vocabulary](http://mmisw.org/orrdoc/vocab/new) or 
-[Importing a vocabulary](http://mmisw.org/orrdoc/vocab/import), as appropriate. 
+Please see the section [Creating a vocabulary](/vocab/new) or 
+[Importing a vocabulary](/vocab/import), as appropriate. 
 
 If you have your vocabulary formatted as an OWL-formatted ontology file, 
 you can upload it using the Upload button on the ontology overview page. 
@@ -234,11 +238,12 @@ Use one row for each term. Not every column has to be filled out for every term,
 We strongly encourage you to put definitions for every concept, even if they are fairly simple placeholders. 
 They can always be improved later, but only if people know what you meant in the first place!  
 
-A complete list of recommendations is provided in our [Guide on building vocabularies](http://marinemetadata.org/guides/vocabs/cvdev/cvdevnew/cvdevtips)
+A complete list of recommendations is provided in our [Guide on building vocabularies](https://marinemetadata.org/guides/vocabs/cvdev/cvdevnew/cvdevtips)
 
 #### How do I update my ontology file once it has been submitted to the ORR?
 
-Log in, click on the link for the ontology you would like to edit, and click on "New Version". See also the section of the ORR manual on [Updating an Ontology](https://mmisw.org/orrdoc/ontology/newversion/). 
+Log in, click on the link for the ontology you would like to edit, and click on "New Version". 
+See also the section of the ORR manual on [Updating an Ontology](/ontology/newversion/). 
 
 #### Can I use my ontology editor XXX? (XXX = Protégé, NeOn, etc.)
 
@@ -249,7 +254,7 @@ but you are free to use any other appropriate mechanisms.
 #### What do the "fully hosted" and "re-hosted" options for registering my existing ontology mean? 
 
 Please see the manual section on 
-[hosting options](https://mmisw.org/orrdoc/ontology/new/#what-options-are-available-for-hosting-ontologies).
+[hosting options](/ontology/new/#what-options-are-available-for-hosting-ontologies).
 
 #### ORR says that my file may not be in UTF-8 encoding. What does it mean and what can I do?
 
@@ -270,12 +275,12 @@ This section includes FAQs related to mapping between ontologies in the Ontology
 #### What are the benefits of mapping my vocabulary to others in the ORR?
 
 There are many reasons for mapping between vocabularies.  
-Please see [Creating a Mapping Ontology](https://mmisw.org/orrdoc/mapping/new/) 
-and the Guide on [mapping vocabularies](http://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap).
+Please see [Creating a Mapping Ontology](/mapping/new/) 
+and the Guide on [mapping vocabularies](https://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap).
 
 #### How do I map my vocabulary to others in the ORR? Are there any recommended best practices?
 
 Please see 
-[http://marinemetadata.org/mmiorrusrman/mmiorrmapps](http://marinemetadata.org/mmiorrusrman/mmiorrmapps) 
+[https://marinemetadata.org/mmiorrusrman/mmiorrmapps](https://marinemetadata.org/mmiorrusrman/mmiorrmapps) 
 for best practice information.
 

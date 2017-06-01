@@ -7,7 +7,7 @@ and has just been modified. But you can use any ontology, recognizing that if it
 you will have to re-enter all the metadata that was originally entered.
 
 The original steps are outlined here (you may wish to refer to the 
-[Registering an existing ontology page](http://mmisw.org/orrdoc/ontology/new) for images):
+[Registering an existing ontology page](/ontology/new) for images):
 
 * Click the "Upload ontology" button on the main page to begin the submission process.
 * A wizard dialog appears. In the wizard, select the local file and load it to the workspace. 

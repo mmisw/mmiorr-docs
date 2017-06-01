@@ -7,7 +7,7 @@ You might need to use the “create mapping” capabilities if, for example, you
 term translator, you need to translate between metadata records, or you want to document 
 relationships between multiple vocabularies that you are using.
 You can find a more thorough guide on the reasons for mapping between 
-controlled vocabularies [in the MMI guide on mapping](http://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap).
+controlled vocabularies [in the MMI guide on mapping](https://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap).
 
 ## Steps for Creating a Mapping Ontology File
 
@@ -50,6 +50,6 @@ demonstrates the main functionality for creating and registering a mapping ontol
 
 ## Additional References
 
-[VINE Guide](http://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap/cvmapvine)
+[VINE Guide](https://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap/cvmapvine)
 
-[Guide to the Mapping Process](http://marinemetadata.org/node/4944)
+[Guide to the Mapping Process](https://marinemetadata.org/node/4944)

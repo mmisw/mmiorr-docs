@@ -2,7 +2,7 @@
 
 !!! danger "Please note: Site under construction"
     
-    Contents are being migrated from [the original site](http://marinemetadata.org/mmiorrusrman)
+    Contents are being migrated from [the original site](https://marinemetadata.org/mmiorrusrman)
     and updated to reflect major developments in the new version (ORR v3).
     As of May 2017 most of the content has already being updated.
     Individual pages still under construction have a warning at the top. 

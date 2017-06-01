@@ -3,7 +3,7 @@ info:
   version: v0
   title: ORR Ont API Documentation
   description: >
-    The main ORR documentation is located at: http://mmisw.org/orrdoc/
+    The main ORR documentation is located at: https://mmisw.org/orrdoc/
 
 
     __Note__:
@@ -39,7 +39,7 @@ info:
       (to provide a more general way of exercising the API, regardless
       of concrete endpoint, or to allow the selection of the particular endpoint).
 
-  termsOfService: 'http://marinemetadata.org/orr/tou'
+  termsOfService: 'https://marinemetadata.org/orr/tou'
   license:
     name: Apache 2.0
     url: http://www.apache.org/licenses/LICENSE-2.0.html

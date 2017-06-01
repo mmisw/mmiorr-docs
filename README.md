@@ -8,7 +8,7 @@ The documentation source is written in plain text files using
 We use [MkDocs tool](http://www.mkdocs.org/) for the site generation.
 
 **NOTE**: We are migrating contents from the 
-[original site](http://marinemetadata.org/mmiorrusrman)
+[original site](https://marinemetadata.org/mmiorrusrman)
 as well as doing reviewing and updates per recent developments in 
 new version ORR v3.
 
@@ -18,10 +18,10 @@ Your help improving this documentation is
 
 ### Generation
 
-The documentation, which is reflected at http://mmisw.org/orrdoc/, 
+The documentation, which is reflected at https://mmisw.org/orrdoc/, 
 is automatically generated upon changes pushed to this repo.
 
-In particular, the API documentation at http://mmisw.org/orrdoc/api/ is currently 
+In particular, the API documentation at https://mmisw.org/orrdoc/api/ is currently 
 generated as explained 
 [here](https://github.com/mmisw/mmiorr-docs/blob/master/docs/swagger-readme.md).
 

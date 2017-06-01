@@ -16,8 +16,8 @@ A web page with a user interface is available at `http://[domain]/ont/sparql`
 ![SPARQL search page](img/cor/cor-sparql-search-page-20160828.png)
 
 A number of interesting domain-specific examples can be found at 
-[http://marinemetadata.org/community/teams/vocdev/orrioos](http://marinemetadata.org/community/teams/vocdev/orrioos). 
-These examples are most suited for the [MMI ORR instance](http://mmisw.org/orr/sparql),
+[https://marinemetadata.org/community/teams/vocdev/orrioos](https://marinemetadata.org/community/teams/vocdev/orrioos). 
+These examples are most suited for the [MMI ORR instance](https://mmisw.org/orr/sparql),
 but they show how to query the repository to accomplish different use cases. 
 
 The [Querying Linked Data with SPARQL](http://www.slideshare.net/olafhartig/querying-linked-data-with-sparql) 

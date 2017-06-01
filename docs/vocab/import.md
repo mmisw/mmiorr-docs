@@ -50,4 +50,4 @@ Click on OK to create the vocabulary data in preliminary form.
 ![Vocabulary import preliminary vocabulary before upload](../img/cor/cor-vocabulary-import-preliminary-vocabulary-before-upload-20170108.png)
 
 You can now review and register your vocabulary. 
-Please see the [“Completing Vocabulary Registration"](http://mmisw.org/orrdoc/vocab/register) page for more details.
+Please see the [“Completing Vocabulary Registration"](/vocab/register) page for more details.

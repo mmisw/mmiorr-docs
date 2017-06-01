@@ -4,7 +4,7 @@ Developed by MMI[1], the [Ontology Registry and Repository](http://github.com/mm
 that provides a single access point to work on semantic content. Here, ontology providers and users can collaborate 
 to create, host, annotate, share, and use ontologies of relevance to their science community.
 
-The ORR has several deployments. The first of these was the [MMI ORR](http://mmisw.org), and some older 
+The ORR has several deployments. The first of these was the [MMI ORR](https://mmisw.org), and some older 
 documentation uses this name to refer to the software system, the deployed service, or both.
 (In this document we use "ORR", "ORR software", or "ORR system" to refer to the software, 
 and specific names like "MMI ORR" or "COR" to refer to particular deployments.)
@@ -53,5 +53,5 @@ the mapping ontologies and semantic inference mechanisms built into the ORR.
 
 ----
 
-[1] MMI: [Marine Metadata Interoperability project](http://marinemetadata.org)   
+[1] MMI: [Marine Metadata Interoperability project](https://marinemetadata.org)   
 [2] IRI: Internationalized Resource Identifier

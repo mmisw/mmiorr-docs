@@ -27,7 +27,7 @@ please do submit a pull request so that the documentation for everyone can be up
 
 #### Who uses these documents? Referencing the ORR
 
-While the examples in the documentation may use the original path in the main ORR instance (at http://mmisw.org), 
+While the examples in the documentation may use the original path in the main ORR instance (at https://mmisw.org), 
 try to refer to the software in a location- and source-independent way 
 (e.g., not "the mmisw.org application" or "MMI's ORR application", but "this ORR application". 
 
