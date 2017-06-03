@@ -1,14 +1,14 @@
 swagger: '2.0'
 info:
   version: v0
-  title: ORR Ont API Documentation
+  title: ORR API Documentation
   description: >
     The main ORR documentation is located at: https://mmisw.org/orrdoc/
 
 
-    __Note__:
+    __Please note__:
 
-    - We are in continuing to improve this API documentation.
+    - The ORR API is approaching a stable version but is still work in progress.
       Please [let us know](https://github.com/mmisw/mmiorr-docs/issues) if you have any
       questions or suggestions.
 
@@ -17,7 +17,7 @@ info:
 
     - You can click on the "Authorize" button at the top right of this page
       (or the `!` icon under the particular operation)
-      to retrieve an authentication token corresponding to your COR credentials (username and password).
+      to retrieve an authentication token corresponding to your ORR instance credentials (username and password).
       Once authorized, the authentication token will be automatically included in the corresponding request.
       You will be able to not only perform the basic `GET` operations,
       but also see expanded responses according to your access privileges
@@ -28,16 +28,14 @@ info:
 
     - This API includes administrative operations related with the triple store.
       The SPARQL endpoint itself
-      (located at `http://cor.esipfed.org/sparql` for the ESIP COR instance)
+      (located at `https://mmisw.org/sparql` for the MMI ORR instance)
       is not described here.
       (General SPARQL information can be found [here](https://en.wikipedia.org/wiki/SPARQL),
       and regarding the current service used by the ORR to support the SPARQL interface
       [here](http://franz.com/agraph/support/documentation/current/http-protocol.html).)
 
     - Actual requests from this page are against the specific endpoint at
-      `http://cor.esipfed.org/ont`. This may change in a future version
-      (to provide a more general way of exercising the API, regardless
-      of concrete endpoint, or to allow the selection of the particular endpoint).
+      `https://mmisw.org/ont`.
 
   termsOfService: 'https://marinemetadata.org/orr/tou'
   license:
@@ -47,7 +45,7 @@ info:
 host: cor.esipfed.org
 basePath: /ont/api/v0
 schemes:
-  - http
+  - https
 
 consumes:
   - application/json
@@ -533,6 +531,83 @@ paths:
           description: No such user
       security:
        - basicAuth: []
+
+
+  ######################################################################
+  # Term search
+  ######################################################################
+  /term:
+    get:
+      tags: [term]
+      summary: Simplified semantic search queries against the triple store
+      description: |
+        This endpoint route is intended to provide some common semantic search
+        operations against the triple store.
+
+        **NOTE**: This is an experimental operation.
+        The SPARQL interface remains the most complete and powerful semantic search mechanism.
+
+        Provide one of `containing` or `predicate` as main parameter, along with associated
+        auxiliary parameters as described.
+
+      parameters:
+        - name: containing
+          in: query
+          type: string
+          required: false
+          description: |
+            Searches the given string in the indicated parts of the triples as
+            determined by the `in` parameter.
+
+        - name: in
+          in: query
+          type: string
+          required: false
+          description: |
+            Only used in combination with the `containing` parameter, the `in` parameter
+            determines where to perform the search: subject, predicate, and/or object.
+            Use the 1-character abbreviations: `s` for subject, `p` for predicate, `o` for object.
+            Any combination of these characters can be used as value for the `in` parameter.
+            For example, to search the given `containing` string in all parts of the triple use `spo`.
+            The default value is `s`, meaning the search will only be on the subject.
+
+        - name: predicate
+          in: query
+          type: string
+          required: false
+          description: |
+            Desired predicate to retrieve entities related with a given subject or object.
+            The following common namespace prefixes are recognized:
+            `skos:`, `owl:`, `rdfs:`, `rdf:`.
+            So possible values of this parameter include `skos:relatedMatch` and `owl:sameAs`.
+            If the value does not start with any of the recognized prefixes, then it is assumed
+            to be a full IRI, e.g., `http://purl.org/dc/terms/description`.
+
+            This parameter is to be used in combination with one of the `subject` or `object` parameters.
+            If `subject` is given, the underlying SPARQL query is basically
+            `<subject> <predicate> ?object` and the resulting list of objects is returned.
+            Otherwise the underlying SPARQL query is basically
+            `?subject <predicate> <object>` and the resulting list of subjects is returned.
+
+        - name: subject
+          in: query
+          type: string
+          required: false
+          description: |
+            IRI of the subject for underlying SPARQL query.
+            Required when any of the _predicate_ parameters is given and **no** object parameter is given.
+
+        - name: object
+          in: query
+          type: string
+          required: false
+          description: |
+            IRI of the object for underlying SPARQL query.
+            Required when any of the _predicate_ parameters is given and **no** subject parameter is given.
+
+      responses:
+        '200':
+          description: Successful response
 
 
   ######################################################################

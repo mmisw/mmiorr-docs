@@ -4,6 +4,11 @@
 
 **Noteworthy**
 
+**3.6.2** 2017-06-03
+
+- REST API addition: Simplified semantic search queries against the triple store 
+ ([orr-ont#50](https://github.com/mmisw/orr-ont/issues/50))
+
 **3.6.0** 2017-05-31
 
 - General support for IRIs (both backend and frontend), with many adjustments in relevant 
