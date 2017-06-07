@@ -4,6 +4,8 @@ Developed by MMI[1], the [Ontology Registry and Repository](http://github.com/mm
 that provides a single access point to work on semantic content. Here, ontology providers and users can collaborate 
 to create, host, annotate, share, and use ontologies of relevance to their science community.
 
+Funding for the latest modifications to the ORR software has been provided by the EarthCube X-DOMES Project[2].
+
 The ORR has several deployments. The first of these was the [MMI ORR](https://mmisw.org), and some older 
 documentation uses this name to refer to the software system, the deployed service, or both.
 (In this document we use "ORR", "ORR software", or "ORR system" to refer to the software, 
@@ -31,7 +33,7 @@ semantic information in real world scenarios.
 
 ***ORR built around IRIs *** 
 
-In the ORR, at the most basic level, every term has an IRI[2], and the ORR returns a page of basic information about 
+In the ORR, at the most basic level, every term has an IRI[3], and the ORR returns a page of basic information about 
 the term when someone enters that IRI into their browser. When the ORR creates an ontology,
 it automatically creates the term IRIs for that ontology, and enables resolution of those terms. 
 Thus ORR users can begin using the terms immediately, confident that anyone looking for more 
@@ -54,4 +56,5 @@ the mapping ontologies and semantic inference mechanisms built into the ORR.
 ----
 
 [1] MMI: [Marine Metadata Interoperability project](https://marinemetadata.org)   
-[2] IRI: Internationalized Resource Identifier
+[2] X-DOMES: [Cross-Domain Observational Metadata for Environmental Sensing](https://www.earthcube.org/group/x-domes)   
+[3] IRI: Internationalized Resource Identifier
