@@ -3,7 +3,7 @@
 
 ## Before you start: Things to know
 
-### What formats are supported for registering ontology files?
+### Supported ontology formats
 
 The following formats are supported:
 
@@ -15,25 +15,34 @@ The following formats are supported:
 *   [OWL/XML](https://www.w3.org/TR/owl-xml-serialization/)
 *   [RDF/JSON](https://www.w3.org/TR/rdf-json/)
 
-### What options are available for hosting ontologies?
+### Hosting modes
 
 ORR offers two options to register an existing ontology: _fully-hosted_ mode and _re-hosted_ mode.
-These strongly affect the way your ontology and its terms are treated by the ORR.
+These strongly affect the way your ontology and its terms are treated by the ORR,
+in particular, regarding the registration process and the IRI web resolution.
+
+Full support for versioning is provided in both hosting modes.
+Unless indicated otherwise, always the latest version will be dispatched in the ORR Portal,
+and responded for a programmatic ontology request.
+A particular version can be selected in the ORR Portal page for the ontology by
+using the 'Versions' dropdown menu,
+and a `version` parameter can be included in a programmatic request to retrieve a specific version.
+    
 
 #### Fully-hosted ontology
 
-In this case, ORR will assign an IRI base, corresponding to the URL where the particular ORR
-instance is installed, to your ontology and its associated 
+In this case, ORR will assign an IRI having the URL of the particular ORR
+instance as a prefix to your ontology and its associated 
 terms sharing the same namespace. 
-For example, this base URL is `http://cor.esipfed.org/ont` in the case of the COR instance.
+For example, `http://cor.esipfed.org/ont` is this base URL in the case of the COR instance.
 More specifically, the original base IRI of the ontology will be 
 overwritten with one assigned by ORR during the registration process.
   
-*   **IRI Resolvability.** The ORR based IRIs given to your ontology (and to all the terms in the 
+* **IRI Resolvability.** The ORR based IRIs given to your ontology (and to all the terms in the 
 associated namespace) will be self-resolvable, i.e., you will be able to directly enter them into your 
 browser or semantic web tool to get it resolved to the contents of your ontology or term. 
-The indirect mechanisms described below are also provided in this case.
-  
+The indirect resolution mechanisms described below are also provided 
+for fully-hosted ontologies.
 
 
 #### Re-hosted ontology
@@ -42,27 +51,16 @@ The general registration process is similar to the fully hosted option, but
 no changes at all will be performed to the contents 
 (that is, in terms of modifying any defined IRIs in the ontology).
 
-*   **IRI Resolvability.** 
+* **IRI Resolvability.** 
 The IRIs of your ontology and associated terms can be resolved indirectly 
 via the "iri" parameter, eg., 
-`https://mmisw.org/ont?iri=http://example.com/my/ontology`. 
-You can also indirectly access the ontology and terms via searches against ORR. 
-(NOTE: Your ontology could also be resolved by its own IRI if that is supported by its 
-original web server.)  
 
+    `https://mmisw.org/ont?iri=http://example.com/my/ontology`.
+     
+    You can also indirectly access the ontology and terms via searches against ORR. 
+    (NOTE: Your ontology could also be resolved by its own IRI if that is supported by its 
+    original web server.)  
 
-Regardless of the hosting mode, the following applies:
-
-*   **Versioning**. Full support for versioning.
-    Unless indicated otherwise, always the latest version will be dispatched in the ORR Portal
-    and responded for a programmatic ontology request.
-    A particular version can be selected in the ORR Portal page for the ontology,
-    and a `version` parameter can be included in a request to retrieve a specific version.
-    
-
-*   **Ontology owner responsibilities.** The owner will submit the ontology, 
-    provide the requested metadata, and review the ontology once it has been submitted to the ORR. 
-    The owner will also provide updates directly to the repository.  
 
 The following section provides instructions on how to submit an existing ontology to the ORR.
 

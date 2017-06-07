@@ -1,23 +1,43 @@
 !!! warning
     Page status: **In Progress**
     
-To register a new version of an ontology, you follow a process very similar to uploading a new ontology. 
-The easiest scenario, and the one documented here, is to upload an ontology that started as an ORR ontology, 
-and has just been modified. But you can use any ontology, recognizing that if it doesn't have metadata in it recognizable to the ORR,
-you will have to re-enter all the metadata that was originally entered.
+To register a new version of an ontology, login and open the page for the
+ontology. You need to be an owner of the ontology, meaning you have either 
+submitted the original ontology on your own behalf, or you are a member of
+the organization owning the ontology.  
 
-The original steps are outlined here (you may wish to refer to the 
-[Registering an existing ontology page](/ontology/new) for images):
+Click the 'Edit new version' button and the following dialog will show up:
 
-* Click the "Upload ontology" button on the main page to begin the submission process.
-* A wizard dialog appears. In the wizard, select the local file and load it to the workspace. 
-* Either select or enter the IRI used as the ontology identifier. 
- * If the system detects an ontology IRI candidate within the ontology, the IRI will be shown as a selection item. 
- * Click on the select button to choose any IRI that you want to use as the ontology IRI.
-* Once the `Next` button is selected, any metadata detected in the imported ontology is shown in the next dialog.
-* Next you will be asked to choose the type of registration (fully-hosted or re-hosted).  
-* Finally, you may review and complete the metadata details necessary for registering your ontology. 
+![](../img/create_ontology_version.png)
 
-When you complete this step, ORR will return you to ontology view page, where you can see the ontology versions including the latest.
+Since this is a case of an "externally provided ontology," the ORR offers the 
+two options:
+
+- Edit metadata: With this option you can update the metadata of the ontology.
+  The other ontology contents is not affected at all.
+- Upload file: With this option you will be providing the full contents for
+  the new version by uploading a local file or an external ontology. 
+
+!!! Note
+    In contrast to ontologies that have been uploaded from external sources, 
+    complete editing capability is provided for ontologies created by the ORR itself.
+
+If you select 'Edit metadata', proceed with the changes as needed and click 'Register'
+to complete the registration of the new version.
+
+Otherwise, if you select 'Upload file', the remaining process is very similar to uploading a new ontology.
+During the upload wizard sequence, and unless you decide to refer to a different IRI, 
+the ORR will indicate that a new version of an existing entry will be created.
+
+!!! Note
+    If you have edited the ontology metadata in the current version and are using the
+    'Upload file' for the new version, make sure your ontology file reflects any changes;
+    otherwise you may need to re-enter all the metadata that was previously entered.
+
+The upload steps are described at the 
+[Registering an existing ontology page](/ontology/new//#uploading-an-ontology).
+
+When you complete these steps, ORR will return you to ontology view page, 
+where you can see the ontology versions including the latest.
     
 ![Ontology replacement complete](../img/cor/ontology-replace-successful-20170129.png)

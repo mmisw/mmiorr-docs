@@ -1,10 +1,8 @@
 **Introduction to the ORR**
 
-Developed by MMI[1], the [Ontology Registry and Repository](http://github.com/mmisw), or ORR, is a Web-based application 
+The Ontology Registry and Repository, or ORR, is a Web-based application 
 that provides a single access point to work on semantic content. Here, ontology providers and users can collaborate 
 to create, host, annotate, share, and use ontologies of relevance to their science community.
-
-Funding for the latest modifications to the ORR software has been provided by the EarthCube X-DOMES Project[2].
 
 The ORR has several deployments. The first of these was the [MMI ORR](https://mmisw.org), and some older 
 documentation uses this name to refer to the software system, the deployed service, or both.
@@ -55,8 +53,4 @@ the mapping ontologies and semantic inference mechanisms built into the ORR.
 
 ----
 
-[1] Marine Metadata Interoperability project (MMI) - 
-    [https://marinemetadata.org](https://marinemetadata.org)   
-[2] Cross-Domain Observational Metadata for Environmental Sensing (X-DOMES) - 
-    [https://www.earthcube.org/group/x-domes](https://www.earthcube.org/group/x-domes)   
-[3] IRI: [Internationalized Resource Identifier](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)
+[1] IRI: [Internationalized Resource Identifier](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)

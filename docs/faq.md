@@ -140,7 +140,7 @@ Several ontology formats are accepted by the ORR, including XML serialization fo
 Select the "Upload ontology" button, browse to your local file, upload the ontology to the workspace, 
 choose the hosting option, review the metadata details, 
 and complete the registration. 
-For more information, see the sections of the ORR manual on [Registering an Ontology](/ontology/upload).
+For more information, see the sections of the ORR manual on [Registering an Ontology](/ontology/new).
 
 #### I have a vocabulary in a column-separated text format, how do I submit it to the ORR?
 

@@ -106,13 +106,15 @@ See [Querying via REST API](/api) for details.
 
 ## 3. Providing semantic content 
 
-You may be adding an ontology -- that is, a file in RDF, OWL, or similar form -- or a vocabulary, for example in a text file, or that you want to create manually. Choose the appropriate link below for your situation.
+You may be adding an ontology -- that is, a file in RDF, OWL, or similar form -- 
+or a vocabulary, for example in a text file, or that you want to create manually. 
+Choose the appropriate link below for your situation.
 
-* [Adding an ontology](/upload.md)
+* [Adding an ontology](/ontology/new)
 
-* [Adding an existing vocabulary](/vocab/import.md)
+* [Adding an existing vocabulary](/vocab/import)
 
-* [Creating a new vocabulary manually](/vocab/new.md)
+* [Creating a new vocabulary manually](/vocab/new)
 
 
 
