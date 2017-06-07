@@ -548,7 +548,7 @@ paths:
         The SPARQL interface remains the most complete and powerful semantic search mechanism.
 
         Provide one of `containing` or `predicate` as main parameter, along with associated
-        auxiliary parameters as described.
+        auxiliary and optional parameters as described.
 
       parameters:
         - name: containing
@@ -604,6 +604,24 @@ paths:
           description: |
             IRI of the object for underlying SPARQL query.
             Required when any of the _predicate_ parameters is given and **no** subject parameter is given.
+
+        - name: limit
+          in: query
+          type: integer
+          required: false
+          description: |
+            Maximum number of solutions to be returned.
+            The default value is 30.
+            A non-positive value means no limit, so all solutions will be returned.
+
+        - name: offset
+          in: query
+          type: integer
+          required: false
+          description: |
+            Solutions returned will start after the specified number of solutions.
+            Ignored if the value is non-positive.
+            By default, no offset.
 
       responses:
         '200':
