@@ -20,7 +20,9 @@ two options:
 
 !!! Note
     In contrast to ontologies that have been uploaded from external sources, 
-    complete editing capability is provided for ontologies created by the ORR itself.
+    complete editing capability is provided for ontologies created by the ORR itself
+    (that is, those originally registered through the 'Create vocabulary' and 
+    'Create mapping' tools).
 
 If you select 'Edit metadata', proceed with the changes as needed and click 'Register'
 to complete the registration of the new version.
