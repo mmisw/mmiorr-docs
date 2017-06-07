@@ -33,7 +33,8 @@ the ORR will indicate that a new version of an existing entry will be created.
 
 !!! Note
     If you have edited the ontology metadata in the current version and are using the
-    'Upload file' for the new version, make sure your ontology file reflects any changes;
+    'Upload file' for the new version, make sure the ontology file you are about to upload
+    reflects any desired changes;
     otherwise you may need to re-enter all the metadata that was previously entered.
 
 The upload steps are described at the 
