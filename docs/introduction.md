@@ -8,8 +8,8 @@ Funding for the latest modifications to the ORR software has been provided by th
 
 The ORR has several deployments. The first of these was the [MMI ORR](https://mmisw.org), and some older 
 documentation uses this name to refer to the software system, the deployed service, or both.
-(In this document we use "ORR", "ORR software", or "ORR system" to refer to the software, 
-and specific names like "MMI ORR" or "COR" to refer to particular deployments.)
+In this document we use "ORR", "ORR software", or "ORR system" to refer to the software, 
+and specific names like "MMI ORR" or "COR", or "X-DOMES ORR" to refer to particular deployments.
 
 Another major deployment of the ORR system is for the ESIP Federation's [Community Ontology
 Repository](http://cor.esipfed.org), shown below; this is known as the ESIP COR, or simply the COR.
@@ -41,10 +41,10 @@ information on the term can resolve it.
 
 ***Application scenarios***
 
-In its basic role as an ontology repository, the ORR supports more advanced scenarios. 
+In its basic role as an ontology repository, the ORR supports more advanced scenarios.
 A data provider or system developer wanting to annotate data sets with controlled terms
 can use this service's search features to determine if any relevant vocabularies already exist
-for their needs, and following standard semantic practices can extend the content if necessary. 
+for their needs, and following standard semantic practices can extend the content if necessary
 to suit their particular application. 
 
 As another application, upon receiving a request for datasets involving a particular term 
@@ -55,6 +55,8 @@ the mapping ontologies and semantic inference mechanisms built into the ORR.
 
 ----
 
-[1] MMI: [Marine Metadata Interoperability project](https://marinemetadata.org)   
-[2] X-DOMES: [Cross-Domain Observational Metadata for Environmental Sensing](https://www.earthcube.org/group/x-domes)   
-[3] IRI: Internationalized Resource Identifier
+[1] Marine Metadata Interoperability project (MMI) - 
+    [https://marinemetadata.org](https://marinemetadata.org)   
+[2] Cross-Domain Observational Metadata for Environmental Sensing (X-DOMES) - 
+    [https://www.earthcube.org/group/x-domes](https://www.earthcube.org/group/x-domes)   
+[3] IRI: [Internationalized Resource Identifier](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)
