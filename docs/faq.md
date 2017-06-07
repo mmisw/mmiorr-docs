@@ -124,7 +124,8 @@ Once you have downloaded the ontology, you can open it locally in any ontology o
 
 ## Submitting and Updating Ontologies
 
-This section includes FAQs related to submitting ontologies to the Ontology Registry and Repository ([ORR](http://[domain]/orr)) and updating them.
+This section includes FAQs related to submitting ontologies to the Ontology Registry and Repository
+[ORR](http://[domain]/ont)) and updating them.
 
 #### What are the benefits of submitting my vocabulary to the ORR?
 
@@ -167,7 +168,7 @@ This entirely depends on your situation and preferences.
 Once you are logged in, you can upload information as an ontology file, as a simple vocabulary text file, 
 or by entering information about individual terms in a table. 
 For any of these options, start at the ontology overview page for your deployment 
-([ORR](https://mmisw.org/orr) or [COR](http://cor.esipfed.org/orr)).
+([ORR](https://mmisw.org/ont) or [COR](http://cor.esipfed.org/ont)).
 
 If you are just starting to describe your vocabulary or want to evaluate the system, 
 it may be be easiest to create the vocabulary using our system for table-based entry. 

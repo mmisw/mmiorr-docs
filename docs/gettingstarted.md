@@ -6,7 +6,7 @@
 
 **1-A. Open the desired ORR site in your browser**
 
-* MMI ORR browse page: [https://mmisw.org/orr/](https://mmisw.org/orr/)
+* MMI ORR browse page: [https://mmisw.org/ont/](https://mmisw.org/ont/)
 * ESIP COR browse page: [http://cor.esipfed.org/ont/](http://cor.esipfed.org/ont/)
 * X-DOMES ORR browse page: [https://xdomes.org/ont/](https://xdomes.org/ont/)
 

@@ -44,30 +44,30 @@ please keep in mind the following:
 
 At a more technical level, the major changes include:
 
-| Aspect                              | v3                                                              
-| ---------------------------         |-------------------- 
-| Installability/branding             | Fully supported (including Docker-based installation)                                
-| HTTP interface                      | RESTful                                                              
-| Database dependencies               | MongoDB                                                           
-| Performance of ontology requests    | Significantly improved                                
-| HTTP toolkit (backend)              | Scalatra[5]                                              
-| Front-end toolkit                   | Angular                                                      
-| Unit/integration testing            | More comprehensive                                                   
-| Continuous integration              | Yes                                                                  
+| Aspect                              | v3
+| ---------------------------         |--------------------
+| Installability/branding             | Fully supported (including Docker-based installation)
+| HTTP interface                      | RESTful
+| Database dependencies               | MongoDB
+| Performance of ontology requests    | Significantly improved
+| HTTP toolkit (backend)              | Scalatra[5]
+| Front-end toolkit                   | Angular
+| Unit/integration testing            | More comprehensive
+| Continuous integration              | Yes
 
 ----
 
-- [1] The explicit formats allow not only more effective internal handling, but facilitate 
-  the support of some user-level features (e.g., preservation of column order in ORR vocabularies.)   
-- [2] Organizations are explicitly modeled in v3. 
-  An organization has members, and only members can register ontologies for that organization. 
+- [1] The explicit formats allow not only more effective internal handling, but facilitate
+  the support of some user-level features (e.g., preservation of column order in ORR vocabularies.)
+- [2] Organizations are explicitly modeled in v3.
+  An organization has members, and only members can register ontologies for that organization.
   (A user can also register his/her own ontologies.)
-- [3] Authentication is based on [JSON Web Tokens](http://jwt.io/) and 
+- [3] Authentication is based on [JSON Web Tokens](http://jwt.io/) and
   [Basic Authentication](https://en.wikipedia.org/wiki/Basic_access_authentication).
-- [4] Direct dispatch means that the original ontology IRI (in the case of URL) is retained in the browser URL field. 
-  Redirection to the different base location (`/orr`) in the previous v2 very often caused confusion to users 
+- [4] Direct dispatch means that the original ontology IRI (in the case of URL) is retained in the browser URL field.
+  Redirection to the different base location (`/orr`) in the previous v2 very often caused confusion to users
   regarding the proper IRI for ontology identification.
-- [5] However, other HTTP frameworks, apparently much more actively maintained, 
-  may be considered in a future version including 
-  [Akka HTTP](https://github.com/akka/akka-http) 
+- [5] However, other HTTP frameworks, apparently much more actively maintained,
+  may be considered in a future version including
+  [Akka HTTP](http://doc.akka.io/docs/akka-http/current/scala/http/) 
   and [Play](https://playframework.com/documentation/2.5.x/ScalaHome).
