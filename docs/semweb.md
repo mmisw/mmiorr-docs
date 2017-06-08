@@ -38,9 +38,9 @@ well-defined semantics at various levels of sophistication.
 
 Among the standard vocabularies are:
  
-- The Resource Description Framework itself, which include terms like:
+- The Resource Description Framework itself, which includes terms like:
     - type, Property, Statement, subject, predicate, object
-- RDF Schema (RDFS),[4] which include:
+- RDF Schema (RDFS),[4] which includes:
     - Resource, Class, subClassOf, subPropertyOf, comment, label, seeAlso, isDefinedBy
 - Simple Knowledge Organization System (SKOS):[5]
     - definition, note, exactMatch, closeMatch, relatedMatch
@@ -58,7 +58,7 @@ The ORR is not intended as a full-fledged ontology editor.
 It includes, however, two integrated tools to facilitate the definition
 of ontologies basically by capturing the triples at the RDF level. 
 This ORR functionality is described in more detail in later sections. 
-Below is the key conceptual model underlying those tools.
+Below are the key conceptual aspects underlying those tools.
 
 ### Direct triple table
 
@@ -67,13 +67,13 @@ is via a subject-predicate-object table:
 
 ![](img/semweb/rdf-triples-m2r.png)
 
-The _ORR mapping tool_ reflects such mechanism, where the set of predicates
+The _ORR mapping tool_ reflects such mechanism, where the predicates
 are taken from the SKOS vocabulary, and the sets of subjects and objects
-are selected by the user from given _mapped ontologies_.
+are selected by the user from the given _mapped ontologies_.
 
 ### Another triple table arrangement
 
-Another table arrangement to capture RDF triple is illustrated as follows:
+Another table arrangement to capture RDF triples is illustrated as follows:
 
 ![](img/semweb/rdf-triples-v2r.png)
 
@@ -91,9 +91,17 @@ The _ORR vocabulary_ tool reflects this mechanism.
 
 [3] IRI: [Internationalized Resource Identifier](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)
 
-[4] RDF Schema
+[4] RDF Schema ...
 
-[5] Some of the materials in this section adapted from [Semantic Web:  Core Concepts and Mechanisms  
+[5] Simple Knowledge Organization System (SKOS) ...
+
+[6] Web Ontology Language (OWL) ...
+
+[7] Dublin Core Terms (DCT) ...
+
+[8] Ontology Metadata Vocabulary (OMV) ..
+
+[9] Some of the materials in this section adapted from [Semantic Web:  Core Concepts and Mechanisms  
 and MMI ORR – Ontology Registry and 
 Repository](https://speakerdeck.com/carueda/semantic-web-core-concepts-and-mechanisms-and-mmi-orr-ontology-registry-and-repository).
   C. Rueda. ESIP 2016 Summer Meeting.
