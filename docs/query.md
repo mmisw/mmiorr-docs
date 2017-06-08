@@ -1,4 +1,5 @@
-The ORR has separate SPARQL and repository APIs, but the SPARQL API provides more powerful ways to search ORR's semantic content. 
+The ORR has separate SPARQL and repository APIs, with the SPARQL API 
+providing the proper, standards-based mechanism to search ORR's semantic content. 
 This section describes SPARQL and how to use it to perform such queries.
 
 SPARQL is the query language for the Resource Description Framework. (The acronym is recursive: SPARQL Protocol And RDF Query Language). 
