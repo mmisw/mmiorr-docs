@@ -13,6 +13,7 @@ pages:
 - Home: index.md
 - About: about.md
 - Introduction: introduction.md
+- Semantic Web Basics: semweb.md
 - Getting Started: gettingstarted.md
 - FAQ: faq.md
 - Searching and Querying:

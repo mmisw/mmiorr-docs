@@ -1,7 +1,7 @@
 !!! tip
     _Page Status_: **In Progress**
 
-ORR allows users to create an ontology manually by creating a table of definitions, for example:
+ORR allows users to create an ontology by editing a table of definitions, for example:
 
 |name|description|
 |-|-|
