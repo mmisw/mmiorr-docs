@@ -19,8 +19,8 @@ Anything can be a resource, including physical things, documents,
 abstract concepts, web pages, numbers, and strings.
 
 In RDF, the basic element of knowledge representation is the _triple_,
-which establishes a concrete connection between specific resources
-with the form:
+which establishes a concrete connection between specific resources,
+and has the form:
 
 &lt;_subject_> &lt;_predicate_> &lt;_object_>
 
