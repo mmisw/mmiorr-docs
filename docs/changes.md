@@ -1,8 +1,12 @@
-!!! tip "Are you a user of the MMI ORR instance at mmisw.org?" 
+!!! note "Are you a user of the MMI ORR instance at mmisw.org?" 
     This instance was recently migrated from the previous version 2. 
     A summary of the major changes in v3 is available [here](/from2to3).
 
 **Noteworthy**
+
+**3.6.3** 2017-06-06
+
+- REST API: adjustments in `GET /term` operation
 
 **3.6.2** 2017-06-03
 
