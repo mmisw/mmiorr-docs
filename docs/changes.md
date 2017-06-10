@@ -7,9 +7,8 @@
 **3.6.3** 2017-06-06
 
 - REST API: adjustments in `GET /term` operation
-- Front-end should now load faster in the browser ([orr-portal#111](https://github.com/mmisw/orr-portal/issues/111)).
-  Note that in general [optimization has deliberately not been a concern](http://wiki.c2.com/?PrematureOptimization)
-  so far, but we have started implementing some common mechanisms for the front-end component. 
+- Front-end application should now load faster in the browser ([orr-portal#111](https://github.com/mmisw/orr-portal/issues/111)).
+  (In general, [optimization had deliberately not been a concern](http://wiki.c2.com/?PrematureOptimization).) 
 
 **3.6.2** 2017-06-03
 
@@ -20,6 +19,8 @@
 
 - General support for IRIs (both backend and frontend), with many adjustments in relevant 
   parameters, UI widgets and messages, and documentation.
+  ([orr-ont#32](https://github.com/mmisw/orr-ont/issues/32),
+  [orr-portal#48](https://github.com/mmisw/orr-portal/issues/48))
 
 **3.5.1** 2017-05-29
 
@@ -28,6 +29,7 @@
 **3.5.0** 2017-05-29
 
 - upgrade of underlying Jena library to 3.3.0
+  ([orr-ont#45](https://github.com/mmisw/orr-ont/issues/45))
 - adjustments in user account creation
 - include additional details in email notifications regarding ontology registration
 
