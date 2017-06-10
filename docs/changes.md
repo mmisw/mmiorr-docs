@@ -8,7 +8,7 @@
 
 - REST API: adjustments in `GET /term` operation
 - Front-end application should now load faster in the browser ([orr-portal#111](https://github.com/mmisw/orr-portal/issues/111)).
-  (In general, [optimization had deliberately not been a concern](http://wiki.c2.com/?PrematureOptimization).) 
+  (In general, [optimization had deliberately not been a main concern](http://wiki.c2.com/?PrematureOptimization).) 
 
 **3.6.2** 2017-06-03
 
