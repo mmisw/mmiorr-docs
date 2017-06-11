@@ -31,7 +31,7 @@ semantic information in real world scenarios.
 
 ***ORR built around IRIs *** 
 
-In the ORR, at the most basic level, every term has an IRI[3], and the ORR returns a page of basic information about 
+In the ORR, at the most basic level, every term has an IRI[^iri], and the ORR returns a page of basic information about 
 the term when someone enters that IRI into their browser. When the ORR creates an ontology,
 it automatically creates the term IRIs for that ontology, and enables resolution of those terms. 
 Thus ORR users can begin using the terms immediately, confident that anyone looking for more 
@@ -51,6 +51,6 @@ ORR search services to request related terms (e.g., terms that may be broader th
 narrower than the specific term). These related terms are automatically derived using 
 the mapping ontologies and semantic inference mechanisms built into the ORR.
 
-----
 
-[1] IRI: [Internationalized Resource Identifier](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)
+[^iri]: IRI: Internationalized Resource Identifier - 
+[https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier](https://en.wikipedia.org/wiki/Internationalized_Resource_Identifier)
