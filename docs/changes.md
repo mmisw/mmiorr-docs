@@ -1,5 +1,5 @@
 !!! note "Are you a user of the MMI ORR instance at mmisw.org?" 
-    This instance was recently migrated from the previous version 2.<br> 
+    The MMI ORR instance was recently migrated from the previous version 2.<br> 
     A summary of the major changes in v3 is available [here](/from2to3).
 
 **Noteworthy**
@@ -97,10 +97,12 @@
 - improve reset-password and password-reset html pages
 - many improvements and fixes (email notifications, triple-store update, regular ontology display, recaptcha, ...)
 - improved docker image build and simplified configuration
-- 2016-07-12: 3.0.0-beta
 
+**3.0.0-beta** - 2016-07-12 
 
-**older**
+- Presented at the ESIP Summer Meeting
+
+**Older**
 
 - Late 2015: Resumed work with X-DOMES support
 - Early 2015: First v3 frontend prototype
