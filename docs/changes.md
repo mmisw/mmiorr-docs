@@ -1,5 +1,5 @@
 !!! note "Are you a user of the MMI ORR instance at mmisw.org?" 
-    This instance was recently migrated from the previous version 2. 
+    This instance was recently migrated from the previous version 2.<br> 
     A summary of the major changes in v3 is available [here](/from2to3).
 
 **Noteworthy**
