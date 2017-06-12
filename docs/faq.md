@@ -272,15 +272,22 @@ Some useful links are [w3schools](http://www.w3schools.com/XML/xml_encoding.asp)
 
 This section includes FAQs related to mapping between ontologies in the Ontology Registry and Repository.
 
-#### What are the benefits of mapping my vocabulary to others in the ORR?
+#### Why map between controlled vocabularies?
 
-There are many reasons for mapping between vocabularies.  
-Please see [Creating a Mapping Ontology](/mapping/new/) 
-and the Guide on [mapping vocabularies](https://marinemetadata.org/guides/vocabs/cvchooseimplement/cvmap).
+Mapping between controlled vocabularies in a given domain is essential to interoperability between
+different data systems in the domain. In other words, it is important to have a machine-readable way
+for a search computer to understand how terms are related (for example, if one term is equivalent to,
+more general than, or narrower than another term).
+
+Doing accurate mapping requires an in-depth knowledge of the meaning of the terms in each vocabulary.
+It is usually most efficient to gather a small group of domain experts, who are familiar with the
+controlled vocabularies, together for an in-person mapping session. In addition to the domain experts,
+the mapping team may also include a facilitator, recorder, tools specialist, ontology specialist,
+domain lead, and communication liaison. 
+(See the [Vocabulary Mapping Workshop Template](https://marinemetadata.org/workshoptemp)).
+
 
 #### How do I map my vocabulary to others in the ORR? Are there any recommended best practices?
 
-Please see 
-[https://marinemetadata.org/mmiorrusrman/mmiorrmapps](https://marinemetadata.org/mmiorrusrman/mmiorrmapps) 
-for best practice information.
+Please see [Creating a Mapping Ontology](/mapping/new).
 
