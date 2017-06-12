@@ -1,6 +1,3 @@
-!!! warning
-    _Page Status_: **Under revision**
-
 ## Core Concepts and Mechanisms
 
 This section provides basic background on semantic concepts as they
