@@ -1,5 +1,5 @@
-The ORR has separate SPARQL and repository APIs, with the SPARQL API 
-providing the proper, standards-based mechanism to search ORR's semantic content. 
+The ORR has separate repository and SPARQL APIs. The SPARQL API 
+provides the standards-based mechanism to search ORR's semantic content. 
 This section describes SPARQL and how to use it to perform such queries.
 
 SPARQL is the query language for the Resource Description Framework. (The acronym is recursive: SPARQL Protocol And RDF Query Language). 
@@ -8,10 +8,13 @@ The [Wikipedia entry for SPARQL](http://en.wikipedia.org/wiki/SPARQL) contains g
 and the [W3C documentation](http://www.w3.org/TR/sparql11-overview/) provides a good technical read.
 
 SPARQL queries can be done programmatically, with a RESTful interface using HTTP GET requests, 
-against the ORR SPARQL endpoint at `http://[domain]/sparql` 
-(COR example: `http://cor.esipfed.org/sparql`). 
-Note that this endpoint is intended for programmatic access; not a user interface.
-A web page with a user interface is available at `http://[domain]/ont/sparql` 
+against the ORR SPARQL endpoint at `[orr-host]/sparql` 
+(MMI example: `https://mmisw.org/sparql`; COR example: `http://cor.esipfed.org/sparql`). 
+
+!!! Note 
+    The `[orr-host]/sparql` endpoint is for programmatic access; it is not a user interface.
+
+A web page with a user interface is available at `[orr-host]/ont/sparql` 
 (COR example: [http://cor.esipfed.org/ont/sparql/](http://cor.esipfed.org/ont/sparql/), as shown below).
 
 ![SPARQL search page](img/cor/cor-sparql-search-page-20160828.png)

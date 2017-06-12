@@ -90,13 +90,13 @@ to the specific term.
 
 For ontologies (and terms in them) that have been re-hosted by the ORR, 
 you can append the ontology IRI to the following string: 
-`http://[domain]/ont/?iri=`. 
+`[orr-host]/ont/?iri=`. 
 This will provide the same information as when you use the natively hosted ontology IRI, as described above.
 (Note: with the `iri` parameter mechanism, any `#` characters in the IRI should be encoded as `%23`)
 
 For any ontology in the ORR, if you want to look at the ontology in a structured format (e.g., RDF/XML, or N3), 
 you can construct an IRI that requests this format.
-For example `http://[domain]/ont?format=n3&iri=`, 
+For example `[orr-host]/ont?format=n3&iri=`, 
 followed by your ontology's IRI, will present the ontology in the n3 format.
 
 You can also use the API, in particular the [`GET /ont` operation](http://cor.esipfed.org/ontapi/#!/ontology/get_ont)
@@ -118,14 +118,13 @@ or download the ontology as an RDformat.
 Specifying the IRI is only guaranteed to work if the ontology is hosted at the ORR.
 Ontologies that are re-hosted, or remotely hosted, by ORR may not be discoverable at their To download the ontology from its front page, 
 you can use the `View/download as` dropdown menu, selecting RDF/XML as the format. 
-Another option is to directly specify the download IRI in your browser, constructed as `http://[domain]/ont?form=rdf&iri=`, 
+Another option is to directly specify the download IRI in your browser, constructed as `[orr-host]/ont?format=rdf&iri=`, 
 followed by your ontology IRI. (See above for further information.)
 Once you have downloaded the ontology, you can open it locally in any ontology or text management application.
 
 ## Submitting and Updating Ontologies
 
-This section includes FAQs related to submitting ontologies to the Ontology Registry and Repository
-[ORR](http://[domain]/ont)) and updating them.
+This section includes FAQs related to submitting ontologies and updating them.
 
 #### What are the benefits of submitting my vocabulary to the ORR?
 
