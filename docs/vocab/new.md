@@ -1,5 +1,5 @@
 !!! tip
-    _Page Status_: **In Progress**
+    _Page Status_: **Under revision**. 
 
 Using one of the mechanism described in the [Semantic Web Basics section](/semweb/#another-triple-table-arrangement),
 the ORR system includes a tool for ontology creation based on the editing of a table of definitions

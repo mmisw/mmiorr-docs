@@ -1,6 +1,3 @@
-!!! warning
-    Page status: **In Progress**
-    
 To register a new version of an ontology, login and open the page for the
 ontology. You need to be an owner of the ontology, meaning you have either 
 submitted the original ontology on your own behalf, or you are a member of

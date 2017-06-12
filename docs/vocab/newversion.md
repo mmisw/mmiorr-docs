@@ -1,11 +1,15 @@
-!!! warning
-    _Page Status_: **Under construction**
+A new version of an ORR-generated vocabulary can be created by using the 
+vocabulary editor interface as in the initial submission.
 
-Once you are viewing an ontology that is displayed as a table of terms, click "Create new version" to 
-proceed with editing a new version.
+## Steps for Creating a New Version of an ORR Vocabulary
 
-You have the option to upload an existing ontology to serve as the new version, but we focus here on the 
-in-place editing of the vocabulary. So, select "OK" for the dialog asking whether you want in-place editing or not. 
-Then, proceed with editing the cells that need changes, adding new terms (rows) or removing terms. 
-Expand the metadata area if you want to adjust information there. Finally, click the "Review and Register" 
-button to complete the registration of the new version.
+1\. Sign in to the ORR.
+
+2\. Locate and click the existing vocabulary.
+
+3\. Click on "Edit new version". 
+This option will be available only if you have permission to edit the ontology.
+
+4\. Follow the usual steps to edit the metadata and the vocabulary contents. 
+
+5\. When done, click "Register" at the top of the page to complete the registration of the new version.
