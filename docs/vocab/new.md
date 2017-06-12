@@ -1,7 +1,7 @@
 !!! tip
     _Page Status_: **In Progress**
 
-Using the mechanism described in the [Semantic Web Basics section](/semweb/#another-triple-table-arrangement),
+Using one of the mechanism described in the [Semantic Web Basics section](/semweb/#another-triple-table-arrangement),
 the ORR system includes a tool for ontology creation based on the editing of a table of definitions
 in a spreadsheet-like fashion.
 
@@ -62,7 +62,7 @@ Click on `+Term` to add a new term, and `+Property` to add a new piece of inform
 
 <p class="clearfix">&nbsp;</p>
 
-The example at tue beginning of this section looks like this as captured in the ORR frontend:
+The example at the beginning of this section looks like this as captured in the ORR frontend:
 
 ![](/img/v2r-example.png)
 
