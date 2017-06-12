@@ -17,7 +17,7 @@ pages:
 - Getting Started: gettingstarted.md
 - FAQ: faq.md
 - Searching and Querying:
-  - Searching via the UI: search.md
+  - Finding ontologies and terms in the GUI: search.md
   - Querying via REST API: api/query.md
   - Querying via SPARQL API: query.md
 - Working with Vocabularies:
