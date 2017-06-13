@@ -13,9 +13,11 @@ Once signed in, click the "Create Vocabulary" button in the main ORR page.
 <img class="smallfloatright" alt="Vocabulary import owner IRI" src="../../img/owner-iri-vis-status-dialog.png">
 Enter the owner of the vocabulary (yourself, or a group that you are a member of), 
 the short name of the vocabulary that will appear in the identifier for the vocabulary,
-tand the desired visibility and status. 
-You can enter your own IRI for the vocabulary if you are an advanced user and want the IRI to be in your own domain, 
-but this is an unusual use case.
+and the desired visibility and status. 
+
+!!! note 
+    You can alternatively enter your own IRI for the vocabulary if you are an advanced user 
+    (for example, you want the IRI to be in your own domain), but this is an unusual use case.
 <p class="clearfix">&nbsp;</p>
 
 Complete the metadata in the "Metadata details" section. 
