@@ -67,10 +67,10 @@ At a more technical level, the major changes include:
   is retained in the browser URL field.
   In the previous version v2, redirection to the different base location (`/orr`) 
   very often caused confusion to users regarding the proper IRI for ontology identification.
-[^httptoolkit]: However, other HTTP frameworks, apparently much more actively maintained,
+[^httptoolkit]: However, other HTTP frameworks, apparently much more actively maintained in comparison,
   may be considered in a future version including
   [Akka HTTP](http://doc.akka.io/docs/akka-http/current/scala/http/) 
-  and [Play](https://playframework.com/documentation/2.5.x/ScalaHome).
+  and [Play](https://playframework.com/documentation/).
 [^ci]: We use Travis CI ([https://travis-ci.org/](https://travis-ci.org/)).
   Backend service: [https://travis-ci.org/mmisw/orr-ont](https://travis-ci.org/mmisw/orr-ont).
   Frontend: [https://travis-ci.org/mmisw/orr-portal](https://travis-ci.org/mmisw/orr-portal)
