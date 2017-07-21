@@ -4,6 +4,15 @@
 
 **Noteworthy**
 
+**3.6.4** - 2017-07-21
+
+- Fix in the orr-ont backend service regarding self-resolution of ontology format
+  ([orr-ont#52](https://github.com/mmisw/orr-ont/issues/52)).
+  With this fix, links in the portal for [LODE dispatch](
+  https://github.com/mmisw/orr-portal/issues/106#issuecomment-317095365) 
+  are now correctly dispatched, as is any dispatch by other external services 
+  following common content negotiation practices.
+
 **3.6.3** - 2017-06-06
 
 - REST API: adjustments in `GET /term` operation
