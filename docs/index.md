@@ -1,9 +1,9 @@
 **Welcome to ORR User Manual**
 
-!!! danger "Please note: Site under construction"
+!!! note "Please note"
     
     Contents are being migrated from [the original site](https://marinemetadata.org/mmiorrusrman)
-    and updated to reflect major developments in the new version (ORR v3).
+    and updated to reflect major changes in the new version (ORR v3).
     As of May 2017 most of the content has already being updated.
     Individual pages still under construction have a warning at the top. 
     
