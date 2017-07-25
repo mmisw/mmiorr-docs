@@ -1,4 +1,4 @@
-!!! warning
+!!! tip ""
     _Page Status_: **In Progress** 
 
 ## Before you start: Things to know
@@ -7,13 +7,15 @@
 
 The following formats are supported:
 
-*   [RDF/XML](https://www.w3.org/TR/REC-rdf-syntax/)
-*   [JSON-LD](https://www.w3.org/TR/json-ld/)
-*   [Notation3](https://www.w3.org/TeamSubmission/n3/)
-*   [N-TRIPLE](https://www.w3.org/TR/n-triples/)
-*   [TURTLE](https://www.w3.org/TeamSubmission/turtle/)
-*   [OWL/XML](https://www.w3.org/TR/owl-xml-serialization/)
-*   [RDF/JSON](https://www.w3.org/TR/rdf-json/)
+| Format | Reference |
+|--------|-----------|
+|JSON-LD   | [https://www.w3.org/TR/json-ld/](https://www.w3.org/TR/json-ld/) |
+|RDF/XML   | [https://www.w3.org/TR/REC-rdf-syntax/](https://www.w3.org/TR/REC-rdf-syntax/) |
+|Notation3 | [https://www.w3.org/TeamSubmission/n3/](https://www.w3.org/TeamSubmission/n3/) |
+|N-TRIPLE  | [https://www.w3.org/TR/n-triples/](https://www.w3.org/TR/n-triples/) |
+|TURTLE    | [https://www.w3.org/TeamSubmission/turtle/](https://www.w3.org/TeamSubmission/turtle/) |
+|OWL/XML   | [https://www.w3.org/TR/owl-xml-serialization/](https://www.w3.org/TR/owl-xml-serialization/) |
+|RDF/JSON  | [https://www.w3.org/TR/rdf-json/](https://www.w3.org/TR/rdf-json/) |
 
 ### Hosting modes
 
@@ -26,7 +28,8 @@ Unless indicated otherwise, always the latest version will be dispatched in the 
 and responded for a programmatic ontology request.
 A particular version can be selected in the ORR Portal page for the ontology by
 using the 'Versions' dropdown menu,
-and a `version` parameter can be included in a programmatic request to retrieve a specific version.
+and programmatically retrieved by including the `version` parameter 
+in the ontology IRI request. 
     
 
 #### Fully-hosted ontology
