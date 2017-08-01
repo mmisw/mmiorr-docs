@@ -28,4 +28,4 @@ generated as explained
 
 ### Local testing
 
-Please see the MkDocs documentation if you are testing things under your local clone.
+Please see the [MkDocs](http://www.mkdocs.org/) documentation if you are testing things under your local clone.
