@@ -4,6 +4,11 @@
 
 **Noteworthy**
 
+**3.6.5** - 2017-09-20
+
+- Enable "ttl" (Turtle) as a stored format in backend ([orr-ont#54](https://github.com/mmisw/orr-ont/issues/54)).
+- Enable "N-Quads" and "TriG" in "View/Download as" dropdown menu.
+
 **3.6.4** - 2017-07-21
 
 - Fix in the orr-ont backend service regarding self-resolution of ontology format
