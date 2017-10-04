@@ -4,6 +4,11 @@
 
 **Noteworthy**
 
+**3.6.6** - 2017-10-04
+
+- Use "text/turtle" as response format for term requests with format=ttl
+  (previously, "application/sparql-results+ttl")
+
 **3.6.5** - 2017-09-20
 
 - Enable "ttl" (Turtle) as a stored format in backend ([orr-ont#54](https://github.com/mmisw/orr-ont/issues/54)).
