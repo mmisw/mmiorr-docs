@@ -4,6 +4,11 @@
 
 **Noteworthy**
 
+**3.6.7** - 2017-10-12
+
+- "File-type extension" resolution for ontology and term request 
+  ([orr-ont#55](https://github.com/mmisw/orr-ont/issues/55))
+
 **3.6.6** - 2017-10-04
 
 - Use "text/turtle" as response format for term requests with format=ttl
