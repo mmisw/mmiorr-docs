@@ -4,6 +4,10 @@
 
 **Noteworthy**
 
+**3.6.8** - 2017-11-03
+
+- Internal: Improved dispatch of email notification for admins.
+
 **3.6.7** - 2017-10-12
 
 - "File-type extension" resolution for ontology and term request 
