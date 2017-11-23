@@ -4,6 +4,10 @@
 
 **Noteworthy**
 
+**3.7.0** - 2017-11-1
+
+- Internal: Simplified configurability of integrated system.
+
 **3.6.8** - 2017-11-03
 
 - Internal: Improved dispatch of email notification for admins.
