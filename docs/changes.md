@@ -4,7 +4,7 @@
 
 **Noteworthy**
 
-**3.7.0** - 2017-11-1
+**3.7.0** - 2017-11-22
 
 - Internal: Simplified configurability of integrated system.
 
