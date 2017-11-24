@@ -1,15 +1,9 @@
-!!! tip
-    _Page Status_: **In Progress**. 
-    
-    Please let us know if you encounter any issues or have suggestions.
-
 # Installing the ORR System
 
 ## ORR Deployment via Docker
 
 The installation of the ORR is greatly facilitated with the use of
 [Docker container technology](https://www.docker.com/what-docker).
-
 Please install on your target machine:
 
 - [Docker Engine](https://docs.docker.com/engine/installation/)
@@ -18,7 +12,8 @@ Please install on your target machine:
 
 !!! note 
     The user performing the deployment should have the relevant Docker privileges.
-    For example, via a command like: `sudo usermod -a -G docker username`
+    For example, via a command like: `sudo usermod -a -G docker username`.
+    Please check with your sysadmin.
 
     
 The Docker images required to run the ORR system are:
@@ -29,8 +24,8 @@ The Docker images required to run the ORR system are:
 | [mongo]           | MongoDB      | Persist all data |
 | [franzinc/agraph] | AllegroGraph | Triple store and SPARQL endpoint |
 
-The `docker-compose.yml` file indicated below takes care of pulling and running
-these images.
+With the `docker-compose.yml` file indicated below, Docker Compose takes care 
+of pulling and running these images.
 
 A complete deployment of the ORR, including the required supporting services,
 consists of the following steps.
@@ -40,29 +35,27 @@ consists of the following steps.
 
 - Create these subdirectories:
 
+        $ mkdir configDir
         $ mkdir mongo_data
         $ mkdir orr_data
     
 - Get these files:
 
-        $ curl -o docker-compose.yml https://mmisw.org/orrdoc/install/docker-compose.yml
-        $ curl -o orront.conf        https://mmisw.org/orrdoc/install/orront.conf
-        $ curl -o local.config.js    https://mmisw.org/orrdoc/install/local.config.js
+        $ curl -o docker-compose.yml     https://mmisw.org/orrdoc/install/docker-compose.yml
+        $ curl -o configDir/orront.conf  https://mmisw.org/orrdoc/install/orront.conf
 
 - Optionally, to specify a list of email addresses that should be notified whenever there's a
-user, organization, or ontology registration, create a `notifyemails` text file and put each
-email address on a line by itself, e.g.,:
+registration of a user, organization, or ontology, create a `configDir/notifyemails` 
+text file and put each email address on a line by itself, e.g.,:
 
-        $ cat > notifyemails
+        $ cat > configDir/notifyemails
         foo@example.net
         other@example.net
         ^D
+        
+     (The `#` character can be used to indicate comments in this file.)
 
 - Edit the downloaded files as indicated in their contents.
-
-    !!! note
-        There's some redundancy between `orront.conf` and `local.config.js`.
-        This will be fixed/simplified in a future version of the system.
 
 
 - Launch the ORR:
@@ -71,10 +64,6 @@ email address on a line by itself, e.g.,:
         Starting agraph
         Starting mongo
         Starting orr
-    
-- Copy `local.config.js` to the `orr` container:
-
-        $ docker cp local.config.js  orr:/usr/local/tomcat/webapps/ont/js/
     
 - Inspect the log:
 

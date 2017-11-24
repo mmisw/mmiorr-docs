@@ -6,7 +6,8 @@
 
 **3.7.0** - 2017-11-22
 
-- Internal: Simplified configurability of integrated system.
+- Simplified configurability of the integrated ORR system.
+  [Install section](/install) updated.
 
 **3.6.8** - 2017-11-03
 

@@ -2,7 +2,7 @@ version: '2'
 
 services:
   orr:
-    image: mmisw/orr:3.6.0
+    image: mmisw/orr:3.7.0
     container_name: orr
     depends_on:
       - agraph
@@ -13,10 +13,10 @@ services:
       - "9090:8080"
 
     volumes:
-      # in general, no need to make adjustments here, expect perhaps for the host
-      # part location corresponding to container's `/opt/orr-ont-base-directory`.
-      - $PWD/orront.conf:/etc/orront.conf
-      - $PWD/notifyemails:/etc/orront/notifyemails
+      # no need to make adjustments here, expect perhaps for the host part locations.
+
+      - $PWD/configDir:/etc/orront
+
       # NOTE: The following must be the same mapping as for the "agraph" service below
       - $PWD/orr_data:/opt/orr-ont-base-directory
 
