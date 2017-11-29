@@ -1,6 +1,4 @@
-# Installing the ORR System
-
-## ORR Deployment via Docker
+# Overview 
 
 The installation of the ORR is greatly facilitated with the use of
 [Docker container technology](https://www.docker.com/what-docker).
@@ -24,76 +22,78 @@ The Docker images required to run the ORR system are:
 | [mongo]           | MongoDB      | Persist all data |
 | [franzinc/agraph] | AllegroGraph | Triple store and SPARQL endpoint |
 
-With the `docker-compose.yml` file indicated below, Docker Compose takes care 
+With the `docker-compose.yml` file described below, Docker Compose takes care 
 of pulling and running these images.
 
-A complete deployment of the ORR, including the required supporting services,
-consists of the following steps.
+# Configuring and Launching the ORR System
 
-- Create a directory on your host machine as a base location for all
-  configuration files and data (ontology files, MongoDB data, etc.).
+To further facilitate this task, we have put together a template that you can get from 
+[https://github.com/mmisw/orr-instance-template/releases/](https://github.com/mmisw/orr-instance-template/releases/).
+Expand the zip or tarball under a location of your choice.
 
-- Create these subdirectories:
+!!! note ""
+    If you have a Git client, you can alternatively clone the 
+    [orr-instance-template]([https://github.com/mmisw/orr-instance-template) repository; see
+    [README file](https://github.com/mmisw/orr-instance-template/blob/master/README.md)
+    there for details.
 
-        $ mkdir configDir
-        $ mkdir mongo_data
-        $ mkdir orr_data
+The template mainly consists of configuration files and the `docker-compose.yml`
+specification to be passed to Docker Compose.
+The template contents are:
+
+    ├── README.md
+    ├── config
+    │   ├── notifyemails
+    │   └── orront.conf
+    ├── docker-compose.yml
+    └── setenv.sh 
+
+From the template, edit the following files
+(see contents for additional details):
+
+- `setenv.sh` to indicate a number of required settings via environment variables;
+- `config/orront.conf`, the master configuration for your ORR instance;
+- `config/notifyemails`, to specify email addresses that should be notified 
+  whenever there is a registration event (user, organization, or ontology).
+  This is optional.
+
+With these pieces in place, you can now launch the ORR:
+
+    $ source setenv.sh
+    $ docker-compose up -d
+    Starting agraph
+    Starting mongo
+    Starting orr
     
-- Get these files:
+To inspect the ORR log:
 
-        $ curl -o docker-compose.yml     https://mmisw.org/orrdoc/install/docker-compose.yml
-        $ curl -o configDir/orront.conf  https://mmisw.org/orrdoc/install/orront.conf
-
-- Optionally, to specify a list of email addresses that should be notified whenever there's a
-registration of a user, organization, or ontology, create a `configDir/notifyemails` 
-text file and put each email address on a line by itself, e.g.,:
-
-        $ cat > configDir/notifyemails
-        foo@example.net
-        other@example.net
-        ^D
+    $ docker logs -f --tail=100 orr
         
-     (The `#` character can be used to indicate comments in this file.)
-
-- Edit the downloaded files as indicated in their contents.
-
-
-- Launch the ORR:
-
-        $ docker-compose up -d
-        Starting agraph
-        Starting mongo
-        Starting orr
-    
-- Inspect the log:
-
-        $ docker logs -f --tail=100 orr
-        
-- Open the ORR in your browser. For example, assuming 9090 is the associated host port,
-  you can now open [http://localhost:9090/ont/](http://localhost:9090/ont/).
-  You can login with the username "admin" and the password indicated in `orront.conf`.
+Open the ORR in your browser. For example, assuming 9090 is the associated host port,
+you can now open [http://localhost:9090/ont/](http://localhost:9090/ont/).
+You can login with the username "admin" and the password indicated in `orront.conf`.
  
 
-- To shutdown the whole ORR:
+To stop and restart individual containers:
 
-        $ docker-compose down
-        Stopping orr ... done
-        Stopping mongo ... done
-        Stopping agraph ... done
-        Removing orr ... done
-        Removing mongo ... done
-        Removing agraph ... done
+    $ docker stop orr
+    $ docker start orr
+    $ docker restart orr
+
+To shutdown the whole ORR:
+
+    $ docker-compose down
+    Stopping orr ... done
+    Stopping mongo ... done
+    Stopping agraph ... done
+    Removing orr ... done
+    Removing mongo ... done
+    Removing agraph ... done
 
 
-- To stop and restart individual containers:
-
-        $ docker stop orr
-        $ docker start orr
-        $ docker restart orr
-
-    A crontab like the following could be defined for a complete ORR start at reboot time:
+A crontab like the following could be defined for a complete ORR start at reboot time:
      
-        @reboot docker start mongo agraph orr
+    @reboot sleep 30 && docker start mongo agraph orr
 
 
 
@@ -106,10 +106,10 @@ text file and put each email address on a line by itself, e.g.,:
     Please check with your sysadmin.
 
 
-### Apache HTTPD proxy configuration
+**Apache HTTPD proxy configuration**
 
 Just as a suggestion (please check with your sysadmin), the following is a possible Apache
-proxy configuration to expose the ORR itself and the SPARQL endpoint through the `/ont`
+proxy configuration to externally expose the ORR itself and the SPARQL endpoint through the `/ont`
 and `/sparql` context paths under your main HTTP server:
 
     ProxyPass        /ont http://localhost:9090/ont
