@@ -27,13 +27,13 @@ of pulling and running these images.
 
 # Configuring and Launching the ORR System
 
-To further facilitate this task, we have put together a template that you can get from 
+To further facilitate this task, we have put together a template that you can get from
 [https://github.com/mmisw/orr-instance-template/releases/](https://github.com/mmisw/orr-instance-template/releases/).
 Expand the zip or tarball under a location of your choice.
 
 !!! note ""
-    If you have a Git client, you can alternatively clone the 
-    [orr-instance-template]([https://github.com/mmisw/orr-instance-template) repository; see
+    If you have a Git client, you can alternatively clone the
+    [orr-instance-template](https://github.com/mmisw/orr-instance-template) repository; see
     [README file](https://github.com/mmisw/orr-instance-template/blob/master/README.md)
     there for details.
 
