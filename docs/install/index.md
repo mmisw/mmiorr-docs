@@ -2,19 +2,14 @@
 
 The installation of the ORR is greatly facilitated with the use of
 [Docker container technology](https://www.docker.com/what-docker).
-Please install on your target machine:
+Your target machine should have the following:
 
 - [Docker Engine](https://docs.docker.com/engine/installation/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
-
-
-!!! note 
-    The user performing the deployment should have the relevant Docker privileges.
-    For example, via a command like: `sudo usermod -a -G docker username`.
-    Please check with your sysadmin.
+  (included with the Engine in some target platforms)
 
     
-The Docker images required to run the ORR system are:
+The Docker images comprising the ORR system are:
 
 | Image |  Name |  Purpose |
 |-|-|-|
@@ -22,8 +17,10 @@ The Docker images required to run the ORR system are:
 | [mongo]           | MongoDB      | Persist all data |
 | [franzinc/agraph] | AllegroGraph | Triple store and SPARQL endpoint |
 
-With the `docker-compose.yml` file described below, Docker Compose takes care 
-of pulling and running these images.
+!!! note ""
+    **Note**: You don't need to manually download these images.
+    With the `docker-compose.yml` file described below, Docker Compose takes care 
+    of pulling and running these images.
 
 # Configuring and Launching the ORR System
 
@@ -49,7 +46,7 @@ The template contents are:
     └── setenv.sh 
 
 From the template, edit the following files
-(see contents for additional details):
+(please see the contents of the files for additional details):
 
 - `setenv.sh` to indicate a number of required settings via environment variables;
 - `config/orront.conf`, the master configuration for your ORR instance;
@@ -69,9 +66,11 @@ To inspect the ORR log:
 
     $ docker logs -f --tail=100 orr
         
-Open the ORR in your browser. For example, assuming 9090 is the associated host port,
+Open the ORR in your browser. For example, with 9090 as the associated host port
+(value of `ORR_HOST_PORT` in `setenv.sh`),
 you can now open [http://localhost:9090/ont/](http://localhost:9090/ont/).
-You can login with the username "admin" and the password indicated in `orront.conf`.
+You can login with the username "admin" and the password indicated via the
+`admin.password` entry in `orront.conf`.
  
 
 To stop and restart individual containers:
@@ -103,8 +102,10 @@ A crontab like the following could be defined for a complete ORR start at reboot
     Aspects to consider include:
     making your ORR instance externally visible, re-starting the containers to reflect configuration
     and image updates, logging, backups, etc.
+    Also, depending on the target platform, the user performing the deployment should have 
+    the relevant Docker privileges.
+    For example, via a command like: `sudo usermod -a -G docker username`.
     Please check with your sysadmin.
-
 
 **Apache HTTPD proxy configuration**
 
