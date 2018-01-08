@@ -6,7 +6,7 @@ Your target machine should have the following:
 
 - [Docker Engine](https://docs.docker.com/engine/installation/)
 - [Docker Compose](https://docs.docker.com/compose/install/)
-  (included with the Engine in some target platforms)
+  (included with the Engine for some target platforms)
 
     
 The Docker images comprising the ORR system are:
