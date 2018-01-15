@@ -89,7 +89,9 @@ paths:
         - in: formData
           name: format
           description: |
-            Format of the file. The special value `"_guess"` (without quotes)
+            Format of the file.
+            The supported formats are described in [this section](https://mmisw.org/orrdoc/ontology/new/#supported-ontology-formats) of the documentation.
+            The special value `"_guess"` (without quotes)
             can be given to let the ORR automatically determine the format.
             (A future version of this API may allow this parameter to be omitted, in such
             case implying the guess-format behavior.)
