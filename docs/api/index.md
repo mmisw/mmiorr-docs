@@ -5,14 +5,12 @@ the version of the ORR Ont software being used.
 Besides containing the documentation itself, the API Documentation pages referenced below 
 also allow users to directly exercise the API against the corresponding ORR REST endpoint.
 
-The following ORR instances provide or will be providing such documentation:
-
-|ORR Instance| API Documentation | Main Page |
+|ORR Instance| API Documentation | Portal Page |
 |-|-|-|
-| MMI ORR       | [https://mmisw.org/ontapi/](https://mmisw.org/ontapi/)           | [https://mmisw.org](https://mmisw.org) | 
-| XDOMES ORR    | [https://xdomes.org/ontapi/](https://xdomes.org/ontapi/)         | [https://xdomes.org](https://xdomes.org) | 
-| ESIP COR      | [http://cor.esipfed.org/ontapi/](http://cor.esipfed.org/ontapi/) | [http://cor.esipfed.org](http://cor.esipfed.org) | 
-| SensorML ORR  | http://sensorml.com/ontapi/                                      | [http://sensorml.com](http://sensorml.com) | 
+| MMI ORR       | [https://mmisw.org/ontapi/](https://mmisw.org/ontapi/)           | [https://mmisw.org/ont](https://mmisw.org/ont) | 
+| XDOMES ORR    | [https://xdomes.org/ontapi/](https://xdomes.org/ontapi/)         | [https://xdomes.org/ont](https://xdomes.org/ont) | 
+| ESIP COR      | [http://cor.esipfed.org/ontapi/](http://cor.esipfed.org/ontapi/) | [http://cor.esipfed.org/ont](http://cor.esipfed.org/ont) | 
+| SensorML ORR  | [http://sensorml.com/ontapi/](http://sensorml.com/ontapi/)       | [http://sensorml.com/ont](http://sensorml.com/ont) | 
 
 In each case you can use the "Authorize" button at the top of the API Documentation page to login with your 
 corresponding credentials. 
