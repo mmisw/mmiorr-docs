@@ -1,9 +1,3 @@
-!!! note "Are you a user of the MMI ORR instance at mmisw.org?" 
-    The MMI ORR instance was recently migrated from the previous version 2.<br> 
-    A summary of the major changes in v3 is available [here](/from2to3).
-
-**Noteworthy**
-
 **3.7.0** - 2017-11-22
 
 - Simplified configurability of the integrated ORR system.
