@@ -5,8 +5,6 @@
 - show triple store size when zero (admin page) 
 - remove unneeded dependency on jquery
 
-* 2018-01-16: 3.7.1
-
 **3.7.0** - 2017-11-22
 
 - Simplified configurability of the integrated ORR system.
