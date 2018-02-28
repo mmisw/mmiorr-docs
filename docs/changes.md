@@ -1,3 +1,12 @@
+**3.7.2** - 2018-02-28
+
+- add link to [examples](https://mmisw.org/orrdoc/query/#some-sparql-examples)
+  in the SPARQL YASGUI page
+- show triple store size when zero (admin page) 
+- remove unneeded dependency on jquery
+
+* 2018-01-16: 3.7.1
+
 **3.7.0** - 2017-11-22
 
 - Simplified configurability of the integrated ORR system.
