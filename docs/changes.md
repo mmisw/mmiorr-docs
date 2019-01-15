@@ -1,7 +1,10 @@
-**3.7.3** - 2019-01-15
+**3.8.1** - 2019-01-15
 
 - The maximum size for ontology file upload has been increased.
   ([orr-portal#126](https://github.com/mmisw/orr-portal/issues/126))
+
+- Gzip compression for ontology requests has been enabled.
+  ([orr-ont#68](https://github.com/mmisw/orr-ont/issues/68))
 
 **3.7.2** - 2018-02-28
 
