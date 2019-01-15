@@ -1,8 +1,13 @@
+**3.7.3** - 2019-01-15
+
+- The maximum size for ontology file upload has been increased.
+  ([orr-portal#126](https://github.com/mmisw/orr-portal/issues/126))
+
 **3.7.2** - 2018-02-28
 
 - add link to [examples](https://mmisw.org/orrdoc/query/#some-sparql-examples)
   in the SPARQL YASGUI page
-- show triple store size when zero (admin page) 
+- show triple store size when zero (admin page)
 - remove unneeded dependency on jquery
 
 **3.7.0** - 2017-11-22
@@ -16,7 +21,7 @@
 
 **3.6.7** - 2017-10-12
 
-- "File-type extension" resolution for ontology and term request 
+- "File-type extension" resolution for ontology and term request
   ([orr-ont#55](https://github.com/mmisw/orr-ont/issues/55))
 
 **3.6.6** - 2017-10-04
@@ -34,24 +39,24 @@
 - Fix in the orr-ont backend service regarding self-resolution of ontology format
   ([orr-ont#52](https://github.com/mmisw/orr-ont/issues/52)).
   With this fix, links in the ORR portal for [LODE dispatch](
-  https://github.com/mmisw/orr-portal/issues/106#issuecomment-317095365) 
-  should now be correctly handled, as well as by any external service or tool 
+  https://github.com/mmisw/orr-portal/issues/106#issuecomment-317095365)
+  should now be correctly handled, as well as by any external service or tool
   that follows common content negotiation practices.
 
 **3.6.3** - 2017-06-06
 
 - REST API: adjustments in `GET /term` operation
 - Front-end application should now load faster in the browser ([orr-portal#111](https://github.com/mmisw/orr-portal/issues/111)).
-  (In general, [optimization had deliberately not been a main concern](http://wiki.c2.com/?PrematureOptimization).) 
+  (In general, [optimization had deliberately not been a main concern](http://wiki.c2.com/?PrematureOptimization).)
 
 **3.6.2** - 2017-06-03
 
-- REST API addition: Simplified semantic search queries against the triple store 
+- REST API addition: Simplified semantic search queries against the triple store
  ([orr-ont#50](https://github.com/mmisw/orr-ont/issues/50))
 
 **3.6.0** - 2017-05-31
 
-- General support for IRIs (both backend and frontend), with many adjustments in relevant 
+- General support for IRIs (both backend and frontend), with many adjustments in relevant
   parameters, UI widgets and messages, and documentation.
   ([orr-ont#32](https://github.com/mmisw/orr-ont/issues/32),
   [orr-portal#48](https://github.com/mmisw/orr-portal/issues/48))
@@ -87,15 +92,15 @@
 
 **3.3.1** - 2017-03-02
 
-- user page was wrongly showing info about logged in user (#85) 
+- user page was wrongly showing info about logged in user (#85)
 
 **3.3.0** - 2017-02-28
 
 - improve search options
     - show SPARQL query for term-search and keyword-search
     - term-search now also applied on the simple name of the subjects
-- a log message can now be entered before proceeding with registration of 
-  a new ontology version. This log message is optional.  
+- a log message can now be entered before proceeding with registration of
+  a new ontology version. This log message is optional.
   Such log messages (if any) are displayed as tooltips in the "versions" dropdown menu.
 
 **3.2.4** - 2017-02-25
@@ -106,21 +111,21 @@
 - organization's name was not editable; fixed.
 - resolve "too much unused real estate"
 - duplicate metadata removed
-- re-enable ontologyType facet 
+- re-enable ontologyType facet
 
 **3.2.2** - 2017-02-18
 
 - option to upload file from remote URL ([#79](https://github.com/mmisw/orr-portal/issues/79))
 - capture status and visibility when creating new vocab or new mapping ([#60](https://github.com/mmisw/orr-portal/issues/60))
-- Other various enhancements/fixes 
-  ([#22](https://github.com/mmisw/orr-portal/issues/22), 
-  [#14](https://github.com/mmisw/orr-portal/issues/14), 
-  [#27](https://github.com/mmisw/orr-portal/issues/27), 
-  [#57](https://github.com/mmisw/orr-portal/issues/57), 
-  [#75](https://github.com/mmisw/orr-portal/issues/75), 
-  [#70](https://github.com/mmisw/orr-portal/issues/70), 
-  [#62](https://github.com/mmisw/orr-portal/issues/62), 
-  [#76](https://github.com/mmisw/orr-portal/issues/76), 
+- Other various enhancements/fixes
+  ([#22](https://github.com/mmisw/orr-portal/issues/22),
+  [#14](https://github.com/mmisw/orr-portal/issues/14),
+  [#27](https://github.com/mmisw/orr-portal/issues/27),
+  [#57](https://github.com/mmisw/orr-portal/issues/57),
+  [#75](https://github.com/mmisw/orr-portal/issues/75),
+  [#70](https://github.com/mmisw/orr-portal/issues/70),
+  [#62](https://github.com/mmisw/orr-portal/issues/62),
+  [#76](https://github.com/mmisw/orr-portal/issues/76),
   [#77](https://github.com/mmisw/orr-portal/issues/77))
 
 
@@ -132,7 +137,7 @@
 - many improvements and fixes (email notifications, triple-store update, regular ontology display, recaptcha, ...)
 - improved docker image build and simplified configuration
 
-**3.0.0-beta** - 2016-07-12 
+**3.0.0-beta** - 2016-07-12
 
 - Presented at the ESIP Summer Meeting
 
