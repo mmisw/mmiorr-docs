@@ -1,3 +1,11 @@
+**3.8.2** - 2019-01-19
+
+- Backend now performs redirection to web portal when request for
+  ontology or term indicates HTML via `format` parameter or when
+  `Accept` header includes `text/html`.
+  ([orr-ont#69](https://github.com/mmisw/orr-ont/issues/69),
+   [SWEET#70](https://github.com/ESIPFed/sweet/issues/70#issuecomment-455714613))
+
 **3.8.1** - 2019-01-15
 
 - The maximum size for ontology file upload has been increased.
