@@ -1,3 +1,7 @@
+**3.8.3** - 2019-01-25
+
+- internal: some lib upgrades to address potential vulnerabilities (in orr-portal)
+
 **3.8.2** - 2019-01-19
 
 - Backend now performs redirection to web portal when request for
