@@ -1,3 +1,7 @@
+**3.8.5** - 2019-08-08
+
+- internal: more dependency upgrades to address potential vulnerabilities (in orr-portal)
+
 **3.8.4** - 2019-02-07 / **3.8.3** - 2019-01-25
 
 - internal: some lib upgrades to address potential vulnerabilities (in orr-portal)
