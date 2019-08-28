@@ -1,3 +1,9 @@
+**3.8.6** - 2019-08-28
+
+- Some internal adjustments related with HTTP requests between the various ORR
+  components (including the triple store service), due to more stringent restrictions
+  under some execution environments (e.g., Cloudflare).
+
 **3.8.5** - 2019-08-08
 
 - internal: more dependency upgrades to address potential vulnerabilities (in orr-portal)
