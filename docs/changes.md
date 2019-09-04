@@ -1,3 +1,7 @@
+**3.8.7** - 2019-09-04
+
+- Some fixes and adjustments mostly related with upgrades in underlying components.
+
 **3.8.6** - 2019-08-28
 
 - Some internal adjustments related with HTTP requests between the various ORR
