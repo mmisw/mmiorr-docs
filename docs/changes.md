@@ -1,3 +1,8 @@
+**3.8.8** - 2019-10-03
+
+- User can now update his/her email address.
+  ([orr-portal#150](https://github.com/mmisw/orr-portal/issues/150))
+
 **3.8.7** - 2019-09-04
 
 - Some fixes and adjustments mostly related with upgrades in underlying components.
