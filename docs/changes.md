@@ -1,4 +1,12 @@
-**3.8.8** - 2019-10-03
+**3.8.9** - 2019-10-03
+
+- Fixed issue with endpoint associated with SPARQL page.
+  ([orr-portal#128](https://github.com/mmisw/orr-portal/issues/128#issuecomment-538172422))
+  
+- The ontology unregistration option is now available to its owner 
+  (that is, direct user or a member of submitting organization),
+  but only when the ontology is not publicly visible.
+  ([orr-portal#149](https://github.com/mmisw/orr-portal/issues/149))
 
 - User can now update his/her email address.
   ([orr-portal#150](https://github.com/mmisw/orr-portal/issues/150))
