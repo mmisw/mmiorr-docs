@@ -1,5 +1,8 @@
-**3.9.2** - 2020-04-03
+**3.9.3** - 2020-04-03
 
+- https-to-http replacement for re-attempt of term request.
+  [orr-portal#115](https://github.com/mmisw/orr-portal/issues/115)
+  
 - Fixed resolution issues for some cases with ontology IRIs having trailing hash or slash character
     - [orr-portal#156](https://github.com/mmisw/orr-portal/issues/156)
       (related: [orr-ont#74](https://github.com/mmisw/orr-ont/issues/74))
