@@ -1,8 +1,8 @@
 **3.9.1** - 2020-04-03
 
 - Fixed issue about hash character `#` not encoded for self-hosted links in main list.
-    - ([orr-portal#155](https://github.com/mmisw/orr-portal/issues/155))
-    - ([orr-ont#73](https://github.com/mmisw/orr-ont/issues/73))
+    - [orr-portal#155](https://github.com/mmisw/orr-portal/issues/155)
+    - [orr-ont#73](https://github.com/mmisw/orr-ont/issues/73)
   
 **3.8.9** - 2019-10-03
 
