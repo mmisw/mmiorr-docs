@@ -48,8 +48,10 @@ The metadata is given in terms of the list of predicates associated with the
 IRI as a subject in corresponding triples in the registered ontology.
 
 For example, for
-[https://mmisw.org/ont/api/v0/ont?iri=http://www.w3.org/ns/ssn/&format=!md](https://mmisw.org/ont/api/v0/ont?iri=http://www.w3.org/ns/ssn/&format=!md),
-the returned JSON will look like so:
+
+[https://mmisw.org/ont/api/v0/ont?iri=http://www.w3.org/ns/ssn/&format=!md](https://mmisw.org/ont/api/v0/ont?iri=http://www.w3.org/ns/ssn/&format=!md)
+
+the returned JSON looks like so:
 
 ```json
 {
@@ -71,8 +73,8 @@ the returned JSON will look like so:
         "http://purl.org/dc/terms/title": [
             "Semantic Sensor Network Ontology"
         ],
+        ...
    },
-...
     "name": "Semantic Sensor Network Ontology",
     "author": "OGC Spatial Data on the Web Working Group",
     "format": "n3",
@@ -85,7 +87,7 @@ the returned JSON will look like so:
             "visibility": "public"
         }
     ],
-...
+    ...
 }
 ```
 
