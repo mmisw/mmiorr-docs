@@ -55,39 +55,65 @@ the returned JSON looks like so:
 
 ```json
 {
-    "uri": "http://www.w3.org/ns/ssn/",
-    "metadata": {
-        "http://purl.org/dc/terms/created": [
-            "2017-04-17"
-        ],
-        "http://purl.org/dc/terms/description": [
-            "This ontology describes sensors, actuators and observations, and related concepts. ..."
-        ],
-        "http://purl.org/dc/terms/license": [
-            "http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document",
-            "http://www.opengeospatial.org/ogc/Software"
-        ],
-        "http://purl.org/dc/terms/rights": [
-            "Copyright 2017 W3C/OGC."
-        ],
-        "http://purl.org/dc/terms/title": [
-            "Semantic Sensor Network Ontology"
-        ],
-        ...
-   },
-    "name": "Semantic Sensor Network Ontology",
-    "author": "OGC Spatial Data on the Web Working Group",
-    "format": "n3",
-    "status": "unstable",
-    "version": "20170529T160905",
-    "versions": [
-        {
-            "status": "unstable",
-            "version": "20170529T160905",
-            "visibility": "public"
-        }
+  "uri": "http://www.w3.org/ns/ssn/",
+  "metadata": {
+    "http://purl.org/dc/terms/title": [
+      "Semantic Sensor Network Ontology"
     ],
-    ...
+    "http://purl.org/dc/terms/description": [
+      "This ontology describes sensors, actuators and observations, and related concepts..."
+    ],
+    "http://purl.org/vocab/vann/preferredNamespaceUri": [
+      "http://www.w3.org/ns/ssn/"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#seeAlso": [
+      "https://www.w3.org/2015/spatial/wiki/Semantic_Sensor_Network_Ontology"
+    ],
+    "http://purl.org/dc/terms/rights": [
+      "Copyright 2017 W3C/OGC."
+    ],
+    "http://purl.org/dc/terms/created": [
+      "2017-04-17"
+    ],
+    "http://purl.org/dc/terms/license": [
+      "http://www.w3.org/Consortium/Legal/2015/copyright-software-and-document",
+      "http://www.opengeospatial.org/ogc/Software"
+    ],
+    "http://www.w3.org/2000/01/rdf-schema#comment": [
+      "Please report any errors to the W3C Spatial Data on the Web Working Group via the SDW WG Public List public-sdw-wg@w3.org"
+    ],
+    "http://www.w3.org/2002/07/owl#versionInfo": [
+      "New modular version of the SSN ontology. \n\nThis ontology was originally developed in 2009-2011 by ..."
+    ],
+    "http://www.w3.org/2002/07/owl#imports": [
+      "http://www.w3.org/ns/sosa/"
+    ],
+    "http://purl.org/vocab/vann/preferredNamespacePrefix": [
+      "ssn"
+    ],
+    "http://www.w3.org/1999/02/22-rdf-syntax-ns#type": [
+      "http://www.w3.org/2002/07/owl#Ontology",
+      "http://purl.org/vocommons/voaf#Vocabulary"
+    ]
+  },
+  "name": "Semantic Sensor Network Ontology",
+  "author": "OGC Spatial Data on the Web Working Group",
+  "format": "ttl",
+  "status": "draft",
+  "version": "20200414T164723",
+  "versions": [
+    {
+      "version": "20200414T164723",
+      "visibility": "public",
+      "status": "draft"
+    },
+    {
+      "version": "20170529T160905",
+      "visibility": "public",
+      "status": "unstable"
+    }
+  ],
+  ...
 }
 ```
 
