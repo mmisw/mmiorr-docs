@@ -1,3 +1,10 @@
+**3.9.4** - 2020-04-29
+
+- Capture acceptance of "Terms Of Use" in new-account dialog.
+- Some password related usability inprovements.
+- Admin: show indication of public or owner visibility in main list.
+- Backend: include status and visibility in email notification about ontology registration.
+
 **3.9.3** - 2020-04-03
 
 - https-to-http replacement for re-attempt of term request.
