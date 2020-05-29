@@ -1,7 +1,7 @@
 **3.9.4** - 2020-05-29
 
 - Capture acceptance of "Terms Of Use" in new-account dialog.
-- Some password related usability inprovements.
+- Some password related usability improvements.
 - Admin: show indication of public or owner visibility in main list.
 - Backend: include status and visibility in email notification about ontology registration.
 
