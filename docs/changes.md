@@ -1,8 +1,13 @@
 **3.9.4** - 2020-05-29
 
 - Capture acceptance of "Terms Of Use" in new-account dialog.
+  [orr-portal#123](https://github.com/mmisw/orr-portal/issues/123)
+
 - Some password related usability improvements.
+
 - Admin: show indication of public or owner visibility in main list.
+  [orr-portal#163](https://github.com/mmisw/orr-portal/issues/163)
+
 - Backend: include status and visibility in email notification about ontology registration.
 
 **3.9.3** - 2020-04-03
