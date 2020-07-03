@@ -1,7 +1,9 @@
-**3.9.5** - 2020-07-02
+**3.9.6** - 2020-07-02
 
 - Fixed issue involving double slash in IRI when creating a vocabulary or mapping ontology.
   [orr-portal#169](https://github.com/mmisw/orr-portal/issues/169)
+  
+- Internal: more flexible configurability of the frontend for docker based deployment.
 
 **3.9.4** - 2020-05-29
 
