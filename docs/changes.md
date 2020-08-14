@@ -1,3 +1,14 @@
+**3.9.8** - 2020-08-14
+
+- Fixed [orr-portal#174](https://github.com/mmisw/orr-portal/issues/174).
+
+**3.9.7** - 2020-07
+
+- Adjusted marks for status and visibility, in particular to show the visibility
+  even when status is undefined
+- Added 'visibility' facet.
+- Various internal adjustments to address security alerts.
+
 **3.9.6** - 2020-07-02
 
 - Fixed issue involving double slash in IRI when creating a vocabulary or mapping ontology.
