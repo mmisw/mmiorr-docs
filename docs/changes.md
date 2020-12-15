@@ -1,6 +1,15 @@
 **3.9.81** - 2020-12-14
 
-- Implemented [orr-portal#178](https://github.com/mmisw/orr-portal/issues/178).
+- Implemented [orr-portal#178](https://github.com/mmisw/orr-portal/issues/178):
+  If an IRI with a trailing slash is not found in the repository, 
+  the portal UI will automatically retry the request without any trailing slash.
+  
+    Example with the COR instance:
+    
+    [`http://cor.esipfed.org/ont?iri=http://sweetontology.net/matrMineral/`](http://cor.esipfed.org/ont?iri=http://sweetontology.net/matrMineral/)
+    
+    should resolve to the IRI `http://sweetontology.net/matrMineral`.
+  
 
 **3.9.8** - 2020-08-14
 
