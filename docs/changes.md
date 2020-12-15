@@ -2,13 +2,13 @@
 
 - Implemented [orr-portal#178](https://github.com/mmisw/orr-portal/issues/178):
   If an IRI with a trailing slash is not found in the repository, 
-  the portal UI will automatically retry the request without any trailing slash.
+  the portal UI will automatically retry the request without the trailing slash.
   
-    Example with the COR instance:
+    Example:
     
-    [`http://cor.esipfed.org/ont?iri=http://sweetontology.net/matrMineral/`](http://cor.esipfed.org/ont?iri=http://sweetontology.net/matrMineral/)
+    [http://cor.esipfed.org/ont?iri=http://sweetontology.net/matrMineral/](http://cor.esipfed.org/ont?iri=http://sweetontology.net/matrMineral/)
     
-    should resolve to the IRI `http://sweetontology.net/matrMineral`.
+    should end up resolving: http://sweetontology.net/matrMineral
   
 
 **3.9.8** - 2020-08-14
