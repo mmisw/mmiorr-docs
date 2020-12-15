@@ -1,3 +1,7 @@
+**3.9.81** - 2020-12-14
+
+- Implemented [orr-portal#178](https://github.com/mmisw/orr-portal/issues/178).
+
 **3.9.8** - 2020-08-14
 
 - Fixed [orr-portal#174](https://github.com/mmisw/orr-portal/issues/174).
@@ -13,7 +17,7 @@
 
 - Fixed issue involving double slash in IRI when creating a vocabulary or mapping ontology.
   [orr-portal#169](https://github.com/mmisw/orr-portal/issues/169)
-  
+
 - Internal: more flexible configurability of the frontend for docker based deployment.
 
 **3.9.4** - 2020-05-29
@@ -32,19 +36,19 @@
 
 - https-to-http replacement for re-attempt of term request.
   [orr-portal#115](https://github.com/mmisw/orr-portal/issues/115)
-  
+
 - Fixed resolution issues for some cases with ontology IRIs having trailing hash or slash character
     - [orr-portal#156](https://github.com/mmisw/orr-portal/issues/156)
       (related: [orr-ont#74](https://github.com/mmisw/orr-ont/issues/74))
     - [orr-portal#155](https://github.com/mmisw/orr-portal/issues/155)
       (related: [orr-ont#73](https://github.com/mmisw/orr-ont/issues/73))
-  
+
 **3.8.9** - 2019-10-03
 
 - Fixed issue with endpoint associated with SPARQL page.
   ([orr-portal#128](https://github.com/mmisw/orr-portal/issues/128#issuecomment-538172422))
-  
-- The ontology unregistration option is now available to its owner 
+
+- The ontology unregistration option is now available to its owner
   (that is, direct user or a member of submitting organization),
   but only when the ontology is not publicly visible.
   ([orr-portal#149](https://github.com/mmisw/orr-portal/issues/149))
