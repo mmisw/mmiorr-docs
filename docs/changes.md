@@ -1,3 +1,7 @@
+**3.9.82** - 2021-01-05
+
+- Button icons are back [orr-portal#179](https://github.com/mmisw/orr-portal/issues/179).
+
 **3.9.81** - 2020-12-14
 
 - Implemented [orr-portal#178](https://github.com/mmisw/orr-portal/issues/178):
