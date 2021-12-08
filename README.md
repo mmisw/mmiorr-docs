@@ -1,23 +1,22 @@
 ## ORR Documentation source
 
-The master branch of this repository contains the source of the ORR documentation. 
+The master branch of this repository contains the source of the ORR documentation.
 
-The documentation source is written in plain text files using 
+The documentation source is written in plain text files using
 [Markdown](http://daringfireball.net/projects/markdown/) syntax.
 
 We use [MkDocs tool](http://www.mkdocs.org/) for the site generation.
 
-Your help improving this documentation is 
+Your help improving this documentation is
 [welcome!](https://github.com/mmisw/mmiorr-docs/blob/master/CONTRIBUTING.md)
-
 
 ### Generation
 
-The documentation, which is reflected at https://mmisw.org/orrdoc/, 
+The documentation, which is reflected at https://mmisw.org/orrdoc/,
 is automatically generated upon changes pushed to this repo.
 
-In particular, the API documentation at https://mmisw.org/orrdoc/api/ is currently 
-generated as explained 
+In particular, the API documentation at https://mmisw.org/orrdoc/api/ is currently
+generated as explained
 [here](https://github.com/mmisw/mmiorr-docs/blob/master/docs/swagger-readme.md).
 
 
