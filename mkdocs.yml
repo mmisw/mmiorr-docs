@@ -2,7 +2,7 @@ site_name: MMI ORR
 repo_url: https://github.com/mmisw/mmiorr-docs
 theme:
   name: material
-  logo: https://mmisw.org/ont/img/logo-sm.png
+  logo: https://mmisw.org/logo-sm.png
 
 google_analytics: ['UA-16970585-1', 'mmisw.org']
 
