@@ -4,6 +4,8 @@
   to facilitate diagnosing potential issues with corresponding
   configuration
   (e.g., [cor#73](https://github.com/ESIPFed/cor/issues/73)).
+- Documentation: A ["material"](https://squidfunk.github.io/mkdocs-material/)
+  theme has been enabled for this site.
 
 **3.9.82** - 2021-01-05
 
