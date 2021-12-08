@@ -1,3 +1,10 @@
+**3.9.83** - 2021-12-07
+
+- Internal: Email dispatch adjustments, mainly logging related,
+  to facilitate diagnosing potential issues with corresponding
+  configuration
+  (e.g., [cor#73](https://github.com/ESIPFed/cor/issues/73)).
+
 **3.9.82** - 2021-01-05
 
 - Button icons are back [orr-portal#179](https://github.com/mmisw/orr-portal/issues/179).
@@ -5,15 +12,15 @@
 **3.9.81** - 2020-12-14
 
 - Implemented [orr-portal#178](https://github.com/mmisw/orr-portal/issues/178):
-  If an IRI with a trailing slash is not found in the repository, 
+  If an IRI with a trailing slash is not found in the repository,
   the portal UI will automatically retry the request without the trailing slash.
-  
+
     Example:
-    
+
     [http://cor.esipfed.org/ont?iri=http://sweetontology.net/matrMineral/](http://cor.esipfed.org/ont?iri=http://sweetontology.net/matrMineral/)
-    
+
     should end up resolving: http://sweetontology.net/matrMineral
-  
+
 
 **3.9.8** - 2020-08-14
 
