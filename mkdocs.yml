@@ -11,6 +11,10 @@ markdown_extensions:
   - admonition
   - toc:
       permalink: True
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - pymdownx.snippets
 
 pages:
 - Home: index.md
