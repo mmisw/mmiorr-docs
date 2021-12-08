@@ -1,6 +1,6 @@
 **3.9.83** - 2021-12-07
 
-- Internal: Email dispatch adjustments, mainly logging related,
+- Internal: Adjustments in email notification dispatch, mainly logging related,
   to facilitate diagnosing potential issues with corresponding
   configuration
   (e.g., [cor#73](https://github.com/ESIPFed/cor/issues/73)).
