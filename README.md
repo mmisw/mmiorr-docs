@@ -19,7 +19,6 @@ In particular, the API documentation at https://mmisw.org/orrdoc/api/ is current
 generated as explained
 [here](https://github.com/mmisw/mmiorr-docs/blob/master/docs/swagger-readme.md).
 
-
 ### Local testing
 
 Please see the [MkDocs](http://www.mkdocs.org/) documentation if you are testing things under your local clone.
