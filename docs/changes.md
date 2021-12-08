@@ -6,6 +6,8 @@
   (e.g., [cor#73](https://github.com/ESIPFed/cor/issues/73)).
 - Documentation: A ["material"](https://squidfunk.github.io/mkdocs-material/)
   theme has been enabled for this site.
+- The [Apache License, version 2.0](https://www.apache.org/licenses/LICENSE-2.0),
+  has been assigned to the ORR software.
 
 **3.9.82** - 2021-01-05
 
