@@ -4,7 +4,6 @@
 
 ## 1. Initial Access
 
-Test
 
 **1-A. Open the desired ORR site in your browser**
 
