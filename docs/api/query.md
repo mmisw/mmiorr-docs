@@ -11,7 +11,7 @@ The details of this operation can be found at the corresponding API documentatio
 ### General semantic search
 
 The most complete and powerful semantic search mechanism is through the
-SPARQL endpoint, see the [SPARQL API](.../query.md) section.
+SPARQL endpoint, see the [SPARQL API](../query.md) section.
 
 The ORR [REST API](index.md), however, also includes a `GET /term` operation that allows to perform
 some common term queries via a somewhat simpler interface.

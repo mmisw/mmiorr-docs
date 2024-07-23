@@ -103,7 +103,7 @@ This page provides an interface that lets you enter sample SPARQL queries, or yo
 For more information, see [Querying via SPARQL API](query.md).
 
 A REST API interface is also available for discovering ontology content. 
-See [Querying via REST API](/api/index.md) for details.
+See [Querying via REST API](api/index.md) for details.
 
 ## 3. Providing semantic content 
 

@@ -108,7 +108,7 @@ describes the formats and viewing options in more detail.
 
 #### How do I query the registered ontologies programatically? What services do I have?
 
-Please see the sections for the [SPARQL query API](query.md) and the [REST API](/api/query.md), 
+Please see the sections for the [SPARQL query API](query.md) and the [REST API](api/query.md), 
 which point to the appropriate API documentation.
 
 #### Can you give examples of how to open the registered ontologies in Protégé and TopBraid Composer?
@@ -254,7 +254,7 @@ but you are free to use any other appropriate mechanisms.
 #### What do the "fully hosted" and "re-hosted" options for registering my existing ontology mean? 
 
 Please see the manual section on 
-[hosting options](ontology/new.md#what-options-are-available-for-hosting-ontologies).
+[hosting options](ontology/new.md#hosting-modes).
 
 #### ORR says that my file may not be in UTF-8 encoding. What does it mean and what can I do?
 
