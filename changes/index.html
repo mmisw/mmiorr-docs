@@ -1,0 +1,1298 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../mapping/newversion/">
+      
+      
+        <link rel="next" href="../from2to3/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.29">
+    
+    
+      
+        <title>Changes - MMI ORR</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.76a95c52.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","UA-16970585-1"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","UA-16970585-1",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=UA-16970585-1",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="MMI ORR" class="md-header__button md-logo" aria-label="MMI ORR" data-md-component="logo">
+      
+  <img src="https://mmisw.org/logo-sm.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MMI ORR
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changes
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mmisw/mmiorr-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MMI ORR" class="md-nav__button md-logo" aria-label="MMI ORR" data-md-component="logo">
+      
+  <img src="https://mmisw.org/logo-sm.png" alt="logo">
+
+    </a>
+    MMI ORR
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mmisw/mmiorr-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../semweb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semantic Web Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../gettingstarted/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Searching and Querying
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Searching and Querying
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../search/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finding ontologies and terms in the GUI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/query/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Querying via REST API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../query/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Querying via SPARQL API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Working with Vocabularies
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Working with Vocabularies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vocab/new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Vocabulary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vocab/import/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Importing a Vocabulary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vocab/view/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Viewing a Vocabulary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vocab/newversion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating a Vocabulary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vocab/register/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registering a Vocabulary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Working with Ontologies
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Working with Ontologies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ontology/new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registering Your Existing Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ontology/newversion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating an Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Working with Mappings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Working with Mappings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapping/new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Mapping Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapping/newversion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating a Mapping Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Changes
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../from2to3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    From v2 to v3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Advanced Topics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            Advanced Topics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    REST API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Administration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../issues/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Known issues
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Changes</h1>
+
+<p><strong>3.9.83</strong> - 2021-12-07</p>
+<ul>
+<li>Internal: Adjustments in email notification dispatch, mainly logging related,
+  to facilitate diagnosing potential issues with corresponding
+  configuration
+  (e.g., <a href="https://github.com/ESIPFed/cor/issues/73">cor#73</a>).</li>
+<li>Documentation: A <a href="https://squidfunk.github.io/mkdocs-material/">"material"</a>
+  theme has been enabled for this site.</li>
+<li>The <a href="https://www.apache.org/licenses/LICENSE-2.0">Apache License, version 2.0</a>,
+  has been assigned to the ORR software.</li>
+</ul>
+<p><strong>3.9.82</strong> - 2021-01-05</p>
+<ul>
+<li>Button icons are back <a href="https://github.com/mmisw/orr-portal/issues/179">orr-portal#179</a>.</li>
+</ul>
+<p><strong>3.9.81</strong> - 2020-12-14</p>
+<ul>
+<li>
+<p>Implemented <a href="https://github.com/mmisw/orr-portal/issues/178">orr-portal#178</a>:
+  If an IRI with a trailing slash is not found in the repository,
+  the portal UI will automatically retry the request without the trailing slash.</p>
+<p>Example:</p>
+<p><a href="http://cor.esipfed.org/ont?iri=http://sweetontology.net/matrMineral/">http://cor.esipfed.org/ont?iri=http://sweetontology.net/matrMineral/</a></p>
+<p>should end up resolving: http://sweetontology.net/matrMineral</p>
+</li>
+</ul>
+<p><strong>3.9.8</strong> - 2020-08-14</p>
+<ul>
+<li>Fixed <a href="https://github.com/mmisw/orr-portal/issues/174">orr-portal#174</a>.</li>
+</ul>
+<p><strong>3.9.7</strong> - 2020-07</p>
+<ul>
+<li>Adjusted marks for status and visibility, in particular to show the visibility
+  even when status is undefined</li>
+<li>Added 'visibility' facet.</li>
+<li>Various internal adjustments to address security alerts.</li>
+</ul>
+<p><strong>3.9.6</strong> - 2020-07-02</p>
+<ul>
+<li>
+<p>Fixed issue involving double slash in IRI when creating a vocabulary or mapping ontology.
+  <a href="https://github.com/mmisw/orr-portal/issues/169">orr-portal#169</a></p>
+</li>
+<li>
+<p>Internal: more flexible configurability of the frontend for docker based deployment.</p>
+</li>
+</ul>
+<p><strong>3.9.4</strong> - 2020-05-29</p>
+<ul>
+<li>
+<p>Capture acceptance of "Terms Of Use" in new-account dialog.
+  <a href="https://github.com/mmisw/orr-portal/issues/123">orr-portal#123</a></p>
+</li>
+<li>
+<p>Some password related usability improvements.</p>
+</li>
+<li>
+<p>Admin: show indication of public or owner visibility in main list.
+  <a href="https://github.com/mmisw/orr-portal/issues/163">orr-portal#163</a></p>
+</li>
+<li>
+<p>Backend: include status and visibility in email notification about ontology registration.</p>
+</li>
+</ul>
+<p><strong>3.9.3</strong> - 2020-04-03</p>
+<ul>
+<li>
+<p>https-to-http replacement for re-attempt of term request.
+  <a href="https://github.com/mmisw/orr-portal/issues/115">orr-portal#115</a></p>
+</li>
+<li>
+<p>Fixed resolution issues for some cases with ontology IRIs having trailing hash or slash character</p>
+<ul>
+<li><a href="https://github.com/mmisw/orr-portal/issues/156">orr-portal#156</a>
+  (related: <a href="https://github.com/mmisw/orr-ont/issues/74">orr-ont#74</a>)</li>
+<li><a href="https://github.com/mmisw/orr-portal/issues/155">orr-portal#155</a>
+  (related: <a href="https://github.com/mmisw/orr-ont/issues/73">orr-ont#73</a>)</li>
+</ul>
+</li>
+</ul>
+<p><strong>3.8.9</strong> - 2019-10-03</p>
+<ul>
+<li>
+<p>Fixed issue with endpoint associated with SPARQL page.
+  (<a href="https://github.com/mmisw/orr-portal/issues/128#issuecomment-538172422">orr-portal#128</a>)</p>
+</li>
+<li>
+<p>The ontology unregistration option is now available to its owner
+  (that is, direct user or a member of submitting organization),
+  but only when the ontology is not publicly visible.
+  (<a href="https://github.com/mmisw/orr-portal/issues/149">orr-portal#149</a>)</p>
+</li>
+<li>
+<p>User can now update his/her email address.
+  (<a href="https://github.com/mmisw/orr-portal/issues/150">orr-portal#150</a>)</p>
+</li>
+</ul>
+<p><strong>3.8.7</strong> - 2019-09-04</p>
+<ul>
+<li>Some fixes and adjustments mostly related with upgrades in underlying components.</li>
+</ul>
+<p><strong>3.8.6</strong> - 2019-08-28</p>
+<ul>
+<li>Some internal adjustments related with HTTP requests between the various ORR
+  components (including the triple store service), due to more stringent restrictions
+  under some execution environments (e.g., Cloudflare).</li>
+</ul>
+<p><strong>3.8.5</strong> - 2019-08-08</p>
+<ul>
+<li>internal: more dependency upgrades to address potential vulnerabilities (in orr-portal)</li>
+</ul>
+<p><strong>3.8.4</strong> - 2019-02-07 / <strong>3.8.3</strong> - 2019-01-25</p>
+<ul>
+<li>internal: some lib upgrades to address potential vulnerabilities (in orr-portal)</li>
+</ul>
+<p><strong>3.8.2</strong> - 2019-01-19</p>
+<ul>
+<li>Backend now performs redirection to web portal when request for
+  ontology or term indicates HTML via <code>format</code> parameter or when
+  <code>Accept</code> header includes <code>text/html</code>.
+  (<a href="https://github.com/mmisw/orr-ont/issues/69">orr-ont#69</a>,
+   <a href="https://github.com/ESIPFed/sweet/issues/70#issuecomment-455714613">SWEET#70</a>)</li>
+</ul>
+<p><strong>3.8.1</strong> - 2019-01-15</p>
+<ul>
+<li>
+<p>The maximum size for ontology file upload has been increased.
+  (<a href="https://github.com/mmisw/orr-portal/issues/126">orr-portal#126</a>)</p>
+</li>
+<li>
+<p>Gzip compression for ontology responses has been enabled.
+  (<a href="https://github.com/mmisw/orr-ont/issues/68">orr-ont#68</a>)</p>
+</li>
+</ul>
+<p><strong>3.7.2</strong> - 2018-02-28</p>
+<ul>
+<li>add link to <a href="https://mmisw.org/orrdoc/query/#some-sparql-examples">examples</a>
+  in the SPARQL YASGUI page</li>
+<li>show triple store size when zero (admin page)</li>
+<li>remove unneeded dependency on jquery</li>
+</ul>
+<p><strong>3.7.0</strong> - 2017-11-22</p>
+<ul>
+<li>Simplified configurability of the integrated ORR system.
+  <a href="../install/">Install section</a> updated.</li>
+</ul>
+<p><strong>3.6.8</strong> - 2017-11-03</p>
+<ul>
+<li>Internal: Improved dispatch of email notification for admins.</li>
+</ul>
+<p><strong>3.6.7</strong> - 2017-10-12</p>
+<ul>
+<li>"File-type extension" resolution for ontology and term request
+  (<a href="https://github.com/mmisw/orr-ont/issues/55">orr-ont#55</a>)</li>
+</ul>
+<p><strong>3.6.6</strong> - 2017-10-04</p>
+<ul>
+<li>Use "text/turtle" as response format for term requests with format=ttl
+  (previously, "application/sparql-results+ttl")</li>
+</ul>
+<p><strong>3.6.5</strong> - 2017-09-20</p>
+<ul>
+<li>Enable "ttl" (Turtle) as a stored format in backend (<a href="https://github.com/mmisw/orr-ont/issues/54">orr-ont#54</a>).</li>
+<li>Enable "N-Quads" and "TriG" in "View/Download as" dropdown menu.</li>
+</ul>
+<p><strong>3.6.4</strong> - 2017-07-21</p>
+<ul>
+<li>Fix in the orr-ont backend service regarding self-resolution of ontology format
+  (<a href="https://github.com/mmisw/orr-ont/issues/52">orr-ont#52</a>).
+  With this fix, links in the ORR portal for <a href="https://github.com/mmisw/orr-portal/issues/106#issuecomment-317095365">LODE dispatch</a>
+  should now be correctly handled, as well as by any external service or tool
+  that follows common content negotiation practices.</li>
+</ul>
+<p><strong>3.6.3</strong> - 2017-06-06</p>
+<ul>
+<li>REST API: adjustments in <code>GET /term</code> operation</li>
+<li>Front-end application should now load faster in the browser (<a href="https://github.com/mmisw/orr-portal/issues/111">orr-portal#111</a>).
+  (In general, <a href="http://wiki.c2.com/?PrematureOptimization">optimization had deliberately not been a main concern</a>.)</li>
+</ul>
+<p><strong>3.6.2</strong> - 2017-06-03</p>
+<ul>
+<li>REST API addition: Simplified semantic search queries against the triple store
+ (<a href="https://github.com/mmisw/orr-ont/issues/50">orr-ont#50</a>)</li>
+</ul>
+<p><strong>3.6.0</strong> - 2017-05-31</p>
+<ul>
+<li>General support for IRIs (both backend and frontend), with many adjustments in relevant
+  parameters, UI widgets and messages, and documentation.
+  (<a href="https://github.com/mmisw/orr-ont/issues/32">orr-ont#32</a>,
+  <a href="https://github.com/mmisw/orr-portal/issues/48">orr-portal#48</a>)</li>
+</ul>
+<p><strong>3.5.1</strong> - 2017-05-29</p>
+<ul>
+<li>"fully-hosted filter should consider https and http" - fixed (<a href="https://github.com/mmisw/orr-portal/issues/109">#109</a>)</li>
+</ul>
+<p><strong>3.5.0</strong> - 2017-05-29</p>
+<ul>
+<li>upgrade of underlying Jena library to 3.3.0
+  (<a href="https://github.com/mmisw/orr-ont/issues/45">orr-ont#45</a>)</li>
+<li>adjustments in user account creation</li>
+<li>include additional details in email notifications regarding ontology registration</li>
+</ul>
+<p><strong>3.4.3</strong> - 2017-04-13</p>
+<ul>
+<li>New option in CSV import to indicate that all columns are properties (and values) along
+  with mechanism to determine the unique identifiers for the terms
+  (<a href="https://github.com/mmisw/orr-portal/issues/101">#101</a>).</li>
+</ul>
+<p><strong>3.4.1</strong> - 2017-03-07</p>
+<ul>
+<li>various LOD adjustments/fixes (term page, keyword-search, term-search, regular ontology view)</li>
+<li>create vocab/mapping dialog stays open when user navigates back in browser; fixed (#97)</li>
+<li>include list of ontologies in user page (those owned by ~username -- not as submitter)</li>
+</ul>
+<p><strong>3.4.0</strong> - 2017-03-04</p>
+<ul>
+<li>visibility/status were not required in create vocab/mapping dialog; fixed.</li>
+<li>failing to load external ontology for mapping; fixed (#44)</li>
+<li>internal (adjustments related with docker based installation)</li>
+</ul>
+<p><strong>3.3.1</strong> - 2017-03-02</p>
+<ul>
+<li>user page was wrongly showing info about logged in user (#85)</li>
+</ul>
+<p><strong>3.3.0</strong> - 2017-02-28</p>
+<ul>
+<li>improve search options<ul>
+<li>show SPARQL query for term-search and keyword-search</li>
+<li>term-search now also applied on the simple name of the subjects</li>
+</ul>
+</li>
+<li>a log message can now be entered before proceeding with registration of
+  a new ontology version. This log message is optional.
+  Such log messages (if any) are displayed as tooltips in the "versions" dropdown menu.</li>
+</ul>
+<p><strong>3.2.4</strong> - 2017-02-25</p>
+<ul>
+<li>include external ontology viewers (LODE and VOWL at this time) as additional options in view/download dropdown menu</li>
+<li>include LODE in list of external ontology viewers</li>
+<li>include list of ontologies in organization page</li>
+<li>organization's name was not editable; fixed.</li>
+<li>resolve "too much unused real estate"</li>
+<li>duplicate metadata removed</li>
+<li>re-enable ontologyType facet</li>
+</ul>
+<p><strong>3.2.2</strong> - 2017-02-18</p>
+<ul>
+<li>option to upload file from remote URL (<a href="https://github.com/mmisw/orr-portal/issues/79">#79</a>)</li>
+<li>capture status and visibility when creating new vocab or new mapping (<a href="https://github.com/mmisw/orr-portal/issues/60">#60</a>)</li>
+<li>Other various enhancements/fixes
+  (<a href="https://github.com/mmisw/orr-portal/issues/22">#22</a>,
+  <a href="https://github.com/mmisw/orr-portal/issues/14">#14</a>,
+  <a href="https://github.com/mmisw/orr-portal/issues/27">#27</a>,
+  <a href="https://github.com/mmisw/orr-portal/issues/57">#57</a>,
+  <a href="https://github.com/mmisw/orr-portal/issues/75">#75</a>,
+  <a href="https://github.com/mmisw/orr-portal/issues/70">#70</a>,
+  <a href="https://github.com/mmisw/orr-portal/issues/62">#62</a>,
+  <a href="https://github.com/mmisw/orr-portal/issues/76">#76</a>,
+  <a href="https://github.com/mmisw/orr-portal/issues/77">#77</a>)</li>
+</ul>
+<p><strong>3.1.x</strong></p>
+<ul>
+<li>API documentation</li>
+<li>#31 "https == http for purposes of IRI identification"</li>
+<li>improve reset-password and password-reset html pages</li>
+<li>many improvements and fixes (email notifications, triple-store update, regular ontology display, recaptcha, ...)</li>
+<li>improved docker image build and simplified configuration</li>
+</ul>
+<p><strong>3.0.0-beta</strong> - 2016-07-12</p>
+<ul>
+<li>Presented at the ESIP Summer Meeting</li>
+</ul>
+<p><strong>Older</strong></p>
+<ul>
+<li>Late 2015: Resumed work with X-DOMES support</li>
+<li>Early 2015: First v3 frontend prototype</li>
+<li>2014: First v3 backend prototype</li>
+<li>2008–2014: Initial versions v1 and v2</li>
+</ul>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,358 +1,1221 @@
-<!DOCTYPE html>
-<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  
-  
-  <title>Getting Started - MMI ORR</title>
-  
 
-  <link rel="shortcut icon" href="../img/favicon.ico">
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../semweb/">
+      
+      
+        <link rel="next" href="../faq/">
+      
+      
+      <link rel="icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.29">
+    
+    
+      
+        <title>Getting Started - MMI ORR</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.76a95c52.min.css">
+      
+      
 
-  
-  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
-
-  <link rel="stylesheet" href="../css/theme.css" type="text/css" />
-  <link rel="stylesheet" href="../css/theme_extra.css" type="text/css" />
-  <link rel="stylesheet" href="../css/highlight.css">
-  <link href="../mmiorr-docs.css" rel="stylesheet">
-
-  
-  <script>
-    // Current page data
-    var mkdocs_page_name = "Getting Started";
-    var mkdocs_page_input_path = "gettingstarted.md";
-    var mkdocs_page_url = "/gettingstarted/";
-  </script>
-  
-  <script src="../js/jquery-2.1.1.min.js"></script>
-  <script src="../js/modernizr-2.8.3.min.js"></script>
-  <script type="text/javascript" src="../js/highlight.pack.js"></script>
-  <script src="../js/theme.js"></script> 
-
-  
-</head>
-
-<body class="wy-body-for-nav" role="document">
-
-  <div class="wy-grid-for-nav">
 
     
-    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
-      <div class="wy-side-nav-search">
-        <a href=".." class="icon icon-home"> MMI ORR</a>
-        <div role="search">
-  <form id ="rtd-search-form" class="wy-form" action="../search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
-  </form>
-</div>
-      </div>
-
-      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
-        <ul class="current">
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="..">Home</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../about/">About</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../introduction/">Introduction</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 current">
-        <a class="current" href="./">Getting Started</a>
-        
-            <ul>
-            
-                <li class="toctree-l3"><a href="#as-a-semantic-data-provider">As a semantic data provider</a></li>
-                
-            
-                <li class="toctree-l3"><a href="#as-a-semantic-data-user">As a semantic data user</a></li>
-                
-            
-            </ul>
-        
-    </li>
-<li>
-          
-            <li>
-    <ul class="subnav">
-    <li><span>Working with Vocabularies</span></li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../vocab/new/">Creating a Vocabulary</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../vocab/view/">Viewing a Vocabulary</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../vocab/newversion/">Creating a New Version of a Vocabulary</a>
-        
-    </li>
-
-        
-    </ul>
-<li>
-          
-            <li>
-    <ul class="subnav">
-    <li><span>Working with Mappings</span></li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../mapping/new/">Creating a Mapping Ontology</a>
-        
-    </li>
-
-        
-            
-    <li class="toctree-l1 ">
-        <a class="" href="../mapping/newversion/">Creating a New Version of a Mapping Ontology</a>
-        
-    </li>
-
-        
-    </ul>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../upload/">Registering Your Existing Ontology</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../query/">Querying the repository</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../faq/">FAQ</a>
-        
-    </li>
-<li>
-          
-            <li>
-    <li class="toctree-l1 ">
-        <a class="" href="../knownissues/">Known issues</a>
-        
-    </li>
-<li>
-          
-        </ul>
-      </div>
-      &nbsp;
-    </nav>
-
-    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
-
+    
       
-      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
-        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
-        <a href="..">MMI ORR</a>
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function n(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],n("js",new Date),n("config","UA-16970585-1"),document.addEventListener("DOMContentLoaded",function(){document.forms.search&&document.forms.search.query.addEventListener("blur",function(){this.value&&n("event","search",{search_term:this.value})}),document$.subscribe(function(){var a=document.forms.feedback;if(void 0!==a)for(var e of a.querySelectorAll("[type=submit]"))e.addEventListener("click",function(e){e.preventDefault();var t=document.location.pathname,e=this.getAttribute("data-md-value");n("event","feedback",{page:t,data:e}),a.firstElementChild.disabled=!0;e=a.querySelector(".md-feedback__note [data-md-value='"+e+"']");e&&(e.hidden=!1)}),a.hidden=!1}),location$.subscribe(function(e){n("config","UA-16970585-1",{page_path:e.pathname})})});var e=document.createElement("script");e.async=!0,e.src="https://www.googletagmanager.com/gtag/js?id=UA-16970585-1",document.getElementById("__analytics").insertAdjacentElement("afterEnd",e)}</script>
+  
+    <script>"undefined"!=typeof __md_analytics&&__md_analytics()</script>
+  
+
+    
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#1-initial-access" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="MMI ORR" class="md-header__button md-logo" aria-label="MMI ORR" data-md-component="logo">
+      
+  <img src="https://mmisw.org/logo-sm.png" alt="logo">
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            MMI ORR
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Getting Started
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var media,input,key,value,palette=__md_get("__palette");if(palette&&palette.color){"(prefers-color-scheme)"===palette.color.media&&(media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']"),palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent"));for([key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
       </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/mmisw/mmiorr-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
 
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="MMI ORR" class="md-nav__button md-logo" aria-label="MMI ORR" data-md-component="logo">
       
-      <div class="wy-nav-content">
-        <div class="rst-content">
-          <div role="navigation" aria-label="breadcrumbs navigation">
-  <ul class="wy-breadcrumbs">
-    <li><a href="..">Docs</a> &raquo;</li>
+  <img src="https://mmisw.org/logo-sm.png" alt="logo">
+
+    </a>
+    MMI ORR
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/mmisw/mmiorr-docs" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    GitHub
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
     
       
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Home
+  </span>
+  
+
+      </a>
+    </li>
+  
+
     
-    <li>Getting Started</li>
-    <li class="wy-breadcrumbs-aside">
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../about/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    About
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../introduction/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Introduction
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../semweb/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Semantic Web Basics
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Getting Started
+  </span>
+  
+
+      </a>
       
         
-          <a href="https://github.com/mmisw/mmiorr-docs" class="icon icon-github"> Edit on GitHub</a>
-        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-initial-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Initial Access
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-using-existing-semantic-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Using existing semantic data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-providing-semantic-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Providing semantic content
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
-  </ul>
-  <hr/>
-</div>
-          <div role="main">
-            <div class="section">
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../faq/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    FAQ
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Searching and Querying
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            Searching and Querying
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
               
-                <div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Contents being migrated/updated from 
-<a href="https://marinemetadata.org/mmiorrusrman/mmiorrgetstarted">mmiorrusrman/mmiorrgetstarted</a></p>
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../search/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Finding ontologies and terms in the GUI
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/query/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Querying via REST API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../query/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Querying via SPARQL API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Working with Vocabularies
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            Working with Vocabularies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vocab/new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Vocabulary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vocab/import/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Importing a Vocabulary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vocab/view/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Viewing a Vocabulary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vocab/newversion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating a Vocabulary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vocab/register/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registering a Vocabulary
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Working with Ontologies
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            Working with Ontologies
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ontology/new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Registering Your Existing Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../ontology/newversion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating an Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Working with Mappings
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            Working with Mappings
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapping/new/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Creating a Mapping Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mapping/newversion/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Updating a Mapping Ontology
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../changes/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Changes
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../from2to3/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    From v2 to v3
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_13" >
+        
+          
+          <label class="md-nav__link" for="__nav_13" id="__nav_13_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Advanced Topics
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_13">
+            <span class="md-nav__icon md-icon"></span>
+            Advanced Topics
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../api/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    REST API
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../admin/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Administration
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../issues/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Known issues
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../install/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Installation
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-initial-access" class="md-nav__link">
+    <span class="md-ellipsis">
+      1. Initial Access
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-using-existing-semantic-data" class="md-nav__link">
+    <span class="md-ellipsis">
+      2. Using existing semantic data
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-providing-semantic-content" class="md-nav__link">
+    <span class="md-ellipsis">
+      3. Providing semantic content
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+  
+  
+
+
+  <h1>Getting Started</h1>
+
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>The screen shots in this presentation are made using the ESIP COR instance.   </p>
 </div>
-<h2 id="as-a-semantic-data-provider">As a semantic data provider<a class="headerlink" href="#as-a-semantic-data-provider" title="Permanent link">&para;</a></h2>
-<p>To create or upload and register an ontology:</p>
-<p>1. Open the MMI ORR site in your browser: <a href="http://mmisw.org/orr/">http://mmisw.org/orr/</a></p>
-<p>2. Create an account</p>
-<p>Click the "Create account" link</p>
-<p><img alt="" src="../img/orr3/create-account.png" /></p>
-<p>3. Sign in</p>
-<p>If you are not yet signed in, click the "Sign in" link in the main MMI ORR page:</p>
-<p><img alt="" src="../img/orr3/sign-in.png" /></p>
-<p>4. Upload ontology file or create vocabulary</p>
-<p>4.1 Upload existing ontology file and associated metadata</p>
-<p>If you already have an ontology file, click the "Upload ontology" button on the main 
-page to submit it the ORR. 
-(Please see<a href="../mmiorrusrman/mmiorrref/mmiorruploadexisting">the "Registering your ontology" section</a> 
-more details.) [Add screenshots]</p>
-<p>A wizard dialog will appear.  In the wizard, select the local file and load it to the workspace. 
-Choose the type of registration (fully-hosted, re-hosted, or indexed-only).  
-Specify an authority abbreviation and a short name for the final URI for the ontology.  
-You may choose "check" to check for the availability of the URI.</p>
-<p>Complete the metadata details necessary for registering your ontology:</p>
-<p><img alt="" src="../img/create_vocab_metadata_section_1.png" /></p>
-<p>Note: If you are testing the process or your ontology, please choose either "testing" or "mmitest" 
-for the "Authority abbreviation".</p>
-<p>Choose "Finish".</p>
-<p>4.2 Upload vocabulary file and associated metadata</p>
-<p>If you have your vocabulary in a text file, for example, then you may follow these steps.</p>
-<p>Once signed in, click "Create vocabulary" button in the main MMI ORR page. [Add screenshots.]</p>
-<p>Complete the metadata in the "Metadata details" section. 
-(Note: If you are testing the process or your ontology, please choose either "testing" or 
-"mmitest" for the "Authority abbreviation".)</p>
-<p>In the "Contents" section, select the down arrow in the first cell of the table choose "Import".  
-Choose comma, semi-colon, tab, or vertical bar delimited file. Paste contents of vocabulary file.  
-Choose "import". </p>
-<p>You can then review and register the ontology. Please see the 
-<a href="../mmiorrusrman/mmiorrnewusracct/mmiorrsignin/mmiorrnewvocab">"Creating a Vocabulary"</a> 
-section for more details.</p>
-<p>4.3 Create vocabulary contents and associated metadata</p>
-<p>Once signed in, click the "Create vocabulary" button in the main MMI ORR page.</p>
-<p>You can start by selecting a class name (required field) and filling in the vocabulary contents, that is, 
-the list of terms and associated information (e.g., description):</p>
-<p><img alt="" src="../img/create_vocab_data_section.png" /></p>
-<p>Type ENTER in a cell to edit the contents of the cell. Type ENTER again to complete the editing of the cell.  
-Click the little triangle icons to open a pop-up menu with options corresponding to the associated section.</p>
-<p>To register your vocabulary, you need to provide metadata information.</p>
-<p>Expand the "metadata details" section by clicking the header:</p>
-<p><img alt="" src="../img/create_vocab_metadata_section_1.png" /></p>
-<p>Note: If you are testing the process or your ontology, please choose either "testing" or "mmitest" 
-for the "Authority abbreviation".</p>
-<p>Please see the <a href="../mmiorrusrman/mmiorrnewusracct/mmiorrsignin/mmiorrnewvocab">"Creating a Vocabulary"</a> 
-section for more details.</p>
-<p>5. Register resulting vocabulary</p>
-<p>Once you are done with the contents and metadata for your vocabulary, click the "Review and Register" button</p>
-<p>You should get a message indicating that the ontology is ready to be registered, so you can click the 
-"Register" button to complete the registration.</p>
-<p>Alternatively, you may get an error message indicating that the ontology cannot be registered according 
-to the provided information. A common error is related with a namespace conflict with an already 
-existing ontology. If that is the case, adjust the resource type and/or the authority abbreviation 
-fields in the metadata section to avoid the conflict. (These two fields are used to compose the final 
-ontology URI; see <a href="http://marinemetadata.org/apguides/ontprovidersguide/ontguideconstructinguris">here</a>.)</p>
-<h2 id="as-a-semantic-data-user">As a semantic data user<a class="headerlink" href="#as-a-semantic-data-user" title="Permanent link">&para;</a></h2>
-<p>1. Open the MMI ORR site in your browser</p>
-<p>MMI ORR site: http://mmisw.org/orr/</p>
-<p>2. Browse list of registered ontologies</p>
-<p>Even if not signed in, you will see all registered ontologies in the main MMI ORR browse page (*).</p>
-<p>The left-hand side tree widget allows you to select the entries in the ontology table according 
-to submitter (if signed in), authority abbreviation, and type of ontology. 
-You can also click a column header in the table to have the list sorted by that column. 
-Click the header again to reverse the order.</p>
-<p>(*) Except the ones marked as "for testing purposes" that you have not submitted yourself. 
-Any ontology whose authority is either "testing" or "mmitest" is considered "for testing purposes" 
-and is only visible to the submitter.</p>
-<p>3. Explore contents of an ontology</p>
+<h2 id="1-initial-access">1. Initial Access<a class="headerlink" href="#1-initial-access" title="Permanent link">&para;</a></h2>
+<p><strong>1-A. Open the desired ORR site in your browser</strong></p>
+<ul>
+<li>MMI ORR browse page: <a href="https://mmisw.org/ont/">https://mmisw.org/ont/</a></li>
+<li>ESIP COR browse page: <a href="http://cor.esipfed.org/ont/">http://cor.esipfed.org/ont/</a></li>
+<li>X-DOMES ORR browse page: <a href="https://xdomes.org/ont/">https://xdomes.org/ont/</a></li>
+</ul>
+<p><img class="smallfloatright" alt="Sign-in window" src="../img/cor/cor-sign-in-window-20160828.png">
+<strong>1-B. Log in</strong></p>
+<p>You can access all publicly visible ontologies (see next section) without logging in. To change content, or see ontologies private to you or your group listed in the browse page, you must log in. (If you do not have an account, see <em>1-C. Create an account</em> below.)</p>
+<p>If you are not yet signed in, click the "Sign in" link in the main ORR page, and enter your account information.</p>
+<p class="clearfix">&nbsp;</p>
+
+<p><strong>1-C. Create an account</strong></p>
+<p><img class="smallfloatleft" alt="Sign-in window" src="../img/cor/cor-create-account-window-20160828.png"></p>
+<p>If you do not have an account and want to log in, click the "Create account" link in the main ORR page, and fill out the form.</p>
+<p>The telephone number is required, but is only used to assist in the operation of the repository.</p>
+<p class="clearfix">&nbsp;</p>
+
+<h2 id="2-using-existing-semantic-data">2. Using existing semantic data<a class="headerlink" href="#2-using-existing-semantic-data" title="Permanent link">&para;</a></h2>
+<p><strong>2-A. Browse list of registered ontologies</strong></p>
+<p>Even if not signed in, you will see all public registered ontologies in the main ORR browse page. 
+You will not see those ontologies that are marked as Visibility="owner" 
+(which are only visible to the submitter in the browse page. 
+If you are the submitter, log in to see the non-public ontologies you submitted.)</p>
+<p>The left-hand side tree widget allows you to select the entries in the ontology table according to these criteria:</p>
+<ul>
+<li>owner (the organization or user owning the ontology), </li>
+<li>status (testing, unstable, draft, stable, deprecated, or archaic), </li>
+<li>resource type (selected by the ontology submitter), </li>
+<li>type of hosting (fully-hosted, or re-hosted), and </li>
+<li>submitter (if you are signed in as an admin).</li>
+</ul>
+<p>In the owner section you can select the "Most recent ontology" checkbox to only include 
+the most recent submission by owner.</p>
+<p>You can control which columns are visible using the 'hamburger' selector on the right. 
+You can also click any column header in the table to sort the list by that column, or invert that column's sort order. 
+Hold down the mouse button to see a delete option if available.</p>
+<p><strong>2-B. Explore contents of an ontology</strong></p>
 <p>Click an entry in the browse table to explore a particular ontology.</p>
 <p>The main operations available when viewing an ontology are:</p>
 <ul>
 <li>
-<p>View the ontology in a particular format. Currently, the options are: "RDF/XML" and "N3". 
-Just click the link of the desired format.</p>
+<p>Search for any combination of subject, predicate, and object using the Data search fields.</p>
 </li>
 <li>
-<p>You can also explore the ontology by using the external "Ontology Browser" tool.</p>
+<p>Copy the ontology's IRI to the clipboard, using the button with the clipboard icon.</p>
 </li>
 <li>
-<p>Create a new version (if you are the submitter of the original ontology): Click the 
-"Edit new version" button to start editing the ontology.</p>
+<p>View or download the ontology in chosen formats.
+  The formats are RDF/XML, JSON-LD, N3, Turtle, N-Triples, and RDF/JSON.
+  (The selection effect of either view or download varies across browsers.) </p>
 </li>
 <li>
 <p>View list of versions of the ontology: click the "Versions" button.</p>
 </li>
+<li>
+<p>Viewing the metadata details in the various categories shown in the tabs.</p>
+</li>
 </ul>
-<p>4. Search for term</p>
-<p>In the main MMI ORR page, click the "Search" button. You will see a page that looks like the following example:</p>
-<p><img alt="" src="../img/search_simple.png" /></p>
-<p>The given string will be searched as given (ignoring case) in all property values in all the latest 
-version of the registered ontologies. You can use "OR" to separate alternative string for the search.</p>
-              
-            </div>
-          </div>
-          <footer>
+<p>If you are an owner of the original ontology, you have additional options:</p>
+<ul>
+<li>
+<p>Change the Status of the ontology.</p>
+</li>
+<li>
+<p>Change the Visibility of the ontology in the main browse page (either owner-only, or publicly visible). 
+  Note that all ontologies, even owner-only, can still be viewed by anyone having the IRI. </p>
+</li>
+<li>
+<p>Create a new version (if you or your group submitted the original ontology): 
+  Click the "Edit new version" button to start creating a new version of the ontology. 
+  For ontologies created with any of the integrated ORR tools (vocabulary editor or mapping editor),
+  the corresponding interface will be displayed to create the new version.
+  For all others, you will have the option to either edit the metadata or upload a new file.</p>
+</li>
+</ul>
+<p><strong>2-C. Search for term</strong></p>
+<p>To search for a term across all ontologies, from the main ORR page or any ontology page, click the "Term Search" link. You will see a page that looks like the following:</p>
+<p><img alt="Term search page" src="../img/cor/cor-term-search-page-20160828.png" /></p>
+<p>The given string will be searched exactly as typed, ignoring case, across all property values in the latest version of each registered ontology. Multiple terms separated by spaces must all be matched. You can use "OR" or "|" to indicate alternate search strings.</p>
+<p><strong>2-D. Perform a SPARQL query</strong></p>
+<p>Also in the main ORR page or any ontology page, click the "SPARQL query" link. You will see a page that looks like the following:</p>
+<p><img alt="SPARQL search page" src="../img/cor/cor-sparql-search-page-20160828.png" /></p>
+<p>This page provides an interface that lets you enter sample SPARQL queries, or your own customized queries. 
+For more information, see <a href="../query/">Querying via SPARQL API</a>.</p>
+<p>A REST API interface is also available for discovering ontology content. 
+See <a href="/api/index.md">Querying via REST API</a> for details.</p>
+<h2 id="3-providing-semantic-content">3. Providing semantic content<a class="headerlink" href="#3-providing-semantic-content" title="Permanent link">&para;</a></h2>
+<p>You may be adding an ontology -- that is, a file in RDF, OWL, or similar form -- 
+or a vocabulary, for example in a text file, or that you want to create manually. 
+Choose the appropriate link below for your situation.</p>
+<ul>
+<li>
+<p><a href="../ontology/new/">Adding an ontology</a></p>
+</li>
+<li>
+<p><a href="../vocab/import/">Adding an existing vocabulary</a></p>
+</li>
+<li>
+<p><a href="../vocab/new/">Creating a new vocabulary manually</a></p>
+</li>
+</ul>
+
+
+
+
+
+
+
+
+
   
-    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
       
-        <a href="../vocab/new/" class="btn btn-neutral float-right" title="Creating a Vocabulary">Next <span class="icon icon-circle-arrow-right"></span></a>
-      
-      
-        <a href="../introduction/" class="btn btn-neutral" title="Introduction"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
       
     </div>
-  
-
-  <hr/>
-
-  <div role="contentinfo">
-    <!-- Copyright etc -->
-    
   </div>
-
-  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
 </footer>
-	  
-        </div>
-      </div>
-
-    </section>
-
-  </div>
-
-<div class="rst-versions" role="note" style="cursor: pointer">
-    <span class="rst-current-version" data-toggle="rst-current-version">
       
-          <a href="https://github.com/mmisw/mmiorr-docs" class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.fe8b6f2b.min.js"></script>
       
-      
-        <span><a href="../introduction/" style="color: #fcfcfc;">&laquo; Previous</a></span>
-      
-      
-        <span style="margin-left: 15px"><a href="../vocab/new/" style="color: #fcfcfc">Next &raquo;</a></span>
-      
-    </span>
-</div>
-
-</body>
+    
+  </body>
 </html>

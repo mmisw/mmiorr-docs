@@ -10,3 +10,47 @@ body {
     font-family: 'Merriweather', serif;
     font-weight: 300;
 }
+
+img {
+    width: 75%;
+    display: block;
+    margin: auto;
+    float: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #93bfe6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+img.full {
+    width: 100%;
+}
+
+img.smallfloatright {
+    width:40%;
+    float: right;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #93bfe6;
+    margin-left: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+img.smallfloatleft {
+    width:40%;
+    float: left;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #93bfe6;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
