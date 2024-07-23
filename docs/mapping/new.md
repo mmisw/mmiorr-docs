@@ -1,7 +1,7 @@
 !!! tip
     _Page Status_: **Under revision**. 
 
-As described in the [Semantic Web Basics section](/semweb/#direct-triple-table), the ORR includes a mechanism
+As described in the [Semantic Web Basics section](../semweb.md/#direct-triple-table), the ORR includes a mechanism
 that allows to directly capture a set of _subject-predicate-object triples_, in a so-called _mapping ontology_.
 
 ## Steps for Creating a Mapping Ontology
@@ -20,7 +20,7 @@ There are 3 main subsections under the Data section
 - Term and relation predicate selection
 - Defined term mappings
 
-![Mapping editor sections](/img/m2r-sections.png)
+![Mapping editor sections](../img/m2r-sections.png)
 
 Hover you mouse on the various `(?)` icons for guidance.
 
@@ -29,7 +29,7 @@ you would like to map.
 You can select from the list of registered ontologies at the ORR instance, or enter the URL of
 an external ontologies.
 
-![Mapping editor sections](/img/m2r-add-mapped.png)
+![Mapping editor sections](../img/m2r-add-mapped.png)
 
 Each loaded ontology will be assigned a number to identify it in the subsection below.
 
@@ -45,7 +45,7 @@ click the respective button in the middle of this section.
 Once clicked, the corresponding set of subject–predicate–object triples will be added to the
 table in the 'Defined term mappings' subsection.
 
-![Mapping sensor example](/img/m2r-sensor-example.png)
+![Mapping sensor example](../img/m2r-sensor-example.png)
 
 7\. Review and complete the desired mappings.
 To facilitate inspection, in the 'Defined term mappings' subsection 

@@ -10,7 +10,7 @@ controlled vocabularies, together for an in-person mapping session. In addition 
 the mapping team may also include a facilitator, recorder, tools specialist, ontology specialist, 
 domain lead, and communication liaison. (See the [https://marinemetadata.org/workshoptemp)).
 
-- [Creating a Mapping Ontology](mapping/new)
-- [Viewing a Vocabulary](mapping/view)
-- [Creating a New Version of a Mapping Ontology](mapping/newversion)
+- [Creating a Mapping Ontology](new.md)
+- [Viewing a Vocabulary](../vocab/view.md)
+- [Creating a New Version of a Mapping Ontology](newversion.md)
 

@@ -35,7 +35,7 @@ the ORR will indicate that a new version of an existing entry will be created.
     otherwise you may need to re-enter all the metadata that was previously entered.
 
 The upload steps are described at the 
-[Registering an existing ontology page](/ontology/new//#uploading-an-ontology).
+[Registering an existing ontology page](new.md/#uploading-an-ontology).
 
 When you complete these steps, ORR will return you to ontology view page, 
 where you can see the ontology versions including the latest.

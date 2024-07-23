@@ -1,13 +1,13 @@
 !!! tip
     _Page Status_: **Under revision**. 
 
-Using one of the mechanism described in the [Semantic Web Basics section](/semweb/#another-triple-table-arrangement),
+Using one of the mechanism described in the [Semantic Web Basics section](../semweb/#another-triple-table-arrangement),
 the ORR system includes a tool for ontology creation based on the editing of a table of definitions
 in a spreadsheet-like fashion.
 
 For example:
 
-![](/img/v2r.png)
+![](../img/v2r.png)
 
 The first row specifies the properties (predicates) for the terms in the subsequent rows.
 The first column determines the IRIs for the subjects.
@@ -33,7 +33,7 @@ A given _class_ and corresponding set of term instances are called a _term set_
 in the ORR. Multiple such term sets can be defined for a single ontology entry.
 
 The table can be populated by importing text in CSV format, 
-as described in the [Vocabulary Import](/vocab/import) page. 
+as described in the [Vocabulary Import](import.md) page. 
 However, this document describes the operation of populating this table manually. 
 
 
@@ -64,8 +64,8 @@ Click on `+Term` to add a new term, and `+Property` to add a new piece of inform
 
 The example at the beginning of this section looks like this as captured in the ORR frontend:
 
-![](/img/v2r-example.png)
+![](../img/v2r-example.png)
 
 
 Once you finish entering properties, terms, and content to your satisfaction, you can review and register your vocabulary. 
-Please see the [“Completing Vocabulary Registration"](/vocab/register) page for more details.
+Please see the [“Completing Vocabulary Registration"](register.md) page for more details.

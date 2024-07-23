@@ -44,7 +44,7 @@ To import your vocabulary, click on the drop-down arrow and choose the option "I
 
 This produces the dialog box below.
 
-![Vocabulary import CSV content dialog](/img/v2r-import-csv-dialog.png) 
+![Vocabulary import CSV content dialog](../img/v2r-import-csv-dialog.png) 
 
 Click the Example button to see an example (or update any previously displayed example) depending on
 the selected separator and flag related with the unique identifiers for the terms.
@@ -91,4 +91,4 @@ Click on OK to create the vocabulary data in preliminary form.
 ![Vocabulary import preliminary vocabulary before upload](../img/cor/cor-vocabulary-import-preliminary-vocabulary-before-upload-20170108.png)
 
 You can now review, further edit, and register your vocabulary. 
-Please see the [“Completing Vocabulary Registration"](/vocab/register) page for more details.
+Please see the [“Completing Vocabulary Registration"](register.md) page for more details.
