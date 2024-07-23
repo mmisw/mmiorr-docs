@@ -4,7 +4,10 @@ theme:
   name: material
   logo: https://mmisw.org/logo-sm.png
 
-google_analytics: ['UA-16970585-1', 'mmisw.org']
+extra:
+  analytics:
+    provider: google
+    property: UA-16970585-1
 
 markdown_extensions:
   - footnotes
@@ -16,7 +19,7 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.snippets
 
-pages:
+nav:
 - Home: index.md
 - About: about.md
 - Introduction: introduction.md
