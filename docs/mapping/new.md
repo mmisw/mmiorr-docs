@@ -1,7 +1,7 @@
 !!! tip
     _Page Status_: **Under revision**. 
 
-As described in the [Semantic Web Basics section](../semweb.md/#direct-triple-table), the ORR includes a mechanism
+As described in the [Semantic Web Basics section](../semweb.md#direct-triple-table), the ORR includes a mechanism
 that allows to directly capture a set of _subject-predicate-object triples_, in a so-called _mapping ontology_.
 
 ## Steps for Creating a Mapping Ontology
