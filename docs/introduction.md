@@ -12,7 +12,7 @@ and specific names like "MMI ORR" or "COR", or "X-DOMES ORR" to refer to particu
 Another major deployment of the ORR system is for the ESIP Federation's [Community Ontology
 Repository](http://cor.esipfed.org), shown below; this is known as the ESIP COR, or simply the COR.
 
-![](img/cor/cor-browse-page-20160828.png Browse page of the ESIP COR)
+![Browse page of the ESIP COR](img/cor/cor-browse-page-20160828.png)
 
 **Main ORR Capabilities**
 

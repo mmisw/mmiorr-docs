@@ -124,7 +124,7 @@
 **3.7.0** - 2017-11-22
 
 - Simplified configurability of the integrated ORR system.
-  [Install section](/install) updated.
+  [Install section](install/index.md) updated.
 
 **3.6.8** - 2017-11-03
 

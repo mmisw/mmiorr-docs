@@ -5,11 +5,11 @@
 
 #### How do I find ontologies in the repository that are most relevant to my work?
 
-Please see [Searching via the UI](/search/).
+Please see [Searching via the UI](search.md).
 
 #### How do I do an Advanced Search using SPARQL?
 
-Please see [Content Query via API](/query/).
+Please see [Content Query via API](api/query.md).
 
 #### How can I view ontologies in the repository?
 
@@ -34,7 +34,7 @@ and ORR will resolve the IRI to the page for the ontology.
 
 Once you have selected an ontology, there are multiple formats for viewing or downloading it, 
 available under the "View/download as" drop down menu. 
-For more details, see the section of the ORR manual on [viewing ontologies](/vocab/view/).
+For more details, see the section of the ORR manual on [viewing ontologies](vocab/view.md).
 
 
 #### Tabular view: Why are the rows (or columns) not displayed in the same order I used to create my vocabulary?
@@ -103,12 +103,12 @@ You can also use the API, in particular the [`GET /ont` operation](http://cor.es
 (example is for the ESIP COR),
 to ask for an entire ontology, or information about a particular term.
 
-The page [Viewing a Vocabulary](/vocab/view/) 
+The page [Viewing a Vocabulary](vocab/view.md) 
 describes the formats and viewing options in more detail.
 
 #### How do I query the registered ontologies programatically? What services do I have?
 
-Please see the sections for the [SPARQL query API](/query/) and the [REST API](/rest/), 
+Please see the sections for the [SPARQL query API](query.md) and the [REST API](/api/query.md), 
 which point to the appropriate API documentation.
 
 #### Can you give examples of how to open the registered ontologies in Protégé and TopBraid Composer?
@@ -139,14 +139,14 @@ Several ontology formats are accepted by the ORR, including XML serialization fo
 Select the "Upload ontology" button, browse to your local file, upload the ontology to the workspace, 
 choose the hosting option, review the metadata details, 
 and complete the registration. 
-For more information, see the sections of the ORR manual on [Registering an Ontology](/ontology/new).
+For more information, see the sections of the ORR manual on [Registering an Ontology](ontology/new.md).
 
 #### I have a vocabulary in a column-separated text format, how do I submit it to the ORR?
 
 If the vocabulary is in an spreadsheet-like format, you should choose "Create vocabulary" and import 
 the file (once you have it in a separated values like comma-separated or tab-separated), 
 to convert it into an ontology. For more information, see the sections of the ORR manual 
-on [Creating a Vocabulary](/vocab/new).
+on [Creating a Vocabulary](vocab/new.md).
 
 #### I have a vocabulary in non-RDF XML format, how do I submit it to the ORR?
 
@@ -173,8 +173,8 @@ If you are just starting to describe your vocabulary or want to evaluate the sys
 it may be be easiest to create the vocabulary using our system for table-based entry. 
 If you have a vocabulary in a text file already, separated by a typical delimiter like a comma or tab, 
 then you can upload your vocabulary directly.
-Please see the section [Creating a vocabulary](/vocab/new) or 
-[Importing a vocabulary](/vocab/import), as appropriate. 
+Please see the section [Creating a vocabulary](vocab/new.md) or 
+[Importing a vocabulary](vocab/import.md), as appropriate. 
 
 If you have your vocabulary formatted as an OWL-formatted ontology file, 
 you can upload it using the Upload button on the ontology overview page. 
@@ -243,7 +243,7 @@ A complete list of recommendations is provided in our [Guide on building vocabul
 #### How do I update my ontology file once it has been submitted to the ORR?
 
 Log in, click on the link for the ontology you would like to edit, and click on "New Version". 
-See also the section of the ORR manual on [Updating an Ontology](/ontology/newversion/). 
+See also the section of the ORR manual on [Updating an Ontology](ontology/newversion.md). 
 
 #### Can I use my ontology editor XXX? (XXX = Protégé, NeOn, etc.)
 
@@ -254,7 +254,7 @@ but you are free to use any other appropriate mechanisms.
 #### What do the "fully hosted" and "re-hosted" options for registering my existing ontology mean? 
 
 Please see the manual section on 
-[hosting options](/ontology/new/#what-options-are-available-for-hosting-ontologies).
+[hosting options](ontology/new.md#what-options-are-available-for-hosting-ontologies).
 
 #### ORR says that my file may not be in UTF-8 encoding. What does it mean and what can I do?
 
@@ -289,5 +289,5 @@ domain lead, and communication liaison.
 
 #### How do I map my vocabulary to others in the ORR? Are there any recommended best practices?
 
-Please see [Creating a Mapping Ontology](/mapping/new).
+Please see [Creating a Mapping Ontology](mapping/new.md).
 

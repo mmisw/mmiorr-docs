@@ -100,10 +100,10 @@ Also in the main ORR page or any ontology page, click the "SPARQL query" link. Y
 ![SPARQL search page](img/cor/cor-sparql-search-page-20160828.png)
 
 This page provides an interface that lets you enter sample SPARQL queries, or your own customized queries. 
-For more information, see [Querying via SPARQL API](/query).
+For more information, see [Querying via SPARQL API](query.md).
 
 A REST API interface is also available for discovering ontology content. 
-See [Querying via REST API](/api) for details.
+See [Querying via REST API](/api/index.md) for details.
 
 ## 3. Providing semantic content 
 
@@ -111,11 +111,8 @@ You may be adding an ontology -- that is, a file in RDF, OWL, or similar form --
 or a vocabulary, for example in a text file, or that you want to create manually. 
 Choose the appropriate link below for your situation.
 
-* [Adding an ontology](/ontology/new)
+* [Adding an ontology](ontology/new.md)
 
-* [Adding an existing vocabulary](/vocab/import)
+* [Adding an existing vocabulary](vocab/import.md)
 
-* [Creating a new vocabulary manually](/vocab/new)
-
-
-
+* [Creating a new vocabulary manually](vocab/new.md)
