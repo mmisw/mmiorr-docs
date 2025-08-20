@@ -54,6 +54,9 @@ From the template, edit the following files
   whenever there is a registration event (user, organization, or ontology).
   This is optional.
 
+The configuration in the environment variables tells Docker to launch the ORR services on restart,
+so the following commands will only be needed for troubleshooting and initial testing.
+
 With these pieces in place, you can now launch the ORR:
 
     $ source setenv.sh
@@ -88,12 +91,6 @@ To shutdown the whole ORR:
     Removing orr ... done
     Removing mongo ... done
     Removing agraph ... done
-
-
-A crontab like the following could be defined for a complete ORR start at reboot time:
-     
-    @reboot sleep 30 && docker start mongo agraph orr
-
 
 
 !!! danger "Note" 
